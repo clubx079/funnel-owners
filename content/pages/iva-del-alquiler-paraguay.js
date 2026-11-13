@@ -1,0 +1,141 @@
+export default {
+  slug: 'iva-del-alquiler-paraguay',
+  title: 'IVA del alquiler en Paraguay: cuánto es y quién lo paga',
+  h1: 'IVA del alquiler en Paraguay: cuánto es y quién lo paga',
+  description: 'Qué se sabe del IVA del alquiler en Paraguay, quién lo paga, cómo escribirlo en el contrato y qué preguntarle al contador antes de cobrar el primer mes.',
+  navLabel: 'IVA del alquiler',
+  blurb: 'Lo que se sabe del IVA del alquiler, cómo escribirlo en el contrato y qué preguntarle al contador.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'A contador must answer what the page deliberately leaves open: whether residential rent carries IVA in Paraguay, at what rate, whether it changes for commercial premises, whether the owner must register with DNIT and issue invoices, whether the garantía is invoiced, and what income tax applies to rent. The only figures stated are from 2026 published agency tariffs: sale commission 3% to 5.5% plus 10% IVA, rental placement one month of rent, administration 5% to 12% of rent (the notes do not say whether the rental fees carry IVA). Also confirm DNIT is the authority, formerly SET.',
+  answer: 'No encontramos una fuente confiable que fije cuánto IVA lleva el alquiler de una vivienda en Paraguay, así que no te damos una tasa: si corresponde, cuánto es y si tenés que facturar depende de tu situación, y lo responde un contador. Lo que sí podés hacer ya es escribir en el contrato si el precio es "IVA incluido" o "más IVA". Para buscar inquilino, publicar en Casa-Libre es gratis.',
+  summary: [
+    'No damos una tasa de IVA para el alquiler: nuestras fuentes no la confirman. Preguntásela a un contador.',
+    'El contrato tiene que decir si el precio es "IVA incluido" o "más IVA", para que no haya discusiones.',
+    'Las tarifas publicadas en 2026 por inmobiliarias expresan la comisión de venta "más 10% de IVA"; eso no dice nada del IVA del alquiler.',
+    'En Casa-Libre no hay comisión sobre el alquiler: publicar es gratis.',
+  ],
+  cta: {
+    title: 'Los impuestos, con el contador. El inquilino, con Casa-Libre.',
+    text: 'Publicá tu casa o departamento en alquiler gratis en Casa-Libre. Los interesados te escriben directo por WhatsApp y no pagás comisión.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'cuanto-es',
+      h2: '¿Cuánto es el IVA del alquiler en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'No lo afirmamos porque las fuentes que revisamos no lo confirman, y una tasa equivocada te puede costar más que la consulta. El impuesto lo administra la DNIT (antes SET), y un contador puede decirte qué te corresponde con tus datos.' },
+        {
+          t: 'table',
+          caption: 'IVA y alquiler: qué encontramos y a quién preguntar',
+          head: ['Pregunta', 'Qué encontramos', 'A quién preguntar'],
+          rows: [
+            ['¿El alquiler de vivienda lleva IVA? ¿A qué tasa?', 'No confirmado en nuestras fuentes', 'Contador'],
+            ['¿Cambia si alquilo un local u oficina?', 'No confirmado', 'Contador'],
+            ['¿Tengo que inscribirme y dar factura?', 'No confirmado', 'Contador o DNIT'],
+            ['¿La garantía se factura?', 'No confirmado', 'Contador'],
+            ['¿La comisión de una inmobiliaria lleva IVA?', 'Las tarifas de venta publicadas en 2026 dicen "más 10% de IVA"', 'La inmobiliaria, en su presupuesto'],
+            ['¿Publicar en Casa-Libre tiene comisión?', 'No: publicar es gratis y no hay comisión', 'Nadie'],
+          ],
+          note: 'Situación al 12 de noviembre de 2026. Las tarifas de comisión son las publicadas por inmobiliarias en 2026 y no fueron verificadas contra la ley.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Mientras lo averiguás, podés ir armando el aviso: publicar tu alquiler en Casa-Libre es gratis y se puede guardar como borrador.' },
+      ],
+    },
+    {
+      id: 'quien-lo-paga',
+      h2: '¿Quién paga el IVA del alquiler, el propietario o el inquilino?',
+      blocks: [
+        { t: 'p', html: 'Quién debe ingresar el impuesto lo dice la ley, no el contrato; eso te lo explica el contador. Lo que el contrato sí decide es si el precio acordado ya lo incluye o si se suma aparte.' },
+        { t: 'ul', items: [
+          '<strong>"IVA incluido":</strong> el inquilino paga el monto escrito y, si corresponde IVA, sale de ese monto.',
+          '<strong>"Más IVA":</strong> el inquilino paga el monto escrito más el IVA que corresponda.',
+          '<strong>Sin aclarar:</strong> es la puerta a una discusión. Escribilo siempre.',
+        ] },
+        { t: 'p', html: 'Cómo encaja este punto en el resto del proceso lo cuenta la guía de <a href="https://casa-libre.com.py/guias/como-alquilar-mi-propiedad">Casa-Libre</a> para alquilar tu propiedad, y la cláusula de precio está en nuestro modelo de <a href="/contrato-de-alquiler-paraguay/">contrato de alquiler</a>.' },
+      ],
+    },
+    {
+      id: 'preguntas-contador',
+      h2: 'Qué preguntarle al contador antes de alquilar',
+      blocks: [
+        { t: 'p', html: 'Llevá estas preguntas escritas y los datos del alquiler: tipo de inmueble, precio mensual y si es vivienda o comercio. Con eso, la consulta es corta.' },
+        { t: 'ol', items: [
+          '¿El alquiler de mi inmueble lleva IVA? ¿A qué tasa?',
+          '¿Tengo que inscribirme en la DNIT o cambiar mis obligaciones?',
+          '¿Tengo que emitir factura todos los meses?',
+          '¿La garantía se factura o se declara?',
+          '¿Qué impuesto a la renta corresponde a lo que cobro de alquiler?',
+          '¿Cambia algo si el inquilino es una empresa?',
+        ] },
+        { t: 'p', html: 'Con las respuestas, fijá el precio mirando los departamentos en alquiler en Asunción en <a href="https://casa-libre.com.py/alquiler/departamentos/asuncion">Casa-Libre</a> o los de tu ciudad.' },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: 'Ejemplo: "IVA incluido" o "más IVA" en el contrato',
+      blocks: [
+        { t: 'p', html: 'La misma cifra en el contrato cambia lo que recibís según cómo esté escrita. El ejemplo no usa ninguna tasa, porque no la confirmamos: la letra T es la tasa que te indique el contador.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: alquiler de Gs. 3.650.000 al mes',
+          html: 'Supuestos: alquiler de Gs. 3.650.000 por mes (USD 500 con un tipo de cambio de ejemplo de Gs. 7.300). T es la tasa de IVA que corresponda, si corresponde.',
+          rows: [
+            ['Contrato "más IVA": paga el inquilino', 'Gs. 3.650.000 + (3.650.000 × T)'],
+            ['Contrato "más IVA": te queda a vos', 'Gs. 3.650.000'],
+            ['Contrato "IVA incluido": paga el inquilino', 'Gs. 3.650.000'],
+            ['Contrato "IVA incluido": te queda a vos', 'Gs. 3.650.000 ÷ (1 + T)'],
+            ['Comisión por publicar en Casa-Libre', 'Gs. 0'],
+          ],
+        },
+        { t: 'p', html: 'Si alquilás una casa, compará también con las casas en alquiler en Asunción en <a href="https://casa-libre.com.py/alquiler/casas/asuncion">Casa-Libre</a>. Y si todavía dudás entre alquilar o vender, leé <a href="/conviene-vender-o-alquilar-mi-casa/">¿conviene vender o alquilar mi casa?</a>.' },
+      ],
+    },
+    {
+      id: 'comision',
+      h2: 'El IVA de la comisión inmobiliaria por alquilar',
+      blocks: [
+        { t: 'p', html: 'Si alquilás con una inmobiliaria, su comisión es otro costo y puede llevar IVA. Según tarifas publicadas en 2026, cobran un mes de alquiler por conseguir al inquilino y de 5% a 12% del alquiler por administrarlo; en las ventas, la comisión se publica "más 10% de IVA".' },
+        { t: 'p', html: 'Pedile a la inmobiliaria un presupuesto que diga si incluye IVA. Si publicás vos, no hay comisión ni IVA de comisión, como explica cómo funciona Casa-Libre.' },
+        {
+          t: 'casalibre',
+          title: 'Sin comisión sobre el alquiler',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android. En los alquileres tampoco hay comisión.',
+          button: 'Ver alquileres en Casa-Libre',
+          href: 'https://casa-libre.com.py/alquilar',
+        },
+      ],
+    },
+    {
+      id: 'otros-impuestos',
+      h2: 'Otros impuestos de una propiedad alquilada',
+      blocks: [
+        { t: 'p', html: 'Aunque esté alquilado, el inmueble sigue teniendo su impuesto inmobiliario anual, que se paga en la municipalidad. Quién lo asume entre las partes conviene dejarlo escrito en el contrato.' },
+        { t: 'p', html: 'Cómo se calcula está en nuestra guía del <a href="/impuesto-inmobiliario-paraguay/">impuesto inmobiliario en Paraguay</a>. Si algún día vendés, los impuestos de la venta son otros: los repasa <a href="/impuesto-por-vender-una-casa-paraguay/">qué impuesto se paga al vender una casa</a>. Para responder consultas desde el celular, bajá la app de Casa-Libre para iPhone y Android.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto es el IVA de alquiler en Paraguay?', a: 'No lo confirmamos: nuestras fuentes no dan una tasa confiable para el alquiler de vivienda. Preguntale a un contador con los datos de tu caso antes de cobrar el primer mes.' },
+    { q: '¿El alquiler de una casa paga IVA?', a: 'Depende de tu situación y de lo que diga la ley para tu caso; no lo afirmamos sin una fuente confirmada. Un contador te lo responde en una consulta corta.' },
+    { q: '¿Tengo que dar factura si alquilo mi departamento?', a: 'Es una de las preguntas para el contador. Mientras tanto, entregá siempre un recibo firmado por cada pago y por la garantía.' },
+    { q: '¿La comisión de la inmobiliaria por alquilar lleva IVA?', a: 'En las tarifas de venta publicadas en 2026 la comisión figura "más 10% de IVA". Para el alquiler, pedile a la inmobiliaria un presupuesto que lo aclare.' },
+    { q: '¿Casa-Libre cobra comisión por alquilar mi propiedad?', a: 'No. Publicar es gratis y no hay comisión sobre el alquiler. Otras dudas están en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md (sections 1a row 20, 3, 7a)', url: 'file://research_notes/Casa-Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Searches: cuánto es el iva de alquiler en paraguay; iva alquiler paraguay; garantia de alquiler se factura. Tax vocabulary: IVA, IRP, DNIT (formerly SET). The notes give NO IVA rate for rent.' },
+    { label: 'Research notes: section 5b and 7a, HolaCasa "Comisión inmobiliaria en Paraguay" (late Oct / early Nov 2026); ABC Color 18 Oct 2026', url: 'https://holacasa.com.py/comision-inmobiliaria-paraguay/', date: '2026-11-12', note: 'Sale commission 3% to 5.5% plus 10% IVA; rental placement one month of rent; administration 5% to 12% of rent.' },
+    { label: 'Exchange rate in the example', url: '', date: '2026-11-12', note: 'Gs. 7.300 per USD (the rate used for the py-market.json conversions), used as a round example rate.' },
+  ],
+  closing: {
+    title: 'Mientras consultás al contador, publicá tu alquiler',
+    text: 'Publicá tu casa o departamento en alquiler gratis en Casa-Libre y recibí las consultas por WhatsApp. Está en la web y en apps para iPhone y Android.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['impuesto-inmobiliario-paraguay', 'impuesto-por-vender-una-casa-paraguay', 'conviene-vender-o-alquilar-mi-casa', ''],
+};

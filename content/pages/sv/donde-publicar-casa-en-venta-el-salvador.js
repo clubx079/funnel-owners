@@ -1,0 +1,131 @@
+export default {
+  slug: 'donde-publicar-casa-en-venta-el-salvador',
+  group: 'Vender una propiedad',
+  nav: 'Dónde publicar',
+  order: 2,
+  equivalentOf: 'donde-publicar-casa-en-venta-paraguay',
+  title: 'Dónde publicar una casa en venta en El Salvador gratis',
+  h1: 'Dónde publicar una casa en venta en El Salvador',
+  description: 'Dónde publicar su casa en venta en El Salvador gratis: qué opciones hay, qué conviene a un dueño, qué debe tener el aviso y cómo atender las consultas por WhatsApp.',
+  navLabel: 'Dónde publicar',
+  blurb: 'Las opciones para publicar una casa en venta en El Salvador y cómo hacerlo gratis, con un aviso que funcione.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Para publicar una casa en venta en El Salvador lo más práctico es un portal inmobiliario donde los compradores buscan por ciudad y en el mapa, y donde usted recibe las consultas directo. Le recomendamos Casa-Libre: publicar es gratis, el aviso aparece al buscar por zona y los interesados le escriben por WhatsApp, sin comisión sobre la venta. Las redes sociales sirven para compartir ese mismo enlace.',
+  summary: [
+    'Los compradores buscan por zona, tipo de casa y precio: su aviso tiene que aparecer en esa búsqueda.',
+    'Un portal con mapa y filtros trabaja por usted las 24 horas; las redes sociales sirven para difundir el enlace.',
+    'Publicar en Casa-Libre es gratis y las consultas llegan a su WhatsApp, sin comisión sobre la venta.',
+    'El aviso que vende tiene fotos reales, precio en dólares, metros y la ubicación en el mapa.',
+  ],
+  cta: {
+    title: 'Publique su casa hoy, gratis',
+    text: 'Suba fotos, precio y ubicación desde la web o desde la app para iPhone o Android.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'opciones',
+      h2: '¿Dónde se puede publicar una casa en venta en El Salvador?',
+      blocks: [
+        { t: 'p', html: 'Hay cuatro canales habituales y cada uno cumple un papel distinto. Lo que conviene a un dueño es tener un aviso completo en un portal y usar los demás para llevar gente a ese aviso.' },
+        { t: 'table',
+          caption: 'Canales para publicar una casa en venta',
+          head: ['Canal', 'Ventaja', 'Límite'],
+          rows: [
+            ['Portal inmobiliario con mapa', 'Los compradores buscan ahí por zona, precio y tipo', 'Hay que cuidar fotos y datos para destacar'],
+            ['Redes sociales y grupos de compra y venta', 'Difusión rápida entre conocidos', 'El aviso se pierde en pocos días'],
+            ['Rótulo en la casa', 'Lo ven los vecinos y quien pasa', 'Solo llega a quien circula por la zona'],
+            ['Inmobiliaria o agente', 'Se encarga de visitas y negociación', 'Cobra comisión sobre la venta'],
+          ],
+          note: 'Comparación general, sin datos de alcance de ningún canal.' },
+      ],
+    },
+    {
+      id: 'por-que-un-portal',
+      h2: '¿Por qué conviene un portal y no solo redes sociales?',
+      blocks: [
+        { t: 'p', html: 'Porque en un portal el aviso sigue visible mientras la casa esté a la venta y aparece cuando alguien busca exactamente lo que usted ofrece. En las redes sociales, una publicación queda abajo en pocos días.' },
+        { t: 'ul', items: [
+          'Quien busca en un portal ya está decidido a comprar; en redes muchos solo miran.',
+          'El mapa muestra la ubicación exacta, la primera duda de todo comprador.',
+          'Un solo enlace sirve para compartir por WhatsApp y en redes.',
+        ] },
+      ],
+    },
+    {
+      id: 'casa-libre',
+      h2: 'Publicar en Casa-Libre: cómo funciona',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre porque publicar es gratis, el aviso aparece al buscar por ciudad y en el mapa, y cada consulta llega directo a su WhatsApp.' },
+        { t: 'casalibre',
+          title: 'Qué es Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo funciona',
+          href: 'https://sv.casa-libre.com/como-funciona' },
+        { t: 'steps', items: [
+          { title: 'Entre a publicar', html: 'Desde la web o desde la app en su celular.' },
+          { title: 'Cargue los datos', html: 'Tipo, metros, habitaciones, baños, cochera y precio en dólares.' },
+          { title: 'Suba las fotos', html: 'Entre 12 y 20, con luz de día.' },
+          { title: 'Marque la ubicación', html: 'El punto en el mapa, como buscan los compradores.' },
+          { title: 'Atienda por WhatsApp', html: 'Responda rápido y con datos concretos.' },
+        ] },
+        { t: 'p', html: 'Si no termina de una vez, el aviso puede quedar como borrador y completarlo después.' },
+      ],
+    },
+    {
+      id: 'que-debe-tener',
+      h2: '¿Qué debe tener un aviso de casa en venta?',
+      blocks: [
+        { t: 'p', html: 'Lo que un comprador necesita para decidir si vale la pena visitar. Si falta algo, las primeras preguntas serán sobre eso.' },
+        { t: 'ul', items: [
+          'Precio en dólares y si acepta negociar.',
+          'Metros de terreno y de construcción, habitaciones, baños y cochera.',
+          'Colonia, residencial o zona, y el punto en el mapa.',
+          'Si la escritura está inscrita en el CNR a su nombre y si acepta comprador con crédito.',
+          'Fotos reales de todos los ambientes.',
+        ] },
+        { t: 'p', html: 'Ideas para el texto en <a href="/el-salvador/anuncio-para-vender-una-casa/">anuncio para vender una casa</a> y para las imágenes en <a href="/el-salvador/fotos-para-vender-una-casa/">fotos para vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'compartir',
+      h2: '¿Cómo compartir el aviso?',
+      blocks: [
+        { t: 'p', html: 'Copie el enlace de su aviso y compártalo por WhatsApp con sus contactos y en sus redes sociales. Así todos ven las mismas fotos y datos, y usted no repite la información en cada mensaje.' },
+        { t: 'callout', tone: 'tip', title: 'Un solo enlace', html: 'Cuando cambie el precio o agregue fotos, el enlace sigue siendo el mismo: no hace falta volver a enviarlo todo.' },
+      ],
+    },
+    {
+      id: 'seguridad',
+      h2: 'Cuidados al publicar su casa',
+      blocks: [
+        { t: 'p', html: 'Publicar es seguro si mantiene ciertos cuidados con los datos y las visitas.' },
+        { t: 'ul', items: [
+          'No publique copias de su escritura ni su DUI.',
+          'Coordine visitas con día y hora, y en lo posible acompañado.',
+          'No acepte depósitos ni firme nada sin un notario.',
+        ] },
+        { t: 'p', html: 'Antes de publicar, compare su precio con casas en venta parecidas en <a href="https://sv.casa-libre.com/comprar">Casa-Libre</a>. Y si quiere el panorama completo, empiece por <a href="/el-salvador/">cómo vender su casa en El Salvador</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Dónde publicar mi casa en venta gratis en El Salvador?', a: 'En Casa-Libre puede publicar gratis, con fotos, precio y ubicación en el mapa. Los interesados le escriben directo por WhatsApp.' },
+    { q: '¿Cuánto cuesta publicar en Casa-Libre?', a: 'Publicar es gratis. Hay extras pagos opcionales, pero no son necesarios para publicar ni para recibir consultas.' },
+    { q: '¿Puedo publicar mi casa si no soy inmobiliaria?', a: 'Sí. En Casa-Libre publican tanto propietarios como inmobiliarias y agentes.' },
+    { q: '¿Puedo publicar desde el celular?', a: 'Sí, desde la web en el navegador o desde la app de Casa-Libre para iPhone y Android.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "donde publicar mi casa"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=donde%20publicar%20mi%20casa', date: '2026-11-13', note: '"donde publicar mi casa en venta", "en venta gratis".' },
+  ],
+  closing: {
+    title: 'Su casa, publicada en minutos',
+    text: 'Publique gratis en Casa-Libre y reciba las consultas directo en su WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['', 'como-poner-mi-casa-en-venta-por-internet', 'anuncio-para-vender-una-casa', 'casa-en-venta-por-dueno-el-salvador'],
+};

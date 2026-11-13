@@ -1,0 +1,127 @@
+export default {
+  slug: 'alquiler-de-casas-en-san-bernardino',
+  title: 'Alquiler de casas en San Bernardino: precios y dónde publicar',
+  h1: 'Alquiler de casas y departamentos en San Bernardino',
+  description: 'Cuánto piden por alquilar una casa en San Bernardino, por qué los precios varían tanto, temporada o todo el año, y cómo publicar tu casa en alquiler gratis.',
+  navLabel: 'Alquiler en San Bernardino',
+  blurb: 'Alquiler pedido de casas en San Bernardino, con su rango tan amplio, y cómo publicar la tuya gratis en Casa-Libre.',
+  published: '2026-11-12',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Check the short contract, guarantee and IVA paragraph (general wording only, no rates). Figures from py-market.json (san-bernardino); wide casa rent range flagged as a likely mix of seasonal or furnished listings (hedged, not stated as fact). No census figure for San Bernardino in the notes, so no population is given. Local section added 2026-11-13 (city context, no numbers): check the neighbourhood names, distances and local references before indexing.',
+  answer: 'En San Bernardino, según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre), una casa en alquiler pide una mediana de USD 2.850 por mes, unos Gs. 20,8 millones aprox., pero la mitad central va de USD 800 a USD 5.300. Casi todo lo que se alquila son casas. Si tenés una para alquilar, publicarla en Casa-Libre es gratis.',
+  summary: [
+    '13 propiedades en alquiler en San Bernardino en Casa-Libre al 12 de noviembre de 2026: 12 casas y 1 departamento.',
+    'Casas: mediana de USD 2.850 por mes (Gs. 20,8 millones aprox.), la más alta de esta serie y un 36% más que en Asunción.',
+    'El rango central va de USD 800 a USD 5.300: el 25% más caro pide 6,6 veces lo que el 25% más barato.',
+    'De diciembre a febrero manda la temporada; el resto del año, el inquilino que vive en la zona.',
+  ],
+  cta: {
+    title: 'Publicá tu casa en alquiler en San Bernardino',
+    text: 'Es gratis: fotos, precio, plazo y condiciones desde la web o la app. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'cuanto-cuesta-alquilar-una-casa-en-san-bernardino',
+      h2: '¿Cuánto cuesta alquilar una casa en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'La mediana es USD 2.850 por mes, unos Gs. 20,8 millones aprox., según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre). Sale de 12 avisos con precio.' },
+        { t: 'table',
+          caption: 'Alquileres en San Bernardino en Casa-Libre, 12 de noviembre de 2026',
+          head: ['Dato', 'San Bernardino'],
+          rows: [
+            ['En alquiler', '13: 12 casas y 1 departamento'],
+            ['Casas: mediana por mes', 'USD 2.850 (Gs. 20,8 millones aprox.)'],
+            ['Casas: mitad central', 'USD 800 a 5.300 (Gs. 5,8 a 38,7 millones aprox.)'],
+            ['Casas con precio', '12 avisos'],
+            ['Departamentos: mediana por mes', 'Sin dato: muy pocos avisos'],
+            ['Casas en venta: mediana', 'USD 250.000 (Gs. 1.825 millones aprox.)'],
+          ],
+          note: 'Precios pedidos, no de cierre. La mitad central va del 25% más barato al 25% más caro. Gs. 7.300 por dólar, aprox.' },
+        { t: 'p', html: 'Las casas de estos números están en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'quien-alquila-en-san-bernardino',
+      h2: '¿Quién alquila en San Bernardino y cuándo?',
+      blocks: [
+        { t: 'p', html: 'En San Bernardino el alquiler tiene estación. De diciembre a febrero la ciudad se llena de veraneantes que buscan casas quinta cerca del lago Ypacaraí por días, semanas o el mes completo; el resto del año la demanda baja y la buscan sobre todo personas que trabajan en la zona o que quieren vivir fuera de Asunción.' },
+        { t: 'p', html: 'Si alquilás por temporada, publicá con tiempo y aclará el mínimo de noches, cuántas personas pueden quedarse y qué incluye la casa: ropa de cama, pileta, parrilla. Si buscás un inquilino para todo el año, contale cómo están los caminos en invierno, si hay buena señal de internet y cuánto se tarda hasta el centro del pueblo y hasta Asunción.' },
+      ],
+    },
+    {
+      id: 'por-que-varian-tanto',
+      h2: '¿Por qué los alquileres en San Bernardino varían tanto?',
+      blocks: [
+        { t: 'p', html: 'Porque en la misma lista conviven avisos muy distintos. Un rango de USD 800 a USD 5.300 sugiere que se mezclan casas amobladas o alquileres de temporada con alquileres comunes por todo el año, que no se comparan entre sí.' },
+        { t: 'p', html: 'En ninguna otra ciudad de esta serie el rango es tan amplio: en Asunción, las casas van de USD 1.250 a USD 2.580; en Lambaré, de USD 900 a USD 1.230. Por eso la mediana de San Bernardino sirve poco por sí sola. Mirá los avisos uno por uno en propiedades en San Bernardino en Casa-Libre y fijate el plazo de cada uno.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Aclará el plazo en tu aviso',
+          html: 'Escribí en el título si es por temporada o por año y si está amoblada. Así te escribe por WhatsApp quien busca lo mismo que ofrecés. Publicar en Casa-Libre es gratis.' },
+      ],
+    },
+    {
+      id: 'temporada-o-todo-el-ano',
+      h2: '¿Cuánto pedir por tu casa en San Bernardino: temporada o todo el año?',
+      blocks: [
+        { t: 'p', html: 'Primero decidí el tipo de alquiler y después compará solo con avisos del mismo tipo. Una casa por año se compara con las casas por año; una por temporada, con las de temporada.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: dos formas de alquilar la misma casa',
+          html: 'Números hipotéticos y redondos, solo para mostrar la cuenta. Gs. 7.300 por dólar.',
+          rows: [
+            ['Por año: Gs. 7.000.000 x 12 meses', 'Gs. 84.000.000 (USD 11.507 aprox.)'],
+            ['Por temporada: Gs. 25.000.000 x 3 meses', 'Gs. 75.000.000 (USD 10.274 aprox.)'],
+            ['Diferencia: 84.000.000 - 75.000.000', 'Gs. 9.000.000 a favor del alquiler por año'],
+          ] },
+        { t: 'p', html: 'En temporada, sumá además limpieza, servicios y muebles, y los meses en que la casa queda vacía. El paso a paso está en la guía de <a href="https://casa-libre.com.py/guias/como-alquilar-mi-propiedad">Casa-Libre</a> para alquilar tu propiedad.' },
+      ],
+    },
+    {
+      id: 'rinde-alquilar-en-san-bernardino',
+      h2: '¿Rinde alquilar una casa en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'Con las medianas, un año de alquiler equivale al 13,7% del precio pedido de venta de una casa (USD 2.850 x 12 / USD 250.000), más que en Luque (12,4%), Asunción (9,2%) o Lambaré (6,2%).' },
+        { t: 'callout', tone: 'fact', title: 'Tomalo con mucho cuidado', html: 'Es un cálculo bruto con precios pedidos y con avisos que probablemente mezclan temporada y año completo. Multiplicar por 12 un precio de temporada da un resultado que no se cumple. No es un retorno de inversión.' },
+        { t: 'p', html: 'Si dudás entre alquilar y vender, leé <a href="/conviene-vender-o-alquilar-mi-casa/">conviene vender o alquilar mi casa</a> y mirá lo que piden las casas en venta en San Bernardino en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'contrato-garantia-iva',
+      h2: '¿Qué contrato necesita un alquiler en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'Uno por escrito, también si es por temporada: fechas de entrada y salida, precio, garantía, inventario de muebles y quién paga los servicios. Las cláusulas están en <a href="/contrato-de-alquiler-paraguay/">contrato de alquiler en Paraguay</a> y la garantía, en <a href="/garantia-de-alquiler-paraguay/">garantía de alquiler</a>. Si lleva IVA depende de tu situación fiscal: lo explica <a href="/iva-del-alquiler-paraguay/">IVA del alquiler</a>.' },
+        { t: 'p', html: 'Si no vivís cerca y necesitás que alguien se ocupe, mirá la administración de propiedades de <a href="https://casa-libre.com.py/administracion-de-propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-alquiler-en-san-bernardino',
+      h2: '¿Dónde publicar casas en alquiler en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'Lo recomendable es Casa-Libre: es gratis, el aviso aparece al buscar por San Bernardino y en el mapa, y cada interesado te escribe por WhatsApp. Si tenés un departamento, compará con los departamentos en alquiler en San Bernardino en <a href="https://casa-libre.com.py/propiedades?op=alquiler&amp;type=depto&amp;q=San%20Bernardino">Casa-Libre</a>.' },
+        { t: 'casalibre',
+          title: 'Por qué recomendar Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.',
+          button: 'Bajar la app para iPhone y Android',
+          href: 'https://casa-libre.com.py/descargar' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta alquilar una casa en San Bernardino?', a: 'Según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026, la mediana pedida es USD 2.850 por mes (Gs. 20,8 millones aprox.), con la mitad central entre USD 800 y USD 5.300. El rango tan amplio mezcla avisos muy distintos.' },
+    { q: '¿Hay casas en alquiler en San Bernardino por todo el año?', a: 'Revisá el plazo de cada aviso en propiedades en alquiler en Casa-Libre y preguntá por WhatsApp si no está claro.' },
+    { q: '¿Es más caro alquilar en San Bernardino que en Asunción?', a: 'En la mediana pedida por casas, sí: USD 2.850 contra USD 2.100, un 36% más. Pero el 25% más barato de San Bernardino pide hasta USD 800, menos que el 25% más barato de Asunción (USD 1.250).' },
+    { q: '¿Cómo alquilo mi casa de San Bernardino sin inmobiliaria?', a: 'Publicala vos mismo con fotos, plazo y precio claros, atendé por WhatsApp y firmá un contrato por escrito. En Casa-Libre no hay comisión sobre el alquiler.' },
+  ],
+  internalSources: [
+    { label: 'content/data/py-market.json, city "san-bernardino"', url: 'https://casa-libre.com.py/alquiler/casas/san-bernardino', date: '2026-11-12', note: 'for_rent 13 (12 casas, 1 depto). Casa rent 2850 (800-5300, 12 priced); depto null. Casa sale 250.000; yield 13.7. 2850/2100 = 1,357; 5300/800 = 6,6. Asunción casa range 1250-2580; Lambaré 900-1230. Seasonal/furnished mix is a hedged reading of the range (PLAN: "San Bernardino seasonal"). No census figure in notes. Example inputs are hypothetical.' },
+  ],
+  closing: {
+    title: 'Tu casa en San Bernardino, publicada hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre el alquiler.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['vender-casa-en-san-bernardino', 'contrato-de-alquiler-paraguay', 'conviene-vender-o-alquilar-mi-casa', 'fotos-para-vender-una-casa'],
+};

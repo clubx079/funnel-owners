@@ -1,0 +1,140 @@
+export default {
+  slug: 'vender-casa-con-hipoteca-paraguay',
+  title: 'Cómo vender una casa que todavía estoy pagando en Paraguay',
+  h1: 'Cómo vender una casa que todavía estoy pagando',
+  description: 'Cómo vender una casa con hipoteca en Paraguay: cancelar la deuda con el dinero de la venta, qué pedirle al banco, qué revisa el comprador y un ejemplo.',
+  navLabel: 'Casa con hipoteca',
+  blurb: 'Vender una casa con hipoteca: cancelar con la venta, qué pedirle al banco y qué revisa el comprador.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'An escribano must confirm the general mechanics: that a property with a hipoteca can be sold if the mortgage is cancelled at or before the escritura, that the usual route is paying the bank from the sale price at signing, that the bank issues the paperwork to cancel and the cancellation is registered, that the hipoteca shows on the informe de condición de dominio, and the case of a property bought in cuotas from a developer whose title may not yet be in the seller’s name. The example uses the seller IRP reference (8% on a presumed 30%, about 2.4%); confirm it too. The notes give no bank procedure, fee or deadline; the page states none.',
+  answer: 'En Paraguay podés vender una casa que todavía estás pagando al banco: la hipoteca no impide publicar ni negociar, pero hay que cancelarla para firmar la escritura. Lo habitual es pagar el saldo con el dinero de la venta el mismo día de la firma, coordinado entre el banco, el comprador y el escribano. Empezá pidiéndole al banco el saldo exacto. Publicar en Casa-Libre mientras tanto es gratis.',
+  summary: [
+    'La hipoteca figura en el informe de condición de dominio: el comprador la va a ver.',
+    'Lo habitual es cancelar el saldo con el dinero de la venta, el día de la escritura.',
+    'Pedile al banco el saldo exacto para cancelar y cómo emite los papeles de la cancelación.',
+    'Si pagás en cuotas a quien te vendió, el título puede no estar a tu nombre: consultá antes de publicar.',
+    'Podés publicar en Casa-Libre mientras tanto: es gratis y sin comisión sobre la venta.',
+  ],
+  cta: {
+    title: 'La hipoteca no te impide publicar',
+    text: 'Publicá tu casa gratis en Casa-Libre mientras coordinás con el banco. Los interesados escriben directo por WhatsApp.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'opciones',
+      h2: '¿Se puede vender una casa con hipoteca en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Sí. La hipoteca no impide publicar ni negociar: lo que hay que resolver es cómo se cancela, antes o en el momento de la escritura. Estos son los caminos que conviene consultar, y el primero es el más común.' },
+        {
+          t: 'table',
+          caption: 'Opciones para vender una casa que todavía estás pagando',
+          head: ['Opción', 'Cómo funciona', 'Qué tenés que pedir'],
+          rows: [
+            ['Cancelar con el dinero de la venta', 'En la firma, parte del precio va al banco y el resto a vos', 'El saldo exacto al banco y su acuerdo con la fecha'],
+            ['Cancelar antes de vender', 'Pagás el saldo con otros fondos y vendés sin hipoteca', 'El certificado de cancelación del banco'],
+            ['Que el comprador se quede con el préstamo', 'Depende del banco y del comprador', 'Preguntale al banco si es posible en tu caso'],
+          ],
+          note: 'Descripción general. Cada banco tiene su procedimiento: consultalo con el banco y con el escribano.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Antes de llamar al banco, sabé cuánto podría valer tu casa: mirá casas en venta parecidas en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a> y nuestra guía de <a href="/cuanto-cuesta-una-casa-en-paraguay/">cuánto cuesta una casa en Paraguay</a>.' },
+      ],
+    },
+    {
+      id: 'pasos',
+      h2: 'Pasos para vender una casa que todavía estás pagando',
+      blocks: [
+        { t: 'p', html: 'El orden importa: primero sabés cuánto debés, después publicás y recién al final coordinás el pago con el banco y el escribano.' },
+        { t: 'steps', items: [
+          { title: 'Pedile al banco el saldo para cancelar', html: 'Por escrito, con la fecha hasta la que vale y cómo emite los papeles de la cancelación.' },
+          { title: 'Revisá la condición de dominio', html: 'Así ves lo mismo que verá el comprador. Lo explicamos en la guía de <a href="/condicion-de-dominio-paraguay/">condición de dominio</a>.' },
+          { title: 'Publicá con la información clara', html: 'Podés publicar tu casa gratis en Casa-Libre y explicar la situación a quien pregunte.' },
+          { title: 'Acordá cómo se paga', html: 'Con el comprador y el escribano: cuánto va al banco y cuánto a vos el día de la firma.' },
+          { title: 'Firman y se cancela la hipoteca', html: 'Se firma la escritura, el banco cobra su saldo y se inscribe la cancelación.' },
+        ] },
+      ],
+    },
+    {
+      id: 'que-revisa-el-comprador',
+      h2: '¿Qué va a revisar el comprador?',
+      blocks: [
+        { t: 'p', html: 'El comprador, o su escribano, va a ver la hipoteca en el informe de condición de dominio y va a querer saber cuánto se debe y cómo se cancela. Si se lo mostrás de entrada, generás confianza.' },
+        { t: 'ul', items: [
+          'La nota del banco con el saldo para cancelar.',
+          'Que el precio alcanza para cancelar la deuda.',
+          'Que la cancelación se hace en la escritura, o antes.',
+          'El resto de los papeles: título, cuenta corriente catastral e impuesto inmobiliario al día.',
+        ] },
+        { t: 'p', html: 'La lista completa está en la guía de <a href="https://casa-libre.com.py/guias/documentos-para-vender-un-inmueble">Casa-Libre</a> sobre documentos para vender un inmueble. Si el comprador también pide un crédito, la escritura se coordina con su banco: la guía de Casa-Libre para comprar la primera casa muestra la venta desde su lado.' },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: '¿Cuánto me queda si vendo una casa con hipoteca? Ejemplo',
+      blocks: [
+        { t: 'p', html: 'Te queda el precio menos el saldo de la hipoteca, tus impuestos y la parte de los gastos de escritura que acuerdes pagar. El ejemplo muestra la cuenta con números redondos.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa de Gs. 525.000.000 con un saldo de Gs. 175.000.000',
+          html: 'Supuestos: Gs. 7.000 por dólar (tipo de cambio de ejemplo) e impuesto a la renta del vendedor de referencia de 8% sobre el 30% del precio. No incluye gastos de escritura, que se pactan.',
+          rows: [
+            ['Precio de venta', '', 'Gs. 525.000.000 (USD 75.000)'],
+            ['Saldo de la hipoteca', 'Según la nota del banco', 'Gs. 175.000.000 (USD 25.000)'],
+            ['Impuesto a la renta del vendedor', '525.000.000 × 30% × 8%', 'Gs. 12.600.000 (USD 1.800)'],
+            ['Te queda', '525.000.000 − 175.000.000 − 12.600.000', 'Gs. 337.400.000 (USD 48.200)'],
+          ],
+        },
+        { t: 'p', html: 'El detalle de cada gasto está en <a href="/gastos-al-vender-una-casa-paraguay/">gastos al vender una casa</a>. Para un precio que se sostenga, compará en el mapa de propiedades de <a href="https://casa-libre.com.py/propiedades">Casa-Libre</a> las casas de tu zona.' },
+      ],
+    },
+    {
+      id: 'cuotas',
+      h2: 'Si la casa o el terreno lo estás pagando en cuotas a quien te lo vendió',
+      blocks: [
+        { t: 'p', html: 'Es otro caso: si comprás a cuotas a una desarrolladora o en un loteamiento, puede que el título todavía no esté a tu nombre. Entonces no vendés el inmueble, sino tus derechos sobre él, y eso depende del contrato que firmaste.' },
+        { t: 'p', html: 'Leé tu contrato, preguntá al vendedor original si permite ceder los derechos y consultá con un escribano antes de publicar. Para ordenar el resto, está la guía de Casa-Libre para vender tu casa.' },
+        {
+          t: 'casalibre',
+          title: 'Aclarado el caso, publicá',
+          html: 'En Casa-Libre el aviso se guarda como borrador: lo dejás listo y lo publicás cuando tengas la respuesta.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.py/vender',
+        },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publicá tu casa mientras resolvés la hipoteca',
+      blocks: [
+        { t: 'p', html: 'No hace falta cancelar la hipoteca para empezar a recibir consultas. Mientras el banco prepara su nota, la casa ya puede estar a la vista.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Que los compradores ya la vean',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        { t: 'p', html: 'Respondé las consultas desde la app de Casa-Libre para iPhone y Android.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender mi casa si todavía la estoy pagando al banco?', a: 'Sí. Lo habitual es cancelar el saldo de la hipoteca con el dinero de la venta el día de la escritura. Coordinalo con el banco y con el escribano.' },
+    { q: '¿Cómo saber si un terreno está hipotecado en Paraguay?', a: 'La hipoteca figura en el informe de condición de dominio del inmueble. Pedíselo al escribano antes de firmar cualquier seña.' },
+    { q: '¿El comprador puede quedarse con mi préstamo?', a: 'Depende del banco y de que el comprador califique. Preguntale a tu banco si es posible y con qué condiciones.' },
+    { q: '¿Cuánto cobra el banco por cancelar la hipoteca?', a: 'No tenemos una cifra de referencia: cada banco tiene sus condiciones. Pedile por escrito el saldo para cancelar y cualquier costo adicional.' },
+    { q: '¿Tengo que avisar en el aviso que la casa tiene hipoteca?', a: 'No es obligatorio ponerlo en el aviso, pero sí decirlo antes de recibir una seña. Otras dudas, en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md (sections 3 and 4)', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Searches: como vender una casa que aun estoy pagando; como saber si un terreno esta hipotecado en paraguay. The notes give no bank procedure, fee or deadline.' },
+    { label: 'transferencia-de-inmueble-paraguay.js', url: '', date: '2026-11-12', note: 'Same wording: a hipoteca appears in the reports the escribano requests; ask how it is cancelled to be able to sign. Seller IRP reference 8% on a presumed 30%.' },
+    { label: 'Exchange rate and amounts in the example', url: '', date: '2026-11-12', note: 'Gs. 7.000 per USD and the mortgage balance are hypothetical.' },
+  ],
+  closing: {
+    title: 'Mientras el banco hace su nota, publicá',
+    text: 'Publicá tu casa gratis en Casa-Libre y recibí las consultas por WhatsApp. Está en la web y en apps para iPhone y Android.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['transferencia-de-inmueble-paraguay', 'cuanto-cuesta-una-casa-en-paraguay', 'vendo-casa-urgente', ''],
+};

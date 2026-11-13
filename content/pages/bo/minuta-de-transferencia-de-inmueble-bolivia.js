@@ -1,0 +1,127 @@
+export default {
+  slug: 'minuta-de-transferencia-de-inmueble-bolivia',
+  group: 'Papeles y trámites',
+  order: 4,
+  equivalentOf: 'contrato-de-compraventa-inmueble-paraguay',
+  title: 'Minuta de transferencia de inmueble en Bolivia: modelo',
+  h1: 'Minuta de compraventa de inmueble en Bolivia',
+  description: 'Qué es la minuta de transferencia de un inmueble en Bolivia, quién la redacta, qué cláusulas lleva y un modelo orientativo para revisar con tu abogado y el notario.',
+  navLabel: 'Minuta de compraventa',
+  blurb: 'Qué es la minuta de transferencia, qué cláusulas lleva y un modelo orientativo de compraventa de inmueble.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian lawyer must check: that the minuta is drafted and signed by a lawyer with professional registration and then protocolised by the notario de fe pública (Ley 483), the clause list and the model outline (antecedente dominial, Folio Real matrícula, precio, forma de pago, saneamiento por evicción, gastos e impuestos, conformidad del cónyuge), and that the cónyuge signs for bienes gananciales (Ley 603).',
+  answer: 'La minuta de transferencia es el documento donde vendedor y comprador escriben la compraventa de un inmueble: quiénes son, qué casa se vende, su matrícula en Derechos Reales, el precio y cómo se paga. La redacta y firma un abogado, y un notario de fe pública la convierte en escritura pública. Abajo tienes las cláusulas y un modelo orientativo para revisar con tu abogado. Para encontrar comprador, publica gratis en Casa-Libre.',
+  summary: [
+    'La minuta es el borrador firmado que el notario eleva a escritura pública.',
+    'La redacta un abogado; vendedor, comprador y, si corresponde, el cónyuge la firman.',
+    'Debe identificar el inmueble con su matrícula de Folio Real y su antecedente de propiedad.',
+    'Precio, moneda y forma de pago tienen que quedar claros: es lo que más discusiones evita.',
+  ],
+  cta: {
+    title: 'Primero, encuentra comprador',
+    text: 'Publica tu casa gratis en Casa-Libre. Los interesados te escriben por WhatsApp.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'que-es-la-minuta',
+      h2: '¿Qué es una minuta de transferencia de inmueble?',
+      blocks: [
+        { t: 'p', html: 'Es el contrato de compraventa escrito por un abogado, que se presenta al notario de fe pública para que lo protocolice. Sin ese paso no hay escritura pública y no se puede inscribir en Derechos Reales.' },
+        { t: 'table',
+          caption: 'Documento privado, minuta y escritura',
+          head: ['Documento', 'Qué es', 'Para qué sirve'],
+          rows: [
+            ['Documento privado de compraventa o de anticipo', 'Acuerdo firmado entre las partes, a veces con firmas reconocidas', 'Reservar la venta y fijar condiciones mientras se preparan papeles'],
+            ['Minuta', 'Texto del contrato redactado y firmado por un abogado', 'Base para la escritura'],
+            ['Escritura pública y testimonio', 'La minuta protocolizada por el notario de fe pública', 'Pagar el impuesto e inscribir en Derechos Reales'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública o un abogado antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'clausulas',
+      h2: '¿Qué cláusulas lleva una minuta de compraventa?',
+      blocks: [
+        { t: 'p', html: 'Las cláusulas básicas son siempre las mismas. Tu abogado puede agregar otras según el caso.' },
+        { t: 'ul', items: [
+          '<strong>Partes:</strong> nombres, cédulas, estado civil y domicilio de vendedor y comprador.',
+          '<strong>Antecedente de propiedad:</strong> cómo adquirió el vendedor (compra, herencia) y el número de matrícula del Folio Real.',
+          '<strong>Objeto:</strong> el inmueble, ubicación, superficie y colindancias.',
+          '<strong>Precio y forma de pago:</strong> monto, moneda, si se paga al contado o en partes, y cómo.',
+          '<strong>Entrega:</strong> cuándo se entrega la posesión y las llaves.',
+          '<strong>Libre de gravámenes:</strong> que el vendedor garantiza que no hay cargas ocultas y responde por evicción.',
+          '<strong>Gastos e impuestos:</strong> quién paga el impuesto a la transferencia, el notario y Derechos Reales.',
+          '<strong>Conformidad:</strong> firma del cónyuge si es un bien ganancial.',
+        ] },
+      ],
+    },
+    {
+      id: 'modelo-orientativo',
+      h2: 'Modelo orientativo de minuta de compraventa',
+      blocks: [
+        { t: 'p', html: 'Este esquema muestra el orden de una minuta típica. Es orientativo: no lo firmes sin que un abogado lo adapte a tu caso.' },
+        { t: 'ol', items: [
+          'Señor Notario de Fe Pública: en el registro de escrituras públicas a su cargo, sírvase insertar una de compraventa de inmueble, conforme a las cláusulas siguientes.',
+          'PRIMERA (antecedentes): Yo, ___, con C.I. ___, estado civil ___, soy propietario de un inmueble ubicado en ___, con superficie de ___ m², inscrito en Derechos Reales bajo la matrícula ___.',
+          'SEGUNDA (objeto): Por el presente, vendo dicho inmueble a favor de ___, con C.I. ___, con todos sus usos, costumbres y servidumbres.',
+          'TERCERA (precio): El precio libremente convenido es de ___ (en números y letras, moneda ___), que declaro recibir ___ (a la firma / en la forma siguiente: ___).',
+          'CUARTA (gravámenes y evicción): Declaro que el inmueble se encuentra libre de gravámenes y me obligo al saneamiento de ley.',
+          'QUINTA (gastos): Los gastos de impuestos, notario e inscripción serán cubiertos por ___.',
+          'SEXTA (aceptación): Yo, ___, acepto la compraventa en los términos descritos.',
+          'Lugar y fecha. Firmas de vendedor, cónyuge si corresponde, comprador y abogado.',
+        ] },
+      ],
+    },
+    {
+      id: 'forma-de-pago',
+      h2: '¿Cómo dejar escrito el pago?',
+      blocks: [
+        { t: 'p', html: 'Escribe la moneda, el monto en números y en letras, y el medio de pago. Si el precio está en dólares, dilo así y acuerda qué pasa si se paga en bolivianos.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: pago en dos partes',
+          html: 'Cifras redondas e inventadas.',
+          rows: [
+            ['Precio total', 'USD 120.000'],
+            ['Anticipo pagado con documento privado', 'USD 12.000'],
+            ['Saldo a la firma de la minuta, por transferencia bancaria', 'USD 108.000'],
+          ] },
+      ],
+    },
+    {
+      id: 'despues-de-firmar',
+      h2: '¿Qué pasa después de firmar la minuta?',
+      blocks: [
+        { t: 'p', html: 'El notario protocoliza, se paga el impuesto a la transferencia y se inscribe en Derechos Reales. Lo explicamos en <a href="/bolivia/transferencia-de-inmueble-bolivia/">transferencia de inmueble en Bolivia</a>.' },
+        { t: 'p', html: 'Si antes de la minuta el comprador quiere dejar un anticipo, mira <a href="/bolivia/documento-privado-de-compraventa-bolivia/">documento privado de compraventa y anticipo</a>.' },
+      ],
+    },
+    {
+      id: 'encontrar-comprador',
+      h2: '¿Y si todavía no tengo comprador?',
+      blocks: [
+        { t: 'p', html: 'La minuta es el final del camino. Para empezar, publica tu casa gratis en <a href="https://casa-libre.com.bo/vender">Casa-Libre</a>. En la guía para vender tu casa de <a href="https://casa-libre.com.bo/guias/como-vender-mi-casa">Casa-Libre</a> tienes el recorrido completo.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Quién redacta la minuta de compraventa en Bolivia?', a: 'Un abogado, que la firma junto con las partes. Después el notario de fe pública la protocoliza.' },
+    { q: '¿Puedo usar un modelo de minuta de internet?', a: 'Como guía sí, pero cada venta tiene datos y condiciones propias. Haz que un abogado la revise y la firme.' },
+    { q: '¿La minuta ya me hace dueño?', a: 'La minuta firmada y protocolizada es el título del comprador. Para que valga frente a terceros, tiene que inscribirse en Derechos Reales.' },
+    { q: '¿En qué moneda va el precio de la minuta?', a: 'En la que acuerden, dólares o bolivianos. Escríbela en números y letras, y que coincida con lo que se pagó.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=bo "minuta de transferencia"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=minuta%20de%20transferencia', date: '2026-11-13', note: '"minuta de transferencia de inmueble bolivia", "modelo minuta de transferencia de inmueble bolivia".' },
+  ],
+  closing: {
+    title: 'Encuentra a tu comprador',
+    text: 'Publica tu casa gratis en Casa-Libre y recibe consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['transferencia-de-inmueble-bolivia', 'documento-privado-de-compraventa-bolivia', 'cuanto-cobra-un-notario-bolivia'],
+};

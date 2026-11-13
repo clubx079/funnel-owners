@@ -1,0 +1,133 @@
+export default {
+  slug: 'fotos-para-vender-una-casa',
+  group: 'Vender una propiedad',
+  order: 8,
+  equivalentOf: 'fotos-para-vender-una-casa',
+  title: 'Fotos para vender una casa: cómo tomarlas con el celular',
+  h1: 'Cómo tomar fotos para vender una casa con el celular',
+  description: 'Cómo tomar fotos para vender su casa con el celular: lista de tomas por ambiente, la mejor hora de luz, qué ordenar antes, cuántas fotos subir y cómo subirlas.',
+  navLabel: 'Fotos para vender',
+  blurb: 'Lista de fotos por ambiente, luz, orden y cantidad para vender su casa con fotos tomadas con el celular.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Para vender una casa, tome entre 12 y 20 fotos horizontales con el celular, de día, con cortinas abiertas y luces encendidas. Empiece por la fachada y la sala, siga con cocina, habitaciones, baños y patio, y ordene y limpie cada ambiente antes. No use filtros ni fotos viejas: el comprador quiere ver la casa como está. Puede subirlas gratis a Casa-Libre desde la app para iPhone o Android.',
+  summary: [
+    'Luz natural: fotografíe a media mañana o media tarde, con todas las cortinas abiertas.',
+    'Celular en horizontal, a la altura del pecho, desde una esquina del ambiente.',
+    'Ordene y retire objetos personales antes: menos cosas, ambientes más grandes.',
+    'La primera foto decide si abren el aviso: elija la más luminosa.',
+  ],
+  cta: {
+    title: 'Suba sus fotos desde el celular',
+    text: 'Con la app de Casa-Libre publica directo desde su teléfono. Es gratis.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'lista-de-fotos',
+      h2: '¿Qué fotos tomar para vender una casa?',
+      blocks: [
+        { t: 'p', html: 'Una o dos por ambiente, en el orden en que alguien recorrería la casa. Esta lista cubre una casa típica de colonia o residencial.' },
+        { t: 'table',
+          caption: 'Lista de fotos por ambiente',
+          head: ['Ambiente', 'Cuántas', 'Qué mostrar'],
+          rows: [
+            ['Fachada', '1 o 2', 'Frente completo, portón, cochera'],
+            ['Sala y comedor', '2 o 3', 'Desde la esquina, mostrando luz y amplitud'],
+            ['Cocina', '1 o 2', 'Muebles, superficie de trabajo, lavatrastos'],
+            ['Habitaciones', '1 por habitación', 'Cama hecha, closet, ventana'],
+            ['Baños', '1 por baño', 'Limpio, tapa del inodoro bajada'],
+            ['Patio, jardín o terraza', '1 o 2', 'El espacio libre y su uso'],
+            ['Área de servicio y pila', '1', 'Lavadero, tendedero'],
+            ['Entorno', '1 o 2', 'La calle, el pasaje, áreas verdes del residencial'],
+          ],
+          note: 'Guía general. Total sugerido: 12 a 20 fotos.' },
+      ],
+    },
+    {
+      id: 'luz',
+      h2: '¿A qué hora tomar las fotos?',
+      blocks: [
+        { t: 'p', html: 'A media mañana o media tarde, cuando hay luz pareja. Al mediodía el sol directo hace sombras duras, y en la época lluviosa conviene aprovechar las mañanas, antes de que se nuble.' },
+        { t: 'ul', items: [
+          'Abra todas las cortinas y encienda todas las luces.',
+          'No fotografíe contra una ventana con sol: la foto sale oscura.',
+          'Desactive el flash; use el modo HDR si su celular lo tiene.',
+        ] },
+      ],
+    },
+    {
+      id: 'como-encuadrar',
+      h2: '¿Cómo encuadrar para que los ambientes se vean bien?',
+      blocks: [
+        { t: 'p', html: 'Párese en una esquina, con el celular horizontal y a la altura del pecho. Así se ven tres paredes y el ambiente se entiende.' },
+        { t: 'steps', items: [
+          { title: 'Limpie la lente', html: 'Un dedo sobre la cámara arruina todas las fotos.' },
+          { title: 'Mantenga las líneas rectas', html: 'Las paredes y puertas deben verse verticales, no inclinadas.' },
+          { title: 'Use el gran angular con cuidado', html: 'Ayuda en ambientes chicos, pero no deforme la realidad.' },
+          { title: 'Tome varias y elija', html: 'Saque tres de cada ambiente y quédese con la mejor.' },
+        ] },
+      ],
+    },
+    {
+      id: 'antes-de-fotografiar',
+      h2: '¿Qué ordenar antes de las fotos?',
+      blocks: [
+        { t: 'p', html: 'Lo que un comprador no necesita ver. Menos objetos hacen que los ambientes parezcan más grandes y limpios.' },
+        { t: 'ul', items: [
+          'Fotos familiares, imágenes religiosas o de equipos, ropa colgada.',
+          'Platos en el lavatrastos, productos de limpieza a la vista.',
+          'Vehículos frente a la fachada, si tapan la casa.',
+          'Mascotas y sus cosas.',
+          'Cables y extensiones sueltas.',
+        ] },
+        { t: 'callout', tone: 'tip', title: 'Pequeños arreglos', html: 'Un foco quemado, una mancha en la pared o una llave que gotea se notan en la foto. Arréglelos antes: cuestan poco y mejoran la primera impresión.' },
+      ],
+    },
+    {
+      id: 'que-no-hacer',
+      h2: 'Errores que alejan compradores',
+      blocks: [
+        { t: 'p', html: 'Algunos errores hacen que el comprador desconfíe o pase de largo. Evítelos.' },
+        { t: 'ul', items: [
+          'Filtros de color o fotos editadas que cambian la casa.',
+          'Fotos de cuando la casa era nueva, si ya no se ve así.',
+          'Fotos verticales o borrosas.',
+          'Una sola foto de la fachada y nada del interior.',
+          'Fotos de su DUI o de la escritura: nunca en un aviso.',
+        ] },
+      ],
+    },
+    {
+      id: 'subir-las-fotos',
+      h2: '¿Cómo subir las fotos al aviso?',
+      blocks: [
+        { t: 'p', html: 'Si las tomó con el celular, lo más fácil es publicar desde el mismo teléfono. Ordene las fotos: la primera es la portada del aviso.' },
+        { t: 'casalibre',
+          title: 'Publique con la app de Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Descargar la app',
+          href: 'https://sv.casa-libre.com/descargar' },
+        { t: 'p', html: 'Para ver cómo se presentan otras casas, recorra las casas en venta en <a href="https://sv.casa-libre.com/comprar">Casa-Libre</a>. El texto que acompaña las fotos está en <a href="/el-salvador/anuncio-para-vender-una-casa/">anuncio para vender una casa</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuántas fotos poner para vender una casa?', a: 'Entre 12 y 20. Menos deja dudas; más empieza a repetir ambientes.' },
+    { q: '¿Cuál debe ser la primera foto?', a: 'La más luminosa y atractiva: suele ser la fachada o la sala. Es la que se ve en los resultados de búsqueda.' },
+    { q: '¿Necesito un fotógrafo profesional?', a: 'No es necesario. Con un celular reciente, buena luz y la casa ordenada se logran fotos claras.' },
+    { q: '¿Puedo subir un video de la casa?', a: 'Un recorrido corto ayuda a quien no puede visitar. Puede compartirlo por WhatsApp a los interesados junto con el enlace del aviso, como se explica en <a href="/el-salvador/como-poner-mi-casa-en-venta-por-internet/">cómo poner mi casa en venta por internet</a>.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "fotos para vender una casa"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=fotos%20para%20vender%20una%20casa', date: '2026-11-13', note: '"como tomar fotos para vender una casa".' },
+  ],
+  closing: {
+    title: 'Fotos listas, casa publicada',
+    text: 'Suba su casa a Casa-Libre gratis y reciba consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['anuncio-para-vender-una-casa', 'como-poner-mi-casa-en-venta-por-internet', 'donde-publicar-casa-en-venta-el-salvador'],
+};

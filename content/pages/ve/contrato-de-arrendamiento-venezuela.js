@@ -1,0 +1,127 @@
+export default {
+  slug: 'contrato-de-arrendamiento-venezuela',
+  group: 'Alquilar tu propiedad',
+  order: 2,
+  rental: true,
+  equivalentOf: 'contrato-de-alquiler-paraguay',
+  title: 'Contrato de arrendamiento en Venezuela 2026: modelo',
+  h1: 'Contrato de arrendamiento de vivienda en Venezuela',
+  description: 'Qué debe tener un contrato de arrendamiento de vivienda en Venezuela con la ley de 2026: cláusulas, canon, depósito, plazo y un modelo orientativo.',
+  navLabel: 'Contrato de arrendamiento',
+  blurb: 'Las cláusulas de un contrato de arrendamiento de vivienda en Venezuela y un esquema orientativo.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Venezuelan lawyer must check: the Ley del Régimen Especial de Arrendamiento de Inmuebles Destinados a Vivienda (G.O. 7.065 Extraordinario, 7 Aug 2026) rules used here: written contract, authenticated or private; free term with a one-year default and renewal; canon in foreign currency allowed, payable in bolívares at the BCV rate if agreed; adjustments only on renewal or extension and by agreement, capped by the BCV consumer price index when the canon is in bolívares; deposit up to three months, may be in foreign currency; desalojo only by a court; services paid by the tenant and condominio by the landlord unless agreed (press report). Commercial leases follow a different law. The model outline is guidance only.',
+  answer: 'Un contrato de arrendamiento de vivienda en Venezuela debe ir por escrito, autenticado en notaría o como documento privado, e indicar las partes, el inmueble, el canon y su moneda, la forma de pago, el plazo, el depósito, quién paga servicios y condominio, y el inventario. Para contratos firmados desde agosto de 2026 rige la nueva ley de arrendamiento, que admite el canon en divisas. Encuentra inquilino publicando gratis en Casa-Libre.',
+  summary: [
+    'Por escrito siempre; autenticarlo en notaría da más seguridad.',
+    'La ley de 2026 admite canon en divisas y un depósito de hasta tres meses.',
+    'Si el contrato no fija plazo, se entiende de un año y se renueva.',
+    'Un inventario firmado con fotos evita discusiones al devolver el depósito.',
+  ],
+  cta: {
+    title: 'Primero, encuentra al inquilino',
+    text: 'Publica tu alquiler gratis en Casa-Libre. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'clausulas',
+      h2: '¿Qué cláusulas debe tener un contrato de arrendamiento?',
+      blocks: [
+        { t: 'p', html: 'Todo lo que pueda generar un desacuerdo. Esta tabla resume las cláusulas que no deben faltar.' },
+        { t: 'table',
+          caption: 'Cláusulas de un contrato de arrendamiento de vivienda',
+          head: ['Cláusula', 'Qué dice'],
+          rows: [
+            ['Partes', 'Arrendador y arrendatario, con cédula y domicilio'],
+            ['Inmueble', 'Dirección, datos de registro y uso exclusivo de vivienda'],
+            ['Canon', 'Monto, moneda, fecha y forma de pago'],
+            ['Plazo', 'Duración y cómo se renueva o termina'],
+            ['Depósito', 'Monto (hasta tres meses), moneda y condiciones de devolución'],
+            ['Servicios y condominio', 'Quién paga cada uno'],
+            ['Mantenimiento', 'Reparaciones menores y mayores: quién responde'],
+            ['Inventario', 'Anexo con el estado del inmueble y sus muebles'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026, para contratos bajo la ley de agosto de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulta con un abogado o un notario antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'canon-y-ajustes',
+      h2: '¿Cómo se fija y se ajusta el canon?',
+      blocks: [
+        { t: 'p', html: 'El canon lo acuerdan las partes y puede pactarse en divisas. Según la ley de 2026, los ajustes se hacen al renovar o prorrogar, de mutuo acuerdo.' },
+        { t: 'ul', items: [
+          'Si el canon está en bolívares, el ajuste no puede superar la inflación oficial publicada por el BCV en el período.',
+          'Si está en divisas, se puede acordar pagar su equivalente en bolívares a la tasa oficial del día.',
+          'Escribe la fecha de pago y qué pasa si hay retraso.',
+        ] },
+        { t: 'p', html: 'Para decidir el monto, lee <a href="/venezuela/canon-de-arrendamiento-venezuela/">cuánto cobrar de alquiler</a>.' },
+      ],
+    },
+    {
+      id: 'modelo',
+      h2: 'Modelo orientativo de contrato de arrendamiento',
+      blocks: [
+        { t: 'p', html: 'Úsalo para entender la estructura y revisar el borrador de tu abogado. No lo firmes tal cual.' },
+        { t: 'ol', items: [
+          'Entre ________, cédula N.° ________ (EL ARRENDADOR), y ________, cédula N.° ________ (EL ARRENDATARIO), se celebra este contrato.',
+          'Objeto: el inmueble ubicado en ________, que se destina exclusivamente a vivienda de EL ARRENDATARIO y su grupo familiar.',
+          'Canon: ________ mensuales, pagaderos los días ________ de cada mes mediante ________.',
+          'Plazo: ________ meses, desde el ________. Renovación: ________.',
+          'Depósito: ________, que se devolverá al término, descontando daños y servicios pendientes.',
+          'Servicios: a cargo de ________. Condominio: a cargo de ________.',
+          'Se anexa inventario firmado por ambas partes.',
+        ] },
+      ],
+    },
+    {
+      id: 'autenticar',
+      h2: '¿Conviene autenticar el contrato en notaría?',
+      blocks: [
+        { t: 'p', html: 'La ley de 2026 acepta el contrato privado, pero autenticarlo da fecha cierta y facilita probar lo pactado si hay un conflicto. Suele valer el costo.' },
+        { t: 'p', html: 'Si tienes un contrato anterior a agosto de 2026, sigue la ley anterior: consulta antes de cambiar sus condiciones.' },
+      ],
+    },
+    {
+      id: 'fin-del-contrato',
+      h2: '¿Qué pasa al terminar el contrato?',
+      blocks: [
+        { t: 'p', html: 'Se revisa el inmueble contra el inventario, se pagan los servicios pendientes y se devuelve el depósito. Si el inquilino no entrega, el desalojo solo lo puede ordenar un tribunal.' },
+        { t: 'ul', items: [
+          'Haz la revisión con el inquilino presente y fotos.',
+          'Pide las últimas facturas de servicios pagadas.',
+          'Devuelve el depósito en el plazo acordado, con el detalle de descuentos.',
+        ] },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Encuentra inquilino',
+      blocks: [
+        { t: 'p', html: 'Publica gratis en <a href="https://casa-libre.com.ve/publicar">Casa-Libre</a> con el canon, el depósito y los requisitos claros.' },
+        { t: 'p', html: 'Para ver cómo se presentan otros alquileres, entra a <a href="https://casa-libre.com.ve/alquilar">Casa-Libre</a>. Y el proceso completo está en <a href="/venezuela/como-alquilar-mi-casa-venezuela/">cómo alquilar mi casa</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Dónde descargo un contrato de arrendamiento en Venezuela?', a: 'Los modelos sirven como guía. Para firmar, pide a un abogado que lo adapte a la ley de 2026 y a tu caso.' },
+    { q: '¿El contrato de arrendamiento debe autenticarse?', a: 'La ley de 2026 lo admite autenticado o privado, siempre por escrito.' },
+    { q: '¿Cuánto dura un contrato si no dice plazo?', a: 'Un año, que se renueva en las mismas condiciones si ninguna parte se opone, según la ley de 2026.' },
+    { q: '¿Sirve este modelo para un local comercial?', a: 'No. Los locales comerciales tienen su propia ley; consulta a un abogado.' },
+  ],
+  internalSources: [
+    { label: 'Acceso a la Justicia: Ley del Régimen Especial de Arrendamiento', url: 'https://accesoalajusticia.org/ley-del-regimen-especial-de-arrendamiento/', date: '2026-11-13', note: 'Arts. 7-9 written contract and term; 12-14 canon and adjustments; 16-18 deposit; 27 desalojo by court.' },
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=contrato%20de%20arrendamiento%20venezuela', date: '2026-11-13', note: 'contrato de arrendamiento venezuela modelo, pdf, word, 2026, sencillo.' },
+  ],
+  closing: {
+    title: 'Con el contrato listo, publica',
+    text: 'Publica tu alquiler gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Ver alquileres en Casa-Libre',
+    href: 'https://casa-libre.com.ve/alquilar',
+  },
+  related: ['como-alquilar-mi-casa-venezuela', 'canon-de-arrendamiento-venezuela', 'donde-publicar-un-alquiler-gratis-venezuela'],
+};

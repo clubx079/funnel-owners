@@ -1,0 +1,146 @@
+export default {
+  slug: 'vender-casa-heredada-paraguay',
+  title: 'Cómo vender una casa heredada en Paraguay: la sucesión',
+  h1: 'Cómo vender una casa heredada en Paraguay: la sucesión',
+  description: 'Cómo vender una casa heredada en Paraguay: qué es la sucesión, cuándo se puede firmar la venta, el acuerdo entre herederos y qué papeles preparar.',
+  navLabel: 'Casa heredada',
+  blurb: 'Sucesión, acuerdo entre herederos, cuándo se puede firmar la venta y qué papeles preparar para vender una casa heredada.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'A lawyer or escribano must confirm the general description of the succession: that it is processed before a judge with a lawyer, that it can be testamentaria or intestada, that a judge recognises the heirs and the property is then registered in their names, that every heir (or an apoderado) must sign the sale, and that selling before the succession ends (cesión de derechos hereditarios, sale with judicial authorisation) exists but is more complex. Also confirm the document list and whether the seller IRP (8% on a presumed 30%, about 2.4%) applies the same way to an inherited property, as the example assumes.',
+  answer: 'En Paraguay, una casa heredada se vende con escritura a nombre de los herederos cuando la sucesión está terminada e inscripta. Mientras el título siga a nombre de la persona fallecida, lo habitual es tramitar primero la sucesión con un abogado. Todos los herederos tienen que estar de acuerdo y firmar. Podés publicar la casa mientras avanza el trámite, y en Casa-Libre publicar es gratis.',
+  summary: [
+    'Si el título sigue a nombre de un familiar fallecido, lo habitual es tramitar primero la sucesión.',
+    'Todos los herederos firman la venta, en persona o con un poder.',
+    'No hay cifras confirmadas de honorarios ni plazos de una sucesión: pedí presupuesto al abogado.',
+    'Podés publicar en Casa-Libre mientras avanza el trámite: es gratis y sin comisión.',
+  ],
+  cta: {
+    title: 'Publicá la casa heredada mientras avanza la sucesión',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados escriben directo por WhatsApp y no hay comisión sobre la venta.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'se-puede-vender',
+      h2: '¿Se puede vender una casa heredada en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Sí, pero la escritura de venta se firma cuando la casa ya está a nombre de los herederos. Lo que podés hacer hoy depende de en qué punto está la sucesión.' },
+        {
+          t: 'table',
+          caption: 'Casa heredada: situaciones frecuentes y qué hacer',
+          head: ['Situación', 'Qué significa', 'Qué hacer'],
+          rows: [
+            ['Sucesión terminada e inscripta', 'El título figura a nombre de los herederos', 'Se vende como cualquier casa, con la firma de todos'],
+            ['Sucesión abierta', 'El título sigue a nombre de la persona fallecida', 'Preguntale al abogado cuánto falta y publicá mientras tanto'],
+            ['Nadie abrió la sucesión', 'El título sigue a nombre de la persona fallecida', 'Hablá con un abogado para iniciarla'],
+            ['Un heredero no quiere vender', 'Falta la firma de uno de los dueños', 'Consultá con un abogado antes de aceptar una seña'],
+            ['Un heredero vive en el exterior', 'No puede ir a firmar', 'Preguntale al escribano cómo firmar con un poder'],
+          ],
+          note: 'Descripción general, no asesoramiento legal. Un abogado o escribano debe revisar tu caso.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Mientras tanto, mirá a cuánto se publican casas en venta parecidas en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a>. Si la casa está en la capital, empezá por las casas en venta en Asunción en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'que-es-la-sucesion',
+      h2: 'Qué es la sucesión y cómo se tramita',
+      blocks: [
+        { t: 'p', html: 'La sucesión es el trámite por el que los bienes de una persona fallecida pasan a sus herederos. Se hace con un abogado, puede ser testamentaria (hay testamento) o intestada (no lo hay) y termina con el inmueble inscripto a nombre de los herederos.' },
+        { t: 'steps', items: [
+          { title: 'Juntan los papeles', html: 'Certificado de defunción, documentos que prueban el parentesco, cédulas de los herederos y el título de la casa.' },
+          { title: 'Un abogado inicia el trámite', html: 'Pedile por escrito el presupuesto de honorarios y tasas: no hay una cifra única.' },
+          { title: 'Se reconoce a los herederos', html: 'Un juez determina quiénes son los herederos de la persona fallecida.' },
+          { title: 'Se inscribe a nombre de los herederos', html: 'Con eso, la casa queda lista para venderse con escritura, como se explica en la guía sobre la <a href="/transferencia-de-inmueble-paraguay/">transferencia de un inmueble</a>.' },
+        ] },
+        { t: 'callout', tone: 'tip',
+          title: 'Empezá el aviso mientras sale la sucesión',
+          html: 'Ningún paso depende de tener comprador. En Casa-Libre el aviso se guarda como borrador hasta que tengas fotos y precio.' },
+      ],
+    },
+    {
+      id: 'vender-en-sucesion',
+      h2: '¿Se puede vender una casa en sucesión?',
+      blocks: [
+        { t: 'p', html: 'La venta con escritura normal llega cuando la sucesión termina. Existen caminos para vender antes, como la cesión de derechos hereditarios o una venta con autorización del juez, pero son más complejos y solo un abogado puede decirte si sirven en tu caso.' },
+        { t: 'p', html: 'Para el comprador, una casa con la sucesión terminada es más simple: el escribano estudia un título limpio y nada depende de un juicio. Si alguien quiere reservar antes, leé qué poner por escrito en nuestra guía sobre la <a href="/sena-de-trato-paraguay/">seña de trato</a>.' },
+        { t: 'p', html: 'En el aviso contá en qué etapa está el trámite: ahorra visitas inútiles. La guía de <a href="https://casa-libre.com.py/guias/documentos-para-vender-un-inmueble">Casa-Libre</a> sobre documentos para vender un inmueble repasa qué papeles mira un comprador.' },
+      ],
+    },
+    {
+      id: 'acuerdo-herederos',
+      h2: 'Acuerdo entre herederos: quién firma y cómo se reparte',
+      blocks: [
+        { t: 'p', html: 'Si la casa es de varios herederos, todos son dueños y todos firman la venta. Antes de publicar, acuerden por escrito el precio mínimo, quién atiende las consultas y cómo se reparten el dinero y los gastos.' },
+        { t: 'ul', items: [
+          '<strong>Un solo contacto</strong> que responda los WhatsApp y coordine las visitas.',
+          '<strong>Un precio de publicación</strong> y un mínimo aceptable para todos.',
+          '<strong>Un reparto de gastos:</strong> sucesión, impuestos y la parte de la escritura que les toque.',
+        ] },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: tres herederos venden una casa por Gs. 630.000.000',
+          html: 'Supuestos: Gs. 7.000 por dólar (tipo de cambio de ejemplo), impuesto a la renta del vendedor de referencia (8% sobre el 30% del precio) y partes iguales. Si ese impuesto se aplica igual a una casa heredada lo confirma el contador. No incluye la sucesión ni la escritura.',
+          rows: [
+            ['Precio de venta', '', 'Gs. 630.000.000 (USD 90.000)'],
+            ['Impuesto a la renta de referencia', '630.000.000 × 30% × 8%', 'Gs. 15.120.000 (USD 2.160)'],
+            ['Queda para repartir', '630.000.000 − 15.120.000', 'Gs. 614.880.000 (USD 87.840)'],
+            ['Parte de cada heredero', '614.880.000 ÷ 3', 'Gs. 204.960.000 (USD 29.280)'],
+          ],
+        },
+        { t: 'p', html: 'Para acordar el precio sin discutir, miren juntos las casas publicadas en el mapa de <a href="https://casa-libre.com.py/propiedades">Casa-Libre</a> en la misma zona y lean nuestra guía de <a href="/tasacion-de-inmuebles-paraguay/">tasación de inmuebles</a>.' },
+      ],
+    },
+    {
+      id: 'que-preparar',
+      h2: 'Qué papeles preparar para vender la casa heredada',
+      blocks: [
+        { t: 'p', html: 'Además de los papeles de la sucesión, el escribano pide los de cualquier venta.' },
+        { t: 'ul', items: [
+          'Título de propiedad inscripto a nombre de los herederos.',
+          'Informe de condición de dominio, que muestra a nombre de quién está la casa y si tiene gravámenes.',
+          'Cuenta corriente catastral e impuesto inmobiliario al día.',
+          'Cédulas de todos los herederos y, si alguno no puede ir, el poder que indique el escribano.',
+        ] },
+        { t: 'p', html: 'Qué muestra el informe y cómo se pide está en nuestra guía sobre la <a href="/condicion-de-dominio-paraguay/">condición de dominio</a>. Los impuestos del vendedor, en <a href="/impuesto-por-vender-una-casa-paraguay/">qué impuesto se paga al vender</a>. Y para el resto del proceso está la guía de Casa-Libre para vender tu casa.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Cuándo publicar la casa heredada en Casa-Libre',
+      blocks: [
+        { t: 'p', html: 'Podés publicar en cuanto los herederos acuerden el precio, aunque la sucesión siga en trámite. Así medís el interés real y, cuando el título esté listo, ya tenés consultas.' },
+        {
+          t: 'casalibre',
+          title: 'Una casa, varios dueños, un solo aviso',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.py/vender',
+        },
+        { t: 'p', html: 'El heredero que atiende las consultas puede manejar el aviso desde el celular con la app de Casa-Libre para iPhone y Android, y compartir el mismo enlace con el resto de la familia por WhatsApp.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender una casa que sigue a nombre de mis padres fallecidos?', a: 'Lo habitual es tramitar primero la sucesión para que la casa pase a nombre de los herederos y después firmar la venta. Un abogado te dice cómo empezar.' },
+    { q: '¿Se puede vender una propiedad sin la firma de un heredero?', a: 'En principio, todos los dueños firman la venta. Si un heredero no está de acuerdo o no aparece, consultá con un abogado antes de aceptar una seña.' },
+    { q: '¿Cuánto cuesta una sucesión en Paraguay?', a: 'No tenemos una cifra confirmada: hay honorarios del abogado y tasas que dependen del caso. Pedí un presupuesto por escrito antes de empezar.' },
+    { q: '¿Qué impuesto pagan los herederos al vender?', a: 'Para una venta común, las guías de 2026 citan un impuesto a la renta del vendedor de alrededor de 2,4% del precio. Si se aplica igual a una casa heredada, confirmalo con un contador.' },
+    { q: '¿Puedo publicar la casa antes de terminar la sucesión?', a: 'Sí, contando en qué etapa está el trámite. Antes de recibir una seña, hacé revisar los papeles. Otras dudas, en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md (sections 3, 4 and 7a)', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Searches: como vender una casa heredada; se puede vender una casa en sucesion; se puede vender una propiedad sin la firma de un heredero; sucesión intestada / testamentaria / abrir sucesion / tasa judicial / honorarios por sucesion. Competitor FAQ: "¿Puedo vender si el inmueble sigue a nombre de mis padres?". The notes give no figures or procedure for successions.' },
+    { label: 'Same notes, line 512, and transferencia-de-inmueble-paraguay.js', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Seller IRP 8% on a presumed 30% of the price, about 2.4%. Whether it applies the same way to inherited property is not in the notes.' },
+    { label: 'Exchange rate in the example', url: '', date: '2026-11-12', note: 'Gs. 7.000 per USD is a round, hypothetical rate, same as the other guides. Not sourced.' },
+  ],
+  closing: {
+    title: 'Mientras sale la sucesión, que los compradores ya vean la casa',
+    text: 'Publicá gratis en Casa-Libre y recibí las consultas por WhatsApp. Está en la web y en apps para iPhone y Android.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['transferencia-de-inmueble-paraguay', 'tasacion-de-inmuebles-paraguay', 'como-vender-mi-casa-sin-inmobiliaria', ''],
+};

@@ -1,0 +1,123 @@
+export default {
+  slug: 'requisitos-para-vender-una-casa-bolivia',
+  group: 'Papeles y trámites',
+  nav: 'Requisitos',
+  order: 1,
+  equivalentOf: 'requisitos-para-vender-una-casa-paraguay',
+  title: 'Requisitos para vender una casa en Bolivia: documentos',
+  h1: 'Requisitos para vender una casa en Bolivia',
+  description: 'Los documentos para vender una casa en Bolivia: Folio Real, certificado alodial, testimonio, impuesto a la propiedad, catastro y cédulas, y quién emite cada uno.',
+  navLabel: 'Requisitos para vender',
+  blurb: 'La lista de documentos para vender una casa en Bolivia, quién emite cada uno y en qué orden pedirlos.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian notario de fe pública or lawyer must check the document list and issuers: Folio Real and certificado alodial from Derechos Reales (Consejo de la Magistratura), testimonio from the notary who granted the deed, IPBI receipts and catastro certificate/approved plan from the gobierno autónomo municipal, spouse signature for bienes gananciales (Código de las Familias, Ley 603), co-owners all signing, poder notarial for owners abroad, and that buyers usually require IPBI paid for the last five gestiones (stated qualitatively only, check).',
+  answer: 'Para vender una casa en Bolivia tienes que ser el propietario inscrito en Derechos Reales y reunir el Folio Real, un certificado alodial reciente sin gravámenes, el testimonio de tu compra, los comprobantes del impuesto a la propiedad de bienes inmuebles pagados, el registro catastral municipal y tu cédula de identidad. Si estás casado y la casa es ganancial, firma también tu cónyuge. Mientras juntas los papeles, puedes publicarla gratis en Casa-Libre.',
+  summary: [
+    'El requisito de fondo: que la casa esté inscrita a tu nombre en Derechos Reales y sin gravámenes que el comprador no acepte.',
+    'Seis papeles de base: Folio Real, certificado alodial, testimonio, impuesto a la propiedad pagado, catastro y cédula.',
+    'Si la casa es un bien ganancial, el cónyuge firma la minuta.',
+    'Si la casa sigue a nombre de alguien fallecido, primero va la declaratoria de herederos.',
+    'En Casa-Libre puedes guardar el aviso como borrador mientras juntas los papeles.',
+  ],
+  cta: {
+    title: 'Publica mientras juntas los papeles',
+    text: 'En Casa-Libre publicar es gratis y puedes guardar el aviso como borrador. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'documentos-para-vender',
+      h2: '¿Qué documentos se necesitan para vender una casa en Bolivia?',
+      blocks: [
+        { t: 'p', html: 'Se necesitan los papeles que prueban tres cosas: que la casa es tuya, que está libre de gravámenes y que no debe impuestos municipales.' },
+        { t: 'table',
+          caption: 'Documentos para vender una casa en Bolivia',
+          head: ['Documento', 'Para qué sirve', 'Dónde se consigue'],
+          rows: [
+            ['Folio Real', 'Muestra la matrícula del inmueble y quién es el propietario inscrito', 'Derechos Reales'],
+            ['Certificado alodial', 'Dice si hay hipotecas, embargos, anotaciones preventivas u otros gravámenes', 'Derechos Reales'],
+            ['Testimonio de propiedad', 'Es la copia de la escritura con la que compraste o heredaste', 'Tu archivo, o la notaría que la otorgó'],
+            ['Impuesto a la propiedad pagado', 'Prueba que no hay deudas del IPBI con el municipio', 'Gobierno autónomo municipal'],
+            ['Registro o certificado catastral y plano', 'Superficie, ubicación y código catastral aprobados', 'Catastro del municipio'],
+            ['Cédula de identidad', 'Identifica a quien vende y a su cónyuge si firma', 'Segip (la tuya, vigente)'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Los nombres de los certificados municipales cambian entre municipios.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública o un abogado antes de tomar decisiones.' },
+        { t: 'p', html: 'Casa-Libre resume estos papeles en su guía de <a href="https://casa-libre.com.bo/guias/documentos-para-vender-un-inmueble">Casa-Libre</a> sobre documentos para vender un inmueble.' },
+      ],
+    },
+    {
+      id: 'quien-puede-vender',
+      h2: '¿Quién puede vender la casa?',
+      blocks: [
+        { t: 'p', html: 'Puede vender quien figura como propietario en el Folio Real. Si lo que dicen los papeles no coincide con la realidad, primero hay que regularizar.' },
+        { t: 'ul', items: [
+          '<strong>Estás casado:</strong> si la casa se compró durante el matrimonio suele ser un bien ganancial, y tu cónyuge firma contigo.',
+          '<strong>Hay varios propietarios:</strong> firman todos, o alguno con poder notarial de los demás.',
+          '<strong>El dueño falleció:</strong> va primero la declaratoria de herederos. Lo explicamos en <a href="/bolivia/vender-casa-heredada-bolivia/">cómo vender una casa heredada</a>.',
+          '<strong>Tiene hipoteca:</strong> se cancela con el dinero de la venta o antes. Mira <a href="/bolivia/vender-casa-con-hipoteca-bolivia/">vender una casa con hipoteca</a>.',
+          '<strong>Vives fuera de Bolivia:</strong> puedes dar un poder a alguien de confianza, otorgado ante notario o en el consulado.',
+        ] },
+      ],
+    },
+    {
+      id: 'folio-real-y-alodial',
+      h2: '¿Qué es el Folio Real y qué es el certificado alodial?',
+      blocks: [
+        { t: 'p', html: 'El Folio Real es la ficha del inmueble en Derechos Reales, con su número de matrícula. El certificado alodial es un certificado que muestra si sobre esa matrícula pesa algún gravamen. No son lo mismo y el comprador suele pedir los dos recientes.' },
+        { t: 'p', html: 'Lo explicamos en detalle en <a href="/bolivia/folio-real-bolivia/">Folio Real y certificado alodial</a>.' },
+      ],
+    },
+    {
+      id: 'impuestos-al-dia',
+      h2: '¿Tengo que tener los impuestos al día para vender?',
+      blocks: [
+        { t: 'p', html: 'Sí. Para liquidar el impuesto a la transferencia, el municipio revisa que el impuesto a la propiedad de bienes inmuebles (IPBI) esté pagado. Si debes gestiones anteriores, págalas antes de firmar o acuerda descontarlas del precio.' },
+        { t: 'p', html: 'Cómo funciona ese impuesto anual: <a href="/bolivia/impuesto-a-la-propiedad-de-bienes-inmuebles-bolivia/">impuesto a la propiedad de bienes inmuebles</a>.' },
+      ],
+    },
+    {
+      id: 'pasos-en-orden',
+      h2: 'Los pasos para vender, en orden',
+      blocks: [
+        { t: 'p', html: 'Con los papeles listos, la venta sigue este camino.' },
+        { t: 'steps', items: [
+          { title: 'Junta y actualiza los papeles', html: 'Folio Real y alodial recientes, impuestos pagados, catastro.' },
+          { title: 'Publica y negocia', html: 'Aviso con fotos, precio y mapa; visitas y oferta.' },
+          { title: 'Documento de anticipo, si hay', html: 'Si el comprador deja un anticipo, se firma un documento privado.' },
+          { title: 'Minuta y escritura', html: 'Un abogado redacta la minuta y el notario de fe pública la protocoliza.' },
+          { title: 'Impuesto a la transferencia', html: 'El municipio liquida el IMT y se paga en el plazo que fija.' },
+          { title: 'Inscripción', html: 'Derechos Reales inscribe al comprador y el catastro actualiza el dueño.' },
+        ] },
+        { t: 'p', html: 'Cada paso de la inscripción está en <a href="/bolivia/transferencia-de-inmueble-bolivia/">transferencia de inmueble en Bolivia</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-mientras',
+      h2: '¿Puedo publicar la casa mientras saco los papeles?',
+      blocks: [
+        { t: 'p', html: 'Sí, siempre que digas en el aviso en qué estado están. En <a href="https://casa-libre.com.bo/vender">Casa-Libre</a> puedes publicar gratis y guardar el aviso como borrador hasta tener todo listo.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Qué papeles necesito para vender mi casa en Bolivia?', a: 'Folio Real, certificado alodial, testimonio, comprobantes del impuesto a la propiedad, registro catastral y cédula de identidad. Si estás casado, también la de tu cónyuge.' },
+    { q: '¿El Folio Real y el alodial son lo mismo?', a: 'No. El Folio Real muestra la matrícula y el propietario; el alodial muestra los gravámenes. Se piden en Derechos Reales.' },
+    { q: '¿Puedo vender mi casa si mi esposa no quiere firmar?', a: 'Si la casa es un bien ganancial, en general se necesita la firma de los dos. Si es un bien propio tuyo, no. Confírmalo con un abogado según cómo y cuándo se compró.' },
+    { q: '¿Qué pasa si perdí el testimonio?', a: 'Se puede pedir una copia legalizada en la notaría que otorgó la escritura o donde se archive su protocolo. El notario te dice cómo.' },
+    { q: '¿Cuánto tiempo vale el certificado alodial?', a: 'No tiene un vencimiento único, pero los compradores y bancos suelen pedirlo reciente, de pocos días o semanas. Pídelo cerca de la firma.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=bo', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=requisitos%20para%20vender%20una%20casa%20en%20bolivia', date: '2026-11-13', note: '"requisitos para vender una casa en bolivia"; "folio real y alodial es lo mismo".' },
+  ],
+  closing: {
+    title: 'Papeles listos, casa publicada',
+    text: 'Publica gratis en Casa-Libre y recibe a los interesados por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['', 'folio-real-bolivia', 'transferencia-de-inmueble-bolivia', 'gastos-al-vender-una-casa-bolivia'],
+};

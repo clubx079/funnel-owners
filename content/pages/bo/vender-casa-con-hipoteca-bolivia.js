@@ -1,0 +1,135 @@
+export default {
+  slug: 'vender-casa-con-hipoteca-bolivia',
+  group: 'Papeles y trámites',
+  order: 7,
+  equivalentOf: 'vender-casa-con-hipoteca-paraguay',
+  title: 'Cómo vender una casa con hipoteca en Bolivia: opciones',
+  h1: 'Cómo vender una casa que todavía estoy pagando',
+  description: 'Sí se puede vender una casa hipotecada en Bolivia: cancelar con el dinero de la venta, crédito del comprador o pago previo. Pasos, cuentas y cuidados.',
+  navLabel: 'Casa con hipoteca',
+  blurb: 'Las opciones para vender una casa que todavía estás pagando y cómo se levanta la hipoteca.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian lawyer must check: that the hipoteca appears in the certificado alodial, that cancellation requires a bank-issued document (minuta/escritura de cancelación) inscribed at Derechos Reales to lift the gravamen, the common mechanism where the buyer\'s bank pays the seller\'s bank, possible prepayment conditions in the loan contract (ASFI-regulated banks), and the special case of vivienda social loans. 2026-11-13 added section on explaining the mortgage to buyers (bank saldo letter, same-day payment and cancellation): check with a notario how the gravamen is lifted in practice.',
+  answer: 'Sí, en Bolivia puedes vender una casa que todavía estás pagando. La hipoteca aparece en el certificado alodial, y el comprador va a querer que se cancele. Lo habitual es usar parte del precio para pagar el saldo al banco, que emite el documento de cancelación, y luego levantar el gravamen en Derechos Reales. Habla primero con tu banco. Mientras tanto, puedes publicar la casa en Casa-Libre.',
+  summary: [
+    'La hipoteca no impide vender, pero el comprador quiere recibir la casa sin gravámenes.',
+    'Primer paso: pedir al banco el saldo exacto para cancelar el préstamo y sus condiciones.',
+    'Lo común es cancelar la deuda con el dinero de la venta, en el mismo acto o justo antes.',
+    'El gravamen se levanta en Derechos Reales con el documento de cancelación del banco.',
+  ],
+  cta: {
+    title: 'Publica tu casa aunque la sigas pagando',
+    text: 'En Casa-Libre publicar es gratis. Aclara en el aviso que hay un saldo a cancelar.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'opciones',
+      h2: '¿Qué opciones hay para vender una casa hipotecada?',
+      blocks: [
+        { t: 'p', html: 'Hay tres caminos habituales. Cuál conviene depende de cuánto debes y de cómo paga el comprador.' },
+        { t: 'table',
+          caption: 'Opciones para vender con hipoteca',
+          head: ['Opción', 'Cómo funciona', 'Ten en cuenta'],
+          rows: [
+            ['Cancelar antes de vender', 'Pagas el saldo con tus ahorros y levantas la hipoteca', 'La venta queda simple, pero necesitas el dinero antes'],
+            ['Cancelar con el dinero de la venta', 'El comprador paga y una parte va directo al banco', 'Hay que coordinar banco, notario y comprador'],
+            ['Comprador con crédito bancario', 'El banco del comprador paga al tuyo y toma la nueva hipoteca', 'Los plazos los marcan los dos bancos'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Cada banco tiene su propio procedimiento.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública o un abogado antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'saldo-con-el-banco',
+      h2: '¿Qué le pregunto a mi banco?',
+      blocks: [
+        { t: 'p', html: 'Pide por escrito el saldo para cancelar a una fecha, si hay cargos por pago anticipado y cuál es su procedimiento para emitir la cancelación de la hipoteca.' },
+        { t: 'ul', items: [
+          'Saldo de capital, intereses y otros cargos al día de la firma.',
+          'Cuánto tarda en emitir el documento de cancelación.',
+          'Si acepta que el pago venga directo del comprador o de su banco.',
+          'Si tu crédito tiene condiciones especiales, por ejemplo de vivienda social.',
+        ] },
+      ],
+    },
+    {
+      id: 'pasos',
+      h2: 'Los pasos para vender con hipoteca',
+      blocks: [
+        { t: 'p', html: 'El orden protege a las dos partes: nadie entrega dinero ni casa sin que la deuda quede cancelada.' },
+        { t: 'steps', items: [
+          { title: 'Saldo por escrito', html: 'Del banco, con fecha.' },
+          { title: 'Publica y negocia', html: 'Aclara en el aviso que hay un saldo que se cancela con la venta.' },
+          { title: 'Acuerda el pago', html: 'En la minuta: cuánto va al banco y cuánto a ti.' },
+          { title: 'Cancelación', html: 'El banco recibe el pago y emite el documento de cancelación.' },
+          { title: 'Levantar el gravamen', html: 'Se inscribe la cancelación en Derechos Reales y el alodial queda limpio.' },
+          { title: 'Inscripción del comprador', html: 'Con el impuesto a la transferencia pagado.' },
+        ] },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: '¿Cuánto me queda si vendo una casa con deuda?',
+      blocks: [
+        { t: 'p', html: 'El precio menos el saldo del banco y los gastos de la venta. Haz la cuenta antes de fijar el precio mínimo.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: venta con saldo hipotecario',
+          html: 'Cifras redondas e inventadas. Los gastos reales dependen de lo que acuerdes en la minuta.',
+          rows: [
+            ['Precio de venta', 'USD 110.000'],
+            ['Saldo para cancelar el préstamo', '- USD 40.000'],
+            ['Gastos que asumes, supuestos', '- USD 2.000'],
+            ['Lo que te queda', 'USD 68.000'],
+          ] },
+        { t: 'p', html: 'La lista de gastos está en <a href="/bolivia/gastos-al-vender-una-casa-bolivia/">gastos al vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'como-saber-si-esta-hipotecada',
+      h2: '¿Cómo saber si una casa está hipotecada?',
+      blocks: [
+        { t: 'p', html: 'Con el certificado alodial de Derechos Reales: muestra las hipotecas y otros gravámenes inscritos sobre la matrícula. Lo explicamos en <a href="/bolivia/folio-real-bolivia/">Folio Real y certificado alodial</a>.' },
+      ],
+    },
+    {
+      id: 'explicar-la-hipoteca',
+      h2: '¿Cómo explico la hipoteca a los compradores?',
+      blocks: [
+        { t: 'p', html: 'Con claridad y desde temprano. El comprador la va a ver en el certificado alodial; si se entera por su cuenta, desconfía. Si se lo explicas tú con un plan, es un trámite más.' },
+        { t: 'ul', items: [
+          'Ten una carta o constancia del banco con el saldo para cancelar la deuda.',
+          'Explica cómo se usa el pago: una parte cancela la hipoteca y el resto te queda a ti.',
+          'Propón que el pago y la cancelación se coordinen el mismo día, con el banco y el notario.',
+          'Deja escrito en el documento de anticipo y en la minuta cómo se levanta el gravamen.',
+        ] },
+        { t: 'p', html: 'En el aviso no hace falta mencionarla; en la primera conversación seria, sí.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Puedo publicar la casa si todavía la debo?',
+      blocks: [
+        { t: 'p', html: 'Sí. Dilo en el aviso para evitar sorpresas: "saldo hipotecario que se cancela con la venta". Te recomendamos publicar en <a href="https://casa-libre.com.bo/vender">Casa-Libre</a>, gratis y con contacto directo por WhatsApp. La guía de impuestos y gastos de <a href="https://casa-libre.com.bo/guias/impuestos-y-gastos-al-vender">Casa-Libre</a> ayuda a hacer la cuenta.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender mi casa si todavía la estoy pagando?', a: 'Sí. Lo habitual es cancelar el saldo con el dinero de la venta y levantar la hipoteca en Derechos Reales antes de inscribir al comprador.' },
+    { q: '¿El comprador puede asumir mi crédito?', a: 'Solo si el banco lo acepta, y no es lo más común. Lo frecuente es que el comprador pida su propio crédito y su banco pague al tuyo.' },
+    { q: '¿Cuánto tarda el banco en liberar la hipoteca?', a: 'Depende de cada banco. Pregúntalo por escrito antes de comprometer una fecha de entrega en la minuta.' },
+    { q: '¿Me cobran por pagar antes el préstamo?', a: 'Revisa tu contrato de crédito y pregúntale al banco. Las condiciones de pago anticipado cambian según el tipo de crédito.' },
+    { q: '¿Tengo que decir en el aviso que la casa está hipotecada?', a: 'No hace falta ponerlo en el aviso. Dilo en la primera conversación seria, con la constancia del saldo del banco y un plan claro de cómo se cancela con el pago del comprador.' },
+  ],
+  internalSources: [],
+  closing: {
+    title: 'Vende aunque la sigas pagando',
+    text: 'Publica gratis en Casa-Libre y recibe consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['folio-real-bolivia', 'gastos-al-vender-una-casa-bolivia', 'minuta-de-transferencia-de-inmueble-bolivia'],
+};

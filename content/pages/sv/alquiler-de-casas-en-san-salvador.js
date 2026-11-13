@@ -1,0 +1,126 @@
+export default {
+  slug: 'alquiler-de-casas-en-san-salvador',
+  group: 'Alquiler por ciudad',
+  order: 1,
+  city: 'san-salvador',
+  cityName: 'San Salvador',
+  title: 'Alquiler de casas en San Salvador: cómo alquilar la suya',
+  h1: 'Alquiler de casas y apartamentos en San Salvador',
+  description: 'Cómo alquilar su casa o apartamento en San Salvador: quién alquila y en qué zonas, cómo fijar la renta con comparables, contrato, depósito y dónde publicar gratis.',
+  navLabel: 'Alquiler en San Salvador',
+  blurb: 'Quién alquila en San Salvador, cómo fijar la renta y cómo publicar su casa o apartamento en alquiler gratis.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Local section to check before indexing: tenant profiles (professionals and expatriate staff in Escalón and San Benito, students near the university area, families in traditional colonias), the zones named, and the reference to budget searches ("alquiler de casas en san salvador 100 / 250 / 400" seen in autocomplete; do not turn into price claims). Legal: contract autenticado, depósito customary, rental income taxed, housing lease IVA-exempt. No rent figures stated.',
+  answer: 'Para alquilar su casa o apartamento en San Salvador, fije la renta mensual en dólares comparando con alquileres parecidos de su misma colonia, prepare un contrato por escrito con depósito y reglas claras, y publique con fotos, condiciones y ubicación exacta. En San Salvador la colonia define al inquilino: no es lo mismo la Escalón que una colonia cercana al centro. Puede publicar su alquiler gratis en Casa-Libre.',
+  summary: [
+    'Los inquilinos buscan por colonia y presupuesto: ponga ambas cosas claras en el aviso.',
+    'Apartamentos amueblados y con seguridad atraen a profesionales que llegan a trabajar a la capital.',
+    'Las casas de colonia tradicional atraen a familias que valoran cochera y patio.',
+    'Contrato escrito, autenticado ante notario, con depósito e inventario.',
+  ],
+  cta: {
+    title: 'Publique su alquiler en San Salvador',
+    text: 'Gratis, con fotos, precio y mapa. Los interesados le escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'quien-alquila',
+      h2: '¿Quién alquila casa en San Salvador?',
+      blocks: [
+        { t: 'p', html: 'San Salvador concentra oficinas, hospitales, universidades y comercio, así que la demanda de alquiler es variada. Saber quién busca en su zona le ayuda a decidir si alquila amueblado o vacío, y qué destacar.' },
+        { t: 'table',
+          caption: 'Perfiles de inquilino por tipo de zona en San Salvador',
+          head: ['Zona', 'Inquilino frecuente', 'Qué valora'],
+          rows: [
+            ['Escalón y San Benito', 'Profesionales, personal de empresas y organismos', 'Amueblado, seguridad, parqueo'],
+            ['Colonias tradicionales (San Francisco, Miramonte, Flor Blanca)', 'Familias', 'Cochera, patio, colegios cerca'],
+            ['Cerca de universidades y hospitales', 'Estudiantes y personal de salud', 'Transporte, habitaciones independientes'],
+            ['Centro y alrededores', 'Comercios y vivienda económica', 'Precio, acceso a transporte'],
+          ],
+          note: 'Descripción general, sin datos de rentas.' },
+      ],
+    },
+    {
+      id: 'cuanto-pedir',
+      h2: '¿Cuánto pedir de alquiler en San Salvador?',
+      blocks: [
+        { t: 'p', html: 'Lo que piden casas o apartamentos parecidos en su misma colonia. Entre colonias de San Salvador las rentas varían mucho, así que el promedio de la ciudad no sirve como referencia.' },
+        { t: 'ul', items: [
+          'Revise las casas en alquiler en San Salvador en <a href="https://sv.casa-libre.com/propiedades?op=alquiler&amp;type=casa&amp;q=San%20Salvador">Casa-Libre</a> y filtre por su zona.',
+          'Si alquila amueblado, compare solo con alquileres amueblados.',
+          'Si el edificio tiene cuota de mantenimiento, diga si está incluida en la renta.',
+        ] },
+        { t: 'p', html: 'El método con un ejemplo está en <a href="/el-salvador/cuanto-cobrar-de-alquiler-el-salvador/">cuánto cobrar de alquiler</a>.' },
+      ],
+    },
+    {
+      id: 'contrato',
+      h2: 'Contrato, depósito y entrega',
+      blocks: [
+        { t: 'p', html: 'Firme un contrato de arrendamiento por escrito, de preferencia con firmas autenticadas ante notario, con plazo, renta, depósito y quién paga cada servicio. Entregue la casa con inventario y fotos.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Las cláusulas están en <a href="/el-salvador/contrato-de-arrendamiento-el-salvador/">contrato de arrendamiento en El Salvador</a>. Recuerde que los ingresos por alquiler se declaran en el impuesto sobre la renta.' },
+      ],
+    },
+    {
+      id: 'aviso',
+      h2: '¿Qué poner en el aviso de alquiler?',
+      blocks: [
+        { t: 'p', html: 'La colonia, el precio mensual y qué incluye. Muchos inquilinos buscan por presupuesto, así que un aviso sin precio queda fuera de su búsqueda.' },
+        { t: 'ul', items: [
+          'Renta mensual en dólares, depósito y plazo mínimo.',
+          'Si está amueblada y qué servicios incluye.',
+          'Parqueo, vigilancia y si se aceptan mascotas.',
+          'Una referencia conocida: la avenida, el bulevar o el punto de referencia más cercano.',
+        ] },
+      ],
+    },
+    {
+      id: 'preparar-la-casa',
+      h2: '¿Cómo preparar su casa de San Salvador para alquilar?',
+      blocks: [
+        { t: 'p', html: 'En la capital, quien busca alquiler suele comparar varias opciones en la misma semana. Lo que inclina la decisión es el estado de la casa y que las condiciones estén claras desde el primer mensaje.' },
+        { t: 'ul', items: [
+          'Revise techos y canales antes de la época lluviosa: las goteras son uno de los reclamos más comunes.',
+          'Si tiene cisterna o tanque, dígalo en el aviso, sobre todo si el servicio de agua de su colonia tiene cortes.',
+          'Pinte y repare lo visible: puertas, chapas, grifos, interruptores.',
+          'Decida si los muebles se quedan o se retiran antes de tomar las fotos.',
+          'Tenga a mano los recibos de energía y agua recientes: muchos inquilinos preguntan cuánto se paga al mes.',
+        ] },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publique su casa en alquiler en San Salvador',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre: su alquiler aparece al buscar en San Salvador y en el mapa, y cada interesado le escribe directo por WhatsApp, sin comisión.' },
+        { t: 'casalibre',
+          title: 'Alquile con Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver alquileres',
+          href: 'https://sv.casa-libre.com/alquilar' },
+        { t: 'p', html: 'Si no puede atender visitas y cobros, Casa-Libre ofrece <a href="https://sv.casa-libre.com/administracion-de-propiedades">administración de propiedades</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta alquilar una casa en San Salvador?', a: 'Depende mucho de la colonia, el tamaño y si está amueblada. Revise los alquileres publicados hoy en su misma zona para tener una referencia real.' },
+    { q: '¿Conviene alquilar amueblado en San Salvador?', a: 'En zonas con profesionales que llegan por trabajo, como Escalón o San Benito, el amueblado tiene demanda. En colonias de familias, suele alquilarse vacío.' },
+    { q: '¿Cuánto depósito pido?', a: 'No hay un monto fijado por ley; se acuerda. Escriba en el contrato para qué sirve y cuándo se devuelve.' },
+    { q: '¿Dónde publicar mi casa en alquiler en San Salvador?', a: 'En Casa-Libre, gratis. Los interesados le escriben por WhatsApp.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "alquiler de casas en san salvador"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=alquiler%20de%20casas%20en%20san%20salvador', date: '2026-11-13', note: 'Budget variants 100 / 250 / 400, baratas.' },
+  ],
+  closing: {
+    title: 'Su alquiler en San Salvador, publicado hoy',
+    text: 'Publique gratis en Casa-Libre y reciba a los interesados por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['vender-casa-en-san-salvador', 'como-alquilar-mi-casa-el-salvador', 'alquiler-de-casas-en-santa-tecla'],
+};

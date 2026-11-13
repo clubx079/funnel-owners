@@ -1,0 +1,147 @@
+export default {
+  slug: 'sena-de-trato-paraguay',
+  title: 'Seña de trato en Paraguay: cómo funciona y qué escribir',
+  h1: 'Seña de trato en Paraguay: cómo funciona',
+  description: 'Qué es la seña de trato en Paraguay, cuánto se da, qué escribir en el recibo y qué pasa si el comprador o el vendedor se echa atrás. Con un ejemplo.',
+  navLabel: 'Seña de trato',
+  blurb: 'Qué es la seña, qué escribir en el recibo, cuánto se da y qué pasa si alguien se echa atrás.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'An escribano or lawyer must confirm what the Código Civil says about the seña in a property sale (what happens if the buyer or the seller backs out, whether the seña is lost or returned and in what amount); the page deliberately states no rule and tells readers to write it in the receipt. Also confirm the receipt checklist, the order seña, boleto, escritura, and that there is no legal or customary amount (the notes give none; the example amount is hypothetical).',
+  answer: 'En Paraguay, la seña de trato es el dinero que el comprador entrega al vendedor para reservar una propiedad y confirmar el acuerdo de precio. Se descuenta del precio al firmar la escritura y se documenta en un recibo o en un boleto de compraventa. No hay un monto fijo que tengamos confirmado: se acuerda. Antes de recibirla, hacé revisar tus papeles por un escribano.',
+  summary: [
+    'La seña reserva la propiedad y se descuenta del precio el día de la escritura.',
+    'El recibo dice quién entrega, cuánto, por qué propiedad, a qué precio total, el plazo para escriturar y qué pasa si alguien se echa atrás.',
+    'No tenemos una cifra legal ni habitual confirmada: el monto se acuerda entre las partes.',
+    'Recibí una sola seña por propiedad y avisá a los demás interesados de Casa-Libre que está reservada.',
+  ],
+  cta: {
+    title: 'Para recibir una seña, primero un comprador',
+    text: 'Publicá tu propiedad gratis en Casa-Libre y recibí las consultas por WhatsApp, sin comisión sobre la venta.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'que-es',
+      h2: '¿Qué es la seña de trato y qué se escribe en el recibo?',
+      blocks: [
+        { t: 'p', html: 'La seña es un pago a cuenta del precio que confirma el trato y reserva la propiedad hasta la escritura. Tiene que quedar por escrito, firmada por las dos partes.' },
+        {
+          t: 'table',
+          caption: 'Qué escribir en el recibo de seña',
+          head: ['Dato', 'Cómo escribirlo'],
+          rows: [
+            ['Partes', 'Nombre completo y cédula de quien entrega y de quien recibe'],
+            ['Propiedad', 'Dirección, datos del título y cuenta corriente catastral o padrón'],
+            ['Monto de la seña', 'En números y en letras, con la moneda'],
+            ['Precio total', 'Y que la seña se descuenta de ese precio'],
+            ['Plazo', 'Fecha límite para firmar la escritura y escribano elegido'],
+            ['Gastos', 'Quién paga honorarios, inscripción e impuestos'],
+            ['Si alguien se echa atrás', 'Qué pasa con la seña en cada caso'],
+          ],
+          note: 'Lista orientativa. Un escribano debe revisar el texto antes de firmarlo.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'La seña se fija sobre un precio, así que el precio tiene que estar bien pensado: compará con propiedades en venta parecidas en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'cuanto-se-da',
+      h2: '¿Cuánto se da de seña en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'No tenemos una cifra fijada por ley ni una costumbre confirmada: el monto se acuerda entre comprador y vendedor. Lo importante es que sea suficiente para que el compromiso sea serio y que el recibo diga cómo se descuenta.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: departamento de Gs. 420.000.000 con una seña acordada de Gs. 21.000.000',
+          html: 'Supuestos: Gs. 7.000 por dólar (tipo de cambio de ejemplo). El monto de la seña está inventado para mostrar la cuenta.',
+          rows: [
+            ['Precio total acordado', '', 'Gs. 420.000.000 (USD 60.000)'],
+            ['Seña entregada', 'Monto acordado', 'Gs. 21.000.000 (USD 3.000)'],
+            ['Saldo a pagar en la escritura', '420.000.000 − 21.000.000', 'Gs. 399.000.000 (USD 57.000)'],
+          ],
+        },
+        { t: 'p', html: 'Si estás vendiendo en la capital, mirá los precios de departamentos en venta en Asunción en <a href="https://casa-libre.com.py/venta/departamentos/asuncion">Casa-Libre</a> antes de fijar el tuyo.' },
+      ],
+    },
+    {
+      id: 'si-alguien-se-echa-atras',
+      h2: '¿Qué pasa si el comprador o el vendedor se echa atrás?',
+      blocks: [
+        { t: 'p', html: 'Depende de lo que diga el recibo y de lo que establece la ley para la seña. Por eso el recibo tiene que prever cada caso y conviene que lo revise un escribano antes de firmar.' },
+        { t: 'ul', items: [
+          '<strong>Si el comprador desiste:</strong> qué pasa con la seña que entregó.',
+          '<strong>Si el vendedor desiste:</strong> cuánto devuelve y en qué plazo.',
+          '<strong>Si aparece un problema en los papeles:</strong> por ejemplo una deuda o un gravamen que impide escriturar.',
+          '<strong>Si el comprador no consigue el crédito:</strong> si la seña se devuelve o no.',
+        ] },
+        { t: 'p', html: 'Preguntale al escribano qué dice el Código Civil sobre la seña y qué conviene pactar en tu caso. Casa-Libre no interviene en el pago ni guarda señas: el trato es entre las partes, como explica cómo funciona <a href="https://casa-libre.com.py/como-funciona">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'sena-boleto-escritura',
+      h2: 'Seña, boleto de compraventa y escritura: el orden',
+      blocks: [
+        { t: 'p', html: 'La seña suele ser el primer papel del trato, el boleto o contrato privado detalla las condiciones y la escritura pública transfiere la propiedad. A veces la seña y el boleto van en el mismo documento.' },
+        { t: 'steps', items: [
+          { title: 'Acuerdan el precio', html: 'Por WhatsApp o después de la visita, con todas las condiciones claras.' },
+          { title: 'Firman el recibo de seña', html: 'El comprador entrega la seña y la propiedad queda reservada.' },
+          { title: 'Firman el boleto, si hace falta', html: 'Con cláusulas de pago, plazos y gastos. Hay un modelo orientativo en nuestra guía del <a href="/contrato-de-compraventa-inmueble-paraguay/">contrato de compraventa</a>.' },
+          { title: 'Firman la escritura', html: 'El escribano autoriza la escritura, se paga el saldo y se inscribe. Los pasos están en la guía de <a href="/transferencia-de-inmueble-paraguay/">transferencia de inmueble</a>.' },
+        ] },
+        {
+          t: 'casalibre',
+          title: 'El primer paso es que te escriban',
+          html: 'En Casa-Libre los interesados te contactan directo por WhatsApp, y ahí empieza la charla que termina en una seña.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.py/vender',
+        },
+      ],
+    },
+    {
+      id: 'antes-de-recibir',
+      h2: 'Qué revisar antes de recibir una seña',
+      blocks: [
+        { t: 'p', html: 'Antes de aceptar dinero, asegurate de que vas a poder escriturar en el plazo que prometés. Si después aparece un problema en tus papeles, el conflicto es tuyo.' },
+        { t: 'ul', items: [
+          'El título está a tu nombre, o la sucesión está resuelta si la casa es heredada.',
+          'El informe de condición de dominio no muestra hipotecas ni embargos sin resolver.',
+          'El impuesto inmobiliario está al día.',
+          'No recibiste otra seña por la misma propiedad.',
+        ] },
+        { t: 'p', html: 'El informe se explica en nuestra guía sobre la <a href="/condicion-de-dominio-paraguay/">condición de dominio</a>, y la lista completa de papeles está en la guía de Casa-Libre sobre documentos para vender un inmueble.' },
+      ],
+    },
+    {
+      id: 'despues-de-la-sena',
+      h2: 'Después de la seña: avisos y otros interesados',
+      blocks: [
+        { t: 'p', html: 'Con la seña firmada, la propiedad está comprometida. Respondé a los demás interesados que está reservada y guardá sus contactos por si el trato se cae.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Si el trato se cae, seguí buscando',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        { t: 'p', html: 'Para responder rápido desde el celular, usá la app de Casa-Libre para iPhone y Android. Y para preparar el resto de la venta, leé la guía de Casa-Libre para vender tu casa.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿La seña de trato se descuenta del precio?', a: 'Sí, lo habitual es que la seña sea un pago a cuenta y se descuente del precio el día de la escritura. Escribilo así en el recibo para que no haya dudas.' },
+    { q: '¿Qué pasa si el vendedor se arrepiente después de recibir la seña?', a: 'Depende de lo que diga el recibo y de lo que establece la ley. Antes de firmar, preguntale al escribano qué corresponde y dejalo escrito para cada caso.' },
+    { q: '¿Cuánto es la seña para comprar una casa?', a: 'No tenemos una cifra legal ni habitual confirmada en Paraguay: se acuerda entre las partes. Lo que importa es que el recibo diga el monto, el precio total y cómo se descuenta.' },
+    { q: '¿La seña se hace ante escribano?', a: 'Puede firmarse entre las partes, pero conviene que un escribano revise el texto o certifique las firmas. Así el recibo es claro si algo sale mal.' },
+    { q: '¿Puedo publicar mi casa antes de tener todos los papeles?', a: 'Sí, pero no recibas una seña hasta tenerlos en regla. Otras dudas están en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md (sections 4 and 7a, line 514)', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Searches: seña de trato paraguay; seña de trato codigo civil paraguayo; boleto de compraventa. The notes give no amount, percentage or legal rule for the seña.' },
+    { label: 'transferencia-de-inmueble-paraguay.js', url: '', date: '2026-11-12', note: 'Same wording: price and conditions may be recorded in a private contract or boleto with a seña, reviewed by a professional.' },
+    { label: 'Exchange rate and seña in the example', url: '', date: '2026-11-12', note: 'Gs. 7.000 per USD is hypothetical; the seña amount is invented for the arithmetic.' },
+  ],
+  closing: {
+    title: 'La seña llega cuando el comprador te encuentra',
+    text: 'Publicá tu propiedad gratis en Casa-Libre y recibí las consultas por WhatsApp. Está en la web y en apps para iPhone y Android.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['quien-paga-la-escritura-paraguay', 'como-mostrar-una-casa-a-compradores', 'vendo-casa-urgente', ''],
+};

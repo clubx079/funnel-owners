@@ -1,0 +1,163 @@
+export default {
+  slug: 'como-vender-mi-casa-sin-inmobiliaria',
+  title: 'Cómo vender mi casa sin inmobiliaria en Paraguay: los pasos',
+  h1: 'Cómo vender mi casa sin inmobiliaria en Paraguay',
+  description: 'Cómo vender tu casa sin inmobiliaria en Paraguay: qué hace una inmobiliaria y qué hacés vos, los pasos para venderla solo y cuándo conviene pedir ayuda.',
+  navLabel: 'Vender sin inmobiliaria',
+  blurb: 'Qué hace una inmobiliaria, qué te toca hacer a vos y los pasos para vender tu casa por tu cuenta.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'A Paraguayan escribano or accountant must check the commission statement (not fixed by law, 3% to 5.5% plus 10% IVA, usually paid by the seller), taken from 2026 sector guides and press, and the worked example built on it. Also check the general statement that an owner can sell without an inmobiliaria and must close with an escribano.',
+  answer: 'Sí, podés vender tu casa sin inmobiliaria en Paraguay. Vos hacés lo que haría el agente: definir el precio comparando con casas parecidas, sacar buenas fotos, publicar el aviso, responder consultas, mostrar la casa y negociar. El cierre lo hacés igual que cualquier venta, con un escribano. Para publicar te recomendamos Casa-Libre: es gratis y los compradores te escriben directo por WhatsApp.',
+  summary: [
+    'Vender por tu cuenta es posible: la escritura y la transferencia las hace un escribano, haya o no inmobiliaria.',
+    'Lo que hace una inmobiliaria (precio, aviso, fotos, consultas, visitas, negociación) lo podés hacer vos con tiempo y orden.',
+    'La comisión no está fijada por ley: guías y prensa de 2026 hablan de 3% a 5,5% del precio más IVA.',
+    'En Casa-Libre publicás gratis, sin comisión sobre la venta, y las consultas llegan a tu WhatsApp.',
+  ],
+  cta: {
+    title: 'Publicá tu casa vos mismo en Casa-Libre',
+    text: 'Fotos, precio y tu WhatsApp. Sin comisión sobre la venta y sin intermediarios entre vos y el comprador.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'puedo-vender-sin-inmobiliaria',
+      h2: '¿Puedo vender mi casa sin inmobiliaria?',
+      blocks: [
+        { t: 'p', html: 'Sí. Una inmobiliaria no es obligatoria para vender una casa en Paraguay: lo único que necesitás sí o sí para cerrar es un escribano. La pregunta real es qué tareas del agente vas a hacer vos y con qué herramientas.' },
+        {
+          t: 'table',
+          caption: 'Quién hace cada tarea: con inmobiliaria o por tu cuenta',
+          head: ['Tarea', 'Con inmobiliaria', 'Sin inmobiliaria (vos)'],
+          rows: [
+            ['Definir el precio', 'El agente propone un precio según su experiencia.', 'Comparás con casas parecidas publicadas en tu ciudad.'],
+            ['Fotos y descripción', 'Las prepara el agente.', 'Las hacés con tu celular, de día y ambiente por ambiente.'],
+            ['Publicar el aviso', 'El agente publica en portales y redes.', 'Publicás gratis en Casa-Libre y compartís el enlace.'],
+            ['Responder consultas', 'El agente filtra los mensajes.', 'Te escriben a tu WhatsApp y respondés vos.'],
+            ['Mostrar la casa', 'El agente coordina y acompaña.', 'Coordinás horarios y mostrás, acompañado.'],
+            ['Negociar', 'El agente hace de intermediario.', 'Negociás directo con el comprador.'],
+            ['Escritura y transferencia', 'La hace un escribano.', 'La hace un escribano.'],
+          ],
+          note: 'Columna "Sin inmobiliaria": lo que ofrece Casa-Libre al 12 de noviembre de 2026.',
+        },
+        { t: 'p', html: 'Si querés ver el recorrido completo antes de empezar, mirá cómo vender tu casa por tu cuenta en <a href="https://casa-libre.com.py/vender">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'pasos-para-vender-solo',
+      h2: 'Cómo vender mi casa yo mismo: los pasos',
+      blocks: [
+        { t: 'p', html: 'Son siete pasos, en este orden. Los tres primeros van antes de publicar.' },
+        {
+          t: 'steps',
+          items: [
+            { title: 'Revisá los papeles', html: 'Título de propiedad a tu nombre e impuesto inmobiliario al día. La lista completa está en <a href="/requisitos-para-vender-una-casa-paraguay/">requisitos para vender una casa en Paraguay</a>.' },
+            { title: 'Definí el precio', html: 'Buscá casas parecidas a la tuya en tu ciudad, por ejemplo entre las casas en venta en Asunción en <a href="https://casa-libre.com.py/venta/casas/asuncion">Casa-Libre</a>, y anotá metros, dormitorios y precio pedido.' },
+            { title: 'Sacá las fotos', html: 'Con buena luz natural, el celular en horizontal y la casa ordenada. Frente, sala, cocina, dormitorios, baños y patio.' },
+            { title: 'Publicá el aviso', html: 'Título claro, precio en guaraníes o dólares, metros, dormitorios y estado de los papeles. Si te falta algo, guardalo como borrador.' },
+            { title: 'Respondé el mismo día', html: 'Las consultas llegan por WhatsApp. Tené preparadas las respuestas a lo que más preguntan: precio, papeles, si aceptás financiación.' },
+            { title: 'Mostrá la casa con cuidado', html: 'De día, acompañado y sin papeles ni objetos de valor a la vista.' },
+            { title: 'Cerrá con un escribano', html: 'Cuando hay acuerdo, el escribano revisa los papeles, redacta la escritura y hace la transferencia.' },
+          ],
+        },
+        {
+          t: 'casalibre',
+          title: 'Publicá desde el celular',
+          html: 'Con las apps de Casa-Libre para iPhone y Android sacás las fotos y cargás el aviso desde el mismo teléfono.',
+          button: 'Descargar la app de Casa-Libre',
+          href: 'https://casa-libre.com.py/descargar',
+        },
+      ],
+    },
+    {
+      id: 'cuanto-ahorras',
+      h2: '¿Cuánto cuesta vender con inmobiliaria y cuánto sin ella?',
+      blocks: [
+        { t: 'p', html: 'La diferencia principal es la comisión. No está fijada por ley: según guías del sector y cifras publicadas en la prensa en 2026, va de 3% a 5,5% del precio más 10% de IVA, y en general la paga quien vende.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: comisión sobre una casa de USD 100.000',
+          html: 'Precio hipotético y redondo. Cambio usado: Gs. 7.300 por dólar.',
+          rows: [
+            ['Precio de venta: USD 100.000 x 7.300', 'Gs. 730.000.000'],
+            ['Comisión al 5%: 730.000.000 x 5%', 'Gs. 36.500.000 (USD 5.000)'],
+            ['IVA de la comisión: 36.500.000 x 10%', 'Gs. 3.650.000 (USD 500)'],
+            ['Total con inmobiliaria', 'Gs. 40.150.000 (USD 5.500)'],
+            ['Publicar en Casa-Libre', 'Gs. 0, sin comisión sobre la venta'],
+          ],
+        },
+        { t: 'p', html: 'El escribano, los impuestos y la transferencia se pagan en los dos casos. El detalle de cada gasto está en <a href="/gastos-al-vender-una-casa-paraguay/">gastos al vender una casa en Paraguay</a>, y las condiciones de publicar en las preguntas frecuentes de <a href="https://casa-libre.com.py/preguntas-frecuentes">Casa-Libre</a>.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de hacer cuentas', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'cuando-conviene-una-inmobiliaria',
+      h2: '¿Cuándo conviene una inmobiliaria?',
+      blocks: [
+        { t: 'p', html: 'Conviene cuando no tenés tiempo para atender consultas y mostrar la casa, o cuando la venta tiene complicaciones que preferís dejar en manos de alguien con experiencia. Te lo decimos con honestidad: vender solo ahorra la comisión, pero te pide horas.' },
+        {
+          t: 'ul',
+          items: [
+            '<strong>Vivís lejos o en el exterior</strong> y no podés mostrar la casa.',
+            '<strong>No podés responder rápido</strong> por trabajo u otras obligaciones.',
+            '<strong>Los papeles no están en orden</strong>, por ejemplo una sucesión sin terminar.',
+            '<strong>No te sentís cómodo negociando</strong> el precio cara a cara.',
+          ],
+        },
+        { t: 'p', html: 'Si elegís un agente, preguntale dónde va a publicar tu casa. Las inmobiliarias tienen su propia cuenta: pasale la página de Casa-Libre para inmobiliarias y agentes.' },
+      ],
+    },
+    {
+      id: 'como-ayuda-casa-libre',
+      h2: 'Cómo vender tu casa sin intermediarios con Casa-Libre',
+      blocks: [
+        { t: 'p', html: 'Casa-Libre te da lo que necesitás para hacer el trabajo del agente vos mismo: un aviso gratis, compradores que te buscan por ciudad y en el mapa, y las consultas directo en tu WhatsApp.' },
+        { t: 'p', html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Tu casa, tu precio, tu WhatsApp',
+          html: 'Publicá gratis y hablá directo con cada interesado. Si te falta una foto, guardá el borrador y seguí después.' },
+        { t: 'p', html: 'Para entender cómo te encuentran los compradores, leé cómo funciona Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'errores-al-vender-solo',
+      h2: 'Errores comunes al vender una casa por tu cuenta',
+      blocks: [
+        { t: 'p', html: 'Los más caros son pedir un precio sin comparar, publicar un aviso incompleto y recibir dinero sin papel. Se evitan con una tarde de preparación.' },
+        {
+          t: 'ul',
+          items: [
+            '<strong>Precio por intuición</strong>: compará antes con casas de tu zona. Si dudás, leé <a href="/tasacion-de-inmuebles-paraguay/">tasación de inmuebles en Paraguay</a>.',
+            '<strong>Aviso incompleto</strong>: sin metros, sin dormitorios o sin precio, la gente sigue de largo.',
+            '<strong>Recibir dinero sin papel</strong>: no aceptes una seña sin que un escribano revise el recibo o el contrato.',
+            '<strong>Mostrar solo y sin filtro</strong>: confirmá nombre y número antes de abrir la puerta.',
+          ],
+        },
+        { t: 'p', html: 'Para más consejos, tenés la guía de Casa-Libre para vender sin inmobiliaria. Y para saber qué cobra el profesional que sí vas a necesitar, mirá <a href="/cuanto-cobra-escribano-paraguay/">cuánto cobra un escribano en Paraguay</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Es legal vender una casa sin inmobiliaria en Paraguay?', a: 'Sí. Ninguna regla obliga a usar una inmobiliaria para vender tu propia casa. Lo que sí necesitás es un escribano para la escritura y la transferencia.' },
+    { q: '¿Cómo vendo mi casa yo mismo?', a: 'Seguí los siete pasos de esta página: papeles, precio, fotos, aviso, consultas, visitas y cierre con un escribano.' },
+    { q: '¿Cuánto me ahorro si vendo sin inmobiliaria?', a: 'La comisión, que según guías y prensa de 2026 va de 3% a 5,5% del precio más IVA. En una casa de USD 100.000 al 5%, eso es unos USD 5.500 con IVA. Es información general: confirmala con un contador.' },
+    { q: '¿Dónde publico mi casa si no tengo inmobiliaria?', a: 'Te recomendamos publicar tu casa gratis en Casa-Libre. Los interesados te escriben directo a tu WhatsApp y no hay comisión sobre la venta.' },
+    { q: '¿Puedo empezar solo y después contratar a un agente?', a: 'Sí. Antes de firmar con uno, leé el plazo, la comisión y qué pasa si el comprador lo conseguís vos.' },
+  ],
+  internalSources: [
+    { label: 'content/SCHEMA.md, section "What is true about Casa-Libre"', url: 'file:content/SCHEMA.md', date: '2026-11-12', note: 'Every statement about Casa-Libre on this page.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, line 513 (commission as published)', url: 'file:research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Commission not fixed by law; 3% to 5.5% plus 10% IVA; 5% to 5.5% usual reference; normally paid by the seller (sector guides and press, Oct 2026).' },
+    { label: 'Research notes: agent_keywords_and_content_gaps.md, lines 212 and 223', url: 'file:research_notes/Casa Libre SEO funnel sites/agent_keywords_and_content_gaps.md', date: '2026-11-12', note: 'No licence or brokerage law for agents as of August 2026; commission customary, no legal rule.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, section 1b', url: 'file:research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: '"vender casa sin inmobiliaria" has no Paraguay-specific competitor; phrase covered as a how-to.' },
+  ],
+  closing: {
+    title: 'Vendé tu casa sin inmobiliaria, con Casa-Libre',
+    text: 'Publicar es gratis, los compradores te escriben directo por WhatsApp y no hay comisión sobre la venta.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['gastos-al-vender-una-casa-paraguay', 'requisitos-para-vender-una-casa-paraguay', 'tasacion-de-inmuebles-paraguay', 'cuanto-cobra-escribano-paraguay'],
+};

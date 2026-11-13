@@ -1,0 +1,122 @@
+export default {
+  slug: 'alquiler-de-casas-en-santa-tecla',
+  group: 'Alquiler por ciudad',
+  order: 2,
+  city: 'santa-tecla',
+  cityName: 'Santa Tecla',
+  title: 'Alquiler de casas en Santa Tecla: cómo alquilar la suya',
+  h1: 'Alquiler de casas y apartamentos en Santa Tecla',
+  description: 'Cómo alquilar su casa en Santa Tecla: inquilinos de residenciales y del centro, renta según comparables, reglas del residencial, contrato y dónde publicar gratis.',
+  navLabel: 'Alquiler en Santa Tecla',
+  blurb: 'Quién alquila en Santa Tecla, cómo fijar la renta y cómo publicar su casa en alquiler gratis.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Local section to check before indexing: tenant profiles in Santa Tecla (families working in San Salvador, residenciales with vigilancia, Merliot), the residencial rules on rentals and visitor registration, the "Merliot" search variant from autocomplete, and that Santa Tecla belongs to La Libertad Sur. Legal: contract, depósito, taxes. No rent figures stated.',
+  answer: 'Para alquilar su casa en Santa Tecla, compare la renta con casas parecidas de su mismo residencial o colonia, revise si el residencial tiene reglas para inquilinos, firme un contrato por escrito con depósito e inventario, y publique con fotos del residencial y del acceso. Muchos inquilinos buscan en Santa Tecla y Ciudad Merliot a la vez. Puede publicar su alquiler gratis en Casa-Libre.',
+  summary: [
+    'Los inquilinos de Santa Tecla suelen ser familias que trabajan en la zona o en San Salvador.',
+    'En residenciales cerrados, revise el reglamento: algunos piden registrar a los inquilinos.',
+    'Compare la renta con casas del mismo residencial, y diga si la cuota de mantenimiento está incluida.',
+    'Mencione Merliot en el aviso si su casa está ahí: es una búsqueda frecuente.',
+  ],
+  cta: {
+    title: 'Publique su alquiler en Santa Tecla',
+    text: 'Gratis, con fotos, precio y ubicación. Los interesados le escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'quien-alquila',
+      h2: '¿Quién alquila casa en Santa Tecla?',
+      blocks: [
+        { t: 'p', html: 'Sobre todo familias que quieren la tranquilidad de un residencial y el clima más fresco, sin alejarse demasiado de San Salvador. También personas que trabajan en la propia Santa Tecla o en Merliot, y quienes buscan una casa con patio a un precio menor que en la capital.' },
+        { t: 'p', html: 'En el centro, cerca del Paseo El Carmen, aparecen casas antiguas y espacios que se alquilan también para uso mixto. Hacia los residenciales del volcán, lo que más se pregunta es la seguridad y el tiempo hasta la carretera.' },
+      ],
+    },
+    {
+      id: 'que-destacar',
+      h2: '¿Qué destacar en un alquiler de Santa Tecla?',
+      blocks: [
+        { t: 'p', html: 'El inquilino quiere saber cómo será el día a día. Estos datos responden sus primeras preguntas.' },
+        { t: 'table',
+          caption: 'Datos que conviene poner en el aviso de alquiler',
+          head: ['Dato', 'Por qué importa'],
+          rows: [
+            ['Residencial o colonia', 'Define seguridad y ambiente'],
+            ['Vigilancia y acceso controlado', 'Es lo primero que preguntan las familias'],
+            ['Cuota de mantenimiento', 'Saber si está incluida en la renta'],
+            ['Cochera', 'Muchos inquilinos se mueven en vehículo a San Salvador'],
+            ['Distancia a la carretera', 'Tiempo de viaje diario'],
+            ['Mascotas', 'Muchas familias las tienen'],
+          ],
+          note: 'Guía general, sin datos de rentas.' },
+      ],
+    },
+    {
+      id: 'renta',
+      h2: '¿Cuánto cobrar de alquiler en Santa Tecla?',
+      blocks: [
+        { t: 'p', html: 'Lo que piden casas parecidas en su residencial o en residenciales comparables. Ajuste por cochera, amueblado y si incluye la cuota de mantenimiento.' },
+        { t: 'p', html: 'Para ver comparables, filtre casas en alquiler en Santa Tecla en <a href="https://sv.casa-libre.com/propiedades?op=alquiler&amp;type=casa&amp;q=Santa%20Tecla">Casa-Libre</a>. El método completo está en <a href="/el-salvador/cuanto-cobrar-de-alquiler-el-salvador/">cuánto cobrar de alquiler</a>.' },
+      ],
+    },
+    {
+      id: 'reglas-y-contrato',
+      h2: 'Reglas del residencial y contrato',
+      blocks: [
+        { t: 'p', html: 'Antes de alquilar, pregunte a la administración del residencial si hay requisitos para inquilinos, como registro de vehículos o de visitas. Inclúyalos en el contrato para que el inquilino los conozca.' },
+        { t: 'ul', items: [
+          'Contrato escrito, de preferencia con firmas autenticadas ante notario.',
+          'Depósito acordado y escrito, con las condiciones de devolución.',
+          'Inventario y fotos firmados al entregar.',
+          'Quién paga la cuota del residencial y los servicios.',
+        ] },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Las cláusulas están en <a href="/el-salvador/contrato-de-arrendamiento-el-salvador/">contrato de arrendamiento en El Salvador</a>.' },
+      ],
+    },
+    {
+      id: 'alquilar-o-vender',
+      h2: '¿Alquilar o vender su casa en Santa Tecla?',
+      blocks: [
+        { t: 'p', html: 'Depende de si necesita el dinero ahora y del tiempo que puede dedicar. Alquilar da un ingreso cada mes, pero exige mantenimiento y atención al inquilino; vender le da el dinero de una vez.' },
+        { t: 'ul', items: [
+          'Alquilar conviene si no necesita el capital y puede atender reparaciones o delegarlas.',
+          'Vender conviene si necesita el dinero o vive lejos y no quiere administrar.',
+          'Si alquila, reserve parte de la renta para mantenimiento y para algún mes sin inquilino.',
+        ] },
+        { t: 'p', html: 'Si se inclina por vender, vea <a href="/el-salvador/vender-casa-en-santa-tecla/">vender una casa en Santa Tecla</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publique su casa en alquiler en Santa Tecla',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre: su alquiler aparece al buscar en Santa Tecla y en el mapa, y los interesados le escriben directo por WhatsApp.' },
+        { t: 'casalibre',
+          title: 'Alquile con Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Leer la guía para alquilar',
+          href: 'https://sv.casa-libre.com/guias/como-alquilar-mi-propiedad' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta alquilar una casa en Santa Tecla?', a: 'Depende del residencial, el tamaño y si está amueblada. Revise los alquileres publicados hoy en su misma zona para tener una referencia.' },
+    { q: '¿Ciudad Merliot es Santa Tecla?', a: 'Merliot se reparte entre Santa Tecla y Antiguo Cuscatlán. En el aviso, mencione Merliot y el distrito: los inquilinos buscan de las dos formas.' },
+    { q: '¿Puedo alquilar mi casa si el residencial tiene reglamento?', a: 'Sí, en general, pero revise si el reglamento pone condiciones para inquilinos y avise a la administración.' },
+    { q: '¿Dónde publicar mi casa en alquiler en Santa Tecla?', a: 'En Casa-Libre, gratis. Los interesados le escriben por WhatsApp.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "alquiler de casas en santa tecla"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=alquiler%20de%20casas%20en%20santa%20tecla', date: '2026-11-13', note: 'Variants: 300, baratas, ciudad merliot, veranda, casas pequeñas.' },
+  ],
+  closing: {
+    title: 'Su alquiler en Santa Tecla, publicado hoy',
+    text: 'Publique gratis en Casa-Libre y reciba consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['vender-casa-en-santa-tecla', 'alquiler-de-casas-en-antiguo-cuscatlan', 'contrato-de-arrendamiento-el-salvador'],
+};

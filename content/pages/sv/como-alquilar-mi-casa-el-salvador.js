@@ -1,0 +1,133 @@
+export default {
+  slug: 'como-alquilar-mi-casa-el-salvador',
+  group: 'Alquilar tu propiedad',
+  nav: 'Alquilar',
+  order: 1,
+  rental: true,
+  equivalentOf: 'como-alquilar-mi-casa-paraguay',
+  title: 'Cómo alquilar mi casa en El Salvador: pasos y contrato',
+  h1: 'Cómo alquilar mi casa en El Salvador',
+  description: 'Los pasos para alquilar su casa en El Salvador: precio en dólares, contrato de arrendamiento, depósito, cómo elegir al inquilino, dónde publicar gratis y la entrega.',
+  navLabel: 'Alquilar mi casa',
+  blurb: 'Los pasos para alquilar su casa en El Salvador: precio, contrato, depósito, inquilino y publicación.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Salvadoran notario must check: the legal framework (Código Civil, arrendamiento, and the Ley de Inquilinato for urban housing), that the contract is advisable in writing and that a documento privado autenticado ante notario strengthens enforcement, that the depósito is customary and agreed (no legal amount stated), that an owner cannot evict on his own and needs a judicial process, that rental income is taxed under the Ley de Impuesto sobre la Renta, and that leasing a home for housing is exempt from IVA (Ley IVA Art. 46, to confirm).',
+  answer: 'Para alquilar su casa en El Salvador, fije un precio mensual en dólares comparando con casas parecidas de la zona, prepare un contrato de arrendamiento por escrito, de preferencia autenticado ante notario, pida un depósito y referencias al inquilino, publique el aviso y entregue la casa con un inventario firmado. Le recomendamos publicar su alquiler gratis en Casa-Libre, donde los interesados le escriben directo.',
+  summary: [
+    'El precio se fija comparando con alquileres parecidos de la zona, no con lo que usted necesita cobrar.',
+    'Un contrato escrito y autenticado ante notario protege a ambas partes.',
+    'El depósito es costumbre y su monto se acuerda; el contrato debe decir cuándo y cómo se devuelve.',
+    'Los ingresos por alquiler se declaran en el impuesto sobre la renta.',
+  ],
+  cta: {
+    title: 'Publique su alquiler gratis',
+    text: 'Suba su casa a Casa-Libre en minutos. Los interesados en alquilar le escriben por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'pasos',
+      h2: '¿Cuáles son los pasos para alquilar una casa?',
+      blocks: [
+        { t: 'p', html: 'Seis pasos, desde poner el precio hasta entregar las llaves. Hacerlos en orden evita la mayoría de los conflictos con inquilinos.' },
+        { t: 'table',
+          caption: 'Pasos para alquilar su casa en El Salvador',
+          head: ['Paso', 'Qué hacer', 'Para qué'],
+          rows: [
+            ['1. Precio', 'Comparar con casas en alquiler parecidas', 'Que el aviso reciba consultas'],
+            ['2. Preparar la casa', 'Reparaciones, limpieza, fotos', 'Alquilar antes y a mejor precio'],
+            ['3. Publicar', 'Aviso con fotos, precio y mapa', 'Llegar a quien busca en su zona'],
+            ['4. Elegir inquilino', 'Referencias, ingresos, identidad', 'Reducir el riesgo de impago'],
+            ['5. Contrato', 'Por escrito, de preferencia autenticado', 'Reglas claras y exigibles'],
+            ['6. Entrega', 'Inventario y fotos firmados', 'Comparar al final del contrato'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'precio',
+      h2: '¿Cuánto cobrar de alquiler?',
+      blocks: [
+        { t: 'p', html: 'Lo que piden casas parecidas en su zona, ajustado por tamaño, estado y extras como amueblado o cochera. El detalle con un ejemplo está en <a href="/el-salvador/cuanto-cobrar-de-alquiler-el-salvador/">cuánto cobrar de alquiler</a>.' },
+        { t: 'p', html: 'Para ver lo que piden hoy, revise las casas en alquiler publicadas en <a href="https://sv.casa-libre.com/alquilar">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'elegir-inquilino',
+      h2: '¿Cómo elegir al inquilino?',
+      blocks: [
+        { t: 'p', html: 'Pida lo mismo a todos los interesados y decida con información, no por simpatía. Estos son los datos habituales.' },
+        { t: 'ul', items: [
+          'DUI vigente.',
+          'Constancia de trabajo o de ingresos.',
+          'Referencias de un arrendador anterior.',
+          'Cuántas personas vivirán en la casa y si tienen mascotas.',
+          'Un fiador, si usted lo pide en el contrato.',
+        ] },
+      ],
+    },
+    {
+      id: 'contrato-y-deposito',
+      h2: 'Contrato de arrendamiento y depósito',
+      blocks: [
+        { t: 'p', html: 'El contrato fija el precio, el plazo, el depósito, quién paga qué servicio y las reglas de uso. Autenticar las firmas ante notario le da más fuerza si algún día hay que reclamar.' },
+        { t: 'p', html: 'El depósito es una costumbre, no un monto fijado por ley: se acuerda y se devuelve al final, descontando daños o deudas comprobadas. Las cláusulas están en <a href="/el-salvador/contrato-de-arrendamiento-el-salvador/">contrato de arrendamiento en El Salvador</a>.' },
+      ],
+    },
+    {
+      id: 'entrega',
+      h2: '¿Cómo entregar la casa al inquilino?',
+      blocks: [
+        { t: 'p', html: 'Con un inventario y fotos firmados por ambos. Así, al final del contrato, cualquiera puede comparar el estado de la casa.' },
+        { t: 'steps', items: [
+          { title: 'Inventario', html: 'Lista de muebles, electrodomésticos y llaves entregadas.' },
+          { title: 'Fotos fechadas', html: 'De cada ambiente, paredes y pisos.' },
+          { title: 'Lecturas', html: 'Medidores de energía y agua el día de la entrega.' },
+          { title: 'Servicios', html: 'Acuerde a nombre de quién quedan los recibos.' },
+        ] },
+      ],
+    },
+    {
+      id: 'impuestos',
+      h2: '¿Se pagan impuestos por alquilar una casa?',
+      blocks: [
+        { t: 'p', html: 'Sí, los ingresos por alquiler se declaran en el impuesto sobre la renta. El alquiler de una casa para vivienda, por lo general, no lleva IVA; los locales comerciales tienen otras reglas.' },
+        { t: 'p', html: 'Pregunte a un contador cómo declararlo y qué gastos puede deducir, como reparaciones o mantenimiento documentados.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Dónde publicar su casa en alquiler?',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre: el aviso aparece al buscar alquileres por zona y en el mapa, y cada interesado le escribe directo por WhatsApp.' },
+        { t: 'casalibre',
+          title: 'Alquile con Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android. Para alquileres tampoco cobra comisión.',
+          button: 'Leer la guía para alquilar',
+          href: 'https://sv.casa-libre.com/guias/como-alquilar-mi-propiedad' },
+        { t: 'p', html: 'Si no tiene tiempo para ocuparse, existe el servicio de administración de propiedades de <a href="https://sv.casa-libre.com/administracion-de-propiedades">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Necesito contrato para alquilar mi casa en El Salvador?', a: 'No es obligatorio que sea por escrito, pero es muy recomendable. Un contrato escrito y autenticado ante notario deja claras las reglas y facilita cualquier reclamo.' },
+    { q: '¿Cuánto se cobra de depósito?', a: 'No hay un monto fijado por ley; se acuerda entre las partes. Lo importante es que el contrato diga para qué sirve y cuándo se devuelve.' },
+    { q: '¿Puedo sacar a un inquilino que no paga?', a: 'No por su cuenta: cambiar cerraduras o cortar servicios no es la vía. Hay que reclamar por la vía judicial; consulte con un abogado.' },
+    { q: '¿Dónde publicar mi casa para alquilar gratis?', a: 'En Casa-Libre. Vea <a href="/el-salvador/donde-publicar-un-alquiler-gratis-el-salvador/">dónde publicar un alquiler gratis</a>.' },
+  ],
+  internalSources: [
+    { label: 'Ley de Inquilinato (El Salvador)', url: 'https://www.jurisprudencia.ues.edu.sv/oajc/leyes/LegislacionCivil/Ley%20de%20Inquilinato.pdf', date: '2026-11-13', note: 'Found in search results; verify current text and scope.' },
+    { label: 'IVA exemption on housing leases (Art. 46 Ley IVA), secondary source', url: 'https://ivacalculator.com/el-salvador/exenciones-iva/', date: '2026-11-13', note: 'Unofficial; confirm with DGII.' },
+  ],
+  closing: {
+    title: 'Su casa, alquilada con reglas claras',
+    text: 'Publique su alquiler gratis en Casa-Libre y reciba a los interesados por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['contrato-de-arrendamiento-el-salvador', 'cuanto-cobrar-de-alquiler-el-salvador', 'donde-publicar-un-alquiler-gratis-el-salvador'],
+};

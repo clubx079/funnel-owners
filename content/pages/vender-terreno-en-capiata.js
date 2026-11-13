@@ -1,0 +1,130 @@
+export default {
+  slug: 'vender-terreno-en-capiata',
+  title: 'Vendo terreno en Capiatá: precios y cómo publicarlo gratis',
+  h1: 'Vender un terreno en Capiatá',
+  description: 'Cuánto piden por un terreno en Capiatá en los avisos de Casa-Libre, precio por m², venta a cuotas, papeles y cómo publicar tu terreno gratis paso a paso.',
+  navLabel: 'Terreno en Capiatá',
+  blurb: 'Precios pedidos por terrenos en Capiatá, precio por m², cuotas, papeles y cómo publicar gratis tu terreno en Casa-Libre.',
+  published: '2026-11-12',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Paraguayan escribano should check the short papers list (título, impuesto inmobiliario al día, plano or mensura) and the advice that an instalment sale needs a written contract drafted by an escribano or abogado. Prices come from the Casa-Libre snapshot (py-market.json, snapshot_date 2026-11-11). Local section added 2026-11-13 (city context, no numbers): check the neighbourhood names, distances and local references before indexing.',
+  answer: 'Para vender un terreno en Capiatá, fijá el precio por metro cuadrado mirando terrenos parecidos cerca del tuyo, decidí si aceptás cuotas, tené el título en orden y publicalo con la ubicación exacta. Según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre), la mediana pedida por un terreno en Capiatá es USD 42.000 y USD 47 por m². Podés publicarlo gratis en Casa-Libre.',
+  summary: [
+    '12 terrenos en venta en Capiatá publicados en Casa-Libre al 12 de noviembre de 2026, los 12 con precio: casi uno de cada cuatro avisos de venta de la ciudad.',
+    'Precio pedido mediano: USD 42.000 (Gs. 306.600.000 aprox.). La mitad central va de USD 30.000 a USD 58.500.',
+    'Precio por m² mediano: USD 47 (Gs. 343.100 aprox.), el más bajo de las seis ciudades con ese dato.',
+    'Si aceptás cuotas, poné el plan en el aviso y firmá un contrato escrito.',
+    'Muchos lotes se compraron en cuotas con contrato privado: resolvé la escritura antes de vender.',
+  ],
+  cta: {
+    title: 'Publicá tu terreno en Capiatá gratis',
+    text: 'Marcás la ubicación en el mapa, cargás medidas, fotos y precio, y los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'precios-de-terrenos-en-capiata',
+      h2: '¿Cuánto cuesta un terreno en Capiatá?',
+      blocks: [
+        { t: 'p', html: 'En los avisos de Casa-Libre, un terreno en Capiatá pide una mediana de USD 42.000, unos Gs. 306,6 millones. Son precios pedidos por los vendedores, no precios de cierre.' },
+        { t: 'table',
+          caption: 'Terrenos en venta en Capiatá publicados en Casa-Libre',
+          head: ['Dato', 'Capiatá'],
+          rows: [
+            ['Terrenos en venta publicados', '12 (de 52 propiedades en venta en Capiatá)'],
+            ['Terrenos con precio', '12'],
+            ['Precio pedido, mediana', 'USD 42.000 (Gs. 306.600.000 aprox.)'],
+            ['Mitad central de los precios', 'USD 30.000 a USD 58.500 (Gs. 219.000.000 a Gs. 427.050.000 aprox.)'],
+            ['Precio por m², mediana', 'USD 47 (Gs. 343.100 aprox.)'],
+          ],
+          note: 'Fuente: propiedades publicadas en Casa-Libre al 12 de noviembre de 2026. Precios pedidos, no precios de cierre. Guaraníes a Gs. 7.300 por dólar, aproximados.' },
+        { t: 'p', html: 'Los precios de Capiatá están más juntos que en Luque o San Bernardino: la mitad de los terrenos pide entre USD 30.000 y USD 58.500. Por m², Capiatá queda por debajo de Luque (USD 64), Ciudad del Este (USD 85) y Mariano Roque Alonso (USD 100). Mirá los avisos uno por uno en propiedades en venta en Capiatá en <a href="https://casa-libre.com.py/propiedades-en/capiata">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'loteamientos-de-capiata',
+      h2: 'Loteamientos y terrenos sueltos en Capiatá',
+      blocks: [
+        { t: 'p', html: 'Buena parte de los terrenos de Capiatá vienen de loteamientos abiertos sobre la ruta Mariscal Estigarribia y los caminos que salen de ella. Muchos se vendieron en cuotas, y por eso es común que quien vende hoy haya comprado su lote con un contrato privado y todavía no tenga la escritura a su nombre.' },
+        { t: 'p', html: 'Ese es el punto que más frena una venta. Si estás en ese caso, revisá primero con el escribano si podés escriturar antes de vender o cómo se cede el contrato; lo explicamos en <a href="/como-titular-un-terreno-paraguay/">cómo titular un terreno</a>. Del lado del comprador, lo que suma valor en Capiatá es la distancia a la ruta, una salida a calle asfaltada y que la zona ya tenga luz y agua.' },
+      ],
+    },
+    {
+      id: 'terrenos-a-cuotas-en-capiata',
+      h2: 'Terrenos a cuotas en Capiatá: ¿conviene ofrecerlos?',
+      blocks: [
+        { t: 'p', html: 'Ofrecer cuotas te acerca a más compradores, y Capiatá aparece entre las búsquedas de "terrenos a cuotas". A cambio, cobrás de a poco y dependés de que el comprador pague durante años.' },
+        { t: 'ul', items: [
+          'Decidí el precio total, la entrega inicial y el número de cuotas fijas en guaraníes.',
+          'Dejá por escrito qué pasa si hay atrasos y cuándo se firma la transferencia.',
+          'Pedile a un escribano o abogado que redacte el contrato: no lo armes de un modelo cualquiera.',
+        ] },
+        { t: 'p', html: 'Si preferís al contado, decilo en el título del aviso. Así filtrás desde el primer mensaje, porque en Casa-Libre el contacto es directo entre el interesado y vos, como explica cómo funciona <a href="https://casa-libre.com.py/como-funciona">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'calcular-el-precio',
+      h2: '¿Cómo calcular cuánto vale tu terreno en Capiatá?',
+      blocks: [
+        { t: 'p', html: 'El valor sale de tus m² multiplicados por lo que piden por m² los terrenos parecidos de tu zona. La mediana de USD 47 por m² es para toda la ciudad: tu cuadra puede estar arriba o abajo.' },
+        { t: 'p', html: 'Lo que más mueve el precio: el frente, si es esquina, el tipo de calle, si llegan luz y agua, y si el título está a tu nombre. En las búsquedas de Capiatá la gente escribe la ruta y el kilómetro, así que si tu terreno se ubica así, ponelo en el título del aviso.' },
+        { t: 'casalibre',
+          title: 'Compará antes de poner precio',
+          html: 'Abrí el mapa, filtrá por terrenos en Capiatá y anotá el precio y los m² de tres o más avisos cerca del tuyo. El paso a paso está en <a href="/como-calcular-el-valor-de-un-terreno-paraguay/">cómo calcular el valor de un terreno</a>.',
+          button: 'Buscar terrenos en el mapa de Casa-Libre',
+          href: 'https://casa-libre.com.py/propiedades' },
+      ],
+    },
+    {
+      id: 'fotos-y-mapa',
+      h2: '¿Qué fotos y datos pide un comprador de terreno?',
+      blocks: [
+        { t: 'p', html: 'Pide ver el frente, el acceso y la ubicación exacta antes de escribirte. Sin el punto en el mapa, te van a preguntar lo básico antes de interesarse.' },
+        { t: 'ul', items: [
+          'Fotos de día: frente completo, calle en las dos direcciones y mojones visibles.',
+          'Medidas: frente, fondo y superficie en m².',
+          'Servicios: luz, agua y tipo de calle (asfalto, empedrado o tierra).',
+        ] },
+        { t: 'p', html: 'Con la app de <a href="https://casa-libre.com.py/descargar">Casa-Libre</a> para iPhone y Android sacás las fotos en el terreno y las subís al aviso en el momento.' },
+      ],
+    },
+    {
+      id: 'papeles-para-vender',
+      h2: '¿Qué papeles hacen falta para vender un terreno en Capiatá?',
+      blocks: [
+        { t: 'p', html: 'Necesitás el título a tu nombre, el impuesto inmobiliario al día en la Municipalidad de Capiatá y, si lo tenés, el plano o la mensura. Si falta el título o está en sucesión, ese trámite va primero.' },
+        { t: 'p', html: 'La lista completa está en <a href="/requisitos-para-vender-un-terreno-paraguay/">requisitos para vender un terreno</a>, y si tu terreno no está titulado, leé <a href="/como-titular-un-terreno-paraguay/">cómo titular un terreno</a>. También te sirve la guía de Casa-Libre de documentos para vender.' },
+      ],
+    },
+    {
+      id: 'publicar-terreno-en-capiata',
+      h2: '¿Cómo publicar tu terreno en Capiatá en Casa-Libre?',
+      blocks: [
+        { t: 'p', html: 'Entrás a publicar tu terreno en Capiatá en Casa-Libre, elegís terreno y venta, marcás la ubicación y cargás medidas, fotos, precio y forma de pago. Si te falta algo, queda guardado como borrador.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        { t: 'p', html: 'Si lo que vendés es una casa, los precios y pasos están en <a href="/vender-casa-en-capiata/">vender una casa en Capiatá</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto vale un terreno en Capiatá?', a: 'Según los avisos de Casa-Libre al 12 de noviembre de 2026, la mediana pedida es USD 42.000 (Gs. 306.600.000 aprox.) y la mitad de los terrenos pide entre USD 30.000 y USD 58.500. Tu precio depende de tus m², la calle y el título.' },
+    { q: '¿Cuánto sale el metro cuadrado en Capiatá?', a: 'La mediana es USD 47 por m², unos Gs. 343.100, en los terrenos publicados en Casa-Libre (precios pedidos, no de cierre). Para ubicar el tuyo, seguí la guía de Casa-Libre sobre cuánto vale tu propiedad.' },
+    { q: '¿Cómo vendo mi terreno en Capiatá a cuotas sin riesgo?', a: 'Con un contrato escrito que redacte un escribano o abogado: precio total, entrega inicial, cuotas, atrasos y fecha de transferencia. No entregues el título original hasta la escribanía.' },
+    { q: '¿Dónde publico "vendo terreno en Capiatá"?', a: 'Te recomendamos Casa-Libre: es gratis, sin comisión sobre la venta, y te escriben directo por WhatsApp.' },
+  ],
+  internalSources: [
+    { label: 'Casa-Libre Paraguay listings snapshot (content/data/py-market.json), city "capiata"', url: 'https://casa-libre.com.py/propiedades-en/capiata', date: '2026-11-11', note: 'for_sale.total 52, terrenos 12; terrenos_venta_price: 12 with price, median 42,000, p25 30,000, p75 58,500; terreno_usd_per_m2_median 47 (lowest of the six non-null cities: Asunción 592, MRA 100, CDE 85, San Bernardino 65, Luque 64). Gs. at 7,300.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, autocomplete "terrenos a cuotas", "lotes a cuotas", "terrenos baratos"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=py&q=terrenos%20a%20cuotas', date: '2026-11-12', note: '"terrenos a cuotas en capiata ruta 2 km 18", "lotes a cuotas en capiata ruta 2", "terrenos baratos en capiatá ruta 2 en venta": route-and-kilometre wording is how people search Capiatá.' },
+  ],
+  closing: {
+    title: 'Tu terreno en Capiatá puede estar publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre la venta.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['como-vender-un-terreno-paraguay', 'como-titular-un-terreno-paraguay', 'cuanto-cuesta-un-terreno-en-paraguay', 'vender-casa-en-capiata'],
+};

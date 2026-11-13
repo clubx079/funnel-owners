@@ -1,0 +1,142 @@
+export default {
+  slug: 'anticretico-bolivia',
+  group: 'Alquilar tu propiedad',
+  nav: 'Anticrético',
+  order: 4,
+  rental: true,
+  title: 'Anticrético en Bolivia: qué es y cómo darlo con seguridad',
+  h1: 'Anticrético en Bolivia: qué es y cómo funciona',
+  description: 'Qué es el anticrético en Bolivia y cómo funciona para el propietario: Código Civil, inscripción en Derechos Reales, impuestos y riesgos antes de firmar.',
+  navLabel: 'Anticrético',
+  blurb: 'Cómo funciona el anticrético para el propietario: escritura, inscripción, impuestos y riesgos.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian lawyer/accountant must check: anticresis per Código Civil (art. 1429 ff.; art. 1430: constituted only by public document and effective against third parties only from inscription in the registry, confirmed by AS/0707/2022 per search summary); that the owner must return the full amount at the end; that both owner and anticresista are RC-IVA subjects needing NIT per SIN material, with a presumed annual income of 10% of the amount (DS 21531 art. 7, blog source, not reconciled); risks such as an existing mortgage or a second anticrético on the same property. No rates or amounts are stated beyond the illustration. 2026-11-13 added section on preparing for the end of the plazo (separate account, inventory, joint return and key handover, cancellation of the inscription in Derechos Reales): check the cancellation step with a notario.',
+  answer: 'El anticrético es un contrato típico de Bolivia: el inquilino te entrega una suma de dinero al inicio, vive en tu casa sin pagar alquiler mensual durante el plazo acordado y, al final, tú le devuelves la suma completa. Según el Código Civil se hace por documento público y solo protege frente a terceros cuando se inscribe en Derechos Reales. Tiene obligaciones tributarias. Puedes publicar tu casa para alquiler o anticrético en Casa-Libre.',
+  summary: [
+    'Recibes una suma grande al inicio y la devuelves completa al final.',
+    'El inquilino no paga mensualidad; tú no cobras intereses por el dinero.',
+    'Se formaliza ante notario y conviene inscribirlo en Derechos Reales.',
+    'Propietario e inquilino tienen obligaciones con el Servicio de Impuestos Nacionales.',
+    'El mayor riesgo es no poder devolver el dinero cuando termina el plazo.',
+  ],
+  cta: {
+    title: 'Publica tu casa en anticrético',
+    text: 'En Casa-Libre publicas gratis y explicas las condiciones en el aviso. Los interesados te escriben por WhatsApp.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'que-es-el-anticretico',
+      h2: '¿Qué es el anticrético?',
+      blocks: [
+        { t: 'p', html: 'Es un contrato en el que el propietario recibe un monto de dinero y, a cambio, entrega el uso de su casa durante un plazo. Al terminar, el inquilino devuelve la casa y el propietario devuelve el dinero completo.' },
+        { t: 'table',
+          caption: 'Alquiler y anticrético',
+          head: ['', 'Alquiler', 'Anticrético'],
+          rows: [
+            ['Qué recibe el propietario', 'Un pago cada mes', 'Una suma única al inicio'],
+            ['Al final', 'Devuelve la garantía', 'Devuelve toda la suma recibida'],
+            ['Forma', 'Documento privado, con firmas reconocidas', 'Documento público ante notario'],
+            ['Inscripción en Derechos Reales', 'Normalmente no', 'Sí, para que valga frente a terceros'],
+            ['Riesgo principal del propietario', 'Atrasos en el pago', 'No tener el dinero para devolver'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública, un abogado o un contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'como-se-formaliza',
+      h2: '¿Cómo se formaliza un anticrético?',
+      blocks: [
+        { t: 'p', html: 'Con una minuta redactada por un abogado, protocolizada por un notario de fe pública, y luego inscrita en Derechos Reales. Esa inscripción es la que protege al inquilino si, por ejemplo, la casa se vende o se embarga.' },
+        { t: 'steps', items: [
+          { title: 'Revisa tus papeles', html: 'Folio Real a tu nombre y alodial. Si hay hipoteca o un anticrético anterior, dilo.' },
+          { title: 'Acuerda monto y plazo', html: 'Y qué pasa si alguno quiere terminar antes.' },
+          { title: 'Minuta y notario', html: 'Con inventario de la casa como anexo.' },
+          { title: 'Inscripción', html: 'En Derechos Reales.' },
+          { title: 'Impuestos', html: 'Cada parte cumple sus obligaciones con el Servicio de Impuestos Nacionales.' },
+        ] },
+      ],
+    },
+    {
+      id: 'riesgos',
+      h2: '¿Qué riesgos tiene el anticrético para el propietario?',
+      blocks: [
+        { t: 'p', html: 'El principal es gastar el dinero y no poder devolverlo al final. Si no devuelves, el inquilino puede seguir en la casa y reclamar judicialmente.' },
+        { t: 'ul', items: [
+          'Usa el dinero en algo que te permita devolverlo a tiempo.',
+          'No firmes dos anticréticos sobre la misma casa: es un problema grave.',
+          'Si la casa tiene hipoteca, tu banco puede tener algo que decir.',
+          'Haz inventario con fotos: los daños no se descuentan solos.',
+        ] },
+      ],
+    },
+    {
+      id: 'impuestos',
+      h2: '¿El anticrético paga impuestos?',
+      blocks: [
+        { t: 'p', html: 'Sí. Según el Servicio de Impuestos Nacionales, propietario e inquilino del anticrético son sujetos del RC-IVA y necesitan NIT, y la norma presume un ingreso sobre el monto del contrato aunque no haya pago mensual. Consulta con un contador cuánto te toca y en qué formulario.' },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: '¿Cómo se ve un anticrético en números?',
+      blocks: [
+        { t: 'p', html: 'Un ejemplo simple para entender el flujo de dinero.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: anticrético a dos años',
+          html: 'Monto redondo e inventado; no incluye impuestos ni gastos de notario e inscripción.',
+          rows: [
+            ['Monto que recibes al firmar', 'USD 30.000'],
+            ['Pagos mensuales durante dos años', 'Ninguno'],
+            ['Monto que devuelves al final', 'USD 30.000'],
+          ] },
+        { t: 'p', html: 'Si prefieres un ingreso cada mes, mira <a href="/bolivia/cuanto-cobrar-de-alquiler-bolivia/">cuánto cobrar de alquiler</a> y <a href="/bolivia/contrato-de-alquiler-bolivia/">el contrato de alquiler</a>.' },
+      ],
+    },
+    {
+      id: 'fin-del-anticretico',
+      h2: '¿Cómo me preparo para el final del anticrético?',
+      blocks: [
+        { t: 'p', html: 'Desde el primer día. El mayor problema del anticrético para el propietario no es el contrato, sino llegar al final del plazo sin el dinero para devolver. Por eso conviene tratar la suma recibida como una deuda, no como un ingreso.' },
+        { t: 'ul', items: [
+          'Guarda el monto, o la parte que no uses, en una cuenta separada que no toques para gastos del día a día.',
+          'Anota en tu calendario la fecha de vencimiento y avisa al ocupante con anticipación si vas a renovar o no.',
+          'Antes de devolver el dinero, revisa la casa con el inventario firmado al inicio, con fotos de entonces y de ahora.',
+          'Haz la devolución y la entrega de llaves el mismo día, con un documento firmado por los dos que diga que el anticrético terminó.',
+        ] },
+        { t: 'p', html: 'Si el anticrético se inscribió en Derechos Reales, pregunta al notario cómo se registra su cancelación, para que tu <a href="/bolivia/folio-real-bolivia/">Folio Real</a> quede limpio antes de vender o de volver a dar la casa.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Dónde publico mi casa en anticrético?',
+      blocks: [
+        { t: 'p', html: 'En el mismo lugar donde buscan alquiler. Te recomendamos publicarla en <a href="https://casa-libre.com.bo/alquilar">Casa-Libre</a> como alquiler y explicar en la descripción que la ofreces en anticrético, con el monto y el plazo. Los pasos generales, en <a href="/bolivia/como-alquilar-mi-casa-bolivia/">cómo alquilar mi casa</a>.' },
+        { t: 'p', html: 'La guía para alquilar tu propiedad de <a href="https://casa-libre.com.bo/guias/como-alquilar-mi-propiedad">Casa-Libre</a> sirve también para preparar el aviso.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Qué es un anticrético en Bolivia?', a: 'Un contrato en el que el inquilino entrega una suma al propietario, vive en la casa sin pagar mensualidad y al final recupera el monto completo.' },
+    { q: '¿El anticrético se registra en Derechos Reales?', a: 'Según el Código Civil, se constituye por documento público y produce efectos frente a terceros desde su inscripción. Inscribirlo protege al inquilino.' },
+    { q: '¿Qué pasa si el propietario no devuelve el dinero del anticrético?', a: 'El inquilino puede quedarse en la casa y reclamar judicialmente. Por eso el propietario debe tener el dinero disponible al final.' },
+    { q: '¿Puedo vender una casa que está en anticrético?', a: 'Se puede, pero el anticrético inscrito sigue vigente frente al comprador. Lo normal es devolver el monto antes o acordar con el comprador. Consulta con un abogado.' },
+    { q: '¿Cuánto se pide de anticrético?', a: 'No hay un monto fijado: depende de la casa, la zona y el plazo. Compara con otras ofertas de tu zona antes de fijarlo.' },
+  ],
+  internalSources: [
+    { label: 'SIN text on anticréticos', url: 'https://sac.impuestos.gob.bo/formularios/pdf/TEXTO%20ANTICRETICOS.pdf', date: '2026-11-13', note: 'Owner and anticresista are RC-IVA subjects and need NIT (via search summary).' },
+    { label: 'Auto Supremo AS/0707/2022', url: 'https://juristeca.com/bo/tsj/auto-supremo/2022/09/auto-supremo-as-0707-2022', date: '2026-11-13', note: 'Art. 1430 Código Civil: public document; effective against third parties only from inscription.' },
+    { label: 'Google autocomplete gl=bo "anticretico"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=anticretico', date: '2026-11-13', note: 'santa cruz, cochabamba, la paz, "anticretico que es", "contrato de anticretico bolivia".' },
+  ],
+  closing: {
+    title: 'Ofrece tu casa',
+    text: 'Publica gratis en Casa-Libre y recibe consultas por WhatsApp.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['como-alquilar-mi-casa-bolivia', 'contrato-de-alquiler-bolivia', 'folio-real-bolivia'],
+};

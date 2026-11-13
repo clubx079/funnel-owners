@@ -1,0 +1,117 @@
+export default {
+  slug: 'canon-de-arrendamiento-venezuela',
+  group: 'Alquilar tu propiedad',
+  order: 3,
+  rental: true,
+  equivalentOf: 'cuanto-cobrar-de-alquiler-paraguay',
+  title: 'Canon de arrendamiento en Venezuela: cuánto cobrar',
+  h1: 'Canon de arrendamiento en Venezuela: cuánto cobrar',
+  description: 'Cómo calcular el canon de arrendamiento en Venezuela: comparar alquileres parecidos, ajustes por muebles y servicios, dólares o bolívares y un ejemplo.',
+  navLabel: 'Cuánto cobrar',
+  blurb: 'Un método para fijar el canon de alquiler de tu casa o apartamento en Venezuela.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Venezuelan lawyer must check: that under the 2026 Ley del Régimen Especial de Arrendamiento de Inmuebles Destinados a Vivienda (G.O. 7.065 Extraordinario, 7 Aug 2026) the canon of new contracts is agreed freely and may be in foreign currency, that adjustments happen on renewal by agreement, capped by BCV CPI when in bolívares; and that contracts prior to that date remain under the 2011 law (with its SUNAVI-based canon rules). No market prices are stated.',
+  answer: 'Para fijar el canon de arrendamiento de tu casa en Venezuela, compara con inmuebles parecidos en alquiler en tu misma zona (tamaño, habitaciones, puestos, servicios) y ajusta por lo que el tuyo tiene de más o de menos, como muebles, planta eléctrica o agua estable. Con la ley de 2026, el canon de los contratos nuevos se pacta libremente y puede ser en dólares. Puedes ver alquileres parecidos y publicar el tuyo gratis en Casa-Libre.',
+  summary: [
+    'El punto de partida son alquileres parecidos en tu misma zona.',
+    'Amoblado, planta eléctrica, agua estable y puestos justifican un canon mayor.',
+    'Con la ley de 2026, el canon de contratos nuevos puede pactarse en divisas.',
+    'Un canon realista alquila antes: cada mes vacío es un mes sin ingreso.',
+  ],
+  cta: {
+    title: 'Publica tu alquiler',
+    text: 'En Casa-Libre publicas gratis y los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'metodo',
+      h2: '¿Cómo calcular el canon de alquiler?',
+      blocks: [
+        { t: 'p', html: 'Con comparables: junta cinco o más alquileres parecidos, saca un punto medio y ajusta. Es el mismo razonamiento que hará el inquilino.' },
+        { t: 'table',
+          caption: 'Qué sube o baja el canon',
+          head: ['Factor', 'Efecto en el canon'],
+          rows: [
+            ['Zona y seguridad', 'El factor principal'],
+            ['Amoblado y equipado', 'Lo sube'],
+            ['Planta eléctrica, tanque, pozo', 'Lo sube'],
+            ['Puestos de estacionamiento', 'Lo sube'],
+            ['Condominio incluido', 'Lo sube; aclara quién lo paga'],
+            ['Reparaciones pendientes', 'Lo baja'],
+          ],
+          note: 'Orientación general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulta con un abogado o un notario antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'comparables',
+      h2: '¿Dónde ver alquileres parecidos?',
+      blocks: [
+        { t: 'p', html: 'En los avisos de tu misma zona. Fíjate en metros, habitaciones y si están amoblados; descarta los que no se parecen.' },
+        { t: 'p', html: 'Puedes revisar casas y apartamentos en alquiler en <a href="https://casa-libre.com.ve/alquilar">Casa-Libre</a>, filtrando por ciudad y en el mapa. Recuerda que son precios pedidos.' },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: 'Ejemplo: fijar el canon de un apartamento',
+      blocks: [
+        { t: 'p', html: 'Con números supuestos, así queda el cálculo.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: apartamento de 2 habitaciones',
+          html: 'Cinco apartamentos parecidos piden en promedio USD 350 al mes (supuesto). El tuyo está amoblado: sumas un 15%. 350 × 1,15 = USD 402,50; redondeas a USD 400 para quedar en cifra clara.',
+          rows: [['Promedio comparables (supuesto)', 'USD 350'], ['Amoblado (+15%)', 'USD 402,50'], ['Canon publicado', 'USD 400']] },
+      ],
+    },
+    {
+      id: 'dolares-o-bolivares',
+      h2: '¿El canon va en dólares o en bolívares?',
+      blocks: [
+        { t: 'p', html: 'Con la ley de 2026, los contratos nuevos pueden fijar el canon en divisas, y las partes pueden acordar pagar su equivalente en bolívares a la tasa oficial del día de pago.' },
+        { t: 'ul', items: [
+          'Si eliges bolívares, los ajustes al renovar no pueden superar la inflación oficial del BCV.',
+          'Si eliges dólares, deja escrito cómo se paga (efectivo, transferencia, bolívares a tasa oficial).',
+          'Los contratos anteriores a agosto de 2026 siguen las reglas de la ley de 2011.',
+        ] },
+      ],
+    },
+    {
+      id: 'vacancia',
+      h2: '¿Conviene pedir más y esperar?',
+      blocks: [
+        { t: 'p', html: 'Pocas veces. Un mes vacío cuesta más que un canon algo menor durante todo el año.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: dos meses vacío',
+          html: 'Opción A: USD 450 al mes, alquilado tras 2 meses vacío: 450 × 10 = USD 4.500 en el año. Opción B: USD 400 al mes, alquilado de inmediato: 400 × 12 = USD 4.800. La opción B deja USD 300 más.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publica tu alquiler con el canon claro',
+      blocks: [
+        { t: 'p', html: 'Indica canon, depósito, si está amoblado y quién paga condominio y servicios. Publica gratis en Casa-Libre.' },
+        { t: 'p', html: 'Si prefieres delegar, hay un servicio de administración en <a href="https://casa-libre.com.ve/administracion-de-propiedades">Casa-Libre</a>. El contrato se explica en <a href="/venezuela/contrato-de-arrendamiento-venezuela/">contrato de arrendamiento</a> y los pasos en <a href="/venezuela/como-alquilar-mi-casa-venezuela/">cómo alquilar mi casa</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cobrar de alquiler por mi casa en Venezuela?', a: 'Lo que piden casas parecidas en tu zona, ajustado por muebles, servicios y estado.' },
+    { q: '¿Puedo cobrar el canon en dólares?', a: 'En contratos nuevos bajo la ley de 2026, sí. Consulta con un abogado para tu caso.' },
+    { q: '¿Puedo subir el canon cada mes?', a: 'No. Según la ley de 2026, los ajustes se hacen al renovar o prorrogar, de mutuo acuerdo.' },
+    { q: '¿Qué es el canon de arrendamiento?', a: 'Es el precio mensual que paga el inquilino por usar el inmueble.' },
+  ],
+  internalSources: [
+    { label: 'Acceso a la Justicia: Ley del Régimen Especial de Arrendamiento', url: 'https://accesoalajusticia.org/ley-del-regimen-especial-de-arrendamiento/', date: '2026-11-13', note: 'Arts. 12-14 canon and adjustments.' },
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=canon%20de%20arrendamiento', date: '2026-11-13', note: 'canon de arrendamiento en venezuela; canon de arrendamiento en dólares en venezuela; cuanto cobrar de alquiler.' },
+  ],
+  closing: {
+    title: 'Encuentra inquilino pronto',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['como-alquilar-mi-casa-venezuela', 'contrato-de-arrendamiento-venezuela', 'alquiler-de-casas-en-caracas'],
+};

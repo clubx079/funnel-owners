@@ -1,0 +1,136 @@
+export default {
+  slug: 'alquiler-de-casas-en-encarnacion',
+  title: 'Alquiler de casas en Encarnación: precios y dónde publicar',
+  h1: 'Alquiler de casas y departamentos en Encarnación',
+  description: 'Cuánto piden por alquilar un departamento en Encarnación, cómo se compara con Ciudad del Este y Asunción, cuánto cobrar por el tuyo y cómo publicarlo gratis.',
+  navLabel: 'Alquiler en Encarnación',
+  blurb: 'Alquiler pedido de departamentos en Encarnación, cuánto cobrar por el tuyo y cómo publicarlo gratis en Casa-Libre.',
+  published: '2026-11-12',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Check the short contract, guarantee and IVA paragraph (general wording only, no rates). Figures from py-market.json (encarnacion); casa rent null (4 casas). Population from the 2022 census line. Local section added 2026-11-13 (city context, no numbers): check the neighbourhood names, distances and local references before indexing.',
+  answer: 'En Encarnación, según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre), un departamento en alquiler pide una mediana de USD 500 por mes, unos Gs. 3,7 millones aprox., y la mitad central de los avisos va de USD 440 a USD 700. Para casas hay muy pocos avisos con precio. Si tenés algo para alquilar, publicarlo en Casa-Libre es gratis.',
+  summary: [
+    '26 propiedades en alquiler en Encarnación en Casa-Libre al 12 de noviembre de 2026: 17 departamentos y 4 casas.',
+    'Departamentos: mediana de USD 500 por mes (Gs. 3,7 millones aprox.), la mitad de lo que se pide en Ciudad del Este y un 43% menos que en Asunción.',
+    'El rango se estira hacia arriba: el 25% más caro empieza en USD 700, USD 200 sobre la mediana.',
+    'Elegí entre alquiler anual o de temporada antes de publicar: cambian el contrato y el precio.',
+  ],
+  cta: {
+    title: 'Publicá tu alquiler en Encarnación gratis',
+    text: 'Cargá fotos, precio y condiciones desde la web o la app. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'cuanto-cuesta-alquilar-en-encarnacion',
+      h2: '¿Cuánto cuesta alquilar en Encarnación?',
+      blocks: [
+        { t: 'p', html: 'Un departamento pide una mediana de USD 500 por mes, según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre). La cifra sale de 17 avisos con precio.' },
+        { t: 'table',
+          caption: 'Alquileres en Encarnación en Casa-Libre, 12 de noviembre de 2026',
+          head: ['Dato', 'Encarnación'],
+          rows: [
+            ['En alquiler', '26: 17 departamentos, 4 casas, 5 de otros tipos'],
+            ['Departamentos: mediana por mes', 'USD 500 (Gs. 3,7 millones aprox.)'],
+            ['Departamentos: mitad central', 'USD 440 a 700 (Gs. 3,2 a 5,1 millones aprox.)'],
+            ['Casas: mediana por mes', 'Sin dato: muy pocos avisos con precio'],
+            ['Departamentos en venta: mediana', 'USD 61.000 (Gs. 445 millones aprox.)'],
+          ],
+          note: 'Precios pedidos, no de cierre. La mitad central va del 25% más barato al 25% más caro. Gs. 7.300 por dólar, aprox.' },
+        { t: 'p', html: 'Encarnación tenía 106.842 habitantes en el censo de 2022. Los avisos están en <a href="https://casa-libre.com.py/alquiler/departamentos/encarnacion">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'quien-alquila-en-encarnacion',
+      h2: '¿Quién alquila en Encarnación?',
+      blocks: [
+        { t: 'p', html: 'Encarnación tiene dos demandas de alquiler. Durante el año alquilan familias, profesionales y estudiantes de las universidades de la ciudad; en verano aparece la demanda de temporada, con turistas que buscan una casa cerca de la costanera y las playas por días o semanas.' },
+        { t: 'p', html: 'Decidí cuál de las dos querés antes de publicar, porque cambian el contrato, el precio y el amoblado. Para un alquiler anual, el inquilino pregunta por colegios, colectivos y distancia al centro. Para uno de temporada pesan la cercanía a la costanera, el aire acondicionado y que la casa esté equipada; aclará en el aviso las fechas disponibles y las reglas de la casa.' },
+      ],
+    },
+    {
+      id: 'encarnacion-frente-a-otras-ciudades',
+      h2: '¿Es más barato alquilar en Encarnación que en Ciudad del Este o Asunción?',
+      blocks: [
+        { t: 'p', html: 'En lo que se pide por departamentos, sí. Ciudad del Este pide el doble (USD 1.000) y Asunción, USD 880, un 76% más que Encarnación. En cambio Luque (USD 490) y Mariano Roque Alonso (USD 520) piden casi lo mismo.' },
+        { t: 'p', html: 'La cifra de Ciudad del Este sale de solo 6 avisos con precio, así que tomala con cuidado. Podés revisar esos avisos en departamentos en alquiler en Ciudad del Este en <a href="https://casa-libre.com.py/alquiler/departamentos/ciudad-del-este">Casa-Libre</a>, o los de todo el país en el mapa de propiedades de Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'cuanto-cobrar-en-encarnacion',
+      h2: '¿Cuánto cobrar de alquiler por un departamento en Encarnación?',
+      blocks: [
+        { t: 'p', html: 'Para uno común, cerca de USD 500. El rango central está corrido hacia arriba: el 25% más barato pide hasta USD 440, solo USD 60 menos que la mediana, pero el 25% más caro empieza en USD 700. Hay lugar para pedir más si tu departamento ofrece más.' },
+        { t: 'ul', items: [
+          'Dormitorios y m²: compará con avisos del mismo tamaño.',
+          'Amoblado o no: decilo en el título.',
+          'Cochera y expensas: aclará si están incluidas.',
+        ] },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: amoblado o sin muebles',
+          html: 'Dos precios hipotéticos para el mismo departamento: Gs. 3.600.000 sin muebles o Gs. 4.400.000 amoblado. Gs. 7.300 por dólar.',
+          rows: [
+            ['Diferencia por mes: 4.400.000 - 3.600.000', 'Gs. 800.000 (USD 110 aprox.)'],
+            ['Diferencia en un año: 800.000 x 12', 'Gs. 9.600.000 (USD 1.315 aprox.)'],
+          ] },
+        { t: 'p', html: 'Compará esa diferencia con lo que te cuesta amoblar. El método completo está en <a href="/cuanto-cobrar-de-alquiler-paraguay/">cuánto cobrar de alquiler</a> y en la guía de <a href="https://casa-libre.com.py/guias/como-alquilar-mi-propiedad">Casa-Libre</a> para alquilar tu propiedad.' },
+        { t: 'callout', tone: 'fact', title: 'Alquilar frente a vender', html: 'Con precios pedidos, un año de alquiler de un departamento equivale al 9,8% de su precio de venta (USD 500 x 12 / USD 61.000). Es un cálculo bruto, no un retorno de inversión. Lo amplía <a href="/conviene-vender-o-alquilar-mi-casa/">conviene vender o alquilar mi casa</a>.' },
+      ],
+    },
+    {
+      id: 'casas-en-alquiler-en-encarnacion',
+      h2: '¿Y las casas en alquiler en Encarnación?',
+      blocks: [
+        { t: 'p', html: 'Hay 4 en Casa-Libre al 12 de noviembre de 2026, sin avisos suficientes con precio para una mediana. Si alquilás una casa, tu aviso tiene poca competencia directa: compará uno por uno con los que haya.' },
+        { t: 'p', html: 'Buscalas en casas en alquiler en Encarnación en Casa-Libre. Todo lo publicado en la ciudad, en venta y en alquiler, está en Casa-Libre.' },
+        { t: 'casalibre',
+          title: 'Tu alquiler, también en el mapa',
+          html: 'En Casa-Libre los avisos se buscan por ciudad, tipo y operación, y también en el mapa. Publicar es gratis y no hay comisión sobre el alquiler.',
+          button: 'Ver cómo funciona Casa-Libre',
+          href: 'https://casa-libre.com.py/como-funciona' },
+      ],
+    },
+    {
+      id: 'contrato-garantia-iva',
+      h2: '¿Qué contrato y garantía necesita un alquiler en Encarnación?',
+      blocks: [
+        { t: 'p', html: 'Un contrato por escrito con precio, plazo, garantía y quién paga cada gasto. Las cláusulas están en <a href="/contrato-de-alquiler-paraguay/">contrato de alquiler en Paraguay</a> y la garantía, en <a href="/garantia-de-alquiler-paraguay/">garantía de alquiler</a>. Si lleva IVA depende de tu situación fiscal: lo explica <a href="/iva-del-alquiler-paraguay/">IVA del alquiler en Paraguay</a>.' },
+        { t: 'p', html: 'Si no vivís en la ciudad y necesitás que alguien se ocupe, mirá la administración de propiedades de Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'publicar-alquiler-en-encarnacion',
+      h2: '¿Dónde publicar un alquiler en Encarnación gratis?',
+      blocks: [
+        { t: 'p', html: 'Lo recomendable es Casa-Libre: publicás gratis, el aviso aparece al buscar por Encarnación y cada interesado te escribe por WhatsApp.' },
+        { t: 'steps', items: [
+          { title: 'Abrí el formulario', html: 'Entrá a Casa-Libre.' },
+          { title: 'Completá el aviso', html: 'Fotos, dormitorios, precio en guaraníes y dólares, y si está amoblado.' },
+          { title: 'Atendé por WhatsApp', html: 'Respondé rápido y pedí los datos del interesado antes de la visita.' },
+        ] },
+        { t: 'callout', tone: 'tip',
+          title: 'Por qué recomendar Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta un alquiler en Encarnación?', a: 'Según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026, un departamento pide una mediana de USD 500 por mes (Gs. 3,7 millones aprox.). Para casas hay muy pocos avisos con precio.' },
+    { q: '¿Cuánto sale alquilar un departamento en Encarnación en guaraníes?', a: 'La mitad central de los avisos pide entre Gs. 3,2 y 5,1 millones aprox. por mes, a Gs. 7.300 por dólar. Son precios pedidos, no lo que se termina pagando.' },
+    { q: '¿Dónde busco casas en alquiler en Encarnación?', a: 'En propiedades en alquiler en Casa-Libre filtrás por ciudad y tipo, y contactás directo al anunciante por WhatsApp.' },
+    { q: '¿Puedo alquilar mi departamento en Encarnación si vivo en otra ciudad?', a: 'Sí. Publicás desde la web o la app, atendés por WhatsApp y coordinás visitas con alguien de confianza. El contrato conviene firmarlo por escrito.' },
+  ],
+  internalSources: [
+    { label: 'content/data/py-market.json, city "encarnacion"', url: 'https://casa-libre.com.py/alquiler/departamentos/encarnacion', date: '2026-11-12', note: 'for_rent 26 (17 deptos, 4 casas, 5 other). Depto rent 500 (440-700, 17 priced). Depto sale 61.000; yield 9.8. CDE 1000 (6 priced) = 2x; 880/500 = 1,76; 500/880 = 0,57 (43% less). Gs. = USD x 7.300.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, section 2, "Population context"', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Encarnación 106,842 inhabitants, 2022 census.' },
+  ],
+  closing: {
+    title: 'Tu alquiler en Encarnación, publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre el alquiler.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['vender-casa-en-encarnacion', 'cuanto-cobrar-de-alquiler-paraguay', 'contrato-de-alquiler-paraguay', 'cuanto-cuesta-un-alquiler-en-paraguay'],
+};

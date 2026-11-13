@@ -1,0 +1,128 @@
+export default {
+  slug: 'valuo-de-una-casa-el-salvador',
+  group: 'Precios y valor',
+  order: 1,
+  equivalentOf: 'tasacion-de-inmuebles-paraguay',
+  title: 'Valúo de una casa en El Salvador: qué es y cuándo hacerlo',
+  h1: 'Valúo de una casa en El Salvador',
+  description: 'Qué es un valúo de casa en El Salvador, quién lo hace, cuándo lo pide el banco, en qué se diferencia del precio y cómo calcular un precio con comparables.',
+  navLabel: 'Valúo de una casa',
+  blurb: 'Qué es un valúo, quién lo hace en El Salvador y cómo calcular el precio de su casa con casas comparables.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Salvadoran notario or valuador must check: that bank and FSV valúos are done by peritos valuadores registered with the Superintendencia del Sistema Financiero (registro de peritos valuadores), that the buyer\'s bank usually orders and charges the valúo, that the valúo amount limits the loan, and that the fee of a private valúo is agreed with the valuador (no figure stated).',
+  answer: 'Un valúo es el informe en el que un perito valuador estima el valor de una casa según su terreno, construcción, estado y ubicación. En El Salvador lo pide sobre todo el banco o el Fondo Social para la Vivienda cuando el comprador usa crédito, y lo hace un valuador registrado. Para fijar su precio de venta no siempre necesita uno: puede compararla con casas parecidas. Puede publicar su casa gratis en Casa-Libre.',
+  summary: [
+    'El valúo lo hace un perito valuador; los bancos trabajan con valuadores inscritos ante el supervisor financiero.',
+    'Si el comprador usa crédito, su banco ordena el valúo y el monto del préstamo depende de él.',
+    'El valúo y el precio de venta no son lo mismo: el primero es una estimación técnica, el segundo lo fija el mercado.',
+    'Para empezar, compare su casa con tres a cinco casas parecidas publicadas en su zona.',
+  ],
+  cta: {
+    title: 'Compare y publique',
+    text: 'Vea cuánto piden por casas parecidas y publique la suya gratis en Casa-Libre.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'que-es-un-valuo',
+      h2: '¿Qué es un valúo y quién lo hace?',
+      blocks: [
+        { t: 'p', html: 'Es un informe técnico con el valor estimado del inmueble, firmado por un perito valuador. Para créditos, los bancos y el Fondo Social para la Vivienda aceptan valúos de peritos inscritos en el registro que lleva la Superintendencia del Sistema Financiero.' },
+        { t: 'table',
+          caption: 'Valúo, precio pedido y precio de venta',
+          head: ['Concepto', 'Quién lo define', 'Para qué sirve'],
+          rows: [
+            ['Valúo', 'Un perito valuador', 'Estimar el valor; base para el crédito del comprador'],
+            ['Precio pedido', 'El vendedor', 'Lo que se publica en el aviso'],
+            ['Precio de venta', 'Comprador y vendedor', 'Lo que se firma en la escritura'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'cuando-se-pide',
+      h2: '¿Cuándo hace falta un valúo para vender?',
+      blocks: [
+        { t: 'p', html: 'Casi siempre que el comprador paga con crédito. El banco manda a su valuador, y si el valúo sale por debajo del precio acordado, el comprador tendrá que poner la diferencia o renegociar.' },
+        { t: 'ul', items: [
+          '<strong>Comprador con crédito:</strong> el banco ordena el valúo y normalmente lo cobra al comprador.',
+          '<strong>Comprador de contado:</strong> el valúo es opcional.',
+          '<strong>Herencias o divisiones:</strong> un valúo ayuda a que los herederos acuerden un precio.',
+          '<strong>Duda grande sobre el precio:</strong> un valúo privado le da una opinión técnica.',
+        ] },
+      ],
+    },
+    {
+      id: 'que-mira-el-valuador',
+      h2: '¿Qué mira el valuador?',
+      blocks: [
+        { t: 'p', html: 'Revisa el terreno, la construcción y el entorno, y los compara con ventas y ofertas de la zona. Estos son los puntos que más pesan.' },
+        { t: 'ul', items: [
+          'Área de terreno y de construcción, según escritura y según lo que mide en el sitio.',
+          'Calidad y estado de la construcción: techos, pisos, instalaciones, humedad.',
+          'Ubicación: colonia o residencial, acceso, seguridad, servicios.',
+          'Situación legal: que lo construido coincida con lo inscrito.',
+        ] },
+      ],
+    },
+    {
+      id: 'calcular-precio',
+      h2: '¿Cómo calcular el precio de su casa sin valúo?',
+      blocks: [
+        { t: 'p', html: 'Con el método de comparables: busque casas parecidas en su zona, calcule cuánto piden por metro cuadrado de construcción y aplíquelo a la suya. Después ajuste por estado y extras.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: precio por comparables',
+          html: 'Tres casas hipotéticas en la misma colonia, con terreno y estado parecidos.',
+          rows: [
+            ['Casa A: US$84,000 / 120 m²', 'US$700 por m²'],
+            ['Casa B: US$99,000 / 150 m²', 'US$660 por m²'],
+            ['Casa C: US$76,000 / 100 m²', 'US$760 por m²'],
+            ['Promedio: (700 + 660 + 760) / 3', 'US$706.67 por m²'],
+            ['Su casa: 130 m² x 706.67', 'US$91,867, redondeado a US$92,000'],
+          ] },
+        { t: 'p', html: 'Recuerde que son precios pedidos, no precios de cierre. Los comparables los encuentra en el mapa de <a href="https://sv.casa-libre.com/propiedades">Casa-Libre</a>, filtrando por zona y tipo.' },
+      ],
+    },
+    {
+      id: 'si-el-valuo-sale-bajo',
+      h2: '¿Qué pasa si el valúo del banco sale más bajo que el precio?',
+      blocks: [
+        { t: 'p', html: 'El banco presta sobre el valúo, no sobre el precio. Hay tres salidas: el comprador pone la diferencia, el vendedor baja el precio o se busca otro comprador.' },
+        { t: 'p', html: 'Para no llegar a esa situación, fije un precio cercano a los comparables y deje escrito en la <a href="/el-salvador/promesa-de-venta-el-salvador/">promesa de venta</a> qué pasa si el crédito no alcanza.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publique con un precio bien calculado',
+      blocks: [
+        { t: 'p', html: 'Un precio en línea con la zona atrae consultas desde el primer día. Si después de unas semanas no hay interés, revise fotos y precio.' },
+        { t: 'casalibre',
+          title: 'Cuánto vale su propiedad',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Leer la guía de Casa-Libre',
+          href: 'https://sv.casa-libre.com/guias/cuanto-vale-mi-propiedad' },
+        { t: 'p', html: 'Para los demás pasos, vea <a href="/el-salvador/">cómo vender su casa en El Salvador</a> y <a href="/el-salvador/gastos-al-vender-una-casa-el-salvador/">gastos al vender una casa</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta un valúo de casa en El Salvador?', a: 'Lo fija cada perito valuador según el tamaño y la ubicación del inmueble. Si es para un crédito, el banco le informará al comprador el costo.' },
+    { q: '¿Quién paga el valúo, comprador o vendedor?', a: 'Cuando lo pide el banco del comprador, normalmente lo paga el comprador. Si usted quiere un valúo propio para fijar su precio, lo paga usted.' },
+    { q: '¿Necesito un valúo para publicar mi casa?', a: 'No. Puede fijar el precio comparando con casas parecidas. El valúo es útil cuando hay dudas grandes o lo exige un crédito.' },
+    { q: '¿Cuánto vale mi casa?', a: 'Lo que un comprador esté dispuesto a pagar hoy. La mejor referencia rápida son tres a cinco casas parecidas en su zona, comparadas por metro cuadrado.' },
+  ],
+  internalSources: [
+    { label: 'Superintendencia del Sistema Financiero: registro de peritos valuadores', url: 'https://ssf.gob.sv', date: '2026-11-13', note: 'Registry of valuers used by banks; verify current name and scope.' },
+  ],
+  closing: {
+    title: 'Su precio, su aviso',
+    text: 'Publique su casa gratis en Casa-Libre y reciba consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['', 'gastos-al-vender-una-casa-el-salvador', 'promesa-de-venta-el-salvador'],
+};

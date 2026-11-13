@@ -1,0 +1,143 @@
+export default {
+  slug: 'como-titular-un-terreno-paraguay',
+  title: 'Cómo titular un terreno en Paraguay y cuánto cuesta',
+  h1: 'Cómo titular un terreno en Paraguay y cuánto cuesta',
+  description: 'Los caminos para titular un terreno en Paraguay (municipal, fiscal, INDERT o usucapión), a quién preguntar, qué compone el costo y por qué titulado se vende mejor.',
+  navLabel: 'Titular un terreno',
+  blurb: 'Los caminos para titular un terreno municipal, fiscal, del INDERT o por usucapión, a quién preguntar y qué compone el costo.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'A Paraguayan lawyer or escribano must confirm the titling routes as described in general terms (municipal land through the municipality, fiscal land, INDERT land through the INDERT, usucapión as a lawsuit for a possessor, mensura judicial as part of some processes), the description of usucapión (possession for the time the law sets; "corta" and "extraordinaria" variants exist), the list of cost components (professional fees, mensura, fees of the process, registration) and the "who to ask" column. The page states no cost figure, no deadline and no possession period.',
+  answer: 'Titular un terreno en Paraguay es conseguir el título de propiedad inscripto a tu nombre cuando todavía no lo tenés. El camino depende del origen de la tierra: terreno municipal, terreno fiscal, tierra del INDERT o un terreno privado que ocupás hace años, que puede llevar a un juicio de usucapión. No encontramos una cifra oficial de cuánto cuesta. Con el título, podés vender por escritura y publicar gratis en Casa-Libre.',
+  summary: [
+    'Primero averiguá de quién es la tierra: municipal, fiscal, del INDERT o privada. De eso depende el camino.',
+    'Las vías que más se mencionan son el trámite municipal, el de tierra fiscal, el del INDERT y la usucapión, que es un juicio.',
+    'No hay una cifra oficial de cuánto cuesta titular: el costo se arma con honorarios, mensura y tasas. Pedí presupuesto escrito.',
+    'Con título inscripto vendés por escritura pública; sin título solo cedés derechos, y el comprador asume más riesgo.',
+    'Podés publicar el terreno en Casa-Libre mientras lo titulás, diciendo la situación con claridad.',
+  ],
+  cta: {
+    title: 'Publicá tu terreno gratis en Casa-Libre',
+    text: 'Con el título en trámite o ya listo, contalo en el aviso. Los interesados te escriben directo por WhatsApp, sin comisión sobre la venta.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'que-significa-titular',
+      h2: '¿Qué significa titular un terreno?',
+      blocks: [
+        { t: 'p', html: '"Titular" es pasar de ocupar o tener derechos sobre un terreno a tener el título de propiedad inscripto a tu nombre. Es distinto de transferir: en una transferencia el título ya existe y cambia de dueño.' },
+        { t: 'ul', items: [
+          '<strong>Antes:</strong> tenés recibos, una adjudicación, un contrato o solo la ocupación.',
+          '<strong>Después:</strong> figurás como titular en el registro y podés vender por escritura pública.',
+        ] },
+        { t: 'p', html: 'Qué es exactamente un título y cómo se verifica lo explicamos en <a href="/titulo-de-propiedad-paraguay/">título de propiedad en Paraguay</a>. Para ver qué papeles piden los compradores, leé la guía de <a href="https://casa-libre.com.py/guias/documentos-para-vender-un-inmueble">Casa-Libre</a> sobre documentos para vender un inmueble.' },
+      ],
+    },
+    {
+      id: 'caminos-para-titular',
+      h2: '¿Qué caminos hay para titular un terreno en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'Hay un camino distinto según el origen de la tierra. La tabla resume las vías que más se mencionan y a quién preguntar en cada caso.' },
+        { t: 'table',
+          caption: 'Vías para titular un terreno en Paraguay',
+          head: ['Origen de la tierra', 'Vía que suele mencionarse', 'A quién preguntar', 'Costo'],
+          rows: [
+            ['Terreno municipal', 'Trámite ante la municipalidad del lugar', 'La municipalidad y un escribano', 'Sin cifra oficial: consultá'],
+            ['Terreno fiscal (del Estado)', 'Trámite ante el organismo que administra esa tierra', 'Un abogado o escribano, para saber cuál corresponde', 'Sin cifra oficial: consultá'],
+            ['Tierra del INDERT', 'Mecanismos del INDERT para que sus beneficiarios accedan al título', 'El INDERT', 'Sin cifra oficial: consultá'],
+            ['Terreno privado que ocupás hace años', 'Juicio de usucapión', 'Un abogado', 'Sin cifra oficial: consultá'],
+            ['Medidas o linderos en disputa', 'Mensura judicial, en algunos procesos', 'Un abogado y un profesional de agrimensura', 'Sin cifra oficial: consultá'],
+          ],
+          note: 'Vías que mencionan las guías y las búsquedas consultadas en noviembre de 2026. No encontramos cifras oficiales de costo. Pendiente de revisión profesional.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Mientras averiguás, las guías de <a href="https://casa-libre.com.py/guias">Casa-Libre</a> para propietarios te ayudan a preparar la venta.' },
+      ],
+    },
+    {
+      id: 'de-quien-es-el-terreno',
+      h2: '¿Cómo saber si un terreno es fiscal, municipal o tiene dueño?',
+      blocks: [
+        { t: 'p', html: 'Es el primer paso, porque define el camino. Un escribano puede pedir el informe de condición de dominio para ver si el terreno figura a nombre de alguien en el registro.' },
+        { t: 'ul', items: [
+          'Si aparece un titular privado, la vía no es municipal ni fiscal.',
+          'Si no aparece, preguntá en la municipalidad si el terreno es municipal.',
+          'Si te lo adjudicó el INDERT, el trámite empieza ahí.',
+        ] },
+        { t: 'p', html: 'Para ubicarlo en un mapa y ver qué se ofrece alrededor, abrí el mapa de propiedades de <a href="https://casa-libre.com.py/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'usucapion',
+      h2: '¿Qué es la usucapión y cuándo se usa?',
+      blocks: [
+        { t: 'p', html: 'La usucapión es el juicio por el que quien poseyó un inmueble durante el tiempo que fija la ley pide que se lo reconozca como dueño. Se habla de usucapión "corta" y "extraordinaria", con plazos y requisitos distintos.' },
+        { t: 'p', html: 'No resumimos esos plazos acá: dependen de tu caso y te los explica un abogado. Juntá los papeles que tengas sobre el terreno y sus medidas; el abogado te dice cuáles sirven para probar tu posesión.' },
+        { t: 'p', html: 'Cuando la sentencia te reconozca como dueño, podés publicar tu terreno en venta en Casa-Libre con el título en regla.' },
+      ],
+    },
+    {
+      id: 'cuanto-cuesta-titular',
+      h2: '¿Cuánto cuesta titular un terreno en Paraguay?',
+      blocks: [
+        { t: 'p', html: 'No encontramos una cifra oficial de cuánto cuesta, cuánto vale ni cuánto sale titular un terreno: depende de la vía, del tamaño y de los profesionales. Lo que sí podés hacer es pedir un presupuesto que separe cada parte.' },
+        { t: 'ul', items: [
+          'Honorarios del abogado o del escribano.',
+          'La mensura, si hace falta medir el terreno.',
+          'Las tasas del trámite o del juicio.',
+          'La inscripción del título en el registro.',
+        ] },
+        { t: 'p', html: '"Mandar titular" es encargar todo el trámite a un profesional. Pedí el presupuesto por escrito, recibos de cada pago y desconfiá de quien promete un título rápido sin revisar tus papeles. Los honorarios del escribano en una venta están en <a href="/cuanto-cobra-escribano-paraguay/">cuánto cobra un escribano</a>, y el resto de los costos de vender, en la guía de Casa-Libre sobre impuestos y gastos al vender.' },
+      ],
+    },
+    {
+      id: 'por-que-vende-mejor',
+      h2: '¿Por qué un terreno titulado se vende mejor?',
+      blocks: [
+        { t: 'p', html: 'Porque el comprador recibe un título inscripto a su nombre por escritura pública. Sin título solo puede comprar derechos y asume más riesgo, así que la conversación arranca con dudas.' },
+        { t: 'ul', items: [
+          'Podés mostrar los papeles desde el primer mensaje.',
+          'El escribano puede cerrar la venta sin pasos previos.',
+          'El precio se compara con terrenos titulados de la zona, como explica <a href="/como-calcular-el-valor-de-un-terreno-paraguay/">cómo calcular el valor de un terreno</a>.',
+        ] },
+        { t: 'p', html: 'Compará con lo que se pide cerca del tuyo, por ejemplo en las propiedades en Capiatá en Casa-Libre o en tu ciudad.' },
+      ],
+    },
+    {
+      id: 'publicar-mientras-titulas',
+      h2: '¿Puedo publicar el terreno mientras lo titulo?',
+      blocks: [
+        { t: 'p', html: 'Sí, si lo decís con claridad en el aviso, por ejemplo "título en trámite". Lo que no conviene es recibir una seña antes de tener el título o de que un escribano revise qué podés vender.' },
+        { t: 'p', html: 'Podés cargar el aviso desde el terreno mismo con la app de Casa-Libre para iPhone y Android y guardarlo como borrador hasta tener el título.' },
+        { t: 'casalibre',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.py/vender' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cómo titular un terreno municipal en Paraguay?', a: 'El trámite empieza en la municipalidad donde está el terreno. Preguntá ahí qué requisitos piden y consultá a un escribano antes de pagar nada.' },
+    { q: '¿Cómo titular un terreno fiscal?', a: 'Primero hay que saber qué organismo administra esa tierra. Un abogado o escribano te dice cuál corresponde y qué pasos siguen.' },
+    { q: '¿Cuánto cuesta mandar titular un terreno?', a: 'No hay una cifra oficial. Pedí un presupuesto escrito que separe honorarios, mensura, tasas e inscripción, y compará al menos dos.' },
+    { q: '¿Cuánto tarda titular un terreno?', a: 'Depende de la vía: un trámite administrativo y un juicio de usucapión no tardan lo mismo. Pedile al profesional un plazo estimado por escrito.' },
+    { q: '¿Puedo vender un terreno sin titular?', a: 'Podés ceder los derechos que tengas, pero no transferir una propiedad inscripta. Lo explicamos en <a href="/vender-casa-sin-titulo-paraguay/">vender sin título</a>.' },
+    { q: '¿Dónde publico el terreno cuando esté titulado?', a: 'Te recomendamos Casa-Libre: publicar es gratis y los interesados te escriben directo por WhatsApp.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, autocomplete "como titular un terreno en paraguay" and "cuanto cuesta titular un terreno en paraguay"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=py&q=cuanto%20cuesta%20titular%20un%20terreno%20en%20paraguay', date: '2026-11-12', note: 'Variants: municipal, fiscal, mandar titular, cuánto vale/sale titular. No cost figure in the notes.' },
+    { label: 'Research notes: section 7a (untitled and state land) and autocomplete "usucapion paraguay"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=py&q=usucapion%20paraguay', date: '2026-11-12', note: '"terreno fiscal que es", "usucapión corta", "usucapión extraordinaria", "juicio de usucapión", "mensura judicial costo paraguay". Periods are NOT in the notes and are not stated.' },
+    { label: 'Research notes: SERP row 11 (INDERT news headline)', url: 'https://www.indert.gov.py/indert/index.php/noticias/indert-reitera-beneficiarios-mecanismos-para-acceder-al-titulo-de-propiedad', date: '2026-11-12', note: 'INDERT reiterates to beneficiaries the mechanisms to access the título de propiedad. Only the headline is in the notes.' },
+    { label: 'Finished page como-vender-un-terreno-paraguay (FAQ on titling)', url: 'file://content/pages/como-vender-un-terreno-paraguay.js', date: '2026-11-12', note: 'Same routes (usucapión, mensura judicial, INDERT), pending review.' },
+  ],
+  closing: {
+    title: 'Titulado o en trámite, tu terreno puede estar publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Contá la situación del título y recibí las consultas por WhatsApp, sin comisión sobre la venta.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['como-vender-un-terreno-paraguay', 'cuanto-cuesta-un-terreno-en-paraguay', 'vender-terreno-en-limpio', 'cuanto-cobra-escribano-paraguay'],
+};

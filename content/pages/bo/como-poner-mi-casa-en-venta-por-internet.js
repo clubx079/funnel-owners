@@ -1,0 +1,138 @@
+export default {
+  slug: 'como-poner-mi-casa-en-venta-por-internet',
+  group: 'Vender una propiedad',
+  order: 6,
+  equivalentOf: 'como-poner-mi-casa-en-venta-por-internet',
+  title: 'Cómo poner mi casa en venta por internet en Bolivia',
+  h1: 'Cómo poner mi casa en venta por internet',
+  description: 'Paso a paso para poner tu casa en venta por internet en Bolivia: qué preparar, cómo armar el aviso, cómo compartir un solo enlace y cómo responder a los interesados.',
+  navLabel: 'Vender por internet',
+  blurb: 'El paso a paso para publicar tu casa en internet, compartir el enlace y atender a los interesados.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Para poner tu casa en venta por internet prepara fotos con luz de día, la superficie, los dormitorios, la zona y un precio en una sola moneda. Publica el aviso en un marketplace inmobiliario donde los compradores buscan por ciudad y en el mapa, y comparte ese mismo enlace por WhatsApp y en tus grupos. Responde rápido y con datos. Puedes hacerlo gratis en Casa-Libre.',
+  summary: [
+    'Antes de publicar: fotos, medidas, precio y el estado de los papeles.',
+    'Un solo aviso completo y un solo enlace para compartir en todas partes.',
+    'El punto en el mapa es tan importante como las fotos.',
+    'La velocidad de respuesta por WhatsApp decide muchas ventas.',
+    'Casa-Libre es gratis, desde la web o las apps para iPhone y Android.',
+  ],
+  cta: {
+    title: 'Pon tu casa en venta hoy',
+    text: 'Publicar en Casa-Libre lleva pocos minutos y es gratis.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'que-preparar',
+      h2: '¿Qué preparo antes de publicar mi casa?',
+      blocks: [
+        { t: 'p', html: 'Junta todo antes de abrir el formulario. Así el aviso sale completo desde el primer día, que es cuando más gente lo ve.' },
+        { t: 'table',
+          caption: 'Lista para publicar una casa por internet',
+          head: ['Qué', 'Detalle', 'Por qué importa'],
+          rows: [
+            ['Fotos', '12 a 20, horizontales, con luz de día', 'Es lo primero que se mira'],
+            ['Superficies', 'Terreno y construida, en m²', 'El comprador compara por metro cuadrado'],
+            ['Ambientes', 'Dormitorios, baños, garaje, patio', 'Son los filtros de búsqueda'],
+            ['Ubicación', 'Zona o barrio y punto en el mapa', 'Define si la casa entra en la búsqueda'],
+            ['Precio', 'En dólares o bolivianos, una sola moneda', 'Sin precio llegan preguntas, no compradores'],
+            ['Papeles', 'Si el Folio Real está a tu nombre', 'Genera confianza'],
+          ],
+          note: 'Lista general para cualquier ciudad de Bolivia.' },
+      ],
+    },
+    {
+      id: 'paso-a-paso',
+      h2: 'Paso a paso para poner tu casa en venta por internet',
+      blocks: [
+        { t: 'p', html: 'Estos pasos sirven desde la computadora o desde el celular.' },
+        { t: 'steps', items: [
+          { title: 'Elige dónde publicar', html: 'Un marketplace inmobiliario con búsqueda por ciudad y mapa. Comparamos opciones en <a href="/bolivia/donde-publicar-casa-en-venta-bolivia/">dónde publicar mi casa en venta</a>.' },
+          { title: 'Crea tu cuenta', html: 'Con tu correo o tu número de celular.' },
+          { title: 'Carga los datos', html: 'Operación venta, tipo casa, ciudad, superficies y ambientes.' },
+          { title: 'Sube las fotos en orden', html: 'Fachada, sala, cocina, dormitorios, baños, patio.' },
+          { title: 'Escribe título y descripción', html: 'Tipo, zona y un dato fuerte en el título; el resto en la descripción.' },
+          { title: 'Publica y copia el enlace', html: 'Ese enlace es tu aviso para todo lo demás.' },
+        ] },
+      ],
+    },
+    {
+      id: 'compartir-el-enlace',
+      h2: '¿Cómo comparto mi aviso por WhatsApp y redes?',
+      blocks: [
+        { t: 'p', html: 'Comparte el enlace, no las fotos sueltas. Quien abre el enlace ve todos los datos y te escribe con más información.' },
+        { t: 'ul', items: [
+          'Ponlo en tu estado de WhatsApp unos días seguidos.',
+          'Mándalo a familiares y colegas: muchas ventas llegan por un conocido de un conocido.',
+          'Compártelo en grupos de compra y venta de tu ciudad, con una frase y el precio.',
+          'Si pones letrero en la casa, agrega tu número de WhatsApp bien grande.',
+        ] },
+      ],
+    },
+    {
+      id: 'responder-consultas',
+      h2: '¿Cómo respondo a los interesados?',
+      blocks: [
+        { t: 'p', html: 'Rápido, amable y con datos. Ten preparado un mensaje con lo básico para no repetirlo cada vez.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: respuesta tipo',
+          html: '"Hola, gracias por escribir. La casa tiene 300 m² de terreno y 180 m² construidos, 3 dormitorios y 2 baños. Los papeles están a mi nombre en Derechos Reales. Puedes verla el sábado a las 10 o el lunes a las 18. ¿Cuál te queda mejor?"' },
+        { t: 'p', html: 'Para las visitas, mira <a href="/bolivia/como-mostrar-una-casa-a-compradores/">cómo mostrar tu casa a compradores</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-en-casa-libre',
+      h2: '¿Por qué publicar en Casa-Libre?',
+      blocks: [
+        { t: 'p', html: 'Porque es gratis, el contacto llega a tu WhatsApp y no hay comisión sobre la venta.' },
+        { t: 'casalibre',
+          title: 'Casa-Libre en pocas palabras',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo funciona',
+          href: 'https://casa-libre.com.bo/como-funciona' },
+        { t: 'p', html: 'Si prefieres el celular, descarga la app de <a href="https://casa-libre.com.bo/descargar">Casa-Libre</a> para iPhone o Android y sube las fotos directo desde la galería.' },
+      ],
+    },
+    {
+      id: 'ubicacion-en-el-mapa',
+      h2: '¿Pongo la ubicación exacta de mi casa en el mapa?',
+      blocks: [
+        { t: 'p', html: 'Pon el punto en tu cuadra, aunque no en la puerta si prefieres cuidar tu privacidad. El comprador filtra por zona y por mapa, y un aviso sin ubicación o con la ubicación equivocada aparece en búsquedas que no son las suyas.' },
+        { t: 'ul', items: [
+          'Revisa que el punto caiga en el barrio correcto: un error de pocas cuadras puede pasarte a otra zona o a otro municipio.',
+          'En el texto, nombra una referencia conocida: una avenida, un anillo, una plaza o una estación de teleférico.',
+          'Si la casa está en un condominio, escribe su nombre: muchos compradores lo buscan directamente.',
+        ] },
+      ],
+    },
+    {
+      id: 'despues-de-publicar',
+      h2: '¿Qué hago si pasan semanas sin consultas?',
+      blocks: [
+        { t: 'p', html: 'Revisa tres cosas en este orden: el precio frente a casas parecidas, la primera foto y el título. Cambiar una de ellas suele bastar para que el aviso vuelva a moverse.' },
+        { t: 'p', html: 'Un plan para vender más rápido está en <a href="/bolivia/vendo-casa-urgente/">vendo casa urgente</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cómo poner mi casa en venta por internet gratis?', a: 'Publica el aviso en un marketplace inmobiliario gratuito como Casa-Libre y comparte el enlace por WhatsApp y en tus grupos. No necesitas pagar para publicar.' },
+    { q: '¿Cuántas fotos debo subir?', a: 'Entre 12 y 20 es un buen número: suficientes para recorrer la casa sin repetir ángulos.' },
+    { q: '¿Pongo mi número en el aviso?', a: 'En Casa-Libre los interesados te escriben directo por WhatsApp desde el aviso. No hace falta escribir el número en la descripción.' },
+    { q: '¿Puedo editar el aviso después de publicarlo?', a: 'Sí. Cambia precio, fotos o descripción cuando quieras y comparte de nuevo el mismo enlace.' },
+    { q: '¿Es seguro poner la ubicación de mi casa en internet?', a: 'Puedes marcar tu cuadra sin dar el número de puerta. La dirección exacta compártela por WhatsApp con quien ya coordinó una visita y te dio su nombre completo.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=bo "donde publicar casa en venta"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=publicar%20casa%20gratis', date: '2026-11-13', note: '"publicar casa gratis", "donde publicar mi casa gratis".' },
+  ],
+  closing: {
+    title: 'Tu casa en internet, hoy',
+    text: 'Publica gratis en Casa-Libre y comparte un solo enlace.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['donde-publicar-casa-en-venta-bolivia', 'anuncio-para-vender-una-casa', 'fotos-para-vender-una-casa'],
+};

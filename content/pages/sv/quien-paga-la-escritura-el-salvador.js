@@ -1,0 +1,123 @@
+export default {
+  slug: 'quien-paga-la-escritura-el-salvador',
+  group: 'Impuestos y gastos',
+  order: 4,
+  equivalentOf: 'quien-paga-la-escritura-paraguay',
+  title: 'Quién paga la escritura en El Salvador: ¿comprador o vendedor?',
+  h1: 'Quién paga la escritura en El Salvador',
+  description: 'Quién paga la escritura de compraventa en El Salvador: lo que fija la ley, lo que es costumbre y cómo dejarlo por escrito, con ejemplos de reparto de gastos.',
+  navLabel: 'Quién paga la escritura',
+  blurb: 'Qué gastos de la escritura paga el comprador y cuáles el vendedor en El Salvador, y cómo acordarlo.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Salvadoran notario must check: the Código Civil default rule on who pays the costs of the escritura in a compraventa (Art. on "costas de la escritura": in the Chilean-derived code the seller pays unless agreed otherwise; verify the Salvadoran article and wording), the custom that the buyer pays the notary and CNR inscription, the ITBR charged to the buyer by law, the cancelación de hipoteca as a seller cost, and practice when the buyer uses a bank or FSV loan.',
+  answer: 'En El Salvador, el impuesto a la transferencia lo paga el comprador por ley. Los honorarios del notario y la inscripción en el CNR se reparten según lo que acuerden las partes; por costumbre los asume a menudo el comprador, mientras el vendedor paga lo necesario para dejar la casa en regla, como solvencias y cancelación de hipoteca. Déjelo por escrito antes de firmar. Puede publicar su casa gratis en Casa-Libre.',
+  summary: [
+    'Por ley, el 3% de transferencia sobre lo que exceda US$28,571.43 es del comprador.',
+    'El notario y el registro se reparten por acuerdo; la costumbre más frecuente los pone a cargo del comprador.',
+    'El vendedor paga lo que deja la casa vendible: solvencias, certificaciones y cancelación de hipoteca.',
+    'Lo seguro es escribir el reparto en la promesa de venta o en la primera oferta aceptada.',
+  ],
+  cta: {
+    title: 'Publique su casa gratis',
+    text: 'En Casa-Libre no paga por publicar ni comisión sobre la venta. Los interesados le escriben por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'quien-paga-que',
+      h2: '¿Quién paga cada gasto de la escritura?',
+      blocks: [
+        { t: 'p', html: 'Unos gastos los asigna la ley y otros la costumbre. Esta tabla separa ambos casos.' },
+        { t: 'table',
+          caption: 'Reparto habitual de los gastos de una compraventa en El Salvador',
+          head: ['Gasto', 'Quién lo paga', 'Por qué'],
+          rows: [
+            ['Impuesto a la transferencia de bienes raíces', 'Comprador', 'Lo dice la ley'],
+            ['Honorarios del notario', 'Se acuerda; a menudo el comprador', 'Costumbre y negociación'],
+            ['Derechos de registro del CNR', 'Comprador, por costumbre', 'La inscripción protege al nuevo dueño'],
+            ['Solvencia municipal y certificaciones', 'Vendedor', 'Demuestra que la casa está en regla'],
+            ['Cancelación de hipoteca', 'Vendedor', 'Es su deuda'],
+            ['Ganancia de capital', 'Vendedor', 'Lo dice la ley'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Confírmelo con su notario.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'lo-que-dice-la-ley',
+      h2: '¿Qué dice la ley y qué es costumbre?',
+      blocks: [
+        { t: 'p', html: 'El Código Civil tiene una regla supletoria sobre los gastos de la escritura, que solo se aplica si las partes no acordaron nada. En la práctica casi siempre se acuerda, y por eso la costumbre pesa más que la regla.' },
+        { t: 'p', html: 'Si el comprador paga con crédito, el banco o el Fondo Social para la Vivienda suelen trabajar con su notario y el comprador paga esa escritura, que incluye la compraventa y la hipoteca nueva.' },
+      ],
+    },
+    {
+      id: 'ejemplos-de-reparto',
+      h2: 'Ejemplos de reparto',
+      blocks: [
+        { t: 'p', html: 'Estos son tres acuerdos posibles para la misma venta. Ninguno es el obligatorio: son ejemplos para negociar.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: tres formas de repartir los gastos',
+          html: 'Casa de US$70,000, sin hipoteca. Impuesto a la transferencia: (70,000 - 28,571.43) x 3% = US$1,242.86.',
+          rows: [
+            ['Acuerdo A, el más común', 'Comprador: impuesto, notario y registro. Vendedor: solvencia y certificaciones'],
+            ['Acuerdo B, notario a medias', 'Comprador: impuesto y registro. Notario: 50% cada uno'],
+            ['Acuerdo C, precio cerrado', 'El vendedor asume el notario y el comprador paga solo el impuesto y el registro'],
+          ] },
+        { t: 'p', html: 'Con el acuerdo C el vendedor puede pedir un poco más de precio. Lo importante es que ambos sepan desde el principio cuánto les cuesta la operación.' },
+      ],
+    },
+    {
+      id: 'como-dejarlo-por-escrito',
+      h2: '¿Cómo dejar el reparto por escrito?',
+      blocks: [
+        { t: 'p', html: 'Escriba el reparto en la promesa de venta o, si van directo a la escritura, en el mensaje en que acepta la oferta. Así evita sorpresas el día de la firma.' },
+        { t: 'ul', items: [
+          'Nombre cada gasto: notario, impuesto, registro, certificaciones, cancelación.',
+          'Diga quién elige al notario.',
+          'Aclare quién paga si el registro observa la escritura y hay que rectificarla.',
+        ] },
+        { t: 'p', html: 'Más sobre ese documento en <a href="/el-salvador/promesa-de-venta-el-salvador/">promesa de venta en El Salvador</a>, y los montos en <a href="/el-salvador/gastos-al-vender-una-casa-el-salvador/">gastos al vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'negociar',
+      h2: '¿Conviene ofrecer pagar la escritura para vender más rápido?',
+      blocks: [
+        { t: 'p', html: 'Puede ser un argumento de venta, sobre todo con compradores que llegan justos de dinero. Antes de ofrecerlo, calcule cuánto le cuesta y compárelo con bajar el precio.' },
+        { t: 'p', html: 'Para comparar, revise cuánto piden por casas parecidas en <a href="https://sv.casa-libre.com/comprar">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publique con el precio claro',
+      blocks: [
+        { t: 'p', html: 'En el aviso basta con el precio en dólares. El reparto de gastos se acuerda con quien haga una oferta.' },
+        { t: 'casalibre',
+          title: 'Publicar en Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://sv.casa-libre.com/vender' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Quién paga la escritura de compraventa, comprador o vendedor?', a: 'Lo que se acuerde. Por costumbre el comprador paga notario, impuesto a la transferencia y registro, y el vendedor sus solvencias y la cancelación de hipoteca.' },
+    { q: '¿Quién paga la escritura de cancelación de hipoteca?', a: 'Normalmente el vendedor, porque la hipoteca es su deuda y la cancelación deja la casa libre para el comprador.' },
+    { q: '¿Quién elige al notario?', a: 'Suele elegirlo quien lo paga. Si el comprador tiene crédito, el banco normalmente define el notario.' },
+    { q: '¿Se puede dividir el notario a medias?', a: 'Sí, si ambas partes lo aceptan. Escríbalo en la promesa o en la aceptación de la oferta.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "quien paga la escritura"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=quien%20paga%20la%20escritura', date: '2026-11-13', note: 'Variants: comprador o vendedor, de compraventa, de cancelación de hipoteca, de un terreno.' },
+  ],
+  closing: {
+    title: 'Su casa, lista para vender',
+    text: 'Publique gratis en Casa-Libre y reciba las consultas directo en su WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['gastos-al-vender-una-casa-el-salvador', 'cuanto-cobra-un-notario-en-el-salvador', 'promesa-de-venta-el-salvador'],
+};

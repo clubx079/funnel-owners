@@ -1,0 +1,123 @@
+export default {
+  slug: 'anuncio-para-vender-una-casa',
+  group: 'Vender una propiedad',
+  order: 8,
+  equivalentOf: 'anuncio-para-vender-una-casa',
+  title: 'Anuncio para vender una casa: plantilla y ejemplos',
+  h1: 'Cómo escribir el anuncio para vender tu casa',
+  description: 'Plantilla para escribir el anuncio de venta de tu casa en Venezuela: fórmula del título, qué datos incluir, tres ejemplos y los errores más comunes.',
+  navLabel: 'Anuncio de venta',
+  blurb: 'Una plantilla y tres ejemplos de anuncio para vender una casa o un apartamento en Venezuela.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Un buen anuncio para vender una casa en Venezuela tiene un título con tipo, zona y un dato fuerte, y una descripción con metros, habitaciones, baños, puestos de estacionamiento, servicios (agua, planta eléctrica), estado de los documentos y precio en dólares. Escribe frases cortas y sin exagerar. Abajo tienes una plantilla y tres ejemplos. Puedes publicar tu anuncio gratis en Casa-Libre.',
+  summary: [
+    'Título: tipo + zona + dato fuerte, por ejemplo "Apartamento 3 hab con pozo en Los Palos Grandes".',
+    'Descripción: medidas, distribución, servicios, documentos y precio.',
+    'En Venezuela, agua y electricidad son datos tan importantes como las habitaciones.',
+    'Evita mayúsculas, signos de exclamación y frases vacías como "oportunidad única".',
+  ],
+  cta: {
+    title: 'Publica tu anuncio gratis',
+    text: 'Pega tu texto, sube las fotos y recibe las consultas por WhatsApp.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'plantilla',
+      h2: 'Plantilla de anuncio para vender una casa',
+      blocks: [
+        { t: 'p', html: 'Copia esta estructura y completa los espacios. Funciona para casas, apartamentos y townhouses.' },
+        { t: 'table',
+          caption: 'Partes del anuncio',
+          head: ['Parte', 'Qué escribir'],
+          rows: [
+            ['Título', '[Tipo] [habitaciones] en [urbanización o zona], [dato fuerte]'],
+            ['Primera línea', 'Lo mejor de la casa en una frase'],
+            ['Medidas', '[ ] m² de construcción, [ ] m² de terreno'],
+            ['Distribución', '[ ] habitaciones, [ ] baños, [ ] puestos'],
+            ['Servicios', 'Agua [continua / tanque / pozo], planta eléctrica [sí/no], gas [directo / bombona]'],
+            ['Entorno', 'Cerca de [colegios, comercios, transporte]'],
+            ['Documentos', 'Documento registrado, solvencias al día'],
+            ['Precio', 'USD [ ], [negociable / precio fijo]'],
+          ],
+          note: 'Plantilla orientativa.' },
+      ],
+    },
+    {
+      id: 'titulo',
+      h2: '¿Cómo escribir el título del anuncio?',
+      blocks: [
+        { t: 'p', html: 'El título es lo que se lee en la búsqueda. Pon primero el tipo y la zona, y cierra con lo que te diferencia.' },
+        { t: 'ul', items: [
+          'Bien: "Casa 4 hab con planta eléctrica en Prebo".',
+          'Bien: "Apartamento 2 hab, 2 puestos, en Bella Vista".',
+          'Mal: "OPORTUNIDAD!!! VENDO YA".',
+        ] },
+      ],
+    },
+    {
+      id: 'ejemplos',
+      h2: 'Tres ejemplos de anuncio',
+      blocks: [
+        { t: 'p', html: 'Ejemplos inventados para mostrar el tono. Cambia los datos por los de tu inmueble.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo 1: casa en Valencia',
+          html: '"Casa 3 hab con pozo en El Trigal. Casa de una planta, 180 m² de construcción en 300 m² de terreno. 3 habitaciones, 2 baños, 2 puestos techados. Pozo, tanque y bomba; planta eléctrica para toda la casa. Documento registrado, solvencias al día. USD 85.000, conversable."' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo 2: apartamento en Caracas',
+          html: '"Apartamento 2 hab en Los Palos Grandes, piso 5. 75 m², 2 habitaciones, 2 baños, 1 puesto y maletero. Edificio con planta eléctrica, tanque y vigilancia. Remodelado en cocina y baños. Solvente con condominio. USD 70.000."' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo 3: casa en Maracaibo',
+          html: '"Casa 4 hab con aire acondicionado en Tierra Negra. 220 m² de construcción, 4 habitaciones, 3 baños, garaje para 2 carros, patio. Aire en todas las habitaciones y planta eléctrica. Documento registrado. USD 60.000, negociable."' },
+      ],
+    },
+    {
+      id: 'errores',
+      h2: 'Errores que alejan a los compradores',
+      blocks: [
+        { t: 'p', html: 'Casi todos tienen que ver con esconder información o exagerar.' },
+        { t: 'ul', items: [
+          'No poner precio: muchos interesados no escriben.',
+          'Omitir los servicios: es la primera pregunta que vas a recibir.',
+          'Usar fotos viejas o de otra casa.',
+          'Decir "documentos en regla" si falta la solvencia o hay una hipoteca.',
+        ] },
+      ],
+    },
+    {
+      id: 'fotos-y-precio',
+      h2: 'El anuncio funciona con buenas fotos y buen precio',
+      blocks: [
+        { t: 'p', html: 'El mejor texto no salva unas fotos oscuras ni un precio alto. Revisa las dos cosas.' },
+        { t: 'p', html: 'Guía de fotos: <a href="/venezuela/fotos-para-vender-una-casa/">fotos para vender una casa</a>. Para el precio: <a href="/venezuela/avaluo-de-inmuebles-venezuela/">avalúo de inmuebles</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publica tu anuncio',
+      blocks: [
+        { t: 'p', html: 'Pega el texto en <a href="https://casa-libre.com.ve/vender">Casa-Libre</a>, sube las fotos y marca la ubicación en el mapa.' },
+        { t: 'p', html: 'Antes, mira cómo se presentan otras casas en <a href="https://casa-libre.com.ve/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Qué poner en un anuncio de venta de casa?', a: 'Tipo, zona, medidas, habitaciones, baños, puestos, servicios, documentos y precio.' },
+    { q: '¿Conviene poner el precio?', a: 'Sí. Un aviso con precio recibe consultas más serias.' },
+    { q: '¿Cuánto debe medir la descripción?', a: 'Entre 80 y 150 palabras: suficiente para los datos, sin relleno.' },
+    { q: '¿Puedo pedir ayuda para escribirlo?', a: 'Sí: completa el formulario de esta página y te escriben por WhatsApp para ayudarte a publicar.' },
+  ],
+  internalSources: [
+    { label: 'Editorial page, no legal facts', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=publicar%20casa%20en%20venta', date: '2026-11-13', note: 'texto para publicar casa en venta. Examples use real neighbourhood names (El Trigal and Prebo in Valencia, Los Palos Grandes in Caracas, Bella Vista and Tierra Negra in Maracaibo) with invented data.' },
+  ],
+  closing: {
+    title: 'Tu anuncio, en línea hoy',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['fotos-para-vender-una-casa', 'como-poner-mi-casa-en-venta-por-internet', 'donde-publicar-casa-en-venta-venezuela'],
+};

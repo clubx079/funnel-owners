@@ -1,0 +1,115 @@
+export default {
+  slug: 'opcion-de-compra-venta-venezuela',
+  group: 'Papeles y trámites',
+  order: 3,
+  equivalentOf: 'sena-de-trato-paraguay',
+  title: 'Opción de compra venta de inmueble en Venezuela',
+  h1: 'Opción de compra venta de un inmueble en Venezuela',
+  description: 'Qué es la opción de compra venta en Venezuela, qué cláusulas lleva, cuánto se da de inicial, qué pasa si alguien se arrepiente y cómo se autentica.',
+  navLabel: 'Opción de compra',
+  blurb: 'El contrato previo a la venta en Venezuela: cláusulas, pago inicial, plazos y arrepentimiento.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Venezuelan lawyer must check: the difference between opción de compra (unilateral) and promesa bilateral de compraventa under the Código Civil; that it is usually authenticated at a notaría pública and drafted or visado by a lawyer; that the initial payment is often called arras or cláusula penal and that the consequences of withdrawal depend on how the contract is worded (custom: buyer loses the amount, seller returns it with a penalty); that prices may be agreed in foreign currency; and typical terms. No percentage for the initial payment is stated as a rule.',
+  answer: 'La opción de compra venta es el contrato que firman vendedor y comprador en Venezuela antes de la venta definitiva. Fija el precio, el plazo para protocolizar, el pago inicial y qué pasa si alguno se arrepiente. La redacta o visa un abogado y se autentica en una notaría; después, el documento definitivo se firma en el Registro. Puedes encontrar comprador publicando gratis en Casa-Libre.',
+  summary: [
+    'Es el paso intermedio entre el acuerdo de palabra y el documento definitivo en el Registro.',
+    'Fija precio, moneda, forma de pago, plazo, pago inicial y penalidades.',
+    'Se autentica en una notaría pública y la redacta o visa un abogado.',
+    'Lo que pasa si alguien se arrepiente depende de cómo esté escrita la cláusula: léela con calma.',
+  ],
+  cta: {
+    title: 'Primero, encuentra a tu comprador',
+    text: 'Publica tu casa gratis en Casa-Libre. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'que-es',
+      h2: '¿Qué es la opción de compra venta?',
+      blocks: [
+        { t: 'p', html: 'Es un contrato previo en el que las partes se comprometen a hacer la venta en un plazo y en condiciones ya fijadas. Sirve para que el comprador reúna el dinero o el crédito y el vendedor termine sus trámites.' },
+        { t: 'table',
+          caption: 'Opción de compra y documento definitivo',
+          head: ['', 'Opción de compra', 'Documento definitivo'],
+          rows: [
+            ['Qué logra', 'Compromete a las partes', 'Transfiere la propiedad'],
+            ['Dónde se firma', 'Notaría pública (autenticación)', 'Registro Público inmobiliario (protocolización)'],
+            ['Pago', 'Un pago inicial', 'El saldo del precio'],
+            ['Quién la redacta', 'Un abogado', 'Un abogado'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulta con un abogado o un notario antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'clausulas',
+      h2: '¿Qué cláusulas debe tener?',
+      blocks: [
+        { t: 'p', html: 'Todo lo que pueda generar una discusión después. Estas son las que no deben faltar.' },
+        { t: 'ul', items: [
+          'Identificación de las partes (cédula, RIF, estado civil) y del inmueble con sus datos de registro.',
+          'Precio y moneda, y si se paga en dólares, en bolívares o en ambas.',
+          'Pago inicial: monto, cómo se entrega y si se descuenta del precio.',
+          'Plazo para protocolizar y si se puede prorrogar.',
+          'Qué pasa si se arrepiente el comprador y qué pasa si se arrepiente el vendedor.',
+          'Quién paga notaría, Registro y abogado, y cuándo se entregan las llaves.',
+        ] },
+      ],
+    },
+    {
+      id: 'pago-inicial',
+      h2: '¿Cuánto se da de inicial en una opción de compra?',
+      blocks: [
+        { t: 'p', html: 'No hay un porcentaje fijado por ley: es una negociación. Lo importante es que el monto sea serio para las dos partes y que quede escrito cómo se descuenta del precio.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: casa de USD 40.000 con inicial del 10%',
+          html: 'Las partes acuerdan una inicial del 10%: 40.000 × 10% = USD 4.000 al firmar la opción. El saldo, 40.000 − 4.000 = USD 36.000, se paga el día de la firma en el Registro.',
+          rows: [['Precio', 'USD 40.000'], ['Inicial (10%, supuesto)', 'USD 4.000'], ['Saldo en el Registro', 'USD 36.000']] },
+      ],
+    },
+    {
+      id: 'arrepentimiento',
+      h2: '¿Qué pasa si el comprador o el vendedor se arrepiente?',
+      blocks: [
+        { t: 'p', html: 'Depende de la cláusula penal o de arras que firmaron. Es frecuente pactar que si se arrepiente el comprador pierde la inicial, y que si se arrepiente el vendedor la devuelve con una penalidad.' },
+        { t: 'p', html: 'Si el plazo vence por una demora del Registro o del banco, y no por culpa de nadie, conviene que el contrato prevea una prórroga. Pídeselo al abogado.' },
+      ],
+    },
+    {
+      id: 'antes-de-firmar',
+      h2: '¿Qué revisar antes de firmar?',
+      blocks: [
+        { t: 'p', html: 'Que los papeles de la casa estén en orden. Si falta una solvencia o la certificación de gravámenes muestra una hipoteca, ajusta el plazo.' },
+        { t: 'p', html: 'Revisa la lista de <a href="/venezuela/requisitos-para-vender-una-casa-venezuela/">requisitos para vender</a>, y lo que sigue después en <a href="/venezuela/documento-de-compra-venta-de-casa-venezuela/">documento de compra venta</a>.' },
+      ],
+    },
+    {
+      id: 'encontrar-comprador',
+      h2: 'Antes de la opción: encontrar al comprador',
+      blocks: [
+        { t: 'p', html: 'La opción llega cuando ya hay un interesado decidido. Para conseguirlo, publica gratis en <a href="https://casa-libre.com.ve/vender">Casa-Libre</a> y responde rápido por WhatsApp.' },
+        { t: 'p', html: 'Si es tu primera venta, la guía para vender tu casa de <a href="https://casa-libre.com.ve/guias/como-vender-mi-casa">Casa-Libre</a> resume el proceso completo.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿La opción de compra se autentica o se registra?', a: 'Normalmente se autentica en una notaría pública. El documento que se registra es el definitivo de compraventa.' },
+    { q: '¿Se puede hacer una opción de compra venta en dólares?', a: 'En la práctica sí, y es lo habitual. Que el abogado deje clara la moneda y la forma de pago.' },
+    { q: '¿Cuánto dura una opción de compra?', a: 'Lo que pacten las partes. Debe alcanzar para reunir los recaudos y, si el comprador usa crédito, para que el banco apruebe.' },
+    { q: '¿Opción de compra y promesa de compraventa son lo mismo?', a: 'Se parecen, pero no son iguales en lo jurídico: la opción obliga a una parte y la promesa bilateral a ambas. El abogado elige la figura.' },
+    { q: '¿Puedo recibir la inicial sin notaría?', a: 'No es recomendable. Sin documento autenticado, probar lo pactado es más difícil para los dos.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=opcion%20de%20compra%20venta', date: '2026-11-13', note: 'opcion de compra venta de inmueble; opción de compra venta en venezuela; opción de compra venta en dólares; opción de compra venta en el código civil venezolano; opcion de compra venta modelo.' },
+  ],
+  closing: {
+    title: 'Encuentra a tu comprador',
+    text: 'Publica tu casa gratis en Casa-Libre: los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['documento-de-compra-venta-de-casa-venezuela', 'requisitos-para-vender-una-casa-venezuela', 'gastos-al-vender-una-casa-venezuela'],
+};

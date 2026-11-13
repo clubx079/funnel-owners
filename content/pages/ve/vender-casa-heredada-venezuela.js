@@ -1,0 +1,123 @@
+export default {
+  slug: 'vender-casa-heredada-venezuela',
+  group: 'Papeles y trámites',
+  nav: 'Herencia',
+  order: 2,
+  equivalentOf: 'vender-casa-heredada-paraguay',
+  title: 'Cómo vender una casa heredada en Venezuela: pasos',
+  h1: 'Cómo vender una casa heredada en Venezuela',
+  description: 'Pasos para vender una casa heredada en Venezuela: únicos y universales herederos, declaración sucesoral ante el SENIAT, solvencia y firma de herederos.',
+  navLabel: 'Casa heredada',
+  blurb: 'Qué trámites hacen los herederos antes de vender una casa en Venezuela y cómo se firma la venta.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Venezuelan lawyer must check: the sequence (justificativo/declaración de únicos y universales herederos before a tribunal, declaración sucesoral at SENIAT, now filed online, certificado de solvencia sucesoral, then sale by all heirs or after partición); the legal deadline to file the declaración sucesoral (commonly cited as 180 days from death, Ley de Impuesto sobre Sucesiones, Donaciones y demás Ramos Conexos) and the fines for late filing; the treatment of the vivienda principal in the estate; that an heir abroad can sign with a consular poder; and that a buyer\'s lawyer will ask for the solvencia sucesoral. No tax rates are stated.',
+  answer: 'Para vender una casa heredada en Venezuela, los herederos primero obtienen la declaración de únicos y universales herederos, presentan la declaración sucesoral ante el SENIAT y consiguen el certificado de solvencia de sucesiones. Con eso, la venta la firman todos los herederos juntos, o uno con poder de los demás, en el Registro. Mientras avanzan los trámites, pueden publicar la casa gratis en Casa-Libre.',
+  summary: [
+    'Sin declaración sucesoral y su solvencia, el Registro no inscribe la venta de un bien heredado.',
+    'La declaración sucesoral se presenta ante el SENIAT dentro de un plazo legal que corre desde el fallecimiento.',
+    'Firman todos los herederos, o alguien con poder de los que no puedan estar.',
+    'Ponerse de acuerdo en precio y reparto antes de publicar evita la mayoría de los conflictos.',
+  ],
+  cta: {
+    title: 'Publiquen la casa mientras avanzan los trámites',
+    text: 'En Casa-Libre publicar es gratis y los interesados escriben directo por WhatsApp, sin comisión sobre la venta.',
+    button: 'Publicar la casa gratis',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'tramites',
+      h2: '¿Qué trámites hay que hacer antes de vender una casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Tres: probar quiénes son los herederos, declarar la herencia ante el SENIAT y obtener la solvencia. Recién después se puede vender como cualquier casa.' },
+        { t: 'table',
+          caption: 'Trámites de una herencia antes de vender',
+          head: ['Trámite', 'Para qué sirve', 'Dónde'],
+          rows: [
+            ['Declaración de únicos y universales herederos', 'Dice quiénes heredan', 'Ante un tribunal, con un abogado'],
+            ['Declaración sucesoral', 'Declara los bienes de la herencia', 'SENIAT, en línea'],
+            ['Certificado de solvencia de sucesiones', 'Prueba que la herencia está declarada y pagada', 'SENIAT'],
+            ['Registro de la declaración', 'Deja constancia de la herencia en el inmueble', 'Registro Público inmobiliario'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. El orden y los recaudos exactos los indica el abogado de la sucesión.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulta con un abogado o un notario antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'plazo',
+      h2: '¿Hay plazo para hacer la declaración sucesoral?',
+      blocks: [
+        { t: 'p', html: 'Sí. La ley fija un plazo que se cuenta desde el fallecimiento, y presentar tarde puede generar multas. Si el plazo ya pasó, igual se puede declarar, pero conviene hacerlo cuanto antes.' },
+        { t: 'p', html: 'La declaración incluye todos los bienes, no solo la casa. Por eso suele hacerla un abogado o un contador con experiencia en sucesiones.' },
+      ],
+    },
+    {
+      id: 'acuerdo-entre-herederos',
+      h2: '¿Qué pasa si los herederos no se ponen de acuerdo?',
+      blocks: [
+        { t: 'p', html: 'Sin el acuerdo de todos, la casa completa no se puede vender. Cada heredero puede ceder su parte, pero un comprador de la casa entera necesita la firma de todos.' },
+        { t: 'ul', items: [
+          'Acuerden por escrito el precio mínimo, quién atiende a los interesados y cómo se reparte el dinero.',
+          'Si alguno vive fuera del país, puede firmar un poder en el consulado. Ver <a href="/venezuela/vender-casa-en-venezuela-desde-el-exterior/">vender desde el exterior</a>.',
+          'Si el desacuerdo sigue, un abogado puede explicar la vía de la partición.',
+        ] },
+      ],
+    },
+    {
+      id: 'como-se-firma',
+      h2: '¿Cómo se firma la venta de una casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Igual que una venta normal, con los papeles de la herencia agregados. Primero la opción de compra en una notaría y después el documento definitivo en el Registro.' },
+        { t: 'steps', items: [
+          { title: 'Reúnan los recaudos', html: 'Solvencia de sucesiones, documentos de la casa y solvencias municipales. La lista base está en <a href="/venezuela/requisitos-para-vender-una-casa-venezuela/">requisitos para vender</a>.' },
+          { title: 'Publiquen y negocien', html: 'Con un solo contacto en el aviso, para que el comprador no reciba precios distintos.' },
+          { title: 'Firmen la opción de compra', html: 'Todos los herederos o sus apoderados. Ver <a href="/venezuela/opcion-de-compra-venta-venezuela/">opción de compra venta</a>.' },
+          { title: 'Protocolicen la venta', html: 'Con el anticipo de ISLR que corresponda y el reparto del dinero según lo acordado.' },
+        ] },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: 'Ejemplo: tres hermanos venden la casa de sus padres',
+      blocks: [
+        { t: 'p', html: 'Un ejemplo ayuda a ver cómo se reparte el dinero cuando todos heredan por partes iguales.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: casa heredada vendida en USD 45.000',
+          html: 'Tres hermanos heredan por partes iguales. Venden en USD 45.000 y descuentan gastos comunes supuestos de USD 900 (abogado, solvencias y anticipo). Quedan 45.000 − 900 = USD 44.100, y a cada uno le corresponden 44.100 ÷ 3 = USD 14.700.',
+          rows: [['Precio', 'USD 45.000'], ['Gastos comunes (supuesto)', '− USD 900'], ['Neto', 'USD 44.100'], ['Cada heredero (1/3)', 'USD 14.700']] },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Podemos publicar antes de terminar la sucesión?',
+      blocks: [
+        { t: 'p', html: 'Sí, siempre que digan en el aviso en qué etapa está el trámite. Lo que no conviene es firmar la opción de compra sin la solvencia de sucesiones en camino.' },
+        { t: 'casalibre',
+          title: 'Un aviso, un contacto',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://casa-libre.com.ve/vender' },
+        { t: 'p', html: 'Para ponerle precio, comparen con casas parecidas de la zona en <a href="https://casa-libre.com.ve/comprar">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Se puede vender una casa heredada sin hacer la sucesión?', a: 'No como venta normal: el Registro pide la declaración sucesoral y su solvencia para inscribir la venta de un bien heredado.' },
+    { q: '¿Qué es la declaración de únicos y universales herederos?', a: 'Es la decisión de un tribunal que reconoce quiénes son los herederos. Se tramita con un abogado y se usa en la declaración sucesoral.' },
+    { q: '¿Dónde se hace la declaración sucesoral?', a: 'Ante el SENIAT, que hoy la recibe en línea. Al final emite el certificado de solvencia de sucesiones.' },
+    { q: '¿Un heredero que vive afuera puede firmar?', a: 'Sí, con un poder otorgado en un consulado de Venezuela o con las legalizaciones que corresponda, a favor de alguien en el país.' },
+    { q: '¿Hay que pagar el anticipo de ISLR al vender una casa heredada?', a: 'Por regla general, sí, como en cualquier venta de una persona natural. Consúltalo con el contador de la sucesión.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=declaracion%20sucesoral', date: '2026-11-13', note: 'como vender una casa heredada en venezuela; requisitos para vender una casa heredada; declaracion sucesoral seniat en linea; poder para vender inmueble de una sucesion en venezuela.' },
+  ],
+  closing: {
+    title: '¿Listos para vender?',
+    text: 'Publiquen la casa gratis en Casa-Libre y reciban las consultas en un solo WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['requisitos-para-vender-una-casa-venezuela', 'vender-casa-en-venezuela-desde-el-exterior', 'anticipo-de-islr-venta-de-inmueble'],
+};

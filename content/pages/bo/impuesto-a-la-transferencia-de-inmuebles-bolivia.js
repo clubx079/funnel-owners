@@ -1,0 +1,125 @@
+export default {
+  slug: 'impuesto-a-la-transferencia-de-inmuebles-bolivia',
+  group: 'Impuestos y gastos',
+  nav: 'Impuestos',
+  order: 1,
+  equivalentOf: 'impuesto-por-vender-una-casa-paraguay',
+  title: 'Impuesto a la transferencia de inmuebles en Bolivia (IMT)',
+  h1: 'Qué impuesto se paga al vender una casa en Bolivia',
+  description: 'El impuesto municipal a la transferencia (IMT) al vender una casa en Bolivia: 3%, sobre qué base, quién lo paga, en qué plazo y un ejemplo con números.',
+  navLabel: 'Impuesto por vender',
+  blurb: 'El IMT del 3% al vender una casa: base, quién lo paga, plazo y ejemplo con números.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian tax adviser must check: IMT (Ley 843 as amended by Ley 1606, municipal domain) rate 3%; base = transfer value or the municipal/registered value, whichever is higher; sujeto pasivo is the transferor/registered owner per DS 24054 (search summary) while in practice parties agree who bears it; payment within 10 business days of the transaction (DS 24054); that businesses or habitual sellers pay IT/IVA/IUE instead; that individuals have no separate capital gains tax on an occasional home sale. Also whether the exchange rate used when price is in USD is the official one.',
+  answer: 'Al vender una casa en Bolivia, una persona particular paga el impuesto municipal a la transferencia (IMT): el 3% sobre el valor de la venta o el valor que tenga registrado el municipio, el que sea mayor. Lo liquida el gobierno municipal donde está el inmueble y se paga en un plazo corto desde la firma. La norma lo pone a cargo del vendedor, aunque en la práctica se negocia en la minuta. Para empezar, publica gratis en Casa-Libre.',
+  summary: [
+    'El IMT es del 3% y lo cobra el municipio donde está la casa.',
+    'La base es el precio de la minuta o el valor registrado en el municipio, si es mayor.',
+    'El reglamento dice que lo paga quien transfiere; en la práctica, se acuerda en la minuta.',
+    'Se paga dentro de un plazo corto desde la firma; el atraso genera multas e intereses.',
+    'Empresas y vendedores habituales tributan distinto (IT, IVA, IUE).',
+  ],
+  cta: {
+    title: 'Publica tu casa gratis',
+    text: 'En Casa-Libre no pagas comisión sobre la venta: los interesados te escriben por WhatsApp.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'que-impuesto-se-paga',
+      h2: '¿Qué impuesto se paga al vender una casa en Bolivia?',
+      blocks: [
+        { t: 'p', html: 'Si eres una persona particular y vendes tu casa de forma ocasional, el impuesto de la venta es el IMT, impuesto municipal a las transferencias de inmuebles. No hay otro impuesto nacional sobre la ganancia en ese caso.' },
+        { t: 'table',
+          caption: 'Impuestos según quién vende',
+          head: ['Quién vende', 'Impuesto principal', 'Quién lo cobra'],
+          rows: [
+            ['Persona particular, venta ocasional', 'IMT, 3%', 'Gobierno autónomo municipal'],
+            ['Empresa o quien vende inmuebles como negocio', 'IT, IVA e IUE, según su actividad', 'Servicio de Impuestos Nacionales'],
+            ['Herencia o donación (no es venta)', 'Impuesto a las transmisiones gratuitas', 'Según el departamento'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026, a revisar con un contador.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública, un abogado o un contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'como-se-calcula',
+      h2: '¿Cómo se calcula el IMT?',
+      blocks: [
+        { t: 'p', html: 'Se aplica el 3% sobre la base imponible. Esa base es el precio que figura en la minuta, salvo que el valor que el municipio tiene para el inmueble sea mayor: en ese caso se usa ese valor.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: IMT de una casa',
+          html: 'Cifras redondas e inventadas. La liquidación real la hace el municipio.',
+          rows: [
+            ['Precio en la minuta', 'Bs 700.000'],
+            ['Valor registrado en el municipio (supuesto)', 'Bs 560.000'],
+            ['Base: el mayor de los dos', 'Bs 700.000'],
+            ['IMT: 700.000 x 3%', 'Bs 21.000'],
+          ] },
+        { t: 'p', html: 'Si el precio está en dólares, la liquidación se hace en bolivianos con el tipo de cambio que aplique el municipio. Pregúntalo al pedir la liquidación.' },
+      ],
+    },
+    {
+      id: 'quien-paga',
+      h2: '¿Quién paga el impuesto a la transferencia: comprador o vendedor?',
+      blocks: [
+        { t: 'p', html: 'El reglamento del impuesto considera contribuyente a quien transfiere, es decir al vendedor. Pero las partes pueden acordar otra cosa, y es común que lo asuma el comprador o que se divida. Lo importante es escribirlo en la minuta.' },
+        { t: 'ul', items: [
+          'Si lo pagas tú, réstalo del precio al calcular lo que te queda.',
+          'Si lo paga el comprador, que la minuta lo diga con claridad.',
+          'Quien lo pague, que sea dentro del plazo: la multa recae sobre el contribuyente.',
+        ] },
+      ],
+    },
+    {
+      id: 'plazo-y-donde',
+      h2: '¿Dónde y en qué plazo se paga?',
+      blocks: [
+        { t: 'p', html: 'Se paga en el gobierno autónomo municipal donde está el inmueble, o en los bancos que el municipio indique, con la liquidación que él emite. El plazo es corto, de días hábiles desde la firma de la minuta.' },
+        { t: 'steps', items: [
+          { title: 'Firma de la minuta', html: 'Empieza a correr el plazo.' },
+          { title: 'Liquidación', html: 'En el municipio, con la minuta, el Folio Real y el impuesto a la propiedad al día.' },
+          { title: 'Pago', html: 'Con la liquidación, en ventanilla o banco autorizado.' },
+          { title: 'Inscripción', html: 'El comprobante se presenta para inscribir en Derechos Reales.' },
+        ] },
+      ],
+    },
+    {
+      id: 'otros-gastos',
+      h2: '¿Qué otros gastos hay además del impuesto?',
+      blocks: [
+        { t: 'p', html: 'El notario, el abogado, los certificados y la inscripción en Derechos Reales, más las gestiones del impuesto a la propiedad que falten. Los detallamos en <a href="/bolivia/gastos-al-vender-una-casa-bolivia/">gastos al vender una casa en Bolivia</a>, y el impuesto anual en <a href="/bolivia/impuesto-a-la-propiedad-de-bienes-inmuebles-bolivia/">impuesto a la propiedad de bienes inmuebles</a>.' },
+        { t: 'p', html: 'Casa-Libre también resume estos costos en su guía de impuestos y gastos al vender de <a href="https://casa-libre.com.bo/guias/impuestos-y-gastos-al-vender">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'vender-sin-comision',
+      h2: '¿Cómo reducir lo que pagas al vender?',
+      blocks: [
+        { t: 'p', html: 'El impuesto no se puede evitar, pero sí otros costos. Si vendes por tu cuenta, no pagas comisión. Te recomendamos publicar en <a href="https://casa-libre.com.bo/vender">Casa-Libre</a>, gratis y sin comisión sobre la venta.' },
+        { t: 'callout', tone: 'warn', title: 'No subdeclares el precio', html: 'Poner en la minuta un precio menor al real para pagar menos impuesto es un riesgo para las dos partes y, además, el municipio usa su propio valor si es mayor.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto es el impuesto por vender una casa en Bolivia?', a: 'Para una persona particular, el IMT es del 3% sobre el precio o sobre el valor registrado en el municipio, el que sea mayor.' },
+    { q: '¿Quién paga el impuesto a la transferencia de inmuebles en Bolivia?', a: 'El reglamento lo pone a cargo de quien transfiere, el vendedor, pero las partes pueden acordar otra cosa en la minuta. Escribe siempre quién lo asume.' },
+    { q: '¿Qué es el IMT?', a: 'El impuesto municipal a las transferencias de inmuebles y vehículos. Lo cobra el municipio donde está el bien.' },
+    { q: '¿Hay que pagar impuesto a la ganancia por vender mi casa?', a: 'Para una persona particular que vende de forma ocasional, el impuesto de la venta es el IMT. Si vendes inmuebles como actividad habitual o a través de una empresa, consulta con un contador.' },
+    { q: '¿Qué pasa si pago el IMT tarde?', a: 'Se generan intereses y multas. Pide la liquidación apenas firmes la minuta.' },
+  ],
+  internalSources: [
+    { label: 'DS 24054 via search summary (lexivox)', url: 'https://www.lexivox.org/norms/BO-DS-24054.html', date: '2026-11-13', note: 'Sujeto pasivo = registered owner/transferor; payment within 10 business days.' },
+    { label: 'Google autocomplete gl=bo', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=imt%20bolivia', date: '2026-11-13', note: '"imt bolivia", "formulario imt bolivia", "quien paga el impuesto a la transferencia de inmuebles en bolivia".' },
+  ],
+  closing: {
+    title: 'Sin comisión sobre la venta',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['gastos-al-vender-una-casa-bolivia', 'transferencia-de-inmueble-bolivia', 'impuesto-a-la-propiedad-de-bienes-inmuebles-bolivia', 'cuanto-cobra-un-notario-bolivia'],
+};

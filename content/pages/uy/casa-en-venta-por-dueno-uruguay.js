@@ -1,0 +1,122 @@
+export default {
+  slug: 'casa-en-venta-por-dueno-uruguay',
+  group: 'Vender una propiedad',
+  order: 3,
+  equivalentOf: 'casa-en-venta-por-dueno-paraguay',
+  title: 'Casa en venta por dueño en Uruguay: cómo publicarla',
+  h1: 'Casa en venta por dueño en Uruguay',
+  description: 'Qué espera un comprador de una casa en venta por dueño en Uruguay, cómo dar confianza con papeles, fotos y precio, y cómo publicarla gratis y con seguridad.',
+  navLabel: 'Venta por dueño',
+  blurb: 'Cómo presentar una casa en venta por dueño en Uruguay para que el comprador confíe y escriba.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'An escribano should confirm the general statements: the buyer usually chooses the escribano for the escritura, the seller can ask for the escribano interviniente details, the title study covers 30 years, and payment of the price is made at the escritura through bank means in line with financial inclusion and anti-money-laundering rules.',
+  answer: 'Una casa en venta por dueño en Uruguay es la que publica el propio propietario, sin inmobiliaria. Al comprador le atrae porque habla directo con quien vive ahí y no paga comisión, pero necesita confianza: títulos en orden, fotos reales, datos completos y un precio razonable. Te recomendamos publicarla gratis en Casa-Libre, donde los interesados te escriben directo por WhatsApp.',
+  summary: [
+    '"Por dueño" significa que tratás directo con el comprador; el escribano interviene igual para la escritura.',
+    'Lo que da confianza: títulos revisados, contribución al día, fotos reales y el precio en dólares a la vista.',
+    'Contestá rápido y con datos: el comprador compara varias casas a la vez.',
+    'Nada de llaves ni señas sin un documento redactado por un escribano.',
+  ],
+  cta: {
+    title: 'Publicá tu casa como dueño, gratis',
+    text: 'En Casa-Libre los compradores te escriben directo a tu WhatsApp y no pagás comisión sobre la venta.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'que-significa-por-dueno',
+      h2: '¿Qué quiere decir "en venta por dueño"?',
+      blocks: [
+        { t: 'p', html: 'Que el aviso lo publica y lo atiende el propietario. No hay comisión de intermediación para ninguna de las partes, pero la escritura la firma igual un escribano, como en cualquier compraventa en Uruguay.' },
+        { t: 'table',
+          caption: 'Venta por dueño y venta con inmobiliaria, vistas por el comprador',
+          head: ['', 'Por dueño', 'Con inmobiliaria'],
+          rows: [
+            ['Con quién habla', 'Con el propietario', 'Con un agente'],
+            ['Comisión de intermediación', 'No hay', 'Suele pagar quien compra y quien vende'],
+            ['Información de la casa', 'De primera mano', 'La que tenga el agente'],
+            ['Escribano', 'Sí, para títulos y escritura', 'Sí, para títulos y escritura'],
+            ['Lo que más le preocupa', 'Que los papeles estén bien', 'El costo total de comprar'],
+          ],
+          note: 'Orientación general, noviembre de 2026.' },
+      ],
+    },
+    {
+      id: 'como-dar-confianza',
+      h2: '¿Cómo hago para que el comprador confíe en mi aviso?',
+      blocks: [
+        { t: 'p', html: 'Mostrando todo lo que una inmobiliaria mostraría, y un poco más. El comprador que ve un aviso de dueño se pregunta si es real y si los papeles están bien: contestale eso antes de que lo pregunte.' },
+        { t: 'ul', items: [
+          '<strong>Fotos actuales y propias</strong>, de día, de todos los ambientes. Nada de imágenes de otras casas.',
+          '<strong>Una línea sobre los papeles:</strong> "títulos estudiados por escribano, contribución y Primaria al día".',
+          '<strong>Datos exactos:</strong> metros edificados y de terreno según el plano, dormitorios, baños, garaje.',
+          '<strong>Precio en dólares</strong> y si aceptás negociar o crédito hipotecario.',
+          '<strong>Ubicación en el mapa</strong>, aunque sea aproximada.',
+        ] },
+        { t: 'p', html: 'Antes de publicar conviene tener la consulta con el escribano hecha. La lista de papeles está en <a href="/uruguay/requisitos-para-vender-una-casa-uruguay/">requisitos para vender una casa en Uruguay</a>.' },
+      ],
+    },
+    {
+      id: 'precio-por-dueno',
+      h2: '¿Una casa por dueño tiene que ser más barata?',
+      blocks: [
+        { t: 'p', html: 'No necesariamente, pero el comprador sabe que no paga comisión y lo tiene en cuenta al ofertar. Un precio en línea con casas parecidas del barrio es lo que trae consultas.' },
+        { t: 'p', html: 'Para comparar, buscá casas con tus mismos dormitorios y metros en las casas en venta de <a href="https://uy.casa-libre.com/comprar">Casa-Libre</a>, y anotá lo que piden. Si querés un valor profesional, leé <a href="/uruguay/tasacion-de-inmuebles-uruguay/">tasación de inmuebles en Uruguay</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-por-dueno',
+      h2: '¿Cómo publico mi casa en venta por dueño?',
+      blocks: [
+        { t: 'p', html: 'En un portal donde los propietarios puedan publicar gratis y recibir los contactos directo. Te recomendamos Casa-Libre: publican inmobiliarias, agentes y dueños, y cada consulta te llega por WhatsApp.' },
+        { t: 'casalibre',
+          title: 'Publicar en Casa-Libre como propietario',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://uy.casa-libre.com/vender' },
+        { t: 'p', html: 'Un extra opcional es la insignia de verificado, que ayuda a que el comprador sepa que el aviso es real. Para el texto, usá la plantilla de <a href="/uruguay/anuncio-para-vender-una-casa/">anuncio para vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'seguridad',
+      h2: 'Vender por dueño con seguridad',
+      blocks: [
+        { t: 'p', html: 'Las reglas son simples: visitas coordinadas, nada de papeles originales ni llaves en manos de terceros, y el dinero se mueve con el escribano.' },
+        { t: 'ul', items: [
+          'Pedí nombre completo y cédula a quien viene a ver la casa, y si podés no estés solo.',
+          'No mandes copia de títulos ni de tu cédula a alguien que todavía no hizo una oferta.',
+          'La seña va en un documento redactado o revisado por un escribano, nunca "de palabra".',
+          'El saldo se paga el día de la escritura, por medios bancarios, frente al escribano.',
+        ] },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'cuando-aparece-el-comprador',
+      h2: '¿Qué pasa cuando aparece un comprador?',
+      blocks: [
+        { t: 'p', html: 'Se acuerda el precio y se firma un documento previo con una seña, que en Uruguay suele ser un boleto de reserva o un compromiso de compraventa. Después, con los certificados en regla, se firma la escritura.' },
+        { t: 'p', html: 'En muchas operaciones el comprador elige al escribano de la escritura; vos podés tener el tuyo para que te asesore. El detalle está en <a href="/uruguay/compromiso-de-compraventa-uruguay/">compromiso de compraventa</a> y en <a href="/uruguay/quien-paga-la-escritura-uruguay/">quién paga la escritura</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Es legal vender una casa por dueño en Uruguay?', a: 'Sí. El propietario puede vender sin intermediarios. Lo que la ley exige es la escritura ante escribano y su inscripción en el Registro de la Propiedad.' },
+    { q: '¿El comprador paga menos si compra por dueño?', a: 'Se ahorra la comisión de intermediación. El precio se negocia igual que en cualquier venta.' },
+    { q: '¿Dónde se publican casas en venta por dueño?', a: 'Te recomendamos Casa-Libre: los propietarios publican gratis y los interesados escriben directo por WhatsApp.' },
+    { q: '¿Necesito escribano si vendo por dueño?', a: 'Sí. El escribano estudia los títulos, pide los certificados, redacta la escritura y la inscribe. Sin escribano no hay compraventa de un inmueble.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete Uruguay, "casa en venta por dueño"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=casa%20en%20venta%20por%20due%C3%B1o', date: '2026-11-13', note: 'Generic suggestions; the local form "dueño directo" is common but banned wording on this site.' },
+  ],
+  closing: {
+    title: 'Tu casa, publicada por vos',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  related: ['como-vender-mi-casa-sin-inmobiliaria', 'donde-publicar-casa-en-venta-uruguay', 'como-mostrar-una-casa-a-compradores'],
+};

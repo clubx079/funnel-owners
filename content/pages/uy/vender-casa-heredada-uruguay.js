@@ -1,0 +1,117 @@
+export default {
+  slug: 'vender-casa-heredada-uruguay',
+  group: 'Papeles y trámites',
+  order: 2,
+  equivalentOf: 'vender-casa-heredada-paraguay',
+  title: 'Vender una casa heredada en Uruguay: sucesión y pasos',
+  h1: 'Cómo vender una casa heredada en Uruguay',
+  description: 'Cómo vender una casa heredada en Uruguay: sucesión, declaratoria de herederos, certificado de resultancias de autos, acuerdo entre hermanos, ITP e IRPF.',
+  navLabel: 'Casa heredada',
+  blurb: 'Sucesión, certificado de resultancias de autos y acuerdo entre herederos para vender una casa heredada en Uruguay.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Uruguayan escribano or abogado must check: that successions are processed in court (proceso sucesorio) ending in a declaratoria de herederos; that the escribano issues a certificado de resultancias de autos that is registered in the Registro de la Propiedad; that ITP applies to inheritance (paid by heirs, rate depending on relationship: not stated); that heirs can sell jointly, buy out each other or assign hereditary rights (cesión de derechos hereditarios) before the succession ends; that the surviving spouse keeps their half of gananciales; and the IRPF treatment of a later sale of inherited property.',
+  answer: 'Para vender una casa heredada en Uruguay primero hay que hacer la sucesión: un juzgado declara quiénes son los herederos y, con eso, el escribano expide el certificado de resultancias de autos, que se inscribe en el Registro de la Propiedad. Después los herederos pueden vender juntos, o uno puede comprar la parte de los demás. Todos tienen que estar de acuerdo y firmar. Cuando estén listos, pueden publicar la casa gratis en Casa-Libre.',
+  summary: [
+    'Primero la sucesión: sin declaratoria de herederos no se puede escriturar la venta de la casa.',
+    'El certificado de resultancias de autos, inscripto, es lo que habilita a los herederos a vender.',
+    'Firman todos los herederos, y el cónyuge sobreviviente si le corresponde una parte.',
+    'La herencia paga ITP y, si al vender hay ganancia, puede corresponder IRPF.',
+  ],
+  cta: {
+    title: 'Publiquen la casa cuando estén listos',
+    text: 'En Casa-Libre publicar es gratis. Pueden dejar un solo WhatsApp de contacto para todos los herederos.',
+    button: 'Publicar la casa gratis',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'pasos-casa-heredada',
+      h2: '¿Cuáles son los pasos para vender una casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Son dos etapas: la sucesión, que pone la casa a nombre de los herederos, y la venta, que es igual a cualquier otra con escribano.' },
+        { t: 'table',
+          caption: 'De la herencia a la venta en Uruguay',
+          head: ['Paso', 'Qué es', 'Quién interviene'],
+          rows: [
+            ['1. Proceso sucesorio', 'Trámite judicial que determina quiénes heredan', 'Abogado y juzgado'],
+            ['2. Declaratoria de herederos', 'La resolución del juez que nombra a los herederos', 'Juzgado'],
+            ['3. Inventario y tributos', 'Lista de bienes, valores y pago del ITP de la herencia', 'Abogado, escribano, contador'],
+            ['4. Certificado de resultancias de autos', 'Resume lo que surge del expediente sobre la casa y los herederos', 'Escribano'],
+            ['5. Inscripción', 'El certificado se inscribe en el Registro de la Propiedad', 'Escribano'],
+            ['6. Venta', 'Compromiso y escritura firmados por todos los herederos', 'Escribano'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Los pasos y plazos dependen de cada sucesión.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'certificado-de-resultancias',
+      h2: '¿Qué es el certificado de resultancias de autos?',
+      blocks: [
+        { t: 'p', html: 'Es un documento que expide un escribano a partir del expediente de la sucesión. Dice quién murió, quiénes son sus herederos según el juez y qué inmuebles hay, y se inscribe en el Registro de la Propiedad.' },
+        { t: 'p', html: 'Con ese certificado inscripto, la casa queda a nombre de los herederos en el registro y el escribano del comprador puede estudiar los títulos sin cortes. Sin él, el estudio de títulos queda incompleto y la escritura no avanza.' },
+      ],
+    },
+    {
+      id: 'acuerdo-entre-herederos',
+      h2: '¿Qué pasa si los herederos no se ponen de acuerdo?',
+      blocks: [
+        { t: 'p', html: 'Para vender la casa entera tienen que firmar todos. Si uno no quiere, las salidas son negociar, que uno compre la parte de los demás o, como último recurso, pedir la división judicial.' },
+        { t: 'ul', items: [
+          '<strong>Vender entre todos:</strong> acuerden antes el precio mínimo, quién atiende las consultas y cómo se reparte el dinero.',
+          '<strong>Que uno compre a los otros:</strong> se hace también ante escribano y con los mismos tributos que una venta.',
+          '<strong>Hermanos en el exterior:</strong> pueden firmar con un poder.',
+          '<strong>Cónyuge sobreviviente:</strong> si la casa era ganancial, la mitad ya era suya y también firma.',
+        ] },
+      ],
+    },
+    {
+      id: 'vender-antes-de-terminar',
+      h2: '¿Se puede vender antes de terminar la sucesión?',
+      blocks: [
+        { t: 'p', html: 'La casa como tal, no. Lo que sí existe es la cesión de derechos hereditarios: un heredero vende su derecho en la herencia, no la casa, y el comprador queda en su lugar en la sucesión.' },
+        { t: 'p', html: 'Es una operación con más riesgo y menos compradores, por eso suele pagarse menos. Si lo están pensando, que un escribano o abogado les explique las consecuencias.' },
+      ],
+    },
+    {
+      id: 'impuestos-herencia',
+      h2: '¿Qué impuestos se pagan al heredar y al vender?',
+      blocks: [
+        { t: 'p', html: 'Al heredar, la transmisión paga ITP; la tasa depende del parentesco con quien murió y lo calcula el profesional de la sucesión. Al vender después, cada heredero paga su parte del ITP de la venta y, si hay ganancia, puede corresponder IRPF.' },
+        { t: 'p', html: 'Los detalles están en <a href="/uruguay/itp-uruguay/">ITP en Uruguay</a> y en <a href="/uruguay/irpf-venta-inmueble-uruguay/">IRPF por la venta de un inmueble</a>. Para ver todo lo que cuesta vender, la guía de impuestos y gastos de <a href="https://uy.casa-libre.com/guias/impuestos-y-gastos-al-vender">Casa-Libre</a> tiene un resumen.' },
+      ],
+    },
+    {
+      id: 'publicar-casa-heredada',
+      h2: '¿Cuándo pueden publicar la casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Pueden publicarla cuando la sucesión esté avanzada y todos estén de acuerdo en vender, aclarando en el aviso el estado del trámite. Lo que no conviene es firmar un compromiso o recibir señas antes de que el escribano confirme cuándo se puede escriturar.' },
+        { t: 'casalibre',
+          title: 'Por qué les recomendamos Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://uy.casa-libre.com/vender' },
+        { t: 'p', html: 'Para preparar la casa, que muchas veces estuvo cerrada, revisá <a href="/uruguay/fotos-para-vender-una-casa/">fotos para vender una casa</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Se puede vender una casa heredada sin hacer la sucesión?', a: 'No como compraventa de la casa. Hace falta la sucesión y el certificado de resultancias de autos inscripto. Antes de eso solo se pueden ceder derechos hereditarios.' },
+    { q: '¿Cuánto tarda una sucesión en Uruguay?', a: 'Depende del juzgado, de la cantidad de herederos y de bienes, y de que estén de acuerdo. Pedile al abogado una estimación para tu caso.' },
+    { q: '¿Uno de los hermanos puede vender sin los demás?', a: 'No la casa entera. Puede vender o ceder su parte, pero la casa completa la venden todos juntos.' },
+    { q: '¿Quién paga el IRPF si vendemos la casa heredada?', a: 'Cada heredero por su parte, si hay ganancia. El escribano hace el cálculo y la retención en la escritura. Consultá con un contador.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete Uruguay, "certificado de resultancias"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=certificado%20de%20resultancias', date: '2026-11-13', note: 'certificado de resultancias de autos; ... sucesorios; ... uruguay; ... expedido por escribano.' },
+    { label: 'Google autocomplete Uruguay, "vender casa heredada" and "irpf venta inmueble"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=vender%20casa%20heredada', date: '2026-11-13', note: 'vender casa heredada hermanos; irpf venta inmueble heredado uruguay; itp sucesiones uruguay.' },
+  ],
+  closing: {
+    title: 'Cuando la sucesión esté lista, publiquen',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados escriben directo por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  related: ['requisitos-para-vender-una-casa-uruguay', 'itp-uruguay', 'irpf-venta-inmueble-uruguay'],
+};

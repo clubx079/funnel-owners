@@ -1,0 +1,143 @@
+export default {
+  slug: 'gastos-al-vender-una-casa-bolivia',
+  group: 'Impuestos y gastos',
+  order: 3,
+  equivalentOf: 'gastos-al-vender-una-casa-paraguay',
+  title: 'Gastos al vender una casa en Bolivia: lista completa',
+  h1: 'Gastos al vender una casa en Bolivia',
+  description: 'Todos los gastos de vender una casa en Bolivia en una tabla: IMT, notario, abogado, Derechos Reales e impuestos atrasados, con un ejemplo en bolivianos.',
+  navLabel: 'Gastos al vender',
+  blurb: 'Una tabla con cada gasto de la venta de una casa, quién suele pagarlo y un ejemplo con números.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian notario/lawyer must check: the cost list and who customarily pays (IMT legally on the transferor but negotiable; DDRR inscription usually buyer; notary per arancel of the Dirección del Notariado Plurinacional; lawyer fees free/colegio arancel), and that no figure other than IMT 3% is stated. The worked example uses invented fees. 2026-11-13 added net-proceeds steps and buyer-costs section (Derechos Reales inscription and catastro change usually paid by the buyer, bank costs if financed): check who customarily pays with a notario.',
+  answer: 'Al vender una casa en Bolivia los gastos principales son el impuesto municipal a la transferencia (IMT, 3%), el notario de fe pública, el abogado que redacta la minuta, los certificados y la inscripción en Derechos Reales, y las gestiones del impuesto a la propiedad que debas. Quién paga cada uno se acuerda en la minuta. Si vendes por tu cuenta no hay comisión, y publicar en Casa-Libre es gratis.',
+  summary: [
+    'El gasto más grande suele ser el IMT: 3% del precio o del valor registrado, el mayor.',
+    'Notario y abogado cobran según arancel y presupuesto: pídelo por escrito.',
+    'Los impuestos atrasados se pagan antes de firmar o se descuentan del precio.',
+    'La comisión inmobiliaria es opcional: vendiendo por tu cuenta, no existe.',
+  ],
+  cta: {
+    title: 'Ahorra la comisión',
+    text: 'Publica gratis en Casa-Libre: sin comisión sobre la venta.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'lista-de-gastos',
+      h2: '¿Qué gastos tiene vender una casa en Bolivia?',
+      blocks: [
+        { t: 'p', html: 'Estos son los gastos habituales. Solo el IMT tiene una tasa fija; el resto depende del caso y se pide presupuesto.' },
+        { t: 'table',
+          caption: 'Gastos de una venta de casa en Bolivia',
+          head: ['Gasto', 'Monto', 'Quién suele pagarlo'],
+          rows: [
+            ['IMT, impuesto municipal a la transferencia', '3% del precio o del valor registrado, el mayor', 'Por norma el vendedor; se negocia en la minuta'],
+            ['Notario de fe pública', 'Según arancel notarial', 'Se acuerda'],
+            ['Abogado (minuta)', 'Según presupuesto', 'Quien lo contrata'],
+            ['Folio Real y certificado alodial', 'Arancel de Derechos Reales', 'El vendedor, para mostrar los papeles'],
+            ['Inscripción en Derechos Reales', 'Arancel de Derechos Reales', 'Suele pagarla el comprador'],
+            ['IPBI atrasado', 'Lo que debas', 'El vendedor'],
+            ['Cancelación de hipoteca, si hay', 'Según el banco', 'El vendedor'],
+            ['Comisión inmobiliaria', 'Se negocia; no hay tarifa oficial', 'Quien contrató, si contrató'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Montos exactos: pídelos al notario, al municipio y a Derechos Reales.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública o un abogado antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'ejemplo',
+      h2: '¿Cuánto cuesta vender una casa? Un ejemplo',
+      blocks: [
+        { t: 'p', html: 'Este ejemplo usa un precio redondo y gastos supuestos, solo para mostrar cómo se arma la cuenta.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: gastos si el vendedor asume el IMT',
+          html: 'Cifras inventadas. Los honorarios reales cambian según el caso.',
+          rows: [
+            ['Precio de venta', 'Bs 700.000'],
+            ['IMT: 700.000 x 3%', 'Bs 21.000'],
+            ['Notario, supuesto', 'Bs 3.000'],
+            ['Abogado, supuesto', 'Bs 3.500'],
+            ['Certificados, supuesto', 'Bs 300'],
+            ['Total de gastos del vendedor', 'Bs 27.800'],
+            ['Lo que queda', 'Bs 672.200'],
+          ] },
+      ],
+    },
+    {
+      id: 'quien-paga',
+      h2: '¿Quién paga los gastos: comprador o vendedor?',
+      blocks: [
+        { t: 'p', html: 'No hay una regla única para todos los gastos. El IMT lo pone la norma a cargo del vendedor, pero se negocia; la inscripción suele asumirla el comprador; los impuestos atrasados son del vendedor. Escribe todo en la minuta.' },
+        { t: 'p', html: 'Más detalle en <a href="/bolivia/impuesto-a-la-transferencia-de-inmuebles-bolivia/">impuesto a la transferencia</a> y <a href="/bolivia/cuanto-cobra-un-notario-bolivia/">cuánto cobra un notario</a>.' },
+      ],
+    },
+    {
+      id: 'gastos-previos',
+      h2: '¿Qué gastos aparecen antes de vender?',
+      blocks: [
+        { t: 'p', html: 'Los que dejan la casa lista para mostrarse y los papeles al día. No son obligatorios, pero ayudan.' },
+        { t: 'ul', items: [
+          'Arreglos pequeños, pintura y limpieza.',
+          'Regularizar construcciones o corregir datos en catastro.',
+          'Un avalúo, si el comprador usa crédito o si quieres un valor formal.',
+        ] },
+        { t: 'p', html: 'Sobre el avalúo: <a href="/bolivia/avaluo-de-inmuebles-bolivia/">avalúo de inmuebles en Bolivia</a>.' },
+      ],
+    },
+    {
+      id: 'gastos-que-puedes-evitar',
+      h2: '¿Qué gastos puedes evitar?',
+      blocks: [
+        { t: 'p', html: 'La comisión y el costo de publicar. Si vendes tú, no pagas comisión; y en <a href="https://casa-libre.com.bo/vender">Casa-Libre</a> publicar es gratis. También evitas multas si pagas el IMT a tiempo.' },
+        { t: 'p', html: 'La guía de impuestos y gastos de <a href="https://casa-libre.com.bo/guias/impuestos-y-gastos-al-vender">Casa-Libre</a> sirve de lista de control.' },
+      ],
+    },
+    {
+      id: 'cuanto-te-queda',
+      h2: '¿Cómo calculo cuánto me queda de la venta?',
+      blocks: [
+        { t: 'p', html: 'Parte del precio acordado y resta, una por una, las salidas que te tocan según lo que diga la minuta. Hazlo antes de fijar el precio y antes de aceptar una oferta.' },
+        { t: 'steps', items: [
+          { title: 'Precio acordado', html: 'El monto que figura en la minuta, en la moneda pactada.' },
+          { title: 'Menos el impuesto a la transferencia', html: 'Si acordaste pagarlo tú, total o en parte.' },
+          { title: 'Menos tu parte de notario y abogado', html: 'Según el reparto escrito en la minuta.' },
+          { title: 'Menos deudas', html: 'Impuesto a la propiedad atrasado, saldo de hipoteca, expensas pendientes.' },
+          { title: 'Menos la mudanza y los arreglos', html: 'Lo que gastes en dejar la casa lista y en irte.' },
+        ] },
+      ],
+    },
+    {
+      id: 'gastos-del-comprador',
+      h2: '¿Qué gastos tiene el comprador?',
+      blocks: [
+        { t: 'p', html: 'Conocerlos te ayuda a negociar. El comprador suele hacerse cargo de la inscripción a su nombre en Derechos Reales y del cambio en el catastro, y si compra con un crédito, de los costos del banco. Si le ofreces pagar una parte de los gastos de la transferencia, puede ser un argumento para cerrar sin bajar el precio. Todo lo que acuerden va escrito en la <a href="/bolivia/minuta-de-transferencia-de-inmueble-bolivia/">minuta</a>.' },
+      ],
+    },
+    {
+      id: 'pide-presupuesto',
+      h2: '¿Cómo evitar sorpresas con los gastos?',
+      blocks: [
+        { t: 'p', html: 'Pide todo por escrito antes de firmar: el presupuesto del notario y del abogado, y la liquidación del municipio.' },
+        { t: 'callout', tone: 'tip', title: 'Una planilla simple', html: 'Anota precio, cada gasto y quién lo paga según la minuta. Así sabes cuánto te queda antes de aceptar una oferta.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta vender una casa en Bolivia?', a: 'Depende del precio y de lo que acuerdes. El mayor gasto suele ser el IMT del 3%; luego notario, abogado y trámites en Derechos Reales.' },
+    { q: '¿Quién paga la transferencia de una casa en Bolivia?', a: 'Se acuerda en la minuta. La norma pone el IMT a cargo de quien vende, pero es común negociarlo. La inscripción suele pagarla el comprador.' },
+    { q: '¿Tengo que pagar comisión si vendo solo?', a: 'No. La comisión existe solo si contratas una inmobiliaria.' },
+    { q: '¿Cuánto cobra un notario por una compraventa?', a: 'Según el arancel notarial vigente y el valor del acto. Pide el monto antes de firmar. Lo explicamos en <a href="/bolivia/cuanto-cobra-un-notario-bolivia/">cuánto cobra un notario</a>.' },
+  ],
+  internalSources: [],
+  closing: {
+    title: 'Un gasto menos',
+    text: 'Publica gratis en Casa-Libre, sin comisión sobre la venta.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['impuesto-a-la-transferencia-de-inmuebles-bolivia', 'cuanto-cobra-un-notario-bolivia', 'como-vender-mi-casa-sin-inmobiliaria'],
+};

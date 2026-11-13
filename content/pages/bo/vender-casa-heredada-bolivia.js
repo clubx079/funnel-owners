@@ -1,0 +1,120 @@
+export default {
+  slug: 'vender-casa-heredada-bolivia',
+  group: 'Papeles y trámites',
+  nav: 'Herencia',
+  order: 6,
+  equivalentOf: 'vender-casa-heredada-paraguay',
+  title: 'Cómo vender una casa heredada en Bolivia: los pasos',
+  h1: 'Cómo vender una casa heredada en Bolivia',
+  description: 'Para vender una casa heredada en Bolivia: declaratoria de herederos judicial o notarial, impuesto a la herencia, inscripción y acuerdo entre herederos.',
+  navLabel: 'Casa heredada',
+  blurb: 'Declaratoria de herederos, impuesto a la herencia e inscripción: lo que va antes de vender una casa heredada.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Bolivian lawyer must check: declaratoria de herederos by judicial route or notarial route when uncontested (Ley 483 art. 92 and DS 2189 per a thesis, not read in the law); the inheritance tax (Impuesto a las Sucesiones y Transmisiones Gratuitas de Bienes, Ley 843 / Ley 926; now collected by departmental governments in some departments, e.g. La Paz DD 90, Cochabamba Ley Departamental 1097) with lower rates for children and spouse, due 90 calendar days from the declaratoria (search summary); inscription in DDRR in the heirs\' names; all heirs signing or poderes; minors needing judicial authorisation. No rates are stated on the page.',
+  answer: 'Para vender una casa heredada en Bolivia, primero los herederos se declaran como tales, por vía judicial o, si no hay conflicto, ante un notario de fe pública. Luego se paga el impuesto a la herencia, se inscribe la casa a nombre de los herederos en Derechos Reales y recién entonces se vende, con la firma de todos. Mientras avanza el trámite, puedes publicar la casa en Casa-Libre aclarando su situación.',
+  summary: [
+    'Sin declaratoria de herederos inscrita, no se puede firmar una venta normal.',
+    'La declaratoria puede ser judicial o, si todos están de acuerdo, notarial.',
+    'La herencia paga su propio impuesto, distinto del impuesto a la transferencia de la venta.',
+    'Firman todos los herederos, o alguno con poder de los demás.',
+    'Si hay menores de edad entre los herederos, hace falta autorización judicial.',
+  ],
+  cta: {
+    title: 'Publica la casa con su situación clara',
+    text: 'En Casa-Libre puedes publicar gratis y explicar en el aviso en qué etapa está la herencia.',
+    button: 'Publicar la casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'pasos-herencia',
+      h2: '¿Qué pasos van antes de vender una casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Cuatro pasos, en este orden. Saltearse uno frena la venta en la notaría o en Derechos Reales.' },
+        { t: 'table',
+          caption: 'De la herencia a la venta',
+          head: ['Paso', 'Ante quién', 'Qué resulta'],
+          rows: [
+            ['1. Declaratoria de herederos', 'Juez, o notario de fe pública si no hay conflicto', 'Resolución o escritura que dice quiénes heredan'],
+            ['2. Impuesto a la herencia', 'La administración tributaria que corresponda en tu departamento', 'Comprobante de pago'],
+            ['3. Inscripción en Derechos Reales', 'Derechos Reales', 'Folio Real a nombre de los herederos'],
+            ['4. Venta', 'Abogado, notario y municipio', 'Minuta, escritura, impuesto a la transferencia, inscripción del comprador'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. El organismo que cobra el impuesto a la herencia cambia según el departamento: pregúntalo a tu abogado.' },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consulta con un notario de fe pública o un abogado antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'declaratoria-de-herederos',
+      h2: '¿Cómo se hace la declaratoria de herederos?',
+      blocks: [
+        { t: 'p', html: 'Hay dos caminos. Si los herederos están de acuerdo y no hay testamento en discusión, puede hacerse ante un notario de fe pública, que suele ser más rápido. Si hay desacuerdo o dudas, va por la vía judicial.' },
+        { t: 'ul', items: [
+          'Certificado de defunción.',
+          'Certificados de nacimiento o matrimonio que prueban el parentesco.',
+          'Cédulas de los herederos.',
+          'Folio Real y testimonio del inmueble.',
+          'El testamento, si lo hay.',
+        ] },
+      ],
+    },
+    {
+      id: 'impuesto-herencia',
+      h2: '¿Cuánto se paga de impuesto por heredar una casa?',
+      blocks: [
+        { t: 'p', html: 'La herencia tiene su propio impuesto, con tasas más bajas para hijos y cónyuge que para parientes lejanos u otras personas. Se paga en un plazo contado desde la declaratoria, y el atraso genera recargos.' },
+        { t: 'p', html: 'No confundirlo con el impuesto de la venta posterior, que es el municipal a la transferencia: <a href="/bolivia/impuesto-a-la-transferencia-de-inmuebles-bolivia/">impuesto a la transferencia de inmuebles</a>.' },
+      ],
+    },
+    {
+      id: 'acuerdo-entre-herederos',
+      h2: '¿Qué pasa si los herederos no se ponen de acuerdo?',
+      blocks: [
+        { t: 'p', html: 'Para vender la casa entera tienen que firmar todos. Si uno no quiere, las opciones son que los demás le compren su parte, que cada uno venda su cuota (acciones y derechos) o ir a una división judicial.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: reparto entre tres hermanos',
+          html: 'Cifras redondas e inventadas. No incluye impuestos ni gastos, que reducen lo que recibe cada uno.',
+          rows: [
+            ['Precio de venta de la casa', 'USD 90.000'],
+            ['Cuota de cada hermano: 90.000 / 3', 'USD 30.000'],
+          ] },
+      ],
+    },
+    {
+      id: 'vender-antes-de-terminar',
+      h2: '¿Se puede vender una casa en sucesión antes de terminar el trámite?',
+      blocks: [
+        { t: 'p', html: 'Puedes buscar comprador y firmar un documento privado con anticipo, pero la escritura de venta normalmente necesita la declaratoria inscrita. Escribe en el documento que la firma de la minuta depende de terminar la herencia, con un plazo realista.' },
+        { t: 'p', html: 'Mira <a href="/bolivia/documento-privado-de-compraventa-bolivia/">documento privado de compraventa y anticipo</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-casa-heredada',
+      h2: '¿Cómo publicar una casa heredada?',
+      blocks: [
+        { t: 'p', html: 'Con honestidad sobre el estado del trámite: "declaratoria de herederos en curso" o "inscrita a nombre de los herederos". Así llegan compradores que aceptan los plazos.' },
+        { t: 'p', html: 'Te recomendamos publicarla en <a href="https://casa-libre.com.bo/vender">Casa-Libre</a>: gratis, con contacto por WhatsApp, y uno de los herederos puede administrar el aviso para todos. La guía de documentos de <a href="https://casa-libre.com.bo/guias/documentos-para-vender-un-inmueble">Casa-Libre</a> sirve para ordenar los papeles.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cómo vender una casa heredada en Bolivia?', a: 'Primero la declaratoria de herederos, el pago del impuesto a la herencia y la inscripción en Derechos Reales a nombre de los herederos. Después se vende como cualquier casa, con la firma de todos.' },
+    { q: '¿Cuánto cuesta la declaratoria de herederos en Bolivia?', a: 'Depende de la vía (notarial o judicial), de los honorarios del abogado y del arancel del notario. Pide presupuesto por escrito antes de empezar.' },
+    { q: '¿Puedo vender mi parte de una casa heredada?', a: 'Puedes vender tus acciones y derechos, es decir tu cuota. Pero un comprador de una cuota es más difícil de encontrar y suele pagar menos.' },
+    { q: '¿Qué pasa si uno de los herederos vive afuera?', a: 'Puede firmar un poder ante un consulado boliviano o un notario de su país, con las legalizaciones que correspondan, para que alguien firme por él.' },
+    { q: '¿Hay plazo para pagar el impuesto a la herencia?', a: 'Sí, se cuenta desde la declaratoria de herederos y el atraso genera recargos. Tu abogado te dice el plazo y dónde se paga en tu departamento.' },
+  ],
+  internalSources: [
+    { label: 'Search summary: Ley 483 art. 92 e) + DS 2189 (notarial declaratoria), DS 21789 (90 days), DD 90 La Paz, Ley Departamental 1097 Cochabamba', url: 'https://bolivia.infoleyes.com/norma/423/reglamentaci%C3%B3n-del-impuesto-a-las-sucesiones-y-transmisiones-gratuitas-de-bienes-21789', date: '2026-11-13', note: 'Rates 1/10/20% NOT confirmed; page states none.' },
+    { label: 'Google autocomplete gl=bo "declaratoria de herederos bolivia"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=bo&q=declaratoria%20de%20herederos%20bolivia', date: '2026-11-13', note: 'costo, requisitos, impuestos, plazo.' },
+  ],
+  closing: {
+    title: 'Vende la casa de la familia',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['requisitos-para-vender-una-casa-bolivia', 'transferencia-de-inmueble-bolivia', 'documento-privado-de-compraventa-bolivia'],
+};

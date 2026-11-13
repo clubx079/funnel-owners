@@ -1,0 +1,126 @@
+export default {
+  slug: 'casa-en-venta-por-dueno-el-salvador',
+  group: 'Vender una propiedad',
+  order: 4,
+  equivalentOf: 'casa-en-venta-por-dueno-paraguay',
+  title: 'Casa en venta por dueño en El Salvador: cómo publicarla',
+  h1: 'Casa en venta por dueño en El Salvador: cómo publicarla',
+  description: 'Cómo vender su casa como dueño en El Salvador: qué esperan los compradores, cómo generar confianza, cómo mostrarla con seguridad y dónde publicarla gratis.',
+  navLabel: 'Venta por dueño',
+  blurb: 'Cómo presentar una casa en venta por dueño en El Salvador para que genere confianza y se venda con seguridad.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Una casa en venta por dueño es la que publica el propio propietario, sin intermediario. En El Salvador muchos compradores la buscan porque hablan directo con quien vende y no hay comisión de por medio. Para que su aviso genere confianza, muestre fotos reales, precio en dólares, la ubicación y que la escritura está inscrita a su nombre. Puede publicarla gratis en Casa-Libre.',
+  summary: [
+    'El comprador de una casa "por dueño" busca trato directo y un precio sin comisión incluida.',
+    'La confianza se gana con fotos reales, datos completos y papeles en orden.',
+    'Las visitas se coordinan con día y hora, acompañado, y sin entregar documentos.',
+    'En Casa-Libre publican dueños, inmobiliarias y agentes, y cada consulta llega por WhatsApp.',
+  ],
+  cta: {
+    title: 'Publique como dueño, gratis',
+    text: 'Suba su casa a Casa-Libre en pocos minutos y reciba consultas directas por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'que-significa',
+      h2: '¿Qué espera un comprador de una casa por dueño?',
+      blocks: [
+        { t: 'p', html: 'Espera hablar con quien conoce la casa y decide el precio. También espera respuestas claras sobre papeles y estado, porque no hay un agente que las dé.' },
+        { t: 'table',
+          caption: 'Lo que pregunta el comprador y cómo responder',
+          head: ['Pregunta frecuente', 'Respuesta que genera confianza'],
+          rows: [
+            ['¿Está a su nombre?', 'Sí, inscrita en el CNR; la certificación se muestra cuando haya oferta'],
+            ['¿Tiene deudas?', 'Solvencia municipal al día; si hay hipoteca, se cancela con la venta'],
+            ['¿Acepta crédito?', 'Diga si acepta banco o Fondo Social para la Vivienda'],
+            ['¿Es negociable?', 'Diga si hay margen, sin regalarlo en el primer mensaje'],
+            ['¿Cuándo la puedo ver?', 'Dos o tres horarios fijos por semana'],
+          ],
+          note: 'Guía general para dueños.' },
+      ],
+    },
+    {
+      id: 'aviso-de-confianza',
+      h2: '¿Cómo hacer que un aviso por dueño dé confianza?',
+      blocks: [
+        { t: 'p', html: 'Un aviso completo y honesto se distingue enseguida. Estos detalles marcan la diferencia.' },
+        { t: 'ul', items: [
+          'Fotos propias y actuales de todos los ambientes, incluidos baños y patio.',
+          'Metros de terreno y construcción tal como figuran en la escritura.',
+          'La colonia o residencial y el punto exacto en el mapa.',
+          'Lo que no tiene, dicho con claridad: si no hay cochera, dígalo.',
+          'Un número de WhatsApp que conteste.',
+        ] },
+        { t: 'p', html: 'Para el texto, use la plantilla de <a href="/el-salvador/anuncio-para-vender-una-casa/">anuncio para vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Dónde publicar una casa en venta por dueño',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre: los dueños publican gratis junto a inmobiliarias y agentes, y los compradores encuentran su casa al buscar por zona y en el mapa.' },
+        { t: 'casalibre',
+          title: 'Publique su casa en Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://sv.casa-libre.com/vender' },
+        { t: 'p', html: 'Antes de fijar el precio, revise casas parecidas en el buscador de <a href="https://sv.casa-libre.com/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'visitas',
+      h2: '¿Cómo mostrar la casa con seguridad?',
+      blocks: [
+        { t: 'p', html: 'Como dueño, usted abre su casa a desconocidos. Unas reglas simples reducen el riesgo.' },
+        { t: 'steps', items: [
+          { title: 'Filtre por WhatsApp', html: 'Antes de agendar, pregunte qué busca, cómo piensa pagar y para cuándo.' },
+          { title: 'Agende con nombre completo', html: 'Pida nombre y confirme el día anterior.' },
+          { title: 'No esté solo', html: 'Que lo acompañe un familiar o vecino durante la visita.' },
+          { title: 'Guarde lo de valor', html: 'Documentos, joyas, llaves y medicamentos fuera de la vista.' },
+          { title: 'No entregue papeles', html: 'La certificación del CNR se muestra cuando hay una oferta concreta, y las copias las maneja el notario.' },
+        ] },
+      ],
+    },
+    {
+      id: 'negociar-y-cerrar',
+      h2: 'Negociar y cerrar sin intermediario',
+      blocks: [
+        { t: 'p', html: 'Cuando llegue una oferta, pídala por escrito con precio, forma de pago y plazo. Si el comprador necesita un crédito, el paso siguiente suele ser una promesa de venta ante notario.' },
+        { t: 'ul', items: [
+          'Acuerde quién paga cada gasto antes de ir al notario.',
+          'Reciba el dinero por transferencia o cheque de gerencia, nunca en efectivo sin control.',
+          'Entregue las llaves después de firmar y cobrar.',
+        ] },
+        { t: 'p', html: 'Los pasos de la firma están en <a href="/el-salvador/escritura-de-compraventa-el-salvador/">escritura de compraventa en El Salvador</a>.' },
+      ],
+    },
+    {
+      id: 'agencias-y-duenos',
+      h2: '¿Me van a escribir inmobiliarias?',
+      blocks: [
+        { t: 'p', html: 'Es posible que algún agente le ofrezca sus servicios. Usted decide: puede responder que vende por su cuenta o escuchar la propuesta si le interesa.' },
+        { t: 'p', html: 'Si decide seguir solo, le sirve la guía <a href="/el-salvador/como-vender-mi-casa-sin-inmobiliaria/">cómo vender mi casa sin inmobiliaria</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Dónde publicar una casa en venta por dueño en El Salvador?', a: 'En Casa-Libre puede publicarla gratis como propietario. Los compradores le escriben directo por WhatsApp.' },
+    { q: '¿Es seguro vender una casa por dueño?', a: 'Sí, con cuidados: visitas acompañado, sin entregar documentos y con el cierre ante notario. El pago debe hacerse por medios bancarios.' },
+    { q: '¿Una casa por dueño es más barata?', a: 'No necesariamente, pero el comprador sabe que el precio no incluye la comisión de un intermediario. Eso le da margen a usted para negociar.' },
+    { q: '¿Necesito abogado para vender por dueño?', a: 'Necesita un notario, que en El Salvador es un abogado autorizado, para la escritura. El resto del proceso puede hacerlo usted.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "casa en venta por dueño"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=casa%20en%20venta%20por%20due%C3%B1o', date: '2026-11-13', note: 'Generic query; no SV-specific completions returned.' },
+  ],
+  closing: {
+    title: 'Su casa, vendida por usted',
+    text: 'Publique gratis en Casa-Libre y hable directo con los compradores.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['como-vender-mi-casa-sin-inmobiliaria', 'donde-publicar-casa-en-venta-el-salvador', 'anuncio-para-vender-una-casa'],
+};

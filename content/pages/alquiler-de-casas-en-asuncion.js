@@ -1,0 +1,127 @@
+export default {
+  slug: 'alquiler-de-casas-en-asuncion',
+  title: 'Alquiler de casas en Asunción: precios y dónde publicar',
+  h1: 'Alquiler de casas y departamentos en Asunción',
+  description: 'Cuánto piden por alquilar una casa o un departamento en Asunción, cómo fijar el precio del tuyo, cuánto rinde frente a vender y cómo publicarlo gratis.',
+  navLabel: 'Alquiler en Asunción',
+  blurb: 'Alquiler mensual pedido de casas y departamentos en Asunción y cómo publicar el tuyo gratis en Casa-Libre.',
+  published: '2026-11-12',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Check the short contract, guarantee and IVA paragraph (general wording only, no rates). Rent and sale figures from py-market.json (Asunción); population from the 2022 census line in the keyword notes. Local section added 2026-11-13 (city context, no numbers): check the neighbourhood names, distances and local references before indexing.',
+  answer: 'En Asunción, según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre), un departamento en alquiler pide una mediana de USD 880 por mes, unos Gs. 6,4 millones aprox., y una casa USD 2.100, unos Gs. 15,3 millones aprox. Si tenés una propiedad para alquilar en la capital, podés publicarla gratis en Casa-Libre.',
+  summary: [
+    '239 propiedades en alquiler en Asunción en Casa-Libre al 12 de noviembre de 2026, casi tantas como las otras nueve ciudades de esta serie juntas (243).',
+    'Departamentos: mediana de USD 880 por mes, con la mitad central entre USD 650 y USD 1.200.',
+    'Casas: mediana de USD 2.100 por mes, 2,4 veces lo que pide un departamento.',
+    'Si aceptás uso de oficina o consultorio, se amplía mucho el número de interesados.',
+  ],
+  cta: {
+    title: 'Publicá tu alquiler en Asunción gratis',
+    text: 'Cargá fotos, precio y condiciones desde la web o la app. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre el alquiler.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'cuanto-cuesta-alquilar-en-asuncion',
+      h2: '¿Cuánto cuesta alquilar en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Un departamento pide una mediana de USD 880 por mes y una casa, USD 2.100, según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre).' },
+        { t: 'table',
+          caption: 'Alquileres en Asunción en Casa-Libre, 12 de noviembre de 2026',
+          head: ['Dato', 'Asunción'],
+          rows: [
+            ['En alquiler', '239: 151 departamentos, 20 casas, 68 de otros tipos'],
+            ['Departamentos: mediana por mes', 'USD 880 (Gs. 6,4 millones aprox.)'],
+            ['Departamentos: mitad central', 'USD 650 a 1.200 (Gs. 4,7 a 8,8 millones aprox.)'],
+            ['Casas: mediana por mes', 'USD 2.100 (Gs. 15,3 millones aprox.)'],
+            ['Casas: mitad central', 'USD 1.250 a 2.580 (Gs. 9,1 a 18,8 millones aprox.)'],
+            ['Avisos con precio', '150 departamentos, 20 casas'],
+          ],
+          note: 'Precios pedidos, no de cierre. La mitad central va del 25% más barato al 25% más caro. Gs. 7.300 por dólar, aprox.' },
+        { t: 'p', html: 'Asunción tenía 462.241 habitantes en el censo de 2022. Todos los avisos de la ciudad están en las propiedades en Asunción en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'quien-alquila-en-asuncion',
+      h2: '¿Quién alquila casa en Asunción?',
+      blocks: [
+        { t: 'p', html: 'En Asunción alquilan sobre todo familias que todavía no compraron, profesionales que llegan del interior o del exterior por trabajo y empresas que buscan una casa para oficina. Las zonas cercanas a las avenidas Mariscal López, España y Aviadores del Chaco atraen a quien quiere vivir cerca del trabajo, y ahí el inquilino compara con departamentos nuevos.' },
+        { t: 'p', html: 'Para competir con esos departamentos, la casa tiene que mostrar lo que ellos no tienen: patio, cochera para dos autos, más dormitorios. Si aceptás uso como oficina o consultorio, decilo en el aviso, porque amplía mucho el número de interesados. Y aclará desde el principio qué garantía pedís y si el alquiler incluye servicios.' },
+      ],
+    },
+    {
+      id: 'departamentos-y-casas',
+      h2: '¿Cuánto sale alquilar un departamento o una casa en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Un departamento sale una mediana de Gs. 6,4 millones aprox. por mes y una casa, Gs. 15,3 millones aprox. La cifra de departamentos sale de 150 avisos con precio; la de casas, de 20, así que tomala con más cuidado.' },
+        { t: 'p', html: 'Frente a otras ciudades, un departamento en Asunción pide 1,8 veces lo que en Luque (USD 490) y 2,8 veces lo que en San Lorenzo (USD 320). Solo Ciudad del Este muestra una mediana más alta, USD 1.000, con apenas 6 avisos. Compará con unidades como la tuya en los departamentos en alquiler en Asunción en <a href="https://casa-libre.com.py/alquiler/departamentos/asuncion">Casa-Libre</a>.' },
+        { t: 'p', html: 'En casas, la capital pide más del doble que Luque (USD 920) y Lambaré (USD 950); solo San Bernardino la supera. Mirá las casas en alquiler en Asunción en Casa-Libre y, para un dúplex, los dúplex en alquiler en Asunción en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'cuanto-pedir-por-tu-alquiler',
+      h2: '¿Cuánto pedir por alquilar tu propiedad en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Partí de la mediana de tu tipo de propiedad y ubicate dentro de la mitad central según lo que ofrece la tuya: dormitorios y m², si está amoblada, si tiene cochera y si las expensas van aparte.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: precio a partir de tres avisos parecidos',
+          html: 'Un departamento de 2 dormitorios con cochera y tres avisos parecidos que piden Gs. 6.000.000, Gs. 6.500.000 y Gs. 7.000.000. Gs. 7.300 por dólar.',
+          rows: [
+            ['Promedio: (6.000.000 + 6.500.000 + 7.000.000) / 3', 'Gs. 6.500.000 (USD 890 aprox.)'],
+            ['Frente a la mitad central (USD 650 a 1.200)', 'Dentro del rango'],
+          ] },
+        { t: 'p', html: 'El método completo está en <a href="/cuanto-cobrar-de-alquiler-paraguay/">cuánto cobrar de alquiler</a> y el paso a paso, en la guía de <a href="https://casa-libre.com.py/guias/como-alquilar-mi-propiedad">Casa-Libre</a> para alquilar tu propiedad.' },
+        { t: 'casalibre',
+          title: 'Mirá lo que compite con tu propiedad',
+          html: 'En Casa-Libre ves los alquileres de Asunción en el mapa, filtrás por tipo y contactás a cada anunciante por WhatsApp.',
+          button: 'Ver propiedades en alquiler en Casa-Libre',
+          href: 'https://casa-libre.com.py/alquilar' },
+      ],
+    },
+    {
+      id: 'alquilar-o-vender-en-asuncion',
+      h2: '¿Conviene alquilar o vender en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Con precios pedidos, un año de alquiler equivale al 9,2% del precio de venta de una casa (USD 2.100 x 12 / USD 275.000) y al 7,8% del de un departamento (USD 880 x 12 / USD 135.000). Es un cálculo bruto: no descuenta meses vacíos, mantenimiento ni impuestos, y no es un retorno de inversión.' },
+        { t: 'p', html: 'Las preguntas para decidir están en <a href="/conviene-vender-o-alquilar-mi-casa/">conviene vender o alquilar mi casa</a>. Lo que piden hoy las casas de la capital está en Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'contrato-garantia-e-iva',
+      h2: '¿Qué contrato y garantía necesita un alquiler en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Un contrato por escrito con precio, plazo, garantía y quién paga cada gasto. Las cláusulas están en <a href="/contrato-de-alquiler-paraguay/">contrato de alquiler en Paraguay</a> y cómo se devuelve el depósito, en <a href="/garantia-de-alquiler-paraguay/">garantía de alquiler</a>. Si tu alquiler lleva IVA depende de tu situación fiscal: lo explica <a href="/iva-del-alquiler-paraguay/">IVA del alquiler en Paraguay</a>.' },
+        { t: 'p', html: 'Si preferís que otro se ocupe del día a día, mirá la administración de propiedades de <a href="https://casa-libre.com.py/administracion-de-propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-alquiler-en-asuncion',
+      h2: '¿Dónde publicar gratis tu alquiler en Asunción?',
+      blocks: [
+        { t: 'p', html: 'Lo recomendable es publicarlo en Casa-Libre: es gratis, el aviso aparece al buscar por Asunción y en el mapa, y cada interesado te escribe por WhatsApp. Cargalo en publicar tu alquiler en Asunción en Casa-Libre, con fotos de cada ambiente y el precio en guaraníes y dólares; si no terminás, queda como borrador.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Por qué recomendar Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta alquilar un departamento en Asunción por mes?', a: 'Según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026, la mediana pedida es USD 880 por mes (Gs. 6,4 millones aprox.), con la mitad central entre USD 650 y USD 1.200.' },
+    { q: '¿Cuánto vale el alquiler de una casa en Asunción en guaraníes?', a: 'La mediana pedida es unos Gs. 15,3 millones aprox. por mes (USD 2.100), con la mitad central entre Gs. 9,1 y 18,8 millones aprox.' },
+    { q: '¿Es más caro alquilar en Asunción que en Luque?', a: 'En lo que se pide, sí: un departamento pide 1,8 veces lo que en Luque y una casa, 2,3 veces. Compará en casas en alquiler en Luque en Casa-Libre.' },
+    { q: '¿Cómo alquilo mi casa en Asunción sin inmobiliaria?', a: 'Publicala vos mismo con fotos, precio y condiciones claras, atendé por WhatsApp y firmá un contrato por escrito. En Casa-Libre publicar es gratis y no hay comisión sobre el alquiler.' },
+  ],
+  internalSources: [
+    { label: 'content/data/py-market.json, city "asuncion"', url: 'https://casa-libre.com.py/alquiler/departamentos/asuncion', date: '2026-11-12', note: 'for_rent 239 (151 deptos, 20 casas, 68 other = 239 - 171). Rent medians/p25/p75; yields 9.2 / 7.8; sale medians 275.000 / 135.000. Other 9 rental cities total 243. 880/490 = 1,8; 880/320 = 2,75; 2100/920 = 2,28. Gs. = USD x 7.300.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, section 2, "Population context"', url: 'file://research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Asunción 462,241 inhabitants, 2022 census.' },
+  ],
+  closing: {
+    title: 'Tu alquiler en Asunción, publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre el alquiler.',
+    button: 'Publicar mi alquiler gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['cuanto-cobrar-de-alquiler-paraguay', 'contrato-de-alquiler-paraguay', 'vender-casa-en-asuncion', 'cuanto-cuesta-un-departamento-en-asuncion'],
+};

@@ -1,0 +1,186 @@
+export default {
+  slug: 'anuncio-para-vender-una-casa',
+  title: 'Cómo escribir el anuncio para vender tu casa: plantilla',
+  h1: 'Cómo escribir el anuncio para vender tu casa: plantilla',
+  description: 'Plantilla para escribir el anuncio de venta de tu casa en Paraguay: fórmula del título, qué datos poner, precio en Gs. y USD, tres ejemplos y errores a evitar.',
+  navLabel: 'Anuncio de venta',
+  blurb: 'Plantilla para completar, fórmula del título y tres ejemplos de anuncio para vender una casa en Paraguay.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'none',
+  answer: 'Un buen anuncio para vender una casa en Paraguay tiene un título con tipo, ciudad y un dato fuerte ("Vendo casa en Luque, 3 dormitorios con patio"), después los datos concretos (metros, ambientes, estado, papeles), el precio claro en guaraníes o dólares y tu WhatsApp. Abajo tenés una plantilla para completar. Publicalo gratis en Casa-Libre.',
+  summary: [
+    'Título: tipo de propiedad + ciudad + un dato fuerte.',
+    'Primero los datos (metros, dormitorios, baños, garaje, estado, papeles), después los adjetivos.',
+    'Un precio claro en una moneda, y si escuchás ofertas.',
+    'Completá la plantilla y publicala gratis en Casa-Libre: te escriben directo por WhatsApp.',
+  ],
+  cta: {
+    title: 'Pegá tu anuncio en Casa-Libre, gratis',
+    text: 'Título, descripción, fotos, precio y tu WhatsApp. Si te falta algo, guardás el borrador y seguís después.',
+    button: 'Publicar mi anuncio gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'que-lleva-un-anuncio',
+      h2: '¿Qué tiene que tener un anuncio para vender una casa?',
+      blocks: [
+        { t: 'p', html: 'Siete partes: título, ubicación, medidas, ambientes, estado, papeles y precio con contacto. Si falta una, el comprador te la pregunta por WhatsApp, o directamente pasa al aviso siguiente.' },
+        {
+          t: 'table',
+          caption: 'Las partes de un anuncio de venta de casa',
+          head: ['Parte', 'Qué poner'],
+          rows: [
+            ['Título', 'Tipo, ciudad y un dato fuerte'],
+            ['Ubicación', 'Ciudad y barrio, con una referencia conocida cerca'],
+            ['Medidas', 'Metros de terreno y metros construidos'],
+            ['Ambientes', 'Dormitorios, baños, cocina, garaje, patio, quincho'],
+            ['Estado', 'A estrenar, refaccionada o para refaccionar'],
+            ['Papeles', 'Si tiene título a tu nombre y el impuesto inmobiliario al día'],
+            ['Precio y contacto', 'Monto, moneda, si escuchás ofertas, WhatsApp y horarios de visita'],
+          ],
+        },
+        { t: 'p', html: 'Para ver cómo quedan en avisos de verdad, recorré las casas y propiedades en venta en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a> y fijate a cuáles te darían ganas de escribir.' },
+      ],
+    },
+    {
+      id: 'formula-del-titulo',
+      h2: 'Cómo escribir el título: tipo + ciudad + dato fuerte',
+      blocks: [
+        { t: 'p', html: 'El título es lo primero que se lee en los resultados: tiene que decir qué vendés, dónde y por qué mirarlo. Usá la fórmula <strong>Vendo + tipo + en + ciudad + dato fuerte</strong>.' },
+        {
+          t: 'ul',
+          items: [
+            '<strong>Bien</strong>: "Vendo casa en Lambaré, 3 dormitorios y garaje para 2 autos".',
+            '<strong>Bien</strong>: "Dueño vende casa en Ñemby con título, a estrenar".',
+            '<strong>Flojo</strong>: "Hermosa propiedad, oportunidad única". No dice tipo ni ciudad.',
+            '<strong>Flojo</strong>: "VENDO URGENTE!!!". La urgencia invita a ofertas bajas.',
+          ],
+        },
+        { t: 'p', html: 'El dato fuerte es lo que más se pide en tu zona: dormitorios, garaje, patio, título al día o asfalto. Usá las palabras con que se busca, como en las casas en venta en Asunción en <a href="https://casa-libre.com.py/venta/casas/asuncion">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'plantilla',
+      h2: 'Plantilla de anuncio de venta de casa para completar',
+      blocks: [
+        { t: 'p', html: 'Copiá estas líneas en orden, reemplazá lo que va entre corchetes y borrá lo que no aplique. "Luminosa" no se compara; "sala de 5 x 6 m" sí.' },
+        {
+          t: 'ol',
+          items: [
+            'Vendo casa en [ciudad], [dato fuerte].',
+            'Barrio [barrio], a [distancia] de [referencia conocida].',
+            'Terreno de [frente] x [fondo] m ([superficie] m²), [metros construidos] m² construidos.',
+            '[N] dormitorios, [N] baños, sala, comedor y cocina.',
+            'Extras: garaje para [N] autos, patio, quincho, [otros].',
+            'Estado: [a estrenar / refaccionada / para refaccionar]. Servicios: [agua, luz, internet].',
+            'Papeles: título a nombre de [quien vende]. Impuesto inmobiliario [al día].',
+            'Precio: [monto y moneda] ([equivalente aprox.]). [Escucho ofertas / Precio firme].',
+            'Visitas: [días y horarios]. Consultas por WhatsApp.',
+          ],
+        },
+        { t: 'callout', tone: 'tip',
+          title: 'Pegá la plantilla en Casa-Libre',
+          html: 'Copiás el texto, cargás las fotos y dejás tu WhatsApp. Si te falta un dato, guardás el borrador y lo terminás después.' },
+      ],
+    },
+    {
+      id: 'ejemplos-de-anuncio',
+      h2: 'Ejemplos de anuncio de venta de casa (vendo casa, texto)',
+      blocks: [
+        { t: 'p', html: 'Tres anuncios armados con la plantilla. Son propiedades inventadas, con un cambio de referencia de Gs. 7.300 por dólar: mirá el orden y el tono, no los precios.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa familiar en Luque',
+          html: '<strong>Vendo casa en Luque, 3 dormitorios con patio y quincho.</strong> A tres cuadras de una avenida. Terreno de 12 x 30 m (360 m²), 150 m² construidos, 2 baños, garaje para 2 autos. Techo refaccionado. Título a nombre del vendedor, impuesto al día.',
+          rows: [['Precio: Gs. 620.000.000 / 7.300', 'aprox. USD 85.000']],
+        },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: departamento en Asunción',
+          html: '<strong>Vendo departamento en Asunción, 2 dormitorios con balcón y cochera.</strong> Edificio con ascensor. 85 m², 2 baños, cocina abierta. Expensas informadas en la visita. Escucho ofertas razonables.',
+          rows: [['Precio: USD 120.000 x 7.300', 'aprox. Gs. 876.000.000']],
+        },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa para refaccionar en Capiatá',
+          html: '<strong>Dueño vende casa en Capiatá para refaccionar, terreno de 600 m².</strong> Casa de 110 m², 3 dormitorios, 1 baño. Necesita techo y pintura, y el precio ya lo tiene en cuenta. Título al día.',
+          rows: [['Precio: Gs. 380.000.000 / 7.300', 'aprox. USD 52.000']],
+        },
+        { t: 'p', html: 'En un departamento, los compradores esperan ver expensas, piso y cochera, como en los departamentos en venta en Asunción en <a href="https://casa-libre.com.py/venta/departamentos/asuncion">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'precio-en-el-anuncio',
+      h2: 'Cómo poner el precio en el anuncio: guaraníes y dólares',
+      blocks: [
+        { t: 'p', html: 'Poné un solo monto, en la moneda en que pensás cobrar, y si querés el equivalente marcado "aprox.". Un anuncio sin precio atrae a quien no puede pagarlo y espanta a quien sí.' },
+        {
+          t: 'ul',
+          items: [
+            'Usá la moneda en que se publican las casas parecidas de tu ciudad.',
+            'Decí si el precio es firme o si escuchás ofertas.',
+            'No pongas "consultar precio": la mayoría no consulta.',
+          ],
+        },
+        { t: 'p', html: 'Para el monto, compará en el buscador con mapa de Casa-Libre. La guía <a href="/cuanto-cuesta-una-casa-en-paraguay/">cuánto cuesta una casa en Paraguay</a> tiene precios pedidos por ciudad, y la de <a href="/tasacion-de-inmuebles-paraguay/">tasación de inmuebles</a> explica cómo hacer tu estimación de precio.' },
+      ],
+    },
+    {
+      id: 'errores-del-anuncio',
+      h2: 'Errores comunes en un anuncio de venta de casa',
+      blocks: [
+        { t: 'p', html: 'Los anuncios que no reciben consultas suelen tener alguno de estos errores, y todos se arreglan en minutos.' },
+        {
+          t: 'ul',
+          items: [
+            'Título sin ciudad o sin tipo de propiedad.',
+            'Sin precio, o con un precio en el texto y otro en el campo de precio.',
+            'Todo en mayúsculas, con signos de exclamación o la palabra "urgente".',
+            'Nada sobre los papeles. Si el título está en trámite, decilo.',
+            'Fotos del título o de tu cédula en el aviso: esos papeles se muestran en persona.',
+            'Defectos escondidos que el comprador descubre en la visita.',
+            'Un WhatsApp que contesta a los dos días.',
+          ],
+        },
+        { t: 'p', html: 'Qué papeles se piden está en <a href="/requisitos-para-vender-una-casa-paraguay/">requisitos para vender una casa en Paraguay</a> y en la guía de Casa-Libre sobre documentos para vender.' },
+        { t: 'p', html: 'Antes de publicar, leé tu anuncio como comprador, o pedí ayuda en el formulario de esta página. Para el resto de la venta tenés la guía de Casa-Libre para vender tu casa.' },
+      ],
+    },
+    {
+      id: 'publicar-y-compartir',
+      h2: 'Dónde publicar el anuncio y cómo compartirlo por WhatsApp',
+      blocks: [
+        { t: 'p', html: 'Lo recomendable es publicarlo en Casa-Libre, y compartir ese mismo enlace en grupos de WhatsApp, redes sociales y junto al cartel. Para comparar opciones, mirá <a href="/donde-publicar-casa-en-venta-paraguay/">dónde publicar mi casa en venta gratis</a>.' },
+        { t: 'p', html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        {
+          t: 'casalibre',
+          title: 'Escribí el anuncio desde el teléfono',
+          html: 'Con las apps de Casa-Libre para iPhone y Android sacás las fotos, pegás el texto y publicás desde el celular.',
+          button: 'Descargar la app de Casa-Libre',
+          href: 'https://casa-libre.com.py/descargar',
+        },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cómo hacer un anuncio para vender una casa?', a: 'Título con tipo, ciudad y un dato fuerte; después ubicación, metros, ambientes, estado, papeles y precio; al final tu WhatsApp y los horarios de visita. Usá la plantilla de esta página.' },
+    { q: '¿Pongo el precio en guaraníes o en dólares?', a: 'En la moneda en que pensás cobrar y en la que se publican las casas parecidas de tu ciudad. Si querés, agregá el equivalente marcado como aproximado.' },
+    { q: '¿Conviene poner "vendo urgente"?', a: 'No te lo recomendamos: invita a ofertas bajas. Si necesitás vender pronto, ajustá el precio y respondé rápido.' },
+    { q: '¿Cuánto sale publicar el anuncio en Casa-Libre?', a: 'Publicar es gratis. Los extras pagos son opcionales y no hacen falta para recibir consultas. Más detalle en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'content/PLAN.md, spec for anuncio-para-vender-una-casa', url: 'file:content/PLAN.md', date: '2026-11-12', note: 'Searches: anuncio para vender una casa; ejemplo de anuncio de venta de casa; vendo casa texto.' },
+    { label: 'Research notes: Paraguay seller, buyer and renter search keywords (sections 1, 3, 7)', url: 'file:research_notes/Casa Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: '"vendo casa en [ciudad]", "dueño vende" and "vendo urgente por viaje" as the wording Paraguayans type and use in ads.' },
+    { label: 'content/data/py-market.json', url: 'file:content/data/py-market.json', date: '2026-11-11', note: 'Reference exchange rate Gs. 7.300 per USD used in the hypothetical examples. Example prices are invented, not taken from listings.' },
+    { label: 'content/SCHEMA.md, section "What is true about Casa-Libre"', url: 'file:content/SCHEMA.md', date: '2026-11-12', note: 'Every statement about Casa-Libre on this page comes from this list.' },
+  ],
+  closing: {
+    title: 'Tu anuncio, publicado gratis en Casa-Libre',
+    text: 'Completá la plantilla, cargá las fotos y dejá tu WhatsApp. Los compradores te escriben directo y no hay comisión sobre la venta.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['requisitos-para-vender-una-casa-paraguay', 'cuanto-cuesta-una-casa-en-paraguay', 'tasacion-de-inmuebles-paraguay', 'vender-casa-en-luque'],
+};

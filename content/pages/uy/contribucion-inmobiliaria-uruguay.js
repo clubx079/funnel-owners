@@ -1,0 +1,115 @@
+export default {
+  slug: 'contribucion-inmobiliaria-uruguay',
+  group: 'Impuestos y gastos',
+  order: 6,
+  title: 'Contribución inmobiliaria y Primaria en Uruguay: guía',
+  h1: 'Contribución inmobiliaria y Primaria en Uruguay',
+  description: 'Qué son la contribución inmobiliaria y el impuesto de Primaria en Uruguay, quién los cobra, quién los paga si alquilás y por qué tienen que estar al día para vender.',
+  navLabel: 'Contribución y Primaria',
+  blurb: 'Los dos tributos anuales de una casa en Uruguay: quién los cobra, quién los paga y qué pasa al vender.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Uruguayan escribano or contador must check: that contribución inmobiliaria is a departmental tax set and collected by each Intendencia on urban/suburban (and rural) property, on a value base defined by each department (often linked to Catastro values); that Montevideo and other departments offer instalments and online payment; that the Impuesto de Enseñanza Primaria is a national tax for public primary education, collected by ANEP or DGI depending on the property (urban/suburban vs rural) and with exemptions (not stated); that debts follow the property and the escribano requires certificates; and that owners pay unless the lease transfers them to the tenant.',
+  answer: 'La contribución inmobiliaria es el tributo anual que cobra la Intendencia de cada departamento por las casas, apartamentos y terrenos. El impuesto de Enseñanza Primaria es otro tributo anual, nacional, destinado a la escuela pública. Los paga el propietario, en cuotas o de una vez, y tienen que estar al día para vender: el escribano pide los certificados. Cuando estés al día, podés publicar tu casa gratis en Casa-Libre.',
+  summary: [
+    'Contribución: tributo departamental, lo fija y cobra cada Intendencia.',
+    'Primaria: tributo nacional para la enseñanza pública, con su propio sistema de cobro.',
+    'Los paga el propietario; en un alquiler se puede pactar que los pague el inquilino.',
+    'Para vender tienen que estar al día: las deudas siguen a la propiedad.',
+  ],
+  cta: {
+    title: 'Al día con los tributos, publicá',
+    text: 'Publicar tu casa en Casa-Libre es gratis y las consultas te llegan por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'que-son',
+      h2: '¿Qué son la contribución inmobiliaria y la Primaria?',
+      blocks: [
+        { t: 'p', html: 'Son los dos tributos anuales que paga casi toda propiedad en Uruguay. Uno es del departamento y otro es nacional, y se pagan por separado.' },
+        { t: 'table',
+          caption: 'Contribución inmobiliaria y Primaria',
+          head: ['', 'Contribución inmobiliaria', 'Impuesto de Primaria'],
+          rows: [
+            ['Quién lo cobra', 'La Intendencia del departamento', 'Sistema nacional (ANEP o DGI según el inmueble)'],
+            ['Destino', 'Servicios del departamento', 'La enseñanza primaria pública'],
+            ['Base', 'Un valor del inmueble que define cada departamento', 'Un valor del inmueble que fija la ley'],
+            ['Cómo se paga', 'En cuotas o anual, con descuento por pago adelantado en algunos departamentos', 'En cuotas o anual'],
+            ['Al vender', 'Certificado de la Intendencia', 'Constancia de estar al día'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026. Montos, fechas y exoneraciones cambian según el departamento y el año.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'cuanto-se-paga',
+      h2: '¿Cuánto se paga de contribución?',
+      blocks: [
+        { t: 'p', html: 'Depende del departamento, de la zona y del valor que la Intendencia toma para tu padrón. No hay una tasa única para todo el país, por eso la forma segura de saberlo es consultar la factura o el sitio de tu Intendencia con el número de padrón.' },
+        { t: 'p', html: 'En Montevideo, Canelones y Maldonado, que son los departamentos con más consultas, la contribución se puede pagar en cuotas durante el año. La Intendencia también cobra tasas que a veces llegan en la misma factura.' },
+      ],
+    },
+    {
+      id: 'primaria',
+      h2: '¿Qué es el impuesto de Primaria?',
+      blocks: [
+        { t: 'p', html: 'Es un impuesto nacional que grava la propiedad de inmuebles y financia la enseñanza primaria pública. Para muchas propiedades urbanas lo administra ANEP; para otras, la DGI. Hay viviendas exoneradas según su valor.' },
+        { t: 'p', html: 'Se puede consultar la deuda y pagar en línea con el número de padrón, y pedir una constancia de estar al día. El escribano la va a necesitar al vender.' },
+      ],
+    },
+    {
+      id: 'al-vender',
+      h2: '¿Qué pasa con la contribución cuando vendo?',
+      blocks: [
+        { t: 'p', html: 'Tiene que estar al día. Las deudas de estos tributos siguen a la propiedad, así que ningún escribano escritura sin el certificado de la Intendencia y la constancia de Primaria.' },
+        { t: 'ul', items: [
+          'Si hay deuda, pagala antes de publicar o acordá que se pague con el precio en la escritura.',
+          'Las cuotas del año en curso se reparten según lo que se pacte en el compromiso.',
+          'Guardá las facturas pagas: el comprador las va a pedir.',
+        ] },
+        { t: 'p', html: 'La lista completa de papeles está en <a href="/uruguay/requisitos-para-vender-una-casa-uruguay/">requisitos para vender una casa</a> y todos los costos, en <a href="/uruguay/gastos-al-vender-una-casa-uruguay/">gastos al vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'en-alquiler',
+      h2: '¿Quién paga la contribución si la casa está alquilada?',
+      blocks: [
+        { t: 'p', html: 'El propietario, salvo que el contrato diga que la paga el inquilino. Es una cláusula común en los contratos de alquiler en Uruguay, así que revisá lo que firmaste.' },
+        { t: 'p', html: 'Si la pasás al inquilino, pedile los comprobantes cada año: si no paga, la deuda queda sobre tu propiedad. Más en <a href="/uruguay/contrato-de-alquiler-uruguay/">contrato de alquiler en Uruguay</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Pongo en el aviso que la contribución está al día?',
+      blocks: [
+        { t: 'p', html: 'Sí. Una línea como "contribución y Primaria al día" da confianza y ahorra preguntas. Si es un apartamento, sumá los gastos comunes.' },
+        { t: 'casalibre',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo funciona Casa-Libre',
+          href: 'https://uy.casa-libre.com/como-funciona' },
+        { t: 'p', html: 'Las dudas sobre cómo publicar están en las preguntas frecuentes de <a href="https://uy.casa-libre.com/preguntas-frecuentes">Casa-Libre</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Quién cobra la contribución inmobiliaria?', a: 'La Intendencia del departamento donde está la propiedad: Montevideo, Canelones, Maldonado y así en cada uno.' },
+    { q: '¿Cómo consulto la deuda de contribución?', a: 'Con el número de padrón, en el sitio o en las oficinas de tu Intendencia. Figura en las facturas y en los títulos.' },
+    { q: '¿Qué es el impuesto de Primaria y quién lo paga?', a: 'Es un impuesto nacional sobre los inmuebles para la enseñanza pública. Lo paga el propietario, salvo que esté exonerado.' },
+    { q: '¿Puedo vender con deuda de contribución?', a: 'Se puede, si la deuda se paga con el precio en la escritura. El escribano no escritura sin el certificado al día.' },
+    { q: '¿La contribución la paga el inquilino?', a: 'Solo si el contrato lo dice. Si no, la paga el propietario.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete Uruguay, "contribucion inmobiliaria" and "impuesto de primaria"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=contribucion%20inmobiliaria', date: '2026-11-13', note: 'contribucion inmobiliaria montevideo/canelones/maldonado; montevideo consulta deuda, cuotas, pago en linea; impuesto de primaria consulta de deuda, dgi, constancia de estar al día.' },
+  ],
+  closing: {
+    title: 'Con todo al día, publicá',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  related: ['requisitos-para-vender-una-casa-uruguay', 'gastos-al-vender-una-casa-uruguay', 'itp-uruguay'],
+};

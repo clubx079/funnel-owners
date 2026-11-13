@@ -1,0 +1,141 @@
+export default {
+  slug: 'quien-paga-la-escritura-paraguay',
+  title: 'Quién paga la escritura en Paraguay: ¿comprador o vendedor?',
+  h1: 'Quién paga la escritura en Paraguay: ¿comprador o vendedor?',
+  description: 'Quién paga la escritura y el escribano en una venta de inmueble en Paraguay, qué le toca siempre al vendedor, cómo dejarlo por escrito y ejemplos de reparto.',
+  navLabel: 'Quién paga la escritura',
+  blurb: 'Qué gastos de la escritura se pactan, cuáles son del vendedor y cómo dejarlo por escrito, con ejemplos de reparto.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'pending',
+  reviewNote: 'An escribano must confirm: that there is no fixed legal rule on who pays the escribano fees, registration and municipal transfer tax (our notes give none, the page says they are agreed and asks the reader to check the local custom), that the seller pays his own IRP and must have the impuesto inmobiliario paid up, and the reference figures reused from the escribano page (fees 2% to 0.75% under Ley 1307/87, registration 0.85% under Ley 7424/2025, municipal tax 0.3% Asunción / 0.2% interior, IRP 8% on a presumed 30% of the price, about 2.4%, withheld at signing; commission 3% to 5.5% plus IVA, normally paid by the seller). The three splits in the example are illustrations, not customs. The sample clause is a modelo orientativo.',
+  answer: 'En Paraguay no encontramos una regla fija que diga si la escritura la paga el comprador o el vendedor: los honorarios del escribano, la inscripción y el impuesto municipal se acuerdan entre las partes y conviene dejarlo por escrito en la seña o el boleto. Lo que sí le toca al vendedor es su impuesto a la renta por la venta y tener el impuesto inmobiliario al día. Publicar tu propiedad en Casa-Libre es gratis y sin comisión.',
+  summary: [
+    'No hay una regla fija en las fuentes que consultamos: honorarios del escribano, inscripción e impuesto municipal se pactan.',
+    'Del vendedor: su impuesto a la renta (alrededor de 2,4% del precio según las guías publicadas en 2026) y el impuesto inmobiliario al día.',
+    'En una venta de Gs. 730.000.000 en Asunción, la escritura sale entre Gs. 13.870.000 y Gs. 22.995.000 con las cifras de referencia.',
+    'Escribí el reparto en la seña o el boleto antes de recibir dinero.',
+    'Publicar en Casa-Libre es gratis y sin comisión: no suma ningún gasto al reparto.',
+  ],
+  cta: {
+    title: 'Antes del reparto, el comprador',
+    text: 'Publicá tu casa, departamento o terreno gratis en Casa-Libre. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre la venta.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'quien-paga',
+      h2: '¿Quién paga la escritura, el comprador o el vendedor?',
+      blocks: [
+        { t: 'p', html: 'Depende de lo que acuerden. Las guías publicadas en 2026 que consultamos no fijan una regla: presentan los gastos de la escritura como algo a pactar y solo asignan con claridad al vendedor su propio impuesto a la renta.' },
+        {
+          t: 'table',
+          caption: 'Gastos de la escritura de compraventa y quién los paga',
+          head: ['Gasto', 'Cifra de referencia', 'Quién lo paga'],
+          rows: [
+            ['Honorarios del escribano', 'De 2% a 0,75% del valor (Ley 1307/87)', 'Se pacta'],
+            ['Inscripción en el registro', '0,85% (Ley 7424/2025)', 'Se pacta'],
+            ['Impuesto municipal a la transferencia', '0,3% en Asunción, 0,2% en el interior', 'Se pacta'],
+            ['Impuesto a la renta del vendedor (IRP)', 'Alrededor de 2,4% del precio', 'El vendedor'],
+            ['Impuesto inmobiliario al día', 'Lo que figure en la municipalidad', 'El vendedor, antes de firmar'],
+          ],
+          note: 'Cifras que citan las guías publicadas en 2026, no verificadas contra las leyes: un escribano debe confirmarlas.',
+        },
+        { t: 'callout', tone: 'warn', title: 'Información general', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'Como todo se calcula sobre el precio, primero necesitás uno realista: mirá propiedades en venta parecidas a la tuya en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'costumbre',
+      h2: '¿Hay una costumbre en Paraguay sobre quién paga el escribano?',
+      blocks: [
+        { t: 'p', html: 'No encontramos una fuente confiable que la describa, así que no te vamos a inventar una. Preguntale al escribano cuál es la práctica en tu ciudad y usala como punto de partida, no como obligación.' },
+        { t: 'p', html: 'El detalle de los honorarios está en <a href="/cuanto-cobra-escribano-paraguay/">cuánto cobra un escribano</a>. Cómo encaja la escritura en la venta lo cuenta cómo vender en <a href="https://casa-libre.com.py/vender">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'ejemplos',
+      h2: '¿Cuánto cuesta la escritura? Ejemplos de reparto',
+      blocks: [
+        { t: 'p', html: 'Con las cifras de referencia, una venta de Gs. 730.000.000 en Asunción tiene entre Gs. 13.870.000 y Gs. 22.995.000 de escritura, más Gs. 17.520.000 de impuesto del vendedor. Estos son tres repartos posibles, como ejemplos y no como costumbre.' },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: casa en Asunción vendida en Gs. 730.000.000 (USD 100.000)',
+          html: 'Supuestos: tipo de cambio de ejemplo de Gs. 7.300, porcentajes sobre el precio y honorarios entre 0,75% y 2%. Escritura = honorarios (Gs. 5.475.000 a Gs. 14.600.000) + inscripción (Gs. 6.205.000) + impuesto municipal (Gs. 2.190.000). Impuesto del vendedor: 730.000.000 × 30% × 8% = Gs. 17.520.000 (USD 2.400).',
+          rows: [
+            ['Reparto', 'Paga el comprador', 'Paga el vendedor (con su impuesto)'],
+            ['A. El comprador paga la escritura', 'Gs. 13.870.000 a Gs. 22.995.000 (USD 1.900 a USD 3.150)', 'Gs. 17.520.000 (USD 2.400)'],
+            ['B. Mitad cada uno', 'Gs. 6.935.000 a Gs. 11.497.500 (USD 950 a USD 1.575)', 'Gs. 24.455.000 a Gs. 29.017.500 (USD 3.350 a USD 3.975)'],
+            ['C. El vendedor paga todo', 'Gs. 0', 'Gs. 31.390.000 a Gs. 40.515.000 (USD 4.300 a USD 5.550)'],
+          ],
+        },
+        { t: 'p', html: 'Repetí la cuenta con tu precio después de mirar las propiedades publicadas en tu zona en el mapa de <a href="https://casa-libre.com.py/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'por-escrito',
+      h2: 'Qué escribir en la seña o el boleto de compraventa',
+      blocks: [
+        { t: 'p', html: 'El reparto tiene que quedar escrito antes de recibir dinero. Esta es una cláusula de modelo orientativo para completar y hacer revisar por el escribano.' },
+        { t: 'ol', items: [
+          'Los honorarios del escribano estarán a cargo de ______ (comprador / vendedor / por mitades).',
+          'La inscripción en el registro estará a cargo de ______.',
+          'El impuesto municipal a la transferencia estará a cargo de ______.',
+          'El vendedor entregará el inmueble con el impuesto inmobiliario al día y pagará su impuesto a la renta por la venta.',
+          'El escribano será ______, elegido por ______.',
+        ] },
+        { t: 'p', html: 'Más sobre esos documentos en <a href="/sena-de-trato-paraguay/">seña de trato en Paraguay</a> y <a href="/contrato-de-compraventa-inmueble-paraguay/">contrato privado de compraventa</a>. El recorrido de la venta está en la guía de Casa-Libre para vender tu casa.' },
+      ],
+    },
+    {
+      id: 'negociar',
+      h2: 'Cómo usar el reparto de gastos al negociar',
+      blocks: [
+        { t: 'p', html: 'Precio y gastos se negocian juntos: aceptar pagar parte de la escritura puede cerrar una venta sin bajar el precio. Antes de ofrecer algo, sabé cuánto te queda en cada escenario.' },
+        { t: 'ul', items: [
+          'Calculá tu neto con el reparto A, B y C del ejemplo.',
+          'Decidí cuál es tu mínimo antes de la primera oferta.',
+          'Tené los papeles listos: un título en regla acelera la escritura.',
+        ] },
+        { t: 'p', html: 'Para saber qué papeles pide el escribano, leé <a href="/requisitos-para-vender-una-casa-paraguay/">requisitos para vender una casa</a>, y compará precios con las casas en venta en Asunción en Casa-Libre.' },
+        {
+          t: 'casalibre',
+          title: 'Conseguí al comprador sin sumar gastos',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.',
+          button: 'Publicar mi propiedad gratis',
+          href: 'https://casa-libre.com.py/publicar',
+        },
+      ],
+    },
+    {
+      id: 'comision',
+      h2: 'Lo que no hace falta repartir: la comisión',
+      blocks: [
+        { t: 'p', html: 'Si vendés con una inmobiliaria, su comisión es otro gasto. Según cifras publicadas en la prensa en 2026, va de 3% a 5,5% más IVA y normalmente la paga el vendedor.' },
+        { t: 'p', html: 'Si publicás vos en Casa-Libre, ese gasto no existe: no hay comisión sobre la venta, como explica cómo funciona Casa-Libre. Podés publicar y responder desde la app de Casa-Libre para iPhone y Android.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Quién paga el escribano en una venta de inmueble en Paraguay?', a: 'Se acuerda entre comprador y vendedor; no encontramos una regla fija. Dejalo escrito en la seña o el boleto antes de recibir dinero.' },
+    { q: '¿Cuánto vale la escritura de una casa?', a: 'Con las cifras que citan las guías publicadas en 2026, entre 1,9% y 3,15% del precio en Asunción, sumando honorarios, inscripción e impuesto municipal. Pedile al escribano un presupuesto.' },
+    { q: '¿Qué paga siempre el vendedor?', a: 'Su impuesto a la renta por la venta, que según las guías de 2026 el escribano retiene al firmar, y el impuesto inmobiliario al día.' },
+    { q: '¿Quién elige el escribano?', a: 'Se conversa entre las partes. Lo práctico es acordarlo junto con el reparto de gastos y escribirlo en el boleto.' },
+    { q: '¿Casa-Libre cobra algo cuando vendo?', a: 'No. Publicar es gratis y no hay comisión sobre la venta. Otras dudas están en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md (sections 1a row 8, 3, 5b, 7a)', url: 'file://research_notes/Casa-Libre SEO funnel sites/paraguay_seller_buyer_keywords.md', date: '2026-11-12', note: 'Searches: quien paga la escritura comprador o vendedor; quien paga el escribano en una venta de inmueble. Figures (fees, registration, municipal tax, IRP, commission) as quoted by 2026 guides; none of the notes gives a rule or custom for who pays the escritura.' },
+    { label: 'Buscaescribanía: Transferencia de Inmueble en Paraguay 2026', url: 'https://buscaescribania.com/py/es/blog/transferencia-inmueble-paraguay', date: '2026-11-07', note: 'Fee scale 2.00% to 0.75% (Ley 1307/87), registration 0.85% (Ley 7424/2025), municipal tax 0.3% Asunción / 0.2% interior, seller IRP 2.4% effective. Lists "¿Quién paga los gastos de escrituración?" as an FAQ.' },
+    { label: 'Nexio: Cómo vender su propiedad en Paraguay, paso a paso', url: 'https://www.nexio.com.py/guia-vender-propriedad-paraguay-2026/', date: '2026-11-12', note: 'IRP 8% on 30% of the price, withheld by the escribano at signing; lists "¿Quién paga la escritura, el comprador o el vendedor?" as an FAQ.' },
+    { label: 'HolaCasa; ABC Color 18 Oct 2026', url: 'https://holacasa.com.py/comision-inmobiliaria-paraguay/', date: '2026-10-18', note: 'Commission 3% to 5.5% plus 10% IVA, normally paid by the seller.' },
+    { label: 'Exchange rate in the example', url: '', date: '2026-11-12', note: 'Gs. 7.300 per USD, round example rate (the py-market.json rate).' },
+  ],
+  closing: {
+    title: 'El reparto se decide con un comprador en la mesa',
+    text: 'Publicá tu propiedad gratis en Casa-Libre y recibí las consultas por WhatsApp. Está en la web y en apps para iPhone y Android.',
+    button: 'Publicar gratis en Casa-Libre',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['sena-de-trato-paraguay', 'contrato-de-compraventa-inmueble-paraguay', 'requisitos-para-vender-una-casa-paraguay', ''],
+};

@@ -1,0 +1,127 @@
+export default {
+  slug: 'como-vender-mi-casa-sin-inmobiliaria',
+  group: 'Vender una propiedad',
+  order: 2,
+  equivalentOf: 'como-vender-mi-casa-sin-inmobiliaria',
+  title: 'Cómo vender mi casa sin inmobiliaria en Venezuela',
+  h1: 'Cómo vender mi casa sin inmobiliaria en Venezuela',
+  description: 'Cómo vender tu casa tú mismo en Venezuela: qué hace una inmobiliaria y qué puedes hacer tú, los pasos, cuándo conviene un asesor y dónde publicar gratis.',
+  navLabel: 'Vender sin inmobiliaria',
+  blurb: 'Qué hace una inmobiliaria, qué puedes hacer tú y los pasos para vender tu casa por tu cuenta.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Check the general statements: that agents in Venezuela usually charge a commission agreed with the owner (no percentage stated), that the sale must be formalised by a lawyer (documento visado), notaría and Registro, and the ISLR anticipo mention.',
+  answer: 'Sí puedes vender tu casa sin inmobiliaria en Venezuela. Tú pones el precio comparando casas de tu zona, publicas el aviso, atiendes a los interesados por WhatsApp y muestras la casa; un abogado prepara la opción de compra y el documento, que se firman en la notaría y el Registro. Así te ahorras la comisión. Para publicar, te recomendamos Casa-Libre, que es gratis.',
+  summary: [
+    'La inmobiliaria ayuda a buscar comprador; la venta legal la hacen el abogado, la notaría y el Registro.',
+    'Vender por tu cuenta te ahorra la comisión, pero te toca atender consultas y visitas.',
+    'Lo esencial: precio realista, buenas fotos, papeles al día y respuestas rápidas.',
+    'En Casa-Libre publicas gratis y los interesados te escriben directo por WhatsApp.',
+  ],
+  cta: {
+    title: 'Véndela tú, sin comisión',
+    text: 'Publica gratis en Casa-Libre. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'quien-hace-que',
+      h2: '¿Qué hace una inmobiliaria y qué puedes hacer tú?',
+      blocks: [
+        { t: 'p', html: 'Casi todo lo que hace un asesor inmobiliario lo puedes hacer tú con un teléfono. Lo que no puedes saltarte es al abogado.' },
+        { t: 'table',
+          caption: 'Tareas de la venta y quién puede hacerlas',
+          head: ['Tarea', 'Con inmobiliaria', 'Por tu cuenta'],
+          rows: [
+            ['Fijar el precio', 'El asesor propone', 'Comparas casas parecidas de tu zona'],
+            ['Fotos y aviso', 'El asesor los hace', 'Tú, con el celular'],
+            ['Publicar', 'En sus canales', 'Gratis en Casa-Libre'],
+            ['Atender interesados y visitas', 'El asesor', 'Tú, por WhatsApp'],
+            ['Opción de compra y documento', 'Un abogado', 'Un abogado'],
+            ['Notaría y Registro', 'Firman las partes', 'Firman las partes'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+      ],
+    },
+    {
+      id: 'pasos',
+      h2: 'Los pasos para vender tu casa tú mismo',
+      blocks: [
+        { t: 'p', html: 'Este orden evita gastos antes de tiempo y sorpresas con los papeles.' },
+        { t: 'steps', items: [
+          { title: 'Revisa los papeles', html: 'Documento registrado, gravámenes, catastro y solvencias. Ver <a href="/venezuela/requisitos-para-vender-una-casa-venezuela/">requisitos para vender</a>.' },
+          { title: 'Pon el precio', html: 'Compara con casas parecidas de tu urbanización en <a href="https://casa-libre.com.ve/comprar">Casa-Libre</a>.' },
+          { title: 'Prepara la casa y las fotos', html: 'Ordena, repara lo pequeño y fotografía con luz de día.' },
+          { title: 'Publica y comparte', html: 'Un aviso completo y su enlace en tus grupos de WhatsApp.' },
+          { title: 'Filtra y muestra', html: 'Pregunta forma de pago antes de la visita y no muestres la casa solo.' },
+          { title: 'Cierra con un abogado', html: 'Opción de compra en notaría y documento definitivo en el Registro.' },
+        ] },
+      ],
+    },
+    {
+      id: 'cuando-conviene-inmobiliaria',
+      h2: '¿Cuándo sí conviene una inmobiliaria?',
+      blocks: [
+        { t: 'p', html: 'Si no tienes tiempo para atender consultas, vives lejos de la casa o el inmueble es muy particular, un asesor puede valer su comisión. Es una decisión válida.' },
+        { t: 'ul', items: [
+          'Pregunta la comisión y quién la paga antes de firmar nada.',
+          'Evita la exclusividad larga si no estás seguro.',
+          'Aunque tengas asesor, puedes pedirle que publique en Casa-Libre: hay cuenta para inmobiliarias.',
+        ] },
+      ],
+    },
+    {
+      id: 'ahorro',
+      h2: '¿Cuánto te ahorras vendiendo sin inmobiliaria?',
+      blocks: [
+        { t: 'p', html: 'La comisión que hubieras pagado. Como cada inmobiliaria pacta la suya, el ejemplo usa un porcentaje supuesto.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: casa de USD 70.000 con comisión supuesta del 5%',
+          html: 'Comisión: 70.000 × 5% = USD 3.500. Vendiendo por tu cuenta, esos USD 3.500 quedan para ti. Los demás gastos (anticipo de ISLR, abogado, solvencias) se pagan igual.',
+          rows: [['Precio', 'USD 70.000'], ['Comisión supuesta (5%)', 'USD 3.500'], ['Ahorro vendiendo tú', 'USD 3.500']] },
+        { t: 'p', html: 'Todos los costos están en <a href="/venezuela/gastos-al-vender-una-casa-venezuela/">cuánto cuesta vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'errores',
+      h2: 'Errores comunes al vender por tu cuenta',
+      blocks: [
+        { t: 'p', html: 'Casi todos se resuelven con paciencia y orden.' },
+        { t: 'ul', items: [
+          'Pedir un precio por encima de lo que piden casas parecidas.',
+          'Fotos oscuras o de noche.',
+          'Tardar días en responder un WhatsApp.',
+          'Recibir dinero sin opción de compra autenticada.',
+          'Descubrir una hipoteca sin liberar cuando ya hay comprador.',
+        ] },
+        { t: 'p', html: 'Si ya publicaste y no hay consultas, revisa <a href="/venezuela/por-que-no-se-vende-mi-casa/">por qué no se vende mi casa</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publica tu casa gratis',
+      blocks: [
+        { t: 'p', html: 'Te recomendamos empezar por Casa-Libre: publicar es gratis y los interesados te escriben directo por WhatsApp, sin comisión sobre la venta.' },
+        { t: 'p', html: 'La guía de <a href="https://casa-libre.com.ve/guias/vender-sin-inmobiliaria">Casa-Libre</a> para vender sin inmobiliaria resume los mismos pasos.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender mi casa yo mismo en Venezuela?', a: 'Sí. Necesitas un abogado para el documento, pero buscar comprador lo puedes hacer tú.' },
+    { q: '¿Es legal vender una casa sin inmobiliaria?', a: 'Sí. La ley no exige intermediarios; exige que el documento esté visado por un abogado y se protocolice en el Registro.' },
+    { q: '¿Cómo sé si mi precio es correcto?', a: 'Compara con casas parecidas de tu zona y mira la respuesta de las primeras semanas. Ver <a href="/venezuela/avaluo-de-inmuebles-venezuela/">avalúo de inmuebles</a>.' },
+    { q: '¿Dónde publico mi casa sin inmobiliaria?', a: 'En Casa-Libre, gratis y sin comisión sobre la venta.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=vender%20casa%20en%20venezuela', date: '2026-11-13', note: 'quiero vender mi casa en venezuela; pasos para vender una casa en venezuela.' },
+  ],
+  closing: {
+    title: 'El primer paso: publicar',
+    text: 'Publica tu casa gratis en Casa-Libre y atiende a los interesados por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['', 'casa-en-venta-por-dueno-venezuela', 'gastos-al-vender-una-casa-venezuela'],
+};

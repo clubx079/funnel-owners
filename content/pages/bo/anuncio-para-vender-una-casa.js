@@ -1,0 +1,132 @@
+export default {
+  slug: 'anuncio-para-vender-una-casa',
+  group: 'Vender una propiedad',
+  order: 8,
+  equivalentOf: 'anuncio-para-vender-una-casa',
+  title: 'Anuncio para vender una casa: plantilla y ejemplos',
+  h1: 'Cómo escribir el anuncio para vender tu casa',
+  description: 'Una plantilla para el anuncio de venta de tu casa en Bolivia, la fórmula del título, qué datos no pueden faltar, tres ejemplos completos y los errores más comunes.',
+  navLabel: 'Anuncio de venta',
+  blurb: 'Plantilla, fórmula del título y tres ejemplos de anuncio para vender una casa en Bolivia.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Un buen anuncio para vender una casa tiene un título con tipo, zona y un dato fuerte, y una descripción con superficie de terreno y construida, dormitorios, baños, garaje, estado de los papeles y precio en una sola moneda. Frases cortas, datos concretos y nada de exageraciones. Abajo tienes una plantilla y tres ejemplos para copiar y adaptar, y puedes publicarlo gratis en Casa-Libre.',
+  summary: [
+    'Título: tipo + zona + dato fuerte, por ejemplo "Casa de 3 dormitorios con patio, zona norte".',
+    'Descripción en bloques: la casa, la zona, los papeles y el precio.',
+    'El precio va en dólares o en bolivianos, pero en una sola moneda.',
+    'Decir que el Folio Real está a tu nombre genera confianza.',
+  ],
+  cta: {
+    title: 'Publica tu anuncio gratis',
+    text: 'Copia la plantilla, súmale tus fotos y publica en Casa-Libre.',
+    button: 'Publicar mi casa',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  sections: [
+    {
+      id: 'formula-del-titulo',
+      h2: '¿Cómo escribir el título del anuncio?',
+      blocks: [
+        { t: 'p', html: 'El título se lee en una lista con muchos otros. Tiene que decir qué es, dónde está y por qué mirarlo, en una línea.' },
+        { t: 'table',
+          caption: 'Fórmula del título: tipo + zona + dato fuerte',
+          head: ['Flojo', 'Mejor'],
+          rows: [
+            ['Vendo casa linda', 'Casa de 3 dormitorios con patio en zona norte'],
+            ['Oportunidad única', 'Casa esquinera de dos plantas cerca del 4to anillo'],
+            ['Se vende departamento', 'Departamento de 2 dormitorios con parqueo en Sopocachi'],
+            ['Terreno barato', 'Lote de 360 m² con servicios en Quillacollo'],
+          ],
+          note: 'Ejemplos ilustrativos.' },
+      ],
+    },
+    {
+      id: 'plantilla',
+      h2: 'Plantilla de anuncio para vender una casa',
+      blocks: [
+        { t: 'p', html: 'Copia esta estructura y completa los espacios. Borra lo que no aplique.' },
+        { t: 'ul', items: [
+          '<strong>La casa:</strong> Casa de ___ plantas en ___ m² de terreno, con ___ m² construidos. ___ dormitorios, ___ baños, garaje para ___ autos, patio de ___.',
+          '<strong>El estado:</strong> Construida en ___ aproximadamente. Arreglos recientes: ___.',
+          '<strong>La zona:</strong> A ___ cuadras de ___. Calle ___ (asfaltada, empedrada). Transporte: ___.',
+          '<strong>Los papeles:</strong> Folio Real a nombre del propietario, impuestos al día.',
+          '<strong>El precio:</strong> USD ___ (o Bs ___). Negociable / precio final.',
+          '<strong>Visitas:</strong> Coordinar por WhatsApp.',
+        ] },
+      ],
+    },
+    {
+      id: 'ejemplos',
+      h2: 'Tres ejemplos de anuncios de venta',
+      blocks: [
+        { t: 'p', html: 'Son ejemplos inventados para mostrar el tono y el orden. Los datos no corresponden a ninguna casa real.' },
+        { t: 'example', title: 'Ejemplo ilustrativo 1: casa en Santa Cruz de la Sierra', html: '<strong>Casa de 3 dormitorios con piscina pequeña, zona norte.</strong> 400 m² de terreno y 220 m² construidos, una planta, 3 dormitorios (uno en suite), 3 baños, garaje para 2 autos y patio con churrasquera. A dos cuadras de una avenida con transporte. Folio Real a nombre del propietario. Precio: USD 180.000, negociable.' },
+        { t: 'example', title: 'Ejemplo ilustrativo 2: departamento en La Paz', html: '<strong>Departamento de 2 dormitorios con parqueo en Sopocachi.</strong> 85 m², piso 6 con ascensor, sala con balcón, cocina equipada, 2 baños. Parqueo y baulera incluidos. Expensas mensuales: Bs ___. Cerca de comercios y transporte. Papeles al día. Precio: USD 95.000.' },
+        { t: 'example', title: 'Ejemplo ilustrativo 3: casa en Cochabamba', html: '<strong>Casa de dos plantas con jardín, cerca de la Av. América.</strong> 300 m² de terreno, 4 dormitorios, 3 baños, estudio, garaje techado. Construida hace unos 15 años, pintura nueva. Folio Real e impuestos al día. Precio: Bs ___, precio final.' },
+      ],
+    },
+    {
+      id: 'que-no-poner',
+      h2: '¿Qué no poner en el anuncio?',
+      blocks: [
+        { t: 'p', html: 'Lo que no puedes sostener en la visita o lo que te expone sin necesidad.' },
+        { t: 'ul', items: [
+          'Exageraciones como "la mejor zona" o "única": no aportan datos.',
+          'La dirección exacta con número de casa: basta la zona y el punto aproximado en el mapa.',
+          'Fotos o números de tus documentos.',
+          'Dos precios distintos en dos monedas.',
+        ] },
+      ],
+    },
+    {
+      id: 'publicar-el-anuncio',
+      h2: '¿Dónde publico el anuncio?',
+      blocks: [
+        { t: 'p', html: 'En un sitio donde el comprador te encuentre buscando por ciudad. Te recomendamos <a href="https://casa-libre.com.bo/vender">Casa-Libre</a>: es gratis y las consultas llegan a tu WhatsApp.' },
+        { t: 'p', html: 'Antes de escribir, prepara las fotos con <a href="/bolivia/fotos-para-vender-una-casa/">esta guía</a>, y si dudas del precio, compara con casas parecidas en el buscador de <a href="https://casa-libre.com.bo/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'anuncio-segun-la-ciudad',
+      h2: '¿Cómo adapto el anuncio a mi ciudad?',
+      blocks: [
+        { t: 'p', html: 'Con los datos que el comprador de tu ciudad busca primero. La plantilla sirve en todo el país, pero cada ciudad tiene su pregunta clave, y responderla en las dos primeras líneas te ahorra mensajes.' },
+        { t: 'table',
+          caption: 'Lo que conviene decir arriba en el anuncio, según la ciudad',
+          head: ['Ciudad', 'Dato clave', 'Ejemplo de frase'],
+          rows: [
+            ['Santa Cruz de la Sierra', 'Anillo, zona y si es condominio', '"Casa en condominio, entre 4.º y 5.º anillo, zona norte"'],
+            ['La Paz', 'Zona, sol y acceso al transporte', '"Casa en Achumani, sol de mañana, a 5 cuadras del teleférico"'],
+            ['Cochabamba', 'Zona y cómo llega el agua', '"Casa en zona norte, agua de red y tanque de reserva"'],
+          ],
+          note: 'Ejemplos de redacción, no de precios.' },
+        { t: 'p', html: 'Más detalles de cada ciudad en <a href="/bolivia/vender-casa-en-santa-cruz-de-la-sierra/">vender una casa en Santa Cruz</a>, <a href="/bolivia/vender-casa-en-la-paz/">en La Paz</a> y <a href="/bolivia/vender-casa-en-cochabamba/">en Cochabamba</a>.' },
+      ],
+    },
+    {
+      id: 'revisar-y-ajustar',
+      h2: '¿Cuándo cambiar el anuncio?',
+      blocks: [
+        { t: 'p', html: 'Si en dos o tres semanas llegan pocas consultas, cambia primero la foto de portada y el título. Si llegan consultas pero nadie visita, revisa el precio.' },
+        { t: 'p', html: 'Más causas y soluciones en <a href="/bolivia/vendo-casa-urgente/">vendo casa urgente</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Qué poner en un anuncio de venta de casa?', a: 'Tipo, zona, superficie de terreno y construida, dormitorios, baños, garaje, estado de los papeles y precio. Y fotos con luz de día.' },
+    { q: '¿Cómo empezar un anuncio para vender una casa?', a: 'Con el dato más fuerte: "Casa de 3 dormitorios con patio en zona norte" dice más que "Vendo hermosa casa".' },
+    { q: '¿Pongo "precio negociable"?', a: 'Si lo es, sí: atrae consultas. Pero ten claro tu mínimo antes de recibir ofertas.' },
+    { q: '¿Es mejor el precio en dólares o en bolivianos?', a: 'Ambos se usan en Bolivia. Elige la moneda en la que quieres cobrar y úsala igual en el aviso y en la minuta.' },
+    { q: '¿Pongo el precio en dólares o en bolivianos?', a: 'En una sola moneda, la que vas a usar en la minuta. Si publicas en dólares y alguien pregunta en bolivianos, acuerden el tipo de cambio por escrito antes de firmar.' },
+  ],
+  internalSources: [],
+  closing: {
+    title: 'Tu anuncio, publicado',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.bo/publicar',
+  },
+  related: ['fotos-para-vender-una-casa', 'donde-publicar-casa-en-venta-bolivia', 'como-poner-mi-casa-en-venta-por-internet'],
+};

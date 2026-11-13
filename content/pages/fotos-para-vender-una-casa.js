@@ -1,0 +1,172 @@
+export default {
+  slug: 'fotos-para-vender-una-casa',
+  title: 'Cómo sacar fotos para vender una casa con el celular',
+  h1: 'Cómo sacar fotos para vender una casa con el celular',
+  description: 'Cómo sacar fotos para vender una casa con el celular: lista de tomas por ambiente, luz, orden, qué ocultar, cuántas fotos subir y cómo cargarlas en Casa-Libre.',
+  navLabel: 'Fotos para vender',
+  blurb: 'Lista de fotos por ambiente, luz, orden y qué ocultar para que tu casa se vea bien en el aviso.',
+  published: '2026-11-12',
+  updated: '2026-11-12',
+  review: 'none',
+  answer: 'Para vender una casa en Paraguay alcanza con el celular: sacá las fotos de día, con cortinas abiertas y luces prendidas, el teléfono en horizontal a la altura del pecho y desde una esquina de cada ambiente. Ordená antes, ocultá objetos personales y subí entre 15 y 25 fotos, empezando por la mejor. Las cargás directo desde la app de Casa-Libre para iPhone y Android.',
+  summary: [
+    'Una lista de tomas por ambiente evita olvidarte del baño, el lavadero o el garaje.',
+    'Luz natural, teléfono en horizontal, desde una esquina y sin zoom: son las cuatro reglas que más cambian el resultado.',
+    'Entre 15 y 25 fotos, ordenadas como un recorrido: frente, sala, cocina, dormitorios, baños, patio.',
+    'Desde la app de Casa-Libre para iPhone y Android sacás las fotos y las subís al aviso en el mismo teléfono.',
+  ],
+  cta: {
+    title: 'Subí tus fotos y publicá gratis en Casa-Libre',
+    text: 'Desde el celular, con la app para iPhone y Android. Si te falta una foto, guardás el borrador.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'lista-de-fotos-por-ambiente',
+      h2: '¿Qué fotos sacar para vender una casa? Lista por ambiente',
+      blocks: [
+        { t: 'p', html: 'Una o dos de cada ambiente y tres o cuatro del exterior. Usá esta tabla como lista y tachá cada toma cuando la tengas.' },
+        {
+          t: 'table',
+          caption: 'Lista de fotos para el aviso de una casa',
+          head: ['Ambiente', 'Cuántas', 'Desde dónde', 'Qué tiene que verse'],
+          rows: [
+            ['Frente', '2', 'Desde la vereda de enfrente', 'La fachada entera, el portón y la vereda'],
+            ['Sala y comedor', '2 o 3', 'Desde las esquinas, hacia la ventana', 'El tamaño del ambiente y la luz'],
+            ['Cocina', '1 o 2', 'Desde la puerta', 'Mesada, alacenas y espacio para heladera'],
+            ['Dormitorio principal', '2', 'Desde la puerta y desde la esquina opuesta', 'Placard y ventana'],
+            ['Otros dormitorios', '1 cada uno', 'Desde la puerta', 'Tamaño y placard'],
+            ['Baños', '1 cada uno', 'Desde la puerta', 'Ducha, sanitarios y estado de los azulejos'],
+            ['Patio y quincho', '2 o 3', 'Desde la casa hacia el fondo, y al revés', 'Tamaño del patio, parrilla, árboles'],
+            ['Garaje y lavadero', '1 cada uno', 'Desde la entrada', 'Cuántos autos entran, si es techado'],
+          ],
+        },
+        { t: 'p', html: 'Mirá cómo se ven las casas en venta en Asunción en <a href="https://casa-libre.com.py/venta/casas/asuncion">Casa-Libre</a> y fijate qué avisos te hacen seguir mirando: casi siempre es por las fotos.' },
+      ],
+    },
+    {
+      id: 'luz-y-hora',
+      h2: 'Luz: a qué hora sacar las fotos de una casa',
+      blocks: [
+        { t: 'p', html: 'De día, con la mayor cantidad de luz natural posible. Interiores a media mañana o media tarde, y el frente cuando el sol le da de lleno y no te queda de frente a la cámara.' },
+        {
+          t: 'ul',
+          items: [
+            '<strong>Abrí todas las cortinas</strong> y prendé todas las luces, aunque sea de día.',
+            '<strong>Evitá el contraluz</strong>: no apuntes directo a una ventana con sol fuerte.',
+            '<strong>Un día nublado</strong> sirve para interiores: la luz es pareja y no hay sombras duras.',
+            '<strong>Nada de flash</strong>: aplana el ambiente y deja reflejos en los vidrios.',
+          ],
+        },
+        { t: 'p', html: 'Si sacás las fotos con la app de Casa-Libre para iPhone y Android ya instalada, podés subirlas en el momento, mientras la luz es buena.' },
+      ],
+    },
+    {
+      id: 'como-sacar-fotos-con-el-celular',
+      h2: 'Cómo sacar fotos de una casa para vender con el celular',
+      blocks: [
+        { t: 'p', html: 'No hace falta una cámara profesional. Con el celular y cinco reglas, las fotos salen derechas, amplias y nítidas.' },
+        {
+          t: 'steps',
+          items: [
+            { title: 'Limpiá el lente', html: 'Con un paño seco. Una huella deja todas las fotos borrosas.' },
+            { title: 'Poné el celular en horizontal', html: 'Muestra más ambiente y es como se ven mejor en el aviso.' },
+            { title: 'Sacá a la altura del pecho', html: 'Ni desde arriba ni agachado. Mantené el teléfono derecho para que las paredes no se vean inclinadas.' },
+            { title: 'Parate en una esquina', html: 'Desde la esquina se ven dos o tres paredes y el ambiente parece lo que es. Si tu celular tiene lente gran angular, usalo sin exagerar.' },
+            { title: 'Sin zoom ni filtros', html: 'El zoom pierde calidad y los filtros cambian los colores. El comprador quiere ver la casa como es.' },
+          ],
+        },
+        { t: 'p', html: 'Más consejos para preparar la casa y el aviso, en la guía de <a href="https://casa-libre.com.py/guias/como-vender-mi-casa">Casa-Libre</a> para vender tu casa.' },
+      ],
+    },
+    {
+      id: 'que-ordenar-y-que-ocultar',
+      h2: 'Qué ordenar y qué ocultar antes de sacar las fotos',
+      blocks: [
+        { t: 'p', html: 'Sacá de la vista todo lo que distrae o lo que es personal. El comprador tiene que imaginarse viviendo ahí, y vos tenés que cuidar tu seguridad.' },
+        {
+          t: 'ul',
+          items: [
+            '<strong>Ordená</strong>: platos, ropa, cables, productos de limpieza y cosas sobre la mesada.',
+            '<strong>Ocultá lo personal</strong>: fotos familiares, nombres, documentos y papeles con tu dirección.',
+            '<strong>Ocultá lo de valor</strong>: electrónicos, joyas y la patente del auto.',
+            '<strong>Sin personas ni mascotas</strong> en las fotos.',
+            '<strong>Arreglá lo chico</strong>: una lámpara quemada o una canilla que gotea se notan.',
+          ],
+        },
+        { t: 'callout', tone: 'tip', title: 'Diez minutos por ambiente', html: 'Antes de cada foto, mirá la pantalla del celular y preguntate: ¿hay algo acá que no quiero que vea un desconocido? Si lo hay, sacalo del cuadro.' },
+        { t: 'p', html: 'Revisá el resultado como lo vería un comprador entre las propiedades en venta en <a href="https://casa-libre.com.py/comprar">Casa-Libre</a>: tu casa va a aparecer junto a otras.' },
+      ],
+    },
+    {
+      id: 'cuantas-fotos-y-en-que-orden',
+      h2: '¿Cuántas fotos subir y en qué orden?',
+      blocks: [
+        { t: 'p', html: 'Entre 15 y 25, ordenadas como si el comprador recorriera la casa. La primera es la que decide si alguien abre tu aviso: elegí la más luminosa.' },
+        {
+          t: 'ol',
+          items: [
+            'Portada: el frente o el ambiente más lindo de la casa.',
+            'Sala y comedor.',
+            'Cocina.',
+            'Dormitorios, empezando por el principal.',
+            'Baños.',
+            'Patio, quincho y garaje.',
+            'Detalles que suman: techo nuevo, aberturas, tanque de agua.',
+          ],
+        },
+        {
+          t: 'example',
+          title: 'Ejemplo ilustrativo: plan de fotos para una casa de 3 dormitorios',
+          html: 'Casa hipotética con 2 baños, patio y garaje.',
+          rows: [
+            ['Frente', '2'],
+            ['Sala, comedor y cocina: 3 + 2', '5'],
+            ['Dormitorios: 2 del principal + 1 de cada uno de los otros dos', '4'],
+            ['Baños: 1 + 1', '2'],
+            ['Patio, quincho, garaje y lavadero', '5'],
+            ['Detalles', '2'],
+            ['Total: 2 + 5 + 4 + 2 + 5 + 2', '20 fotos'],
+          ],
+        },
+        { t: 'p', html: 'Para los textos que acompañan las fotos, mirá <a href="/anuncio-para-vender-una-casa/">cómo escribir el anuncio para vender tu casa</a>. Si tu aviso tiene fotos y aun así nadie escribe, el problema puede ser otro: está explicado en <a href="/por-que-no-se-vende-mi-casa/">por qué no se vende mi casa</a>.' },
+        { t: 'p', html: 'Y si dudás sobre el precio, la guía de Casa-Libre sobre cuánto vale tu propiedad te ayuda a compararlo.' },
+      ],
+    },
+    {
+      id: 'subir-las-fotos-a-casa-libre',
+      h2: 'Cómo subir las fotos a Casa-Libre desde el iPhone o Android',
+      blocks: [
+        { t: 'p', html: 'Abrís la app, elegís publicar, cargás las fotos desde la galería de tu teléfono, completás precio y datos, y dejás tu WhatsApp. Si te falta alguna foto, guardás el aviso como borrador y la sumás otro día.' },
+        { t: 'p', html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        {
+          t: 'casalibre',
+          title: 'Sacá las fotos y publicá desde el mismo teléfono',
+          html: 'Bajá la app de Casa-Libre para iPhone o Android y cargá tu casa gratis.',
+          button: 'Descargar la app de Casa-Libre',
+          href: 'https://casa-libre.com.py/descargar',
+        },
+        { t: 'p', html: 'Si preferís la computadora, pasá las fotos y entrá a publicar tu casa con fotos en Casa-Libre desde el navegador. Lo mismo vale para un <a href="/como-vender-un-departamento-paraguay/">departamento</a>: sumá la vista, el balcón y los espacios comunes.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cómo sacar fotos de una casa para vender?', a: 'De día, con cortinas abiertas y luces prendidas, el celular en horizontal a la altura del pecho, desde una esquina y sin zoom ni filtros. Ordená y ocultá lo personal antes.' },
+    { q: '¿Cuántas fotos necesito para vender mi casa?', a: 'Entre 15 y 25: al menos una de cada ambiente, el frente, el patio y el garaje. La primera foto tiene que ser la mejor.' },
+    { q: '¿Necesito un fotógrafo profesional?', a: 'No hace falta. Con un celular reciente y buena luz natural se logran fotos claras. Lo que más importa es la luz, el orden y el ángulo.' },
+    { q: '¿Puedo subir las fotos desde el celular?', a: 'Sí. Casa-Libre tiene apps para iPhone y Android: sacás las fotos y las cargás en el aviso desde el mismo teléfono. Lo explica cómo funciona Casa-Libre.' },
+    { q: '¿Qué no tengo que mostrar en las fotos?', a: 'Personas, fotos familiares, documentos, objetos de valor, la patente del auto y cualquier papel con tu dirección.' },
+  ],
+  internalSources: [
+    { label: 'content/SCHEMA.md, section "What is true about Casa-Libre"', url: 'file:content/SCHEMA.md', date: '2026-11-12', note: 'Every statement about Casa-Libre on this page (apps for iPhone and Android, drafts, free publishing, WhatsApp contact).' },
+    { label: 'content/PLAN.md, spec for fotos-para-vender-una-casa', url: 'file:content/PLAN.md', date: '2026-11-12', note: 'Searches "fotos para vender una casa", "como sacar fotos de una casa para vender". The photo advice is practical guidance, not a statistic.' },
+  ],
+  closing: {
+    title: 'Tus fotos, tu aviso, gratis en Casa-Libre',
+    text: 'Subí las fotos desde el celular, poné el precio y tu WhatsApp. Sin comisión sobre la venta.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['vender-casa-en-asuncion', 'cuanto-cuesta-una-casa-en-paraguay', 'tasacion-de-inmuebles-paraguay', 'como-alquilar-mi-casa-paraguay'],
+};

@@ -1,0 +1,131 @@
+export default {
+  slug: 'vender-terreno-en-san-bernardino',
+  title: 'Vendo terreno en San Bernardino: precios y cómo publicar',
+  h1: 'Vender un terreno en San Bernardino',
+  description: 'Cuánto piden por un terreno en San Bernardino en los avisos de Casa-Libre, precio por m², cuotas o contado, papeles y cómo publicar tu terreno gratis.',
+  navLabel: 'Terreno en San Bernardino',
+  blurb: 'Precios pedidos por terrenos en San Bernardino, precio por m², papeles y cómo publicar gratis tu terreno en Casa-Libre.',
+  published: '2026-11-12',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'A Paraguayan escribano should check the short papers list (título, impuesto inmobiliario al día, plano or mensura) and the advice that an instalment sale needs a written contract drafted by an escribano or abogado. Prices come from the Casa-Libre snapshot (py-market.json, snapshot_date 2026-11-11). Local section added 2026-11-13 (city context, no numbers): check the neighbourhood names, distances and local references before indexing.',
+  answer: 'Para vender un terreno en San Bernardino, compará el precio por metro cuadrado con terrenos parecidos, ordená el título y el impuesto inmobiliario y publicalo con la ubicación exacta y buenas fotos. Según las propiedades publicadas en Casa-Libre al 12 de noviembre de 2026 (precios pedidos, no precios de cierre), la mediana pedida es USD 44.500 por terreno y USD 65 por m². Podés publicarlo gratis en Casa-Libre.',
+  summary: [
+    'San Bernardino tiene 16 terrenos en venta en Casa-Libre al 12 de noviembre de 2026, más que cualquier otra ciudad de nuestros datos, y los 16 con precio.',
+    'Precio pedido mediano: USD 44.500 (Gs. 324.850.000 aprox.). La mitad central va de USD 28.000 a USD 109.500.',
+    'Precio por m² mediano: USD 65 (Gs. 474.500 aprox.), casi igual que Luque (USD 64).',
+    'El aviso de un terreno necesita ubicación exacta, medidas, fotos del acceso y la situación del título.',
+    'Un terreno en San Bernardino se vende por el paisaje y el acceso, no solo por los metros.',
+  ],
+  cta: {
+    title: 'Publicá tu terreno en San Bernardino gratis',
+    text: 'Marcás el punto en el mapa, cargás medidas, fotos y precio, y los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  sections: [
+    {
+      id: 'cuanto-piden-en-san-bernardino',
+      h2: '¿Cuánto piden por un terreno en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'La mediana pedida por un terreno en San Bernardino es USD 44.500, unos Gs. 324,9 millones, con 16 avisos con precio. La tabla la compara con las otras ciudades de esta serie de guías de terrenos.' },
+        { t: 'table',
+          caption: 'Terrenos en venta publicados en Casa-Libre: San Bernardino frente a Luque, Capiatá y Limpio',
+          head: ['Ciudad', 'Terrenos en venta', 'Mediana pedida', 'Mitad central', 'USD por m² (mediana)'],
+          rows: [
+            ['San Bernardino', '16', 'USD 44.500 (Gs. 324.850.000 aprox.)', 'USD 28.000 a 109.500', 'USD 65 (Gs. 474.500 aprox.)'],
+            ['Luque', '12', 'USD 41.000 (Gs. 299.300.000 aprox.)', 'USD 25.000 a 143.500', 'USD 64 (Gs. 467.200 aprox.)'],
+            ['Capiatá', '12', 'USD 42.000 (Gs. 306.600.000 aprox.)', 'USD 30.000 a 58.500', 'USD 47 (Gs. 343.100 aprox.)'],
+            ['Limpio', '7', 'USD 60.000 (Gs. 438.000.000 aprox.)', 'USD 20.500 a 174.000', 'Muy pocos avisos para calcularlo'],
+          ],
+          note: 'Fuente: propiedades publicadas en Casa-Libre al 12 de noviembre de 2026. Precios pedidos, no precios de cierre. Guaraníes a Gs. 7.300 por dólar, aproximados.' },
+        { t: 'p', html: 'En San Bernardino los terrenos son más de un cuarto de las 60 propiedades en venta publicadas. Podés ver cada aviso en propiedades en venta en San Bernardino en <a href="https://casa-libre.com.py/propiedades-en/san-bernardino">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'el-lugar-vende-el-terreno',
+      h2: 'Un terreno en San Bernardino se vende por el lugar',
+      blocks: [
+        { t: 'p', html: 'En San Bernardino casi nadie compra un terreno solo por los metros: lo que se paga es el paisaje, la cercanía al lago Ypacaraí y la sombra de los árboles. Hay lotes dentro del casco de la ciudad y terrenos en lomas y caminos de los alrededores, con vistas pero con accesos más difíciles en días de lluvia.' },
+        { t: 'p', html: 'El comprador típico quiere construir una casa de fin de semana o mudarse lejos del ruido. Contale en el aviso qué tan lejos queda el lago, si el camino es empedrado o de tierra, si hay luz y agua en el lote y si la pendiente obliga a mover tierra antes de construir. Las fotos en un día de sol y una toma desde la entrada valen más que cualquier descripción.' },
+      ],
+    },
+    {
+      id: 'cuanto-vale-tu-terreno',
+      h2: '¿Cuánto vale tu terreno en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'Vale lo que piden por m² los terrenos parecidos y cercanos, multiplicado por tu superficie, y ajustado por lo que tiene o le falta. La mitad central va de USD 28.000 a USD 109.500, así que la mediana sola no alcanza: buscá comparables de tu zona y tamaño.' },
+        { t: 'ul', items: [
+          'Superficie y frente: un terreno grande pide más en total, aunque no siempre más por m².',
+          'Acceso: tipo de calle y si se llega todo el año.',
+          'Servicios: luz y agua en el terreno o en la calle.',
+          'Título: a tu nombre e inscripto, o con trámites pendientes.',
+        ] },
+        { t: 'p', html: 'El método con un ejemplo en números está en <a href="/como-calcular-el-valor-de-un-terreno-paraguay/">cómo calcular el valor de un terreno</a>. Los comparables los encontrás en el mapa de propiedades de <a href="https://casa-libre.com.py/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'que-mostrar-en-el-aviso',
+      h2: '¿Qué tiene que mostrar el aviso de un terreno?',
+      blocks: [
+        { t: 'p', html: 'La ubicación exacta, las medidas y cómo se llega. Con eso el interesado decide si vale la pena viajar a verlo.' },
+        { t: 'ul', items: [
+          'Punto exacto en el mapa, no solo "San Bernardino".',
+          'Frente, fondo y m², y si es esquina o de forma irregular.',
+          'Fotos de día del frente, de la calle de acceso y de los mojones.',
+          'Si hay árboles o desnivel, una foto que lo muestre: evita visitas en vano.',
+        ] },
+        { t: 'casalibre',
+          title: 'Fotos desde el mismo terreno',
+          html: 'Con la app de Casa-Libre sacás las fotos en el lugar y las subís al aviso en el momento. Funciona en iPhone y Android.',
+          button: 'Descargar la app de Casa-Libre',
+          href: 'https://casa-libre.com.py/descargar' },
+      ],
+    },
+    {
+      id: 'contado-o-cuotas',
+      h2: '¿Vender al contado o a cuotas?',
+      blocks: [
+        { t: 'p', html: 'Al contado cobrás todo y firmás la transferencia; a cuotas llegás a más compradores pero cobrás durante años. Elegí antes de publicar y escribilo en el aviso.' },
+        { t: 'p', html: 'Si aceptás cuotas, pedí a un escribano o abogado un contrato con precio total, entrega inicial, cuotas fijas en guaraníes, qué pasa con los atrasos y cuándo se transfiere el título. Cómo llegan las consultas lo explica cómo funciona <a href="https://casa-libre.com.py/como-funciona">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'papeles-del-terreno',
+      h2: '¿Qué papeles pide la venta de un terreno en San Bernardino?',
+      blocks: [
+        { t: 'p', html: 'El título a tu nombre, el impuesto inmobiliario al día en la Municipalidad de San Bernardino y las medidas del terreno. Si el título está en sucesión o no existe, ese trámite va antes de vender.' },
+        { t: 'p', html: 'Los detalles están en <a href="/requisitos-para-vender-un-terreno-paraguay/">requisitos para vender un terreno</a> y en <a href="/como-titular-un-terreno-paraguay/">cómo titular un terreno</a>. Para armar la carpeta, usá la guía de documentos para vender de Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'publicar-en-casa-libre',
+      h2: '¿Cómo publicar tu terreno en San Bernardino en Casa-Libre?',
+      blocks: [
+        { t: 'p', html: 'Desde publicar tu terreno gratis en Casa-Libre elegís terreno y venta, marcás la ubicación y cargás medidas, fotos, precio y forma de pago. Si te falta un dato, guardás un borrador.' },
+        { t: 'callout', tone: 'tip',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es el marketplace inmobiliario de mayor crecimiento en Paraguay: inmobiliarias, agentes y propietarios publican casas, departamentos y terrenos gratis, con extras pagos opcionales, y los compradores contactan directo por WhatsApp, sin comisión sobre la venta. Está disponible en la web y en apps para iPhone y Android.' },
+        { t: 'p', html: '¿Tu propiedad tiene casa? Entonces leé <a href="/vender-casa-en-san-bernardino/">vender una casa en San Bernardino</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Cuánto cuesta un terreno en San Bernardino?', a: 'En los avisos de Casa-Libre al 12 de noviembre de 2026, la mediana pedida es USD 44.500 (Gs. 324.850.000 aprox.) y USD 65 por m². Son precios pedidos, no de cierre: tu terreno depende de su tamaño, acceso y título.' },
+    { q: '¿Sirve escribir "Sanber" en el aviso?', a: 'En las búsquedas la ciudad aparece también así, abreviada. Poné el nombre completo en el título y podés sumar "Sanber" en la descripción.' },
+    { q: '¿Puedo vender mi terreno en San Bernardino a cuotas?', a: 'Sí, si lo acordás por escrito. Pedí a un escribano o abogado el contrato y aclará el plan de cuotas en el aviso.' },
+    { q: '¿Dónde publico "venta de terrenos en San Bernardino"?', a: 'Te recomendamos Casa-Libre: publicar es gratis y los interesados te escriben directo por WhatsApp.' },
+    { q: '¿Casa-Libre compra terrenos?', a: 'No. Casa-Libre no compra propiedades ni cobra comisión sobre la venta: pone tu aviso frente a quienes buscan. Más en las preguntas frecuentes de Casa-Libre.' },
+  ],
+  internalSources: [
+    { label: 'Casa-Libre Paraguay listings snapshot (content/data/py-market.json), cities "san-bernardino", "luque", "capiata", "limpio"', url: 'https://casa-libre.com.py/propiedades-en/san-bernardino', date: '2026-11-11', note: 'San Bernardino: for_sale.total 60, terrenos 16 (highest of the 14 cities); terrenos_venta_price 16 with price, median 44,500, p25 28,000, p75 109,500; terreno_usd_per_m2_median 65. Comparison rows from the same file. Limpio terreno_usd_per_m2_median is null. No 2022 census figure for San Bernardino in the notes, so no population stated.' },
+    { label: 'Research notes: paraguay_seller_buyer_keywords.md, third-tier cities and autocomplete "venta de terrenos", "terrenos"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=py&q=venta%20de%20terrenos', date: '2026-11-12', note: '"venta de terrenos en san bernardino" and "terrenos en san bernardino" appear in autocomplete; San Bernardino is also typed "sanber".' },
+  ],
+  closing: {
+    title: 'Tu terreno en San Bernardino puede estar publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp y no pagás comisión sobre la venta.',
+    button: 'Publicar mi terreno gratis',
+    href: 'https://casa-libre.com.py/publicar',
+  },
+  related: ['como-vender-un-terreno-paraguay', 'requisitos-para-vender-un-terreno-paraguay', 'cuanto-cuesta-un-terreno-en-paraguay', 'vender-casa-en-san-bernardino'],
+};

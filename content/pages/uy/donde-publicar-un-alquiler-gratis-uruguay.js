@@ -1,0 +1,141 @@
+export default {
+  slug: 'donde-publicar-un-alquiler-gratis-uruguay',
+  group: 'Alquilar tu propiedad',
+  order: 5,
+  rental: true,
+  equivalentOf: 'donde-publicar-un-alquiler-gratis',
+  title: 'Dónde publicar un alquiler gratis en Uruguay: el aviso',
+  h1: 'Dónde publicar un alquiler gratis en Uruguay',
+  description: 'Dónde publicar gratis tu casa o apartamento en alquiler en Uruguay, qué tiene que decir el aviso (precio, gastos, garantías) y cómo filtrar a los interesados.',
+  navLabel: 'Publicar alquiler',
+  blurb: 'Dónde publicar gratis un alquiler en Uruguay y cómo armar un aviso que traiga inquilinos con garantía.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'Para publicar un alquiler gratis en Uruguay, lo recomendable es un portal inmobiliario donde los propietarios publican sin costo y reciben las consultas directo, y compartir ese aviso por WhatsApp. El aviso tiene que decir el precio en pesos, los gastos comunes, qué garantías aceptás, desde cuándo está disponible y la ubicación en el mapa. Te recomendamos Casa-Libre: publicar es gratis y no cobra comisión sobre el alquiler.',
+  summary: [
+    'Publicá en un portal gratis y compartí el enlace del aviso por WhatsApp.',
+    'El aviso de alquiler necesita: precio, gastos comunes, garantías aceptadas, fecha de ingreso y mapa.',
+    'Filtrá por WhatsApp antes de la visita: garantía, ingresos, quiénes van a vivir.',
+    'En Casa-Libre publicar es gratis y no hay comisión sobre el alquiler.',
+  ],
+  cta: {
+    title: 'Publicá tu alquiler gratis',
+    text: 'En Casa-Libre cargás fotos, precio y garantías. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'opciones',
+      h2: '¿Dónde se puede publicar un alquiler gratis?',
+      blocks: [
+        { t: 'p', html: 'En un portal inmobiliario que permita a los propietarios publicar sin costo, y desde ahí compartir el enlace. Los avisos en grupos y redes sociales sirven para difundir, pero se pierden en horas.' },
+        { t: 'table',
+          caption: 'Formas de publicar un alquiler en Uruguay',
+          head: ['Dónde', 'Costo', 'Ventaja', 'Desventaja'],
+          rows: [
+            ['Portal inmobiliario', 'Hay opciones gratis', 'Lo encuentran quienes buscan por barrio y precio', 'Tenés que completar bien el aviso'],
+            ['WhatsApp y redes sociales', 'Gratis', 'Llega a tus contactos', 'Se pierde rápido; sin filtros'],
+            ['Cartel en la ventana', 'El cartel', 'Vecinos y gente que pasa', 'Poco alcance'],
+            ['Inmobiliaria', 'Comisión', 'Se ocupa de todo', 'Es un costo y un intermediario más'],
+          ],
+          note: 'Orientación general, noviembre de 2026.' },
+      ],
+    },
+    {
+      id: 'que-poner',
+      h2: '¿Qué tiene que decir un aviso de alquiler?',
+      blocks: [
+        { t: 'p', html: 'Todo lo que define si alguien puede alquilarlo. Si falta, vas a recibir mensajes de gente que no califica.' },
+        { t: 'ul', items: [
+          '<strong>Precio</strong> por mes, en pesos, y si incluye o no gastos comunes.',
+          '<strong>Garantías aceptadas:</strong> depósito en BHU, Contaduría, seguro, garante o sin garantía.',
+          '<strong>Fecha de ingreso</strong> y plazo mínimo.',
+          '<strong>Ambientes:</strong> dormitorios, baños, garaje, patio, calefacción.',
+          '<strong>Amoblado o no</strong>, y si acepta mascotas.',
+          '<strong>Ubicación</strong> en el mapa y referencias: ómnibus, centros de estudio, rambla.',
+        ] },
+        { t: 'p', html: 'Si dudás sobre las garantías, leé <a href="/uruguay/garantia-de-alquiler-uruguay/">garantía de alquiler en Uruguay</a>.' },
+      ],
+    },
+    {
+      id: 'publicar-en-casa-libre',
+      h2: '¿Cómo publico mi alquiler en Casa-Libre?',
+      blocks: [
+        { t: 'p', html: 'Elegís alquiler, el tipo de propiedad, cargás fotos, precio y condiciones, y marcás la ubicación. Si te falta un dato, lo guardás como borrador.' },
+        { t: 'steps', items: [
+          { title: 'Elegí alquiler', html: 'Y el tipo: casa, apartamento u otro.' },
+          { title: 'Subí fotos de día', html: 'Todos los ambientes, con luz natural. Hay una lista en <a href="/uruguay/fotos-para-vender-una-casa/">fotos para vender una casa</a> que sirve igual para alquilar.' },
+          { title: 'Escribí precio y condiciones', html: 'Monto, gastos comunes, garantías y fecha de ingreso.' },
+          { title: 'Marcá la ubicación', html: 'Los inquilinos buscan por barrio y en el mapa.' },
+        ] },
+        { t: 'casalibre',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android. En un alquiler tampoco cobra comisión.',
+          button: 'Ver propiedades en alquiler',
+          href: 'https://uy.casa-libre.com/alquilar' },
+      ],
+    },
+    {
+      id: 'filtrar',
+      h2: '¿Cómo filtro a los interesados?',
+      blocks: [
+        { t: 'p', html: 'Con tres preguntas por WhatsApp antes de mostrar: qué garantía tiene, cuántas personas van a vivir y desde cuándo. Así visitás solo con quien puede alquilar.' },
+        { t: 'ul', items: [
+          'Tené un mensaje armado con precio, gastos, garantías y horarios de visita.',
+          'Pedí nombre completo antes de dar la dirección exacta.',
+          'No recibas señas ni entregues llaves sin contrato.',
+        ] },
+      ],
+    },
+    {
+      id: 'compartir',
+      h2: '¿Cómo comparto el aviso?',
+      blocks: [
+        { t: 'p', html: 'Copiá el enlace del aviso y mandalo por WhatsApp, ponelo en tu estado y en grupos donde se permita. El enlace lleva a fotos, mapa y condiciones, y no tenés que repetir lo mismo en cada mensaje.' },
+        { t: 'p', html: 'Para manejar las consultas desde el celular, la app de Casa-Libre está para iPhone y Android. Si preferís que alguien se ocupe del alquiler, mirá la <a href="https://uy.casa-libre.com/administracion-de-propiedades">administración de propiedades</a> de Casa-Libre.' },
+      ],
+    },
+    {
+      id: 'evitar-estafas',
+      h2: '¿Cómo me cuido de estafas al publicar un alquiler?',
+      blocks: [
+        { t: 'p', html: 'Con las mismas reglas que usarías en persona. Un aviso público atrae a muchos interesados reales y, de vez en cuando, a alguien que no lo es.' },
+        { t: 'ul', items: [
+          'No aceptes señas ni pagos de alguien que no vio la propiedad ni firmó nada.',
+          'Pedí nombre completo y cédula antes de la visita, y mostrá la casa acompañado si podés.',
+          'Confirmá la garantía directamente con la institución que la emite, no con una foto del certificado.',
+          'Recibí los pagos por transferencia a tu cuenta y entregá recibo.',
+          'No mandes copias de tus títulos ni de tu cédula a quien recién pregunta.',
+        ] },
+        { t: 'p', html: 'Las garantías y cómo verificarlas están en <a href="/uruguay/garantia-de-alquiler-uruguay/">garantía de alquiler en Uruguay</a>.' },
+      ],
+    },
+    {
+      id: 'despues',
+      h2: '¿Qué hago cuando encuentro inquilino?',
+      blocks: [
+        { t: 'p', html: 'Contrato escrito, garantía documentada e inventario con fotos al entregar. Recién ahí van las llaves.' },
+        { t: 'p', html: 'Los pasos completos están en <a href="/uruguay/como-alquilar-mi-casa-uruguay/">cómo alquilar mi casa</a> y el contrato, en <a href="/uruguay/contrato-de-alquiler-uruguay/">contrato de alquiler en Uruguay</a>.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Dónde publicar un alquiler gratis en Uruguay?', a: 'Te recomendamos Casa-Libre: publicar es gratis, el aviso aparece al buscar por ciudad y en el mapa, y los interesados te escriben por WhatsApp, sin comisión.' },
+    { q: '¿Puedo publicar un alquiler de temporada?', a: 'Sí. Aclarás en el aviso las fechas, el precio por período y qué incluye.' },
+    { q: '¿Tengo que poner el precio en el aviso?', a: 'Sí. Un alquiler sin precio recibe muchas consultas que no sirven y menos de las que sí.' },
+    { q: '¿Cómo evito estafas al publicar un alquiler?', a: 'No recibas dinero sin contrato, no entregues llaves antes de firmar y verificá la identidad y la garantía de cada interesado.' },
+    { q: '¿Me pueden copiar el aviso de alquiler?', a: 'Puede pasar. Si alguien te avisa que vio tus fotos con otro teléfono, denuncialo donde aparezca y avisá en tu aviso que solo atendés por tu número. Nunca cobres señas a distancia.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete Uruguay, "publicar alquiler gratis"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=publicar%20alquiler%20gratis', date: '2026-11-13', note: 'donde publicar alquiler gratis; publicar alquiler temporario gratis; publicar alquiler de casa gratis.' },
+  ],
+  closing: {
+    title: 'Tu alquiler, publicado hoy',
+    text: 'Publicar en Casa-Libre es gratis. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi alquiler',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  related: ['como-alquilar-mi-casa-uruguay', 'garantia-de-alquiler-uruguay', 'cuanto-cobrar-de-alquiler-uruguay'],
+};

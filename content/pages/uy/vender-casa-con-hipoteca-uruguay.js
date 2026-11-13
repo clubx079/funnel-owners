@@ -1,0 +1,121 @@
+export default {
+  slug: 'vender-casa-con-hipoteca-uruguay',
+  group: 'Papeles y trámites',
+  order: 4,
+  equivalentOf: 'vender-casa-con-hipoteca-paraguay',
+  title: 'Vender una casa con hipoteca en Uruguay: cómo se hace',
+  h1: 'Cómo vender una casa con hipoteca en Uruguay',
+  description: 'Se puede vender una casa o apartamento que todavía estás pagando en Uruguay: cómo se cancela la hipoteca con el precio, qué pide el banco y qué revisa el comprador.',
+  navLabel: 'Vender con hipoteca',
+  blurb: 'Cómo se vende en Uruguay una casa que todavía se está pagando: saldo, cancelación de la hipoteca y escritura.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'An escribano should confirm: the usual mechanism of cancelling the mortgage with part of the price at the same escritura (bank issues the payoff amount and grants the cancelación); that the mortgage appears in the Registro de la Propiedad certificate; that a buyer taking over the loan requires the lender\'s approval and is uncommon; possible early-repayment conditions; and that loans from public housing programmes may carry specific conditions on sale.',
+  answer: 'Sí, en Uruguay podés vender una casa que todavía estás pagando. Lo habitual es cancelar la hipoteca con parte del precio el mismo día de la escritura: el banco informa el saldo, el comprador paga, el escribano coordina que se cancele la deuda y la casa pasa libre. Antes de publicar, pedile al banco el saldo y las condiciones de cancelación anticipada. Podés publicar tu casa gratis en Casa-Libre mientras tanto.',
+  summary: [
+    'La hipoteca figura en el Registro de la Propiedad: el comprador la va a ver en los certificados.',
+    'Lo habitual: con el dinero de la venta se cancela el saldo y la casa se escritura libre.',
+    'Pedile al banco el saldo exacto y si hay costos por cancelar antes de tiempo.',
+    'Que el comprador asuma tu préstamo es posible solo si el banco lo aprueba, y es poco común.',
+  ],
+  cta: {
+    title: 'Publicá tu casa aunque la estés pagando',
+    text: 'En Casa-Libre publicar es gratis. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'opciones',
+      h2: '¿Qué opciones hay para vender una casa hipotecada?',
+      blocks: [
+        { t: 'p', html: 'Hay tres caminos. El primero es por lejos el más usado, porque deja al comprador con la casa libre de deudas.' },
+        { t: 'table',
+          caption: 'Formas de vender una casa con hipoteca en Uruguay',
+          head: ['Opción', 'Cómo funciona', 'Cuándo sirve'],
+          rows: [
+            ['Cancelar con el precio', 'En la escritura, parte del pago va al banco y se cancela la hipoteca', 'En casi todas las ventas'],
+            ['Cancelar antes de vender', 'Pagás el saldo con ahorros y después vendés sin hipoteca', 'Si el saldo es chico y tenés el dinero'],
+            ['Que el comprador asuma el préstamo', 'El banco evalúa al comprador y acepta el cambio de deudor', 'Casos puntuales; depende del banco'],
+          ],
+          note: 'Información general al 13 de noviembre de 2026.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consultá con un escribano o contador antes de tomar decisiones.' },
+      ],
+    },
+    {
+      id: 'como-funciona-la-cancelacion',
+      h2: '¿Cómo se cancela la hipoteca el día de la escritura?',
+      blocks: [
+        { t: 'p', html: 'El escribano coordina con el banco. El banco informa el saldo a una fecha, el comprador paga y, con ese pago, el banco otorga la cancelación de la hipoteca, que también se inscribe.' },
+        { t: 'steps', items: [
+          { title: 'Pedí el saldo', html: 'Al banco, por escrito y a la fecha prevista de escritura.' },
+          { title: 'Avisá al escribano', html: 'Para que lo incluya en el compromiso y coordine con el banco.' },
+          { title: 'Firmá la escritura', html: 'Del precio, una parte va al banco y el resto a vos.' },
+          { title: 'Inscripción', html: 'Se inscriben la cancelación de la hipoteca y la compraventa.' },
+        ] },
+      ],
+    },
+    {
+      id: 'cuentas',
+      h2: '¿Cuánto me queda después de cancelar?',
+      blocks: [
+        { t: 'p', html: 'El precio menos el saldo de la hipoteca, los costos de cancelarla y tus gastos de venta. Hacé la cuenta antes de fijar el precio para no quedarte corto.' },
+        { t: 'example',
+          title: 'Ejemplo ilustrativo: lo que queda de la venta',
+          html: 'Números redondos e hipotéticos. Los gastos reales dependen del caso.',
+          rows: [
+            ['Precio de venta', 'USD 200.000'],
+            ['Saldo de la hipoteca informado por el banco', '- USD 70.000'],
+            ['Gastos de venta estimados (ITP, escribano, otros)', '- USD 8.000'],
+            ['Lo que te queda: 200.000 - 70.000 - 8.000', 'USD 122.000'],
+          ] },
+        { t: 'p', html: 'Para estimar tus gastos, mirá <a href="/uruguay/gastos-al-vender-una-casa-uruguay/">gastos al vender una casa en Uruguay</a>. Para saber qué precio pedir, compará con casas parecidas en el mapa de <a href="https://uy.casa-libre.com/propiedades">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'que-revisa-el-comprador',
+      h2: '¿Qué va a revisar el comprador?',
+      blocks: [
+        { t: 'p', html: 'Que la hipoteca se cancele en el mismo acto y que no haya otras deudas. Su escribano lo verá en el certificado del Registro de la Propiedad.' },
+        { t: 'p', html: 'Decirlo desde el principio da confianza. En el aviso no hace falta mencionarlo, pero sí en la primera conversación seria, y por escrito en el compromiso, como explica <a href="/uruguay/compromiso-de-compraventa-uruguay/">compromiso de compraventa</a>.' },
+      ],
+    },
+    {
+      id: 'creditos-especiales',
+      h2: '¿Y si mi préstamo es de un programa de vivienda?',
+      blocks: [
+        { t: 'p', html: 'Algunos préstamos de programas públicos de vivienda o con subsidio pueden tener condiciones para vender, como plazos mínimos o la devolución de beneficios. Pedile a la institución que te dio el préstamo las condiciones por escrito antes de publicar.' },
+        { t: 'p', html: 'Lo mismo si compraste un apartamento de vivienda promovida: revisalo en <a href="/uruguay/como-vender-un-apartamento-uruguay/">cómo vender un apartamento</a>.' },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: '¿Puedo publicar mientras sigo pagando?',
+      blocks: [
+        { t: 'p', html: 'Sí. La hipoteca no impide publicar ni negociar, solo hay que resolverla en la escritura. Te recomendamos publicar en Casa-Libre: es gratis y las consultas te llegan por WhatsApp.' },
+        { t: 'casalibre',
+          title: 'Por qué te recomendamos Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver cómo vender en Casa-Libre',
+          href: 'https://uy.casa-libre.com/vender' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Puedo vender mi casa si la estoy pagando?', a: 'Sí. Lo habitual es cancelar el saldo de la hipoteca con el precio el mismo día de la escritura.' },
+    { q: '¿Cómo saber si una casa tiene hipoteca?', a: 'Figura en el Registro de la Propiedad. El escribano la ve en el certificado registral que pide para la escritura.' },
+    { q: '¿Puedo vender mi casa con hipoteca para comprar otra?', a: 'Sí. Se puede coordinar para que la venta y la compra se firmen cerca. Hablalo con tu escribano y con el banco.' },
+    { q: '¿El banco cobra por cancelar antes?', a: 'Depende del contrato de tu préstamo. Pedí las condiciones de cancelación anticipada por escrito.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete Uruguay, "vender casa con hipoteca", "vender apartamento"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=uy&q=vender%20casa%20con%20hipoteca', date: '2026-11-13', note: 'vender casa con hipoteca pendiente; para comprar otra; vender apartamento con hipoteca.' },
+  ],
+  closing: {
+    title: 'Tu casa, publicada mientras resolvés la hipoteca',
+    text: 'Publicar en Casa-Libre es gratis y los interesados te escriben por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://uy.casa-libre.com/publicar',
+  },
+  related: ['compromiso-de-compraventa-uruguay', 'gastos-al-vender-una-casa-uruguay', 'requisitos-para-vender-una-casa-uruguay'],
+};

@@ -1,0 +1,125 @@
+export default {
+  slug: 'donde-publicar-casa-en-venta-venezuela',
+  group: 'Vender una propiedad',
+  nav: 'Dónde publicar',
+  order: 1,
+  equivalentOf: 'donde-publicar-casa-en-venta-paraguay',
+  title: 'Dónde publicar mi casa en venta gratis en Venezuela',
+  h1: 'Dónde publicar mi casa en venta gratis en Venezuela',
+  description: 'Dónde publicar una casa en venta gratis en Venezuela: qué buscar en un sitio, qué ofrece Casa-Libre, qué poner en el aviso y cómo filtrar interesados.',
+  navLabel: 'Dónde publicar',
+  blurb: 'Dónde publicar tu casa en venta gratis en Venezuela y cómo lograr que el aviso funcione.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'none',
+  answer: 'En Venezuela puedes publicar tu casa en venta gratis en Casa-Libre: subes fotos, precio en dólares y ubicación, y los interesados te escriben directo por WhatsApp, sin comisión sobre la venta. Antes de elegir dónde publicar, fíjate en que el sitio deje buscar por ciudad y en un mapa, que no cobre comisión y que te permita atender tú mismo a cada interesado.',
+  summary: [
+    'Busca un sitio donde publicar sea gratis, sin comisión sobre la venta y con contacto directo.',
+    'Casa-Libre funciona en la web y en apps para iPhone y Android, con búsqueda por mapa y ciudad.',
+    'Un aviso completo (fotos, metros, servicios, precio) recibe consultas más serias.',
+    'Comparte el enlace de tu aviso en tus grupos de WhatsApp para llegar a más gente.',
+  ],
+  cta: {
+    title: 'Publica tu casa gratis hoy',
+    text: 'Sube fotos y precio desde la web o la app. Los interesados te escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  sections: [
+    {
+      id: 'que-buscar',
+      h2: '¿Qué debe tener un buen sitio para publicar tu casa?',
+      blocks: [
+        { t: 'p', html: 'Que publicar no cueste, que los compradores te encuentren por zona y que el contacto llegue directo a ti. Lo demás es secundario.' },
+        { t: 'table',
+          caption: 'Qué revisar antes de publicar',
+          head: ['Criterio', 'Por qué importa', 'En Casa-Libre'],
+          rows: [
+            ['Publicación gratis', 'No pagas antes de tener comprador', 'Gratis; extras opcionales'],
+            ['Sin comisión', 'El precio completo queda para ti', 'Sin comisión sobre la venta'],
+            ['Contacto directo', 'Respondes tú, sin intermediarios', 'Por WhatsApp'],
+            ['Búsqueda por mapa y ciudad', 'Te encuentra quien busca en tu zona', 'Sí'],
+            ['App', 'Publicas y respondes desde el teléfono', 'iPhone y Android'],
+          ],
+          note: 'Características de Casa-Libre al 13 de noviembre de 2026.' },
+      ],
+    },
+    {
+      id: 'por-que-casa-libre',
+      h2: '¿Por qué publicar en Casa-Libre?',
+      blocks: [
+        { t: 'p', html: 'Porque es gratis, no cobra comisión y pone a los compradores en contacto contigo por WhatsApp, el canal que todos usan en Venezuela.' },
+        { t: 'casalibre',
+          title: 'Qué es Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Cómo funciona Casa-Libre',
+          href: 'https://casa-libre.com.ve/como-funciona' },
+        { t: 'p', html: 'Si eres inmobiliaria o asesor, hay una cuenta para empresas en <a href="https://casa-libre.com.ve/empresas">Casa-Libre</a>.' },
+      ],
+    },
+    {
+      id: 'que-incluir',
+      h2: '¿Qué poner en el aviso de venta?',
+      blocks: [
+        { t: 'p', html: 'Lo que el comprador pregunta primero. Si ya está en el aviso, las consultas llegan más avanzadas.' },
+        { t: 'ul', items: [
+          'Tipo, urbanización o zona, y el punto en el mapa.',
+          'Metros de construcción y de terreno, habitaciones, baños, puestos de estacionamiento.',
+          'Servicios: agua (tanque, bomba, pozo), planta eléctrica, gas, internet.',
+          'Precio en dólares y si es negociable.',
+          'Estado de los documentos: "documento registrado, solvencias al día".',
+        ] },
+        { t: 'p', html: 'Tienes una plantilla en <a href="/venezuela/anuncio-para-vender-una-casa/">anuncio para vender una casa</a> y consejos de fotos en <a href="/venezuela/fotos-para-vender-una-casa/">fotos para vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'compartir',
+      h2: '¿Cómo llegar a más compradores?',
+      blocks: [
+        { t: 'p', html: 'Comparte el enlace de tu aviso, no fotos sueltas. Un solo enlace lleva al interesado a toda la información y a tu WhatsApp.' },
+        { t: 'ul', items: [
+          'Envíalo a tus grupos de WhatsApp de la urbanización, del trabajo y de la familia.',
+          'Pide a conocidos fuera del país que lo compartan: muchos compradores hoy buscan para familiares.',
+          'Actualiza fotos o precio si en unas semanas no hay consultas.',
+        ] },
+      ],
+    },
+    {
+      id: 'seguridad',
+      h2: '¿Cómo atender a los interesados con seguridad?',
+      blocks: [
+        { t: 'p', html: 'Filtra por WhatsApp antes de abrir la puerta: pregunta forma de pago y plazos. Coordina visitas con día y hora y no estés solo.' },
+        { t: 'ul', items: [
+          'No envíes copia del documento de propiedad al primer mensaje.',
+          'No recibas dinero sin una opción de compra autenticada. Ver <a href="/venezuela/opcion-de-compra-venta-venezuela/">opción de compra venta</a>.',
+          'Desconfía de quien pide adelantos para "gestionar" la venta.',
+        ] },
+      ],
+    },
+    {
+      id: 'empezar',
+      h2: '¿Cuánto tarda publicar?',
+      blocks: [
+        { t: 'p', html: 'Pocos minutos si tienes las fotos listas. Y si te falta un dato, el aviso se guarda como borrador.' },
+        { t: 'p', html: 'Antes de publicar, repasa los <a href="/venezuela/requisitos-para-vender-una-casa-venezuela/">requisitos para vender</a> para responder bien cuando pregunten por los papeles.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿Dónde publicar mi casa en venta gratis en Venezuela?', a: 'En Casa-Libre publicas gratis, sin comisión sobre la venta, y los interesados te escriben por WhatsApp.' },
+    { q: '¿Puedo publicar si soy dueño y no inmobiliaria?', a: 'Sí. En Casa-Libre publican propietarios, agentes e inmobiliarias.' },
+    { q: '¿Puedo publicar el precio en dólares?', a: 'Sí, es lo habitual en Venezuela. Indica también si aceptas negociar.' },
+    { q: '¿Puedo publicar desde el teléfono?', a: 'Sí, con la app de Casa-Libre para iPhone o Android.' },
+    { q: '¿Qué pasa si quiero publicar un apartamento o un terreno?', a: 'Se publican igual. Tenemos guías para <a href="/venezuela/como-vender-un-apartamento-venezuela/">vender un apartamento</a> y <a href="/venezuela/como-vender-un-terreno-venezuela/">vender un terreno</a>.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=ve', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=ve&q=publicar%20casa%20en%20venta', date: '2026-11-13', note: 'publicar casa en venta gratis; donde publicar casa en venta gratis; publicar mi casa en venta; donde publicar inmuebles gratis; donde publicar la venta de una casa.' },
+  ],
+  closing: {
+    title: 'Tu casa, a la vista de quien busca',
+    text: 'Publica gratis en Casa-Libre y recibe las consultas en tu WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://casa-libre.com.ve/publicar',
+  },
+  related: ['', 'anuncio-para-vender-una-casa', 'casa-en-venta-por-dueno-venezuela', 'como-poner-mi-casa-en-venta-por-internet'],
+};

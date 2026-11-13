@@ -1,0 +1,122 @@
+export default {
+  slug: 'vender-casa-en-antiguo-cuscatlan',
+  group: 'Vender por ciudad',
+  order: 3,
+  city: 'antiguo-cuscatlan',
+  cityName: 'Antiguo Cuscatlán',
+  title: 'Vender casa en Antiguo Cuscatlán: pasos y dónde publicar',
+  h1: 'Vender una casa en Antiguo Cuscatlán',
+  description: 'Cómo vender una casa en Antiguo Cuscatlán: zonas como La Sultana, Jardines de Guadalupe o Santa Elena, solvencia en La Libertad Este y cómo publicarla.',
+  navLabel: 'Casa en Antiguo Cuscatlán',
+  blurb: 'Zonas, compradores, papeles y cómo publicar gratis una casa en venta en Antiguo Cuscatlán.',
+  published: '2026-11-13',
+  updated: '2026-11-13',
+  review: 'pending',
+  reviewNote: 'Local section to check before indexing: Antiguo Cuscatlán is a distrito of the municipio La Libertad Este (with Nuevo Cuscatlán, Huizúcar, San José Villanueva, Zaragoza) since 1 May 2024, with the municipal seat reported in Nuevo Cuscatlán; zones named (La Sultana, Jardines de Guadalupe, Santa Elena with embassies and corporate offices, part of Ciudad Merliot); that it borders San Salvador to the southwest and is crossed by the Carretera al Puerto de La Libertad; presence of a major university. Legal: solvencia, ITBR. No prices stated.',
+  answer: 'Para vender una casa en Antiguo Cuscatlán, compárela con casas de su misma colonia, como La Sultana o Jardines de Guadalupe, tenga la escritura inscrita en el CNR y la solvencia de la alcaldía de La Libertad Este, a la que pertenece desde 2024, y publique con fotos que muestren seguridad y acceso. Es una zona buscada por familias y profesionales por su cercanía a San Salvador. Puede publicarla gratis en Casa-Libre.',
+  summary: [
+    'Antiguo Cuscatlán es un distrito del municipio La Libertad Este: la solvencia se pide en esa alcaldía.',
+    'Colinda con San Salvador por el suroeste: muchos compradores trabajan en la capital o en Santa Elena.',
+    'Las colonias residenciales consolidadas y la seguridad son los argumentos principales del aviso.',
+    'Si su casa está en Merliot, aclare si pertenece a Antiguo Cuscatlán o a Santa Tecla.',
+  ],
+  cta: {
+    title: 'Publique su casa de Antiguo Cuscatlán',
+    text: 'Gratis, con fotos, precio y mapa. Los interesados le escriben directo por WhatsApp.',
+    button: 'Publicar mi casa gratis',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  sections: [
+    {
+      id: 'por-que-se-busca',
+      h2: '¿Por qué se busca casa en Antiguo Cuscatlán?',
+      blocks: [
+        { t: 'p', html: 'Antiguo Cuscatlán colinda con San Salvador por el suroeste y es atravesado por la carretera al Puerto de La Libertad. Tiene colonias residenciales consolidadas, la zona de Santa Elena con embajadas y oficinas corporativas, y una de las principales universidades del país.' },
+        { t: 'p', html: 'Eso atrae a familias que buscan colegios y servicios cerca, a profesionales que trabajan en Santa Elena o en la capital, y a quienes quieren estar a mano de la salida hacia la costa. Muchos compradores llegan con un residencial concreto en mente.' },
+      ],
+    },
+    {
+      id: 'zonas',
+      h2: 'Zonas de Antiguo Cuscatlán',
+      blocks: [
+        { t: 'p', html: 'Nombre la colonia en el título del aviso: los compradores de Antiguo Cuscatlán suelen buscar por colonia, no solo por ciudad.' },
+        { t: 'table',
+          caption: 'Zonas de Antiguo Cuscatlán y qué destacar',
+          head: ['Zona', 'Tipo de propiedad', 'Qué destacar'],
+          rows: [
+            ['La Sultana', 'Casas residenciales', 'Seguridad, terreno, estado de la casa'],
+            ['Jardines de Guadalupe', 'Casas de colonia consolidada', 'Cercanía a colegios y comercio'],
+            ['Santa Elena y alrededores', 'Casas y apartamentos', 'Cercanía a oficinas, vigilancia'],
+            ['Sector de Ciudad Merliot', 'Casas y residenciales', 'A qué distrito pertenece, accesos'],
+            ['Centro de Antiguo Cuscatlán', 'Casas tradicionales', 'Terreno, potencial de remodelación'],
+          ],
+          note: 'Descripción general, sin datos de precios.' },
+      ],
+    },
+    {
+      id: 'precio',
+      h2: '¿Cómo fijar el precio en Antiguo Cuscatlán?',
+      blocks: [
+        { t: 'p', html: 'Compare con casas de su misma colonia y de tamaño parecido, por metro cuadrado de construcción y terreno. Dentro del distrito hay diferencias entre colonias, así que el promedio general sirve poco.' },
+        { t: 'ul', items: [
+          'Revise las casas en venta en Antiguo Cuscatlán en <a href="https://sv.casa-libre.com/venta/casas/antiguo-cuscatlan">Casa-Libre</a>.',
+          'Compare también con colonias vecinas de San Salvador y de Santa Tecla: los compradores miran las tres.',
+          'Diga si la casa tiene planta eléctrica, cisterna o seguridad propia: suman valor.',
+        ] },
+        { t: 'p', html: 'Para comparar con la ciudad vecina, vea <a href="/el-salvador/vender-casa-en-santa-tecla/">vender una casa en Santa Tecla</a>.' },
+      ],
+    },
+    {
+      id: 'papeles',
+      h2: 'Papeles y alcaldía en Antiguo Cuscatlán',
+      blocks: [
+        { t: 'p', html: 'Desde el 1 de mayo de 2024, Antiguo Cuscatlán es un distrito del municipio La Libertad Este, junto con Nuevo Cuscatlán, Huizúcar, San José Villanueva y Zaragoza. La solvencia municipal la emite esa alcaldía.' },
+        { t: 'callout', tone: 'warn', title: 'Antes de decidir', html: 'Información general. Consulte con un notario o contador antes de tomar decisiones.' },
+        { t: 'p', html: 'El resto de papeles y el impuesto a la transferencia son los mismos que en todo el país: vea <a href="/el-salvador/impuesto-por-vender-una-casa-en-el-salvador/">impuesto por vender una casa</a>.' },
+      ],
+    },
+    {
+      id: 'mostrar-la-casa',
+      h2: '¿Cómo mostrar su casa en una colonia con vigilancia?',
+      blocks: [
+        { t: 'p', html: 'En muchas colonias de Antiguo Cuscatlán hay control de acceso, así que la visita empieza en la entrada. Organícela para que el comprador no espere y la vigilancia sepa quién llega.' },
+        { t: 'steps', items: [
+          { title: 'Avise con anticipación', html: 'Dé a la vigilancia el nombre del visitante y la hora.' },
+          { title: 'Muestre también el entorno', html: 'Las áreas verdes, la calle y el acceso cuentan tanto como la casa.' },
+          { title: 'Tenga los datos a mano', html: 'Cuota de la colonia si la hay, recibos de servicios y la solvencia municipal.' },
+          { title: 'Acompañado', html: 'No muestre la casa solo y no entregue copias de documentos.' },
+        ] },
+      ],
+    },
+    {
+      id: 'publicar',
+      h2: 'Publique su casa en Antiguo Cuscatlán',
+      blocks: [
+        { t: 'p', html: 'Le recomendamos Casa-Libre: su casa aparece al buscar en Antiguo Cuscatlán y en el mapa, y cada interesado le escribe directo.' },
+        { t: 'casalibre',
+          title: 'Venda con Casa-Libre',
+          html: 'Casa-Libre es un marketplace inmobiliario donde inmobiliarias, agentes y propietarios publican casas, apartamentos y terrenos gratis, con extras pagos opcionales. Los interesados contactan directo por WhatsApp y no hay comisión sobre la venta. Está en la web y en apps para iPhone y Android.',
+          button: 'Ver propiedades en Antiguo Cuscatlán',
+          href: 'https://sv.casa-libre.com/propiedades-en/antiguo-cuscatlan' },
+        { t: 'p', html: 'Coordine las visitas con la vigilancia de la colonia o del pasaje, y pida identificación a quien llega.' },
+      ],
+    },
+  ],
+  faq: [
+    { q: '¿A qué municipio pertenece Antiguo Cuscatlán desde 2024?', a: 'Al municipio La Libertad Este, en el departamento de La Libertad. Antiguo Cuscatlán pasó a ser un distrito de ese municipio.' },
+    { q: '¿Cuánto vale una casa en Antiguo Cuscatlán?', a: 'Depende de la colonia, el terreno y el estado. Compare con casas parecidas publicadas en su misma colonia.' },
+    { q: '¿Conviene vender o alquilar mi casa en Antiguo Cuscatlán?', a: 'Depende de si necesita el dinero ahora. Si prefiere alquilar, vea <a href="/el-salvador/alquiler-de-casas-en-antiguo-cuscatlan/">alquiler de casas en Antiguo Cuscatlán</a>.' },
+    { q: '¿Dónde publicar mi casa en venta en Antiguo Cuscatlán?', a: 'En Casa-Libre, gratis. Los compradores le escriben directo por WhatsApp.' },
+  ],
+  internalSources: [
+    { label: 'Google autocomplete gl=sv "casas en venta antiguo cuscatlan"', url: 'https://suggestqueries.google.com/complete/search?client=firefox&hl=es&gl=sv&q=casas%20en%20venta%20antiguo%20cuscatlan', date: '2026-11-13', note: 'Variants: jardines de guadalupe, colonia la sultana.' },
+    { label: 'Prensa: La Libertad Este (Antiguo Cuscatlán, Huizúcar, Nuevo Cuscatlán, San José Villanueva, Zaragoza)', url: 'https://diario.elmundo.sv/politica/los-44-municipios-y-los-262-distritos-de-el-salvador-segun-la-ley-de-reestructuracion-municipal', date: '2026-11-13', note: 'Verify with Diario Oficial.' },
+  ],
+  closing: {
+    title: 'Su casa de Antiguo Cuscatlán, publicada hoy',
+    text: 'Publique gratis en Casa-Libre y reciba consultas por WhatsApp.',
+    button: 'Publicar en Casa-Libre',
+    href: 'https://sv.casa-libre.com/publicar',
+  },
+  related: ['alquiler-de-casas-en-antiguo-cuscatlan', 'vender-casa-en-santa-tecla', 'vender-casa-en-san-salvador'],
+};
