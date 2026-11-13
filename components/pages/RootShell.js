@@ -4,6 +4,7 @@ import { countryOf } from '@/lib/countries';
 import { display, text } from '@/lib/fonts';
 import { Header, Footer } from '@/components/Chrome';
 import Track from '@/components/Track';
+import Analytics from '@/components/Analytics';
 
 // Every country has its own root layout (app/(py), app/(bo)…) so <html lang> is right for each one;
 // all of them render this shell.
@@ -32,6 +33,7 @@ export default async function RootShell({ cc, children }) {
         {children}
         <Footer guides={guides} cc={cc} />
         <Track />
+        <Analytics cc={cc} />
         {SITE.gtmId ? (
           <script
             dangerouslySetInnerHTML={{

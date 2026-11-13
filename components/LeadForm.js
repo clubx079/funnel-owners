@@ -1,6 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
+import { capture, distinctId, getAttribution } from '@/lib/analytics';
 import { FORM, SITE } from '@/lib/site';
 import { countryOf, checkWhatsapp, pathFor } from '@/lib/countries';
 import { ui, consentText } from '@/lib/voice';
@@ -13,6 +14,7 @@ const push = (event, data) => {
   if (typeof window === 'undefined') return;
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event, ...data }); // never names, phone numbers or emails
+  capture(event, data); // PostHog too: the same allow-listed fields, never names, phones or emails
 };
 
 /** Two steps on the same page: first what and where (nothing personal), then name, WhatsApp and an optional email.
@@ -53,7 +55,7 @@ export default function LeadForm({ location = 'hero', rental = false, cc = 'py' 
       const res = await fetch('/api/lead/', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...v, email, country: country.code, page: path, location, elapsed: Date.now() - startedAt.current, consentText: consentText(cc) }),
+        body: JSON.stringify({ ...v, ...getAttribution(), posthog_distinct_id: distinctId(), email, country: country.code, page: path, location, elapsed: Date.now() - startedAt.current, consentText: consentText(cc) }),
       });
       const out = await res.json().catch(() => ({}));
       if (!res.ok || !out.ok) throw new Error(out.error || 'error');
